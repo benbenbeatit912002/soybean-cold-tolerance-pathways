@@ -1,0 +1,19 @@
+{
+  "input_dir": "data/input",
+  "phases": [
+    "short",
+    "middle"
+  ],
+  "min_size": 6,
+  "max_size": 1500,
+  "permutations": 199,
+  "seed": 20261015,
+  "score_column": 5,
+  "score_kind": "score",
+  "duplicate_policy": "mean",
+  "methods": [
+    "sumstat",
+    "gsea"
+  ],
+  "output_dir": "results/python_score5_diagnostic"
+}

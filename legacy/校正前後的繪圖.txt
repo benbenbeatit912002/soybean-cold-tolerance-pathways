@@ -1,0 +1,48 @@
+#distribution of minimal p -value
+p_yamasaki=gene_p_len[,c(1,2,3,4,5)]   #out or gene_p_len
+p_yamasaki_log10=p_yamasaki
+p_yamasaki_log10[,c(2,3)]= -log(p_yamasaki[,c(2,3)],base =10)
+
+
+library(ggplot2)
+
+#中期 長條 校正前
+
+
+plot1 = ggplot(data = p_yamasaki_log10) +                                  #data=p_yamasaki_log10 or  p_yamasaki
+  geom_histogram(aes(x = p_24, fill = '#78D1AD', color = 'black'), bins =100) +          #-log(p) or p-value
+  labs(x = "-log(p)", y = "frequency") +
+  scale_fill_manual(values = '#78D1AD') +  # 填充
+  scale_color_manual(values = 'black')    # 邊框
+
+#校正 中期 or 短期   
+p_value=p_yamasaki[,2]   #短[,2] 中[,3]!!!!!!!
+snp=p_yamasaki[,5]
+len=p_yamasaki[,4]
+gg=c()
+Correction=c()
+Cor_p=c()
+for (i in 1:100) {
+  
+  Cor_p=1-(1-p_value)^snp^(i/100)
+  
+  gg[i]=abs(cor(len,Cor_p, method = "spearman"))
+}
+loc_min=which.min(gg)  #可知i=99時最不相關
+p_yamasaki_cor=p_yamasaki
+p_yamasaki_cor[,2]=1-(1-p_value)^snp^(loc_min/100)    #短[,2] 中[,3]!!!!!!!!!!!
+#中期 校正後 -log p 
+p_yamasaki_log10_cor=p_yamasaki_cor
+p_yamasaki_log10_cor[,c(2,3)]= -log(p_yamasaki_cor[,c(2,3)],base =10)
+
+#短期 直方
+plot1 = ggplot() +
+  geom_histogram(data = p_yamasaki_cor, aes(x = p_1, fill = 'green')) +    #p_yamasaki_cor or p_yamasaki_log10_cor
+  labs(x = "corrected p_value", y = "frequency") +                               #corrected p_value or corrected -log(p)
+  scale_fill_manual(values = c('green')) # 手動設置填充顏色
+
+#中期 直方
+plot1 =ggplot() +
+  geom_histogram(data = p_yamasaki_cor, aes(x = p_24,  colour = 'green' )) +
+  labs(x = "corrected p_value", y = "frequency")+
+  scale_colour_manual(values = 'green')    #手動設置顏色

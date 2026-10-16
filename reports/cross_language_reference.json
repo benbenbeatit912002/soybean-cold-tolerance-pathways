@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "null_sets_per_method": 120,
+  "methods": [
+    {
+      "method": "sumstat",
+      "observed": 20.0,
+      "shared_null_p": 0.024793388429752067
+    },
+    {
+      "method": "maxmean",
+      "observed": 1.0783752045373662,
+      "shared_null_p": 0.024793388429752067
+    },
+    {
+      "method": "gsea",
+      "observed": 0.580952380952381,
+      "shared_null_p": 0.4049586776859504
+    }
+  ],
+  "fosco_fixed_and_fitted": "PASS",
+  "fitted_lambda": 0.01
+}

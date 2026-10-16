@@ -1,0 +1,121 @@
+[
+  {
+    "source": "研究法/大豆基因/大豆基因 外部/Glyma_genes_correspondence_final.txt",
+    "source_sha256": "18a44071b6dc82432718560462ea0a1b93f30a3c8264d37ee7b16d4b85499e41",
+    "staged": "data/input/gene_correspondence.tsv",
+    "staged_sha256": "18a44071b6dc82432718560462ea0a1b93f30a3c8264d37ee7b16d4b85499e41",
+    "transformation": "Unmodified genome-version correspondence table"
+  },
+  {
+    "source": "研究法/大豆基因/CTgenes 含分數/SHORT.txt",
+    "source_sha256": "2eb4bddcba96a9932c1e727bae3e1612632d6b07983393a67c09c012addd3420",
+    "staged": "data/input/ct_short.tsv",
+    "staged_sha256": "39bf266f9365c604756b6759e31bfe0cf44bacb2827d5fe2be8ba14caae7fe0b",
+    "transformation": "Header added; Glyma.nn g/G normalized to G; original prior scores retained"
+  },
+  {
+    "source": "研究法/大豆基因/大豆基因 外部/WITHOUTINF/outer_data_2.0_short_address.txt",
+    "source_sha256": "be87c2d16fe7179de04101311970c75e618cfdab6073f364b778cd908d880186",
+    "staged": "data/input/external_short.tsv",
+    "staged_sha256": "be5b08f1a25ce46266cab14002f9e94c160144a2064c68517c273dd1da967b95",
+    "transformation": "Neutral headers; v1 IDs mapped only with a unique v2 target; blank/ambiguous/unmapped excluded and audited; duplicate rows retained"
+  },
+  {
+    "source": "研究法/大豆基因/CTgenes 含分數/MIDDLE.txt",
+    "source_sha256": "f4b89582616c2901cc2dcd97be4545304c28a71f6211df621aa7bdb07c83e6a7",
+    "staged": "data/input/ct_middle.tsv",
+    "staged_sha256": "5cc212d32429d23d30143dea5bd7b84b6a184c2d7b86023e82681d905fce20c1",
+    "transformation": "Header added; Glyma.nn g/G normalized to G; original prior scores retained"
+  },
+  {
+    "source": "研究法/大豆基因/大豆基因 外部/WITHOUTINF/outer_data_2.0_middle_address.txt",
+    "source_sha256": "3704933e18d226e2326460b3722fe1ae489d160043343890044cbc8f16885afd",
+    "staged": "data/input/external_middle.tsv",
+    "staged_sha256": "deccdd73b9dc9f1c8b993b31ad87533af652ae366a06ca7173a0a74eb2bc3d96",
+    "transformation": "Neutral headers; v1 IDs mapped only with a unique v2 target; blank/ambiguous/unmapped excluded and audited; duplicate rows retained"
+  },
+  {
+    "source": "研究法/大豆基因/數據/GO_terms_4899.txt",
+    "source_sha256": "bbc154ba078775cecc0da7d488370d2b8ea824443a7df684fe97cffeb368f84c",
+    "staged": "data/input/pathways.gmt",
+    "staged_sha256": "921072d728658bb0405827d6139d676b4ae21200598172ab95e4017fd86c5380",
+    "transformation": "Wide padded GO table converted to GMT; declared counts verified in audit; gene IDs normalized"
+  },
+  {
+    "source": "研究法/大豆基因/程式/#外部資料匯入與校正繪圖.txt",
+    "source_sha256": "7a365881c3301140cd9ff54ae5cfc241e7014788b56b160f2a45faf98427fad5",
+    "staged": "legacy/#外部資料匯入與校正繪圖.txt",
+    "staged_sha256": "7a365881c3301140cd9ff54ae5cfc241e7014788b56b160f2a45faf98427fad5",
+    "transformation": "Unmodified archival copy; not executed by the cleaned workflow"
+  },
+  {
+    "source": "研究法/大豆基因/程式/crosstalk 20240916.R",
+    "source_sha256": "f8d702ab31779d9ed659e3a5ca9e85b5874f994928484d3d94af1451489848e6",
+    "staged": "legacy/crosstalk 20240916.R",
+    "staged_sha256": "f8d702ab31779d9ed659e3a5ca9e85b5874f994928484d3d94af1451489848e6",
+    "transformation": "Unmodified archival copy; not executed by the cleaned workflow"
+  },
+  {
+    "source": "研究法/大豆基因/程式/gsea_菲斯福氣.txt",
+    "source_sha256": "534e07069d9970efc819ddd161bc4db0b386e7491f14ab92fbbb2d5a430124db",
+    "staged": "legacy/gsea_菲斯福氣.txt",
+    "staged_sha256": "534e07069d9970efc819ddd161bc4db0b386e7491f14ab92fbbb2d5a430124db",
+    "transformation": "Unmodified archival copy; not executed by the cleaned workflow"
+  },
+  {
+    "source": "研究法/大豆基因/程式/gsea全部.txt",
+    "source_sha256": "6e6583d9f2d796674b3e7b40a6c18590342e56fdd4971738c0ef563e9db06748",
+    "staged": "legacy/gsea全部.txt",
+    "staged_sha256": "6e6583d9f2d796674b3e7b40a6c18590342e56fdd4971738c0ef563e9db06748",
+    "transformation": "Unmodified archival copy; not executed by the cleaned workflow"
+  },
+  {
+    "source": "研究法/大豆基因/程式/maxmean0127版本.txt",
+    "source_sha256": "63d6e8098d6be9379c35a2e602eed845b0195c02dd56df3175f71b0a4d3de14b",
+    "staged": "legacy/maxmean0127版本.txt",
+    "staged_sha256": "63d6e8098d6be9379c35a2e602eed845b0195c02dd56df3175f71b0a4d3de14b",
+    "transformation": "Unmodified archival copy; not executed by the cleaned workflow"
+  },
+  {
+    "source": "研究法/大豆基因/程式/maxmean原版.txt",
+    "source_sha256": "59b6e10a3896f70b861b875f527455a2cd2ef8cc84f1fd6db0709337cb25fc67",
+    "staged": "legacy/maxmean原版.txt",
+    "staged_sha256": "59b6e10a3896f70b861b875f527455a2cd2ef8cc84f1fd6db0709337cb25fc67",
+    "transformation": "Unmodified archival copy; not executed by the cleaned workflow"
+  },
+  {
+    "source": "研究法/大豆基因/程式/sumstat.txt",
+    "source_sha256": "da67592e5a16f2c5790a2884894798eec34b212233476f58b78e0dba446fee81",
+    "staged": "legacy/sumstat.txt",
+    "staged_sha256": "da67592e5a16f2c5790a2884894798eec34b212233476f58b78e0dba446fee81",
+    "transformation": "Unmodified archival copy; not executed by the cleaned workflow"
+  },
+  {
+    "source": "研究法/大豆基因/程式/校正前後的繪圖.txt",
+    "source_sha256": "1720c4ee9ae51488cbb89d62c88b627239da4df23cbfa70a28ecc7f798e193d3",
+    "staged": "legacy/校正前後的繪圖.txt",
+    "staged_sha256": "1720c4ee9ae51488cbb89d62c88b627239da4df23cbfa70a28ecc7f798e193d3",
+    "transformation": "Unmodified archival copy; not executed by the cleaned workflow"
+  },
+  {
+    "source": "研究法/大豆基因/程式/條狀圖證明.txt",
+    "source_sha256": "9135ea31506a239de45ccc458e8b17064bca5e63d36d707916f40738a1859c4b",
+    "staged": "legacy/條狀圖證明.txt",
+    "staged_sha256": "9135ea31506a239de45ccc458e8b17064bca5e63d36d707916f40738a1859c4b",
+    "transformation": "Unmodified archival copy; not executed by the cleaned workflow"
+  },
+  {
+    "source": "研究法/大豆基因/程式/比較分數與無母分析程式.txt",
+    "source_sha256": "082d735899d7eb0d8e7b29da3fe75806e5b59c98b1ecf2b8c5343fbad511c5ad",
+    "staged": "legacy/比較分數與無母分析程式.txt",
+    "staged_sha256": "082d735899d7eb0d8e7b29da3fe75806e5b59c98b1ecf2b8c5343fbad511c5ad",
+    "transformation": "Unmodified archival copy; not executed by the cleaned workflow"
+  },
+  {
+    "source": "研究法/大豆基因/程式/超幾何.txt",
+    "source_sha256": "925fbb78bb4ccaa0610e446461b259fd46a2b93a6b85d19e64be9ed3f8bbb178",
+    "staged": "legacy/超幾何.txt",
+    "staged_sha256": "925fbb78bb4ccaa0610e446461b259fd46a2b93a6b85d19e64be9ed3f8bbb178",
+    "transformation": "Unmodified archival copy; not executed by the cleaned workflow"
+  }
+]

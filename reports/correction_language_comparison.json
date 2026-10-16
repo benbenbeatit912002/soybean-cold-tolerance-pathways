@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "input": "tests/tmp/raw.tsv",
+  "scope": "synthetic correction entry-point comparison",
+  "checks": [
+    {
+      "file": "corrected_scores.tsv",
+      "rows": 20,
+      "maximum_absolute_difference": 1.3322676295501878e-15
+    },
+    {
+      "file": "correction_summary.tsv",
+      "rows": 2,
+      "maximum_absolute_difference": 3.3306690738754696e-16
+    },
+    {
+      "file": "short_lambda_grid.tsv",
+      "rows": 100,
+      "maximum_absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "file": "middle_lambda_grid.tsv",
+      "rows": 100,
+      "maximum_absolute_difference": 4.85722573273506e-16
+    }
+  ]
+}

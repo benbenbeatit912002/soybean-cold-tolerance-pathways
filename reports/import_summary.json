@@ -1,0 +1,22 @@
+{
+  "short": {
+    "raw_rows": 40061,
+    "retained_rows": 40048,
+    "unique_gene_ids": 39958,
+    "statuses": {
+      "v2_id": 38660,
+      "mapped_v1_to_v2": 1388,
+      "excluded_ambiguous_mapping": 8,
+      "excluded_blank_id": 5
+    }
+  },
+  "middle": {
+    "raw_rows": 40332,
+    "retained_rows": 40330,
+    "unique_gene_ids": 40235,
+    "statuses": {
+      "v2_id": 40330,
+      "excluded_blank_id": 2
+    }
+  }
+}

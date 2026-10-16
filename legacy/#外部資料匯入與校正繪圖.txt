@@ -1,0 +1,192 @@
+#外部資料匯入 培修版
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/外部資料匯入'
+outfile = paste(datdir, '耐寒資料庫0 1 24hr(轉換後)培修版.txt', sep='/')
+outside_data=read.table(outfile,header = T,sep='\t')             #外部
+
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/大豆基因 外部'
+outfile = paste(datdir, 'Glyma_genes_correspondence_final.txt', sep='/')
+genes_correspondence=read.table(outfile,header = T,sep='\t')         #基因對照表
+
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/外部基因校正'
+outfile = paste(datdir, 'Glyma2.0.txt', sep='/')
+gene_len=read.table(outfile,header = T,sep='\t')         #基因對照表
+
+
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/外部基因校正'
+outfile = paste(datdir, 'snps_allgenes_20kb.set.txt', sep='/')
+SNP_20k=read.table(outfile,header = F,sep='\t')   
+
+#SNP處理
+
+gene=c()
+a_number=numeric()
+SNP_frame=c()
+for(i in 1:nrow(SNP_20k))  {
+  cat('now is handling', i, '-th pw', '\n')
+  if(substr(SNP_20k[i,1],1,1)=='G'){a_number=0}
+  else if (substr(SNP_20k[i,1],1,1)=='A'){a_number=a_number+1} 
+  else if (substr(SNP_20k[i,1],1,1)=='E') {SNP_frame=rbind(SNP_frame,data.frame(gene_name=SNP_20k[i-(a_number+1),1],a_number))}
+  }
+gene_snp= SNP_frame
+    
+    
+#為何要用兩個if?
+len=c() 
+snp=c()
+gene_cor=c()
+gene_2.0=c()
+p_1=c()
+p_24=c()
+k=1
+for (i in 1:nrow(outside_data)) { #nrow(outside_data
+  cat('now is handling', i, '-th pw', '\n')
+  loc1=which(outside_data[i,3]==genes_correspondence[,1])
+  loc2=which(outside_data[i,3]==genes_correspondence[,2])
+  loc=unique(c(loc1, loc2))
+  if(length(loc)==1){
+  g2.0 = setdiff(genes_correspondence[loc,3], "")
+  if(length(g2.0)>0){
+  gene_2.0[k]=g2.0
+  p_1[k]=outside_data[i,5]
+  p_24[k]=outside_data[i,8]
+  len[k]=gene_len[which(gene_len[,1]==gene_2.0[k]),5]
+  snp[k]=gene_snp[which(gene_snp[,1]==gene_2.0[k]),2]
+  k=k+1
+  }
+  }
+}
+
+out= data.frame(gene_2.0,p_1,p_24,len,snp)   #將基因名稱、短、中、長度、分別做成data.frame
+
+###差補snp
+out1=out
+intervals <- seq(1, 100000, by = 2000) #以2000為區間
+for (i in 1:(length(intervals)+1 )) 
+{            #找到區間內=0的數值，並給予平均snp
+  loc=which(out1[,4] >= intervals[i] & out1[,4] < intervals[i + 1]);loc
+  loc1=which(out1[loc,5]==0)
+  out1[loc[loc1],5]= round(mean(out1[loc,5]))
+  
+}
+out1
+
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/外部基因校正'
+outfile = paste(datdir, 'gene_p_len.txt', sep='/')
+write.table(out1, outfile,row.names=F,sep='\t')#quote=F, row.names=F, col.names=T
+
+###############將yamasaki和 whole genome 做結合###################### 
+
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據'
+outfile = paste(datdir, 'GO_terms_4899.txt', sep='/')
+GO_terms_4899=read.table(outfile,header = T,sep='\t') 
+
+
+uni=unique(GO_terms_4899[,4:ncol(GO_terms_4899)])
+combined_vector = unlist(uni, use.names = FALSE)
+
+loc=which(out1[,1] %in% combined_vector)
+GO_terms_yamasaki=out1[loc,]  #跟yamasaki交集的go term
+
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/外部基因校正'
+outfile = paste(datdir, 'gene_p_len_go_yamasaki.txt', sep='/')
+write.table(GO_terms_yamasaki, outfile,row.names=F, sep='\t')#quote=F, row.names=F, col.names=T
+####
+#匯入篩選後的路徑
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/經過篩選的路徑'
+outfile = paste(datdir, 'answer1.txt', sep='/')
+answer=read.table(outfile,header = F,sep='\t')      
+outfile = paste(datdir, 'answer2.txt', sep='/')
+answer2=read.table(outfile,header = F,sep='\t')   
+
+
+#開始繪圖前設計 短期
+ #or gene_p_len=out
+gene_p_len=GO_terms_yamasaki
+non_rep_gene=unique(answer[,1:nrow(answer)])
+
+olp=which(as.character(as.matrix(gene_p_len[,1])) %in% as.character(as.matrix(answer[,4:ncol(answer)])))                               #non_replicate_gene[,1:ncol(non_replicate_gene)])
+gene_p_len_no_overlap = gene_p_len[-olp,]
+gene_p_len_inpw = gene_p_len[olp,]   
+
+
+plot_data1=as.data.frame(gene_p_len_no_overlap[,c(2,4)]) #短期跟長度
+plot_data2=as.data.frame(gene_p_len_inpw[,c(2,4)])
+
+plot_data1[,1]= -log(plot_data1[,1],10)    #-logp
+plot_data2[,1]= -log(plot_data2[,1],10)
+#開始繪圖前設計 中期
+
+non_rep_gene=unique(answer2[,4:nrow(answer2)])
+
+olp=which(as.character(as.matrix(gene_p_len[,1])) %in% as.character(as.matrix(answer2[,4:ncol(answer2)])))                               #non_replicate_gene[,1:ncol(non_replicate_gene)])
+gene_p_len_no_overlap = gene_p_len[-olp,]
+gene_p_len_inpw = gene_p_len[olp,]   
+
+
+plot_data1=as.data.frame(gene_p_len_no_overlap[,c(3,4)]) #短期跟長度
+plot_data2=as.data.frame(gene_p_len_inpw[,c(3,4)])
+
+plot_data1[,1]= -log(plot_data1[,1],10)
+plot_data2[,1]= -log(plot_data2[,1],10)
+
+
+#繪圖設計  長短更改aes(x=p....)即可
+library(tidyverse)
+library(ggplot2)
+
+all_genes = '#E07860'
+genes_in_pathway = '#78D1AD'
+
+plot1 =ggplot() +
+  geom_point(data = plot_data1, aes(x = p_24, y = len, colour = 'all_genes' ), shape = 1) +
+  geom_point(data = plot_data2, aes(x = p_24, y = len, colour = 'genes_in_pathway'), shape = 1 ) +
+  labs(x = "p-value", y = "gene_size(bp)")+                   #or log(p)
+  scale_colour_manual(values = c(all_genes, genes_in_pathway))    #手動設置顏色
+#####
+
+
+#基因校正
+
+p_middle=out1[,c(1,2,3,4,5)] #gene_p_len or out
+
+
+p_value=p_middle[,2]
+snp=p_middle[,5]
+median(snp)
+########################################################
+
+s=1
+gg=c()
+Correction=c()
+for (i in 1:100) {
+  
+  Cor_p=1-(1-p_value)^snp^(i/100)  
+  
+  gg[s]=abs(cor(snp,Cor_p, method = "spearman")) #本來要找len和SNP的關係
+  s=s+1
+}
+loc_min=which.min(gg)  #可知i=99時最不相關
+
+p_middle[,2]=1-(1-p_value)^snp^(loc_min/100)
+########
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/外部基因校正'
+outfile = paste(datdir, 'Yamasaki_Go校正後1213.txt', sep='/')
+write.table(p_middle, outfile,row.names=F, sep='\t')
+
+
+###################################################
+non_rep_gene=unique(answer2[,4:nrow(answer2)])
+
+olp=which(as.character(as.matrix(p_middle[,1])) %in% as.character(as.matrix(answer2[,4:ncol(answer2)])))                               #non_replicate_gene[,1:ncol(non_replicate_gene)])
+gene_p_len_no_overlap = p_middle[-olp,]
+gene_p_len_inpw = p_middle[olp,]   
+
+
+plot_data1=as.data.frame(gene_p_len_no_overlap[,c(3,5)]) #短期跟長度
+plot_data2=as.data.frame(gene_p_len_inpw[,c(3,5)])
+
+p_value=as.numeric(as.character(plot_data1[,1]))
+gene_size=as.numeric(as.character(plot_data1[,2]))
+
+p_value2=as.numeric(as.character(plot_data2[,1]))
+gene_size2=as.numeric(as.character(plot_data2[,2]))

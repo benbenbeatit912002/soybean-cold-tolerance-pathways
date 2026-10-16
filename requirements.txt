@@ -1,0 +1,4 @@
+# Tested Python environment. R uses base R and has no package dependencies.
+numpy==2.3.5
+scipy==1.17.1
+matplotlib==3.10.7

@@ -1,0 +1,464 @@
+{
+  "ct_short": {
+    "path": "研究法/大豆基因/CTgenes 含分數/SHORT.txt",
+    "sha256": "2eb4bddcba96a9932c1e727bae3e1612632d6b07983393a67c09c012addd3420",
+    "rows": 44,
+    "columns": {
+      "2": 44
+    },
+    "unique_ids": 44,
+    "duplicate_rows_by_id": 0,
+    "blank_id_rows": 0,
+    "unique_nonblank_ids": 44,
+    "non_v2_nonblank_id_rows": 0,
+    "header": null,
+    "numeric_columns": {
+      "2": {
+        "minimum": 8.0,
+        "maximum": 12.2,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 0,
+        "negative": 0,
+        "above_one": 44
+      }
+    }
+  },
+  "ct_middle": {
+    "path": "研究法/大豆基因/CTgenes 含分數/MIDDLE.txt",
+    "sha256": "f4b89582616c2901cc2dcd97be4545304c28a71f6211df621aa7bdb07c83e6a7",
+    "rows": 143,
+    "columns": {
+      "2": 143
+    },
+    "unique_ids": 143,
+    "duplicate_rows_by_id": 0,
+    "blank_id_rows": 0,
+    "unique_nonblank_ids": 143,
+    "non_v2_nonblank_id_rows": 0,
+    "header": null,
+    "numeric_columns": {
+      "2": {
+        "minimum": 10.03511753,
+        "maximum": 17.80937504,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 0,
+        "negative": 0,
+        "above_one": 143
+      }
+    }
+  },
+  "external_short": {
+    "path": "研究法/大豆基因/大豆基因 外部/WITHOUTINF/outer_data_2.0_short_address.txt",
+    "sha256": "be87c2d16fe7179de04101311970c75e618cfdab6073f364b778cd908d880186",
+    "rows": 40061,
+    "columns": {
+      "6": 40061
+    },
+    "unique_ids": 39967,
+    "duplicate_rows_by_id": 94,
+    "blank_id_rows": 5,
+    "unique_nonblank_ids": 39966,
+    "non_v2_nonblank_id_rows": 1396,
+    "header": null,
+    "numeric_columns": {
+      "2": {
+        "minimum": 0.0,
+        "maximum": 1433281.0,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 2511,
+        "negative": 0,
+        "above_one": 37550
+      },
+      "3": {
+        "minimum": 0.0,
+        "maximum": 1346689.0,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 1822,
+        "negative": 0,
+        "above_one": 38184
+      },
+      "4": {
+        "minimum": 0.0,
+        "maximum": 1698983.0,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 658,
+        "negative": 0,
+        "above_one": 38421
+      },
+      "5": {
+        "minimum": 0.037037037,
+        "maximum": 1612.5,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 0,
+        "negative": 0,
+        "above_one": 19995
+      },
+      "6": {
+        "minimum": 0.393706221,
+        "maximum": 7.128130121,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 0,
+        "negative": 0,
+        "above_one": 26467
+      }
+    }
+  },
+  "external_middle": {
+    "path": "研究法/大豆基因/大豆基因 外部/WITHOUTINF/outer_data_2.0_middle_address.txt",
+    "sha256": "3704933e18d226e2326460b3722fe1ae489d160043343890044cbc8f16885afd",
+    "rows": 40332,
+    "columns": {
+      "6": 40332
+    },
+    "unique_ids": 40236,
+    "duplicate_rows_by_id": 96,
+    "blank_id_rows": 2,
+    "unique_nonblank_ids": 40235,
+    "non_v2_nonblank_id_rows": 0,
+    "header": null,
+    "numeric_columns": {
+      "2": {
+        "minimum": 0.0,
+        "maximum": 1548874.0,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 1062,
+        "negative": 0,
+        "above_one": 39230
+      },
+      "3": {
+        "minimum": 0.0,
+        "maximum": 1525565.0,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 1036,
+        "negative": 0,
+        "above_one": 38252
+      },
+      "4": {
+        "minimum": 0.0,
+        "maximum": 1734808.0,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 1246,
+        "negative": 0,
+        "above_one": 39021
+      },
+      "5": {
+        "minimum": 0.002570694,
+        "maximum": 2464.0,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 0,
+        "negative": 0,
+        "above_one": 20125
+      },
+      "6": {
+        "minimum": 0.219451312,
+        "maximum": 16.0,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 0,
+        "negative": 0,
+        "above_one": 35281
+      }
+    }
+  },
+  "legacy_corrected_log10": {
+    "path": "研究法/大豆基因/數據/外部基因校正/Yamasaki_Go校正後1213_G_log10.txt",
+    "sha256": "f476cf50e2212bbe0e4f6d6bcd0addd2809db04e7c77ab6d4b2588217fa4f9e5",
+    "rows": 42575,
+    "columns": {
+      "5": 42575
+    },
+    "unique_ids": 42567,
+    "duplicate_rows_by_id": 8,
+    "blank_id_rows": 0,
+    "unique_nonblank_ids": 42567,
+    "non_v2_nonblank_id_rows": 0,
+    "header": [
+      "gene_2.0",
+      "p_1",
+      "p_24",
+      "len",
+      "snp"
+    ],
+    "numeric_columns": {
+      "2": {
+        "minimum": 1e-16,
+        "maximum": 13.9292839,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 0,
+        "negative": 0,
+        "above_one": 6737
+      },
+      "3": {
+        "minimum": 1e-16,
+        "maximum": 15.47747,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 0,
+        "negative": 0,
+        "above_one": 26479
+      },
+      "4": {
+        "minimum": 110.0,
+        "maximum": 94721.0,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 0,
+        "negative": 0,
+        "above_one": 42575
+      },
+      "5": {
+        "minimum": 1.0,
+        "maximum": 41.0,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 0,
+        "negative": 0,
+        "above_one": 41401
+      }
+    }
+  },
+  "legacy_raw": {
+    "path": "研究法/大豆基因/數據/外部基因校正/gene_p_len.txt",
+    "sha256": "3ff5d73fc5c42a542a0eb7765b733086a2022eb21b33ff6f84b40e42da467be9",
+    "rows": 42575,
+    "columns": {
+      "5": 42575
+    },
+    "unique_ids": 42567,
+    "duplicate_rows_by_id": 8,
+    "blank_id_rows": 0,
+    "unique_nonblank_ids": 42567,
+    "non_v2_nonblank_id_rows": 0,
+    "header": [
+      "gene_2.0",
+      "p_1",
+      "p_24",
+      "len",
+      "snp"
+    ],
+    "numeric_columns": {
+      "2": {
+        "minimum": 1.16e-14,
+        "maximum": 1.0,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 0,
+        "negative": 0,
+        "above_one": 0
+      },
+      "3": {
+        "minimum": 5.21e-17,
+        "maximum": 1.0,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 0,
+        "negative": 0,
+        "above_one": 0
+      },
+      "4": {
+        "minimum": 110.0,
+        "maximum": 94721.0,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 0,
+        "negative": 0,
+        "above_one": 42575
+      },
+      "5": {
+        "minimum": 0.0,
+        "maximum": 41.0,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 1,
+        "negative": 0,
+        "above_one": 41400
+      }
+    }
+  },
+  "legacy_corrected": {
+    "path": "研究法/大豆基因/數據/外部基因校正/Yamasaki_Go校正後1213_G.txt",
+    "sha256": "33baa8ab36d8a79124fe29f4ca45bde3d13d91e2085ed4e3350c391dfaa09fca",
+    "rows": 42575,
+    "columns": {
+      "5": 42575
+    },
+    "unique_ids": 42567,
+    "duplicate_rows_by_id": 8,
+    "blank_id_rows": 0,
+    "unique_nonblank_ids": 42567,
+    "non_v2_nonblank_id_rows": 0,
+    "header": [
+      "gene_2.0",
+      "p_1",
+      "p_24",
+      "len",
+      "snp"
+    ],
+    "numeric_columns": {
+      "2": {
+        "minimum": 1.18e-14,
+        "maximum": 1.0,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 0,
+        "negative": 0,
+        "above_one": 0
+      },
+      "3": {
+        "minimum": 1.07847e-16,
+        "maximum": 1.0,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 0,
+        "negative": 0,
+        "above_one": 0
+      },
+      "4": {
+        "minimum": 110.0,
+        "maximum": 94721.0,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 0,
+        "negative": 0,
+        "above_one": 42575
+      },
+      "5": {
+        "minimum": 1.0,
+        "maximum": 41.0,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 0,
+        "negative": 0,
+        "above_one": 41401
+      }
+    }
+  },
+  "legacy_ct_short": {
+    "path": "研究法/大豆基因/數據/CT_genes/short_CT_G_score.txt",
+    "sha256": "38361d622b7b9ed7d8d14a88a2196a25c86289c422a77c158ffd4b47b3dc3351",
+    "rows": 41,
+    "columns": {
+      "2": 41
+    },
+    "unique_ids": 41,
+    "duplicate_rows_by_id": 0,
+    "blank_id_rows": 0,
+    "unique_nonblank_ids": 41,
+    "non_v2_nonblank_id_rows": 0,
+    "header": null,
+    "numeric_columns": {
+      "2": {
+        "minimum": 1e-16,
+        "maximum": 11.18962202,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 0,
+        "negative": 0,
+        "above_one": 16
+      }
+    }
+  },
+  "legacy_ct_middle": {
+    "path": "研究法/大豆基因/數據/CT_genes/middle_CT_G_score.txt",
+    "sha256": "93a4cae2826bd66cc3d73fb453f4ab80a04f1099510807e58e22815e45ba7fb4",
+    "rows": 143,
+    "columns": {
+      "2": 143
+    },
+    "unique_ids": 143,
+    "duplicate_rows_by_id": 0,
+    "blank_id_rows": 0,
+    "unique_nonblank_ids": 143,
+    "non_v2_nonblank_id_rows": 0,
+    "header": null,
+    "numeric_columns": {
+      "2": {
+        "minimum": 4.52908763177751e-05,
+        "maximum": 13.4007067435471,
+        "nonfinite": 0,
+        "nonnumeric": 0,
+        "zero": 0,
+        "negative": 0,
+        "above_one": 126
+      }
+    }
+  },
+  "overlaps": {
+    "short": {
+      "ct_in_external": 29,
+      "ct_missing_external": [
+        "Glyma.01G216000",
+        "Glyma.01G216200",
+        "Glyma.03G191800",
+        "Glyma.05G049800",
+        "Glyma.10G066900",
+        "Glyma.10G239400",
+        "Glyma.11G188200",
+        "Glyma.12G086200",
+        "Glyma.12G182200",
+        "Glyma.12G182400",
+        "Glyma.13G151900",
+        "Glyma.13G152000",
+        "Glyma.13G233800",
+        "Glyma.13G318500",
+        "Glyma.15G025100"
+      ],
+      "ct_missing_legacy_corrected": [
+        "Glyma.01G216200",
+        "Glyma.07G159000",
+        "Glyma.12G182200"
+      ],
+      "legacy_ct_id_difference": [
+        "Glyma.01G216200",
+        "Glyma.07G159000",
+        "Glyma.12G182200"
+      ],
+      "external_vs_legacy_common": 37555
+    },
+    "middle": {
+      "ct_in_external": 138,
+      "ct_missing_external": [
+        "Glyma.01G143400",
+        "Glyma.05G049800",
+        "Glyma.10G239400",
+        "Glyma.12G086200",
+        "Glyma.13G219100"
+      ],
+      "ct_missing_legacy_corrected": [],
+      "legacy_ct_id_difference": [],
+      "external_vs_legacy_common": 39183
+    },
+    "ct_union": 170,
+    "external_common": 38149
+  },
+  "go": {
+    "sha256": "bbc154ba078775cecc0da7d488370d2b8ea824443a7df684fe97cffeb368f84c",
+    "first_fields": [
+      "GO_id",
+      "Pathway",
+      "N.genes",
+      "Gene1",
+      "Gene2"
+    ],
+    "rows": 4896,
+    "unique_go_ids": 4896,
+    "unique_genes": 44964,
+    "declared_size_mismatches": 0,
+    "historical_candidates": {
+      "short": 100,
+      "middle": 342
+    }
+  }
+}

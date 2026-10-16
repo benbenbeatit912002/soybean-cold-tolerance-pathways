@@ -1,0 +1,202 @@
+##########數據比較 基因 與剩餘基因  middle_score=全部中期基因分數  key_gene_middle=中期關鍵基因分數 ct_middle_score=中期ct基因分數
+#丟入原始數據
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/短中處理/0110重新篩選/cytoscape後會用到的分數'
+datfile = paste(datdir, 'all_genes_short_outside_log_noinf.txt', sep='/')
+short_score = read.table(datfile,header = T,sep='\t')
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/短中處理/0110重新篩選/cytoscape後會用到的分數'
+datfile = paste(datdir, 'all_genes_middle_outside_log_noinf.txt', sep='/')
+middle_score = read.table(datfile,header = T,sep='\t')
+##key
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/network/PPI/soynet/篩選後keygene/0224版本'
+datfile = paste(datdir, 'short_mid_key.txt', sep='/')
+selected_gene = read.table(datfile,header = F,sep='\t')
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/network/PPI/soynet/篩選後keygene/0224版本'
+datfile = paste(datdir, 'short_mid_all.txt', sep='/')
+all_gene = read.table(datfile,header = F,sep='\t')
+key_gene=selected_gene[which(selected_gene[,3]==2|selected_gene[,3]==3|selected_gene[,3]==1),]
+
+##ct gene
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/CT_genes'
+datfile = paste(datdir, 'short_CT_G.txt', sep='/')
+ct_short=read.table(datfile,header = F,sep='\t')
+datfile = paste(datdir, 'middle_CT_G.txt', sep='/')
+ct_middle=read.table(datfile,header = F,sep='\t')
+
+##找出ct gene的分數
+loc=which(as.character(as.matrix(short_score[,1])) %in%as.character(as.matrix(ct_short))) #找出全部ct gene
+all_ct_short_score=short_score[loc,]
+loc=which(as.character(as.matrix(all_ct_short_score[,1])) %in%as.character(as.matrix(key_gene[,1]))) #再刪掉關鍵基因
+if(length(loc)>0){all_ct_short_score=all_ct_short_score[-loc,]}
+
+loc=which(as.character(as.matrix(middle_score[,1])) %in%as.character(as.matrix(ct_middle)))
+all_ct_middle_score=middle_score[loc,]
+loc=which(as.character(as.matrix(all_ct_middle_score[,1])) %in%as.character(as.matrix(key_gene[,1]))) #在刪掉關鍵基因
+if(length(loc)>0){all_ct_middle_score=all_ct_middle_score[-loc,]}
+
+##中間
+loc=which(all_gene[,3]==4)
+intermediate_short=all_gene[loc,c(1,4)]
+loc=which(all_gene[,3]==4)
+intermediate_middle=all_gene[loc,c(1,5)]
+##短期
+loc=which(as.character(as.matrix(short_score[,1])) %in%as.character(as.matrix(all_gene[,1])))
+remaining_gene_short=short_score[-loc,] 
+loc1=which(as.character(as.matrix(remaining_gene_short[,1])) %in%as.character(as.matrix(ct_short[,1])))
+remaining_gene_short=remaining_gene_short[-loc1,] 
+##中期
+loc=which(as.character(as.matrix(middle_score[,1])) %in%as.character(as.matrix(all_gene[,1])))
+remaining_gene_middle=middle_score[-loc,] 
+loc1=which(as.character(as.matrix(remaining_gene_middle[,1])) %in%as.character(as.matrix(ct_middle[,1])))
+remaining_gene_middle=remaining_gene_middle[-loc1,] 
+
+
+
+
+
+
+
+###算平均
+key_gene_short_mean=mean(as.numeric(key_gene[,4]) )
+ct_short_score_mean=mean(as.numeric(all_ct_short_score[,2]))
+remaining_gene_short_mean=mean(as.numeric(remaining_gene_short[,2]))
+
+key_gene_middle_mean=mean(as.numeric(key_gene[,5]))
+ct_middle_score_mean=mean(as.numeric(all_ct_middle_score[,2]))
+remaining_gene_middle_mean=mean(as.numeric(remaining_gene_middle[,2]))
+
+intermediate_short_mean=mean(as.numeric(intermediate_short[,2]))
+intermediate_middle_mean=mean(as.numeric(intermediate_middle[,2]))
+###算標準差
+key_gene_short_sd=sd(as.numeric(key_gene[,4]) )
+ct_short_score_sd=sd(as.numeric(all_ct_short_score[,2]))
+remaining_gene_short_sd=sd(as.numeric(remaining_gene_short[,2]))
+intermediate_short_sd=sd(as.numeric(intermediate_short[,2]))
+
+key_gene_middle_sd=sd(as.numeric(key_gene[,5]))
+ct_middle_score_sd=sd(as.numeric(all_ct_middle_score[,2]))
+remaining_gene_middle_sd=sd(as.numeric(remaining_gene_middle[,2]))
+intermediate_middle_sd=sd(as.numeric(intermediate_middle[,2]))
+
+short_point_sd=cbind(key_gene_short_sd,ct_short_score_sd,intermediate_short_sd,remaining_gene_short_sd);short_point
+middle_point_sd=cbind(key_gene_middle_sd,ct_middle_score_sd,intermediate_middle_sd,remaining_gene_middle_sd);middle_point
+#誤差條
+error_bar_ranges <- list(
+  key_gene_short_error = c(key_gene_short_mean -  key_gene_short_sd, key_gene_short_mean + key_gene_short_sd),
+  ct_short_score_error = c(ct_short_score_mean - ct_short_score_sd, ct_short_score_mean +  ct_short_score_sd),
+  remaining_gene_short_error = c(remaining_gene_short_mean -  remaining_gene_short_sd, remaining_gene_short_mean + remaining_gene_short_sd),
+  intermediate_short_error = c(intermediate_short_mean - intermediate_short_sd, intermediate_short_mean +  intermediate_short_sd),
+  key_gene_middle_error = c(key_gene_middle_mean -  key_gene_middle_sd, key_gene_middle_mean + key_gene_middle_sd),
+  ct_middle_score_error = c(ct_middle_score_mean -  ct_middle_score_sd, ct_middle_score_mean +  ct_middle_score_sd),
+  remaining_gene_middle_error = c(remaining_gene_middle_mean -  remaining_gene_middle_sd, remaining_gene_middle_mean +  remaining_gene_middle_sd),
+  intermediate_middle_error = c(intermediate_middle_mean -  intermediate_middle_sd, intermediate_middle_mean + intermediate_middle_sd)
+)
+
+##分數整合
+short_point=cbind(key_gene_short_mean,ct_short_score_mean,intermediate_short_mean,remaining_gene_short_mean);short_point
+middle_point=cbind(key_gene_middle_mean,ct_middle_score_mean,intermediate_middle_mean,remaining_gene_middle_mean);middle_point
+### Wilcoxon rank-sum test
+run_wilcox_test = function(group1, group2) {
+  test_result <- wilcox.test(group1, group2, alternative = "greater", conf.level = 0.95, exact = FALSE)
+  return(data.frame(
+    statistic = test_result$statistic,
+    p_value = test_result$p.value
+  ))
+}
+# 需要的比較結果 短
+result1 = run_wilcox_test(key_gene[,4], all_ct_short_score[,2]) ;qwilcox(1 - 0.05 , nrow(key_gene), nrow(all_ct_short_score), lower.tail = F) 
+sort(c(key_gene[,4],all_ct_short_score[,2]))
+result2 = run_wilcox_test(key_gene[,4], intermediate_short[,2])
+result3 = run_wilcox_test(key_gene[,4], remaining_gene_short[,2]) 
+result4 = run_wilcox_test(all_ct_short_score[,2], intermediate_short[,2])
+result5 = run_wilcox_test(all_ct_short_score[,2], remaining_gene_short[,2]);qwilcox(1 - 0.05 , nrow(all_ct_short_score), nrow(remaining_gene_short), lower.tail = F) 
+sort(c(all_ct_short_score[,2],remaining_gene_short[,2]))
+result6 = run_wilcox_test(intermediate_short[,2], remaining_gene_short[,2])
+
+# 整合所有结果到一个数据框中
+results1 = data.frame(
+  Comparison = c("key_gene vs all_ct_short_score", "key_gene vs intermediate_short", "key_gene vs remaining_gene_short", 
+                 "all_ct_short_score vs intermediate_short", "all_ct_short_score vs remaining_gene_short", "intermediate_short vs remaining_gene_short"),
+  Statistic = c(result1$statistic, result2$statistic, result3$statistic, result4$statistic, result5$statistic, result6$statistic),
+  P_Value = c(result1$p_value, result2$p_value, result3$p_value, result4$p_value, result5$p_value, result6$p_value)
+)
+
+
+# 需要的比較結果 中
+
+result1 = run_wilcox_test(key_gene[,5], all_ct_middle_score[,2])
+qwilcox(1 - 0.05  , nrow(key_gene),nrow(all_ct_middle_score), lower.tail = F )
+sort(c(key_gene[,5], all_ct_middle_score[,2]))
+result2 = run_wilcox_test(key_gene[,5], intermediate_middle[,2])
+result3 = run_wilcox_test(key_gene[,5], remaining_gene_middle[,2])
+result4 = run_wilcox_test(all_ct_middle_score[,2], intermediate_middle[,2])
+result5 = run_wilcox_test(all_ct_middle_score[,2], remaining_gene_middle[,2]), lower.tail = F) ;qwilcox(1 - 0.05 , nrow(all_ct_middle_score), nrow(remaining_gene_middle), lower.tail = F) 
+sort(c(all_ct_middle_score[,2],remaining_gene_short[,2]))
+result6 = run_wilcox_test(intermediate_middle[,2], remaining_gene_middle[,2])
+
+results2 = data.frame(
+  Comparison = c("key_gene vs all_ct_middle_score", "key_gene vs intermediate_middle", "key_gene vs remaining_gene_middle", 
+                 "all_ct_middle_score vs intermediate_middle", "all_ct_middle_score vs remaining_gene_middle", "intermediate_middle vs remaining_gene_middle"),
+  Statistic = c(result1$statistic, result2$statistic, result3$statistic, result4$statistic, result5$statistic, result6$statistic),
+  P_Value = c(result1$p_value, result2$p_value, result3$p_value, result4$p_value, result5$p_value, result6$p_value)
+)
+# 打印最终结果
+print(results1)
+print(results2)
+
+#t test
+run_t_test = function(group1, group2) {
+  test_result =t.test(group1, group2, alternative = "greater", conf.level = 0.95)
+  return(data.frame(
+    statistic = test_result$statistic,
+    p_value = test_result$p.value
+  ))
+}
+#
+result1 = run_t_test(key_gene[,4], all_ct_short_score[,2])
+result2 = run_t_test(key_gene[,4], intermediate_short[,2])
+result3 = run_t_test(key_gene[,4], remaining_gene_short[,2])
+result4 = run_t_test(all_ct_short_score[,2], intermediate_short[,2])
+result5 = run_t_test(all_ct_short_score[,2], remaining_gene_short[,2])
+result6 = run_t_test(intermediate_short[,2], remaining_gene_short[,2])
+
+# 将结果整理到一个数据框中
+results3 = data.frame(
+  Comparison = c("key_gene vs all_ct_short_score", "key_gene vs intermediate_short", "key_gene vs remaining_gene_short", 
+                 "all_ct_short_score vs intermediate_short", "all_ct_short_score vs remaining_gene_short", "intermediate_short vs remaining_gene_short"),
+  Statistic = c(result1$statistic, result2$statistic, result3$statistic, result4$statistic, result5$statistic, result6$statistic),
+  P_Value = c(result1$p_value, result2$p_value, result3$p_value, result4$p_value, result5$p_value, result6$p_value)
+)
+# 中
+result1 = run_t_test(key_gene[,5], all_ct_middle_score[,2])
+result2 = run_t_test(key_gene[,5], intermediate_middle[,2])
+result3 = run_t_test(key_gene[,5], remaining_gene_middle[,2])
+result4 = run_t_test(all_ct_middle_score[,2], intermediate_middle[,2])
+result5 = run_t_test(all_ct_middle_score[,2], remaining_gene_middle[,2])
+result6 = run_t_test(intermediate_middle[,2], remaining_gene_middle[,2])
+
+# 将结果整理到一个数据框中
+results4 = data.frame(
+  Comparison = c("key_gene vs all_ct_middle_score", "key_gene vs intermediate_middle", "key_gene vs remaining_gene_middle", 
+                 "all_ct_middle_score vs intermediate_middle", "all_ct_middle_score vs remaining_gene_middle", "intermediate_middle vs remaining_gene_middle"),
+  Statistic = c(result1$statistic, result2$statistic, result3$statistic, result4$statistic, result5$statistic, result6$statistic),
+  P_Value = c(result1$p_value, result2$p_value, result3$p_value, result4$p_value, result5$p_value, result6$p_value)
+)
+
+# 打印结果(12w_Test短中,34t_test短中)
+print(results3)
+print(results4)
+results=rbind(results1,results2,results3,results4);results
+##############
+
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/network/PPI/分數比較/0224版本'    
+outfile = paste(datdir, 'mid_result.txt', sep='/')
+write.table(results, outfile,row.names = F,col.names= T,sep='\t')
+score_short_mid=rbind(short_point,middle_point,short_point_sd,middle_point_sd)
+
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/network/PPI/分數比較/0224版本'    
+outfile = paste(datdir, 'mid_score.txt', sep='/')
+write.table(score_short_mid, outfile,row.names = F,col.names= T,sep='\t')
+
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/network/PPI/分數比較/0224版本'    
+outfile = paste(datdir, 'short_mid_error_bar_ranges.txt', sep='/')
+write.table(error_bar_ranges, outfile,row.names = F,col.names= T,sep='\t')

@@ -1,0 +1,122 @@
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因'
+datfile=paste(datdir,'answer1.txt',sep='/')
+answer=read.table(datfile,header = T,sep='\t') 
+
+PGL=all_genes_short_outside_log
+newGS4896=answer #answer=answer[,-c(1355:ncol(answer))]
+
+answer[101,1]
+rank_PGL=PGL[order(PGL[,1]),]
+N=nrow(rank_PGL)
+
+ES_MAX = c()
+for(j in 1:nrow(newGS4896)){ 
+  cat('now is handling',j,'-th pwi','\n')
+  pw_inGS=newGS4896[j,]  
+  NR = c()
+  loc_ppg = c()
+  gene_inpw=as.character(as.matrix(pw_inGS[4:length(pw_inGS)]))
+  prior_gene=intersect(as.character(as.matrix(rank_PGL[,1])),as.character(as.matrix(pw_inGS))) 
+  intersect_1=c()
+  for (t in 1:length(prior_gene)) {
+    intersect_1[t]=which(rank_PGL[,1]==prior_gene[t])
+  }
+  
+  NR=sum(rank_PGL[intersect_1,2])
+  NH=length(prior_gene) 
+  
+  value=0
+  ES = c()
+  for (i in 1:nrow(rank_PGL)) {
+    
+    a=as.character(as.matrix(rank_PGL[i,1]))
+    b=as.character(as.matrix(pw_inGS[,4:length(pw_inGS)]))
+    gene_overlap=a%in%b
+    if(gene_overlap==T){value=value + (rank_PGL[i,2]/NR)}
+    else {value=value - 1/(N-NH)}
+    
+    ES[i]=value
+  }
+  ES_MAX[j]=max(ES)
+}
+
+datdir1='/home/hao_yu/soybean'
+outfile = paste(datdir1, 'short_esmax.txt', sep='/')
+write.table(ES_MAX, outfile,row.names = F,col.names= F,sep='\t')
+###############################################################################################
+datdir1='/home/hao_yu/soybean'
+outfile = paste(datdir1, 'short_esmax.txt', sep='/')
+ES_MAX=read.table(datfile,header = T,sep='\t') 
+
+
+
+
+out1=data.frame(answer[1:length(ES_MAX), 1])
+out2=data.frame(answer[1:length(ES_MAX), 2])
+out3=data.frame(answer[1:length(ES_MAX), 3])
+out4=data.frame(ES_MAX) 
+number_sample=c()
+PGL_all=all_genes_short_outside_log 
+newGS4896=answer
+
+gsea_short_p=numeric(nrow(answer))
+
+rank_PGL=PGL_all[order(PGL_all[,1]),]  
+N=nrow(rank_PGL)
+p_t=2
+ES_MAX_permute = c()
+for (z in 1:p_t) {
+  r_rank_PGL=rank_PGL[sample(nrow(rank_PGL)),]
+  
+  for(j in 1:nrow(newGS4896)){
+    cat('now is handling',j,'-th pwi','\n')
+    pw_inGS=newGS4896[j,] 
+
+    NR = c()
+    loc_ppg = c()
+    gene_inpw=as.character(as.matrix(pw_inGS[4:length(pw_inGS)]))
+    prior_gene=intersect(as.character(as.matrix(r_rank_PGL[,1])),gene_inpw) 
+    number_sample[j]=length(prior_gene)
+    intersect_2=c()
+    for (t in 1:length(prior_gene)) {
+      intersect_2[t]=which(r_rank_PGL[,1]==prior_gene[t]) 
+    }
+    
+    ## test
+    intersect_87 = which(r_rank_PGL[, 1] %in% prior_gene)
+    sample_intersect_87=sample(r_rank_PGL[intersect_87,2], number_sample[j] , replace = FALSE)    
+    NR=sum(sample_intersect_2)
+    
+    NR=sum(r_rank_PGL[intersect_87,2])
+    和
+    NR=sum(r_rank_PGL[intersect_2,2])
+    sample_intersect_87%in% sample_intersect_2
+    ##j=1#####################################################
+    
+    
+    sample_intersect_2=sample(r_rank_PGL[intersect_2,2], number_sample[j] , replace = FALSE)                 
+    NR=sum(r_rank_PGL[sample_intersect_2,2])
+    NH=length(prior_gene)
+    value=0
+    for (i in 1:nrow(r_rank_PGL)) {
+      
+      a=as.character(as.matrix(r_rank_PGL[i,1]))
+      b=gene_inpw  # as.character(as.matrix(pw_inGS[,4:length(pw_inGS)])) 
+      
+      gene_overlap=a%in%b
+      if(gene_overlap==T){value=value + (r_rank_PGL[i,2])/NR}  
+      else {value=value - 1/(N-NH)}
+      
+      ES_permutation[i]=value
+    }
+    ES_MAX_permute[j]=max(ES_permutation)
+    
+    if(ES_MAX_permute[j]>ES_MAX[j]) {gsea_short_p[j] =gsea_short_p[j]+1}
+    else{gsea_short_p[j] =gsea_short_p[j]+0}
+  }
+}
+o
+#############################
+#datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因'
+#datfile=paste(datdir,'answer1.txt',sep='/')
+#write.table(answer, datfile,row.names = F,col.names= F,sep='\t')

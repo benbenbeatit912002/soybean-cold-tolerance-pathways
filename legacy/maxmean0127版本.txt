@@ -1,0 +1,133 @@
+#maxmean
+#原本抽取的分數 標準差平均 與重新抽取的標準差平均 組成新分數 再跟原本做比較
+#初始SCORE為加總之平均  2.7標準差那邊有問題
+#每個pw分數
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/外部基因校正'
+datfile1 = paste(datdir,'Yamasaki_Go校正後1213_G_log10.txt',sep='/')
+all_genes_score = read.table(datfile1,header = T,sep='\t')
+
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/經過篩選的路徑'
+datfile=paste(datdir,'answer1.txt',sep='/')
+answer=read.table(datfile,header = F,sep='\t') 
+########計算基因集的分數
+##
+score=all_genes_score
+point=  ((score[,2]- mean(score[,2], na.rm = TRUE)) / sd(score[,2], na.rm = TRUE))
+score_z=score
+score_z[,2]=point
+##
+
+
+########################short###############################
+sample_time=10000
+maxmean_short_p=numeric(nrow(answer))  
+result=c() #每個pathway的分數
+for (i in 1:nrow(answer)){
+  cat('now is handling',i,'-th pwi','\n')
+  loc=which(score_z[,1] %in% answer[i,4:ncol(answer)])
+  score_z_s=score_z[loc,2]
+  
+  loc=which(score_z_s>0)
+  loc1=which(score_z_s<0)
+  score_z_p=sum(score_z_s[loc])
+  score_z_n=sum(score_z_s[loc1])
+  s_positive=(score_z_p/length(score_z_s))
+  s_negative=-(score_z_n/length(score_z_s))
+  Maxmean=max(s_positive,s_negative)
+  
+  number_sample=length(score_z_s)
+  result[i]=((Maxmean-mean(score_z_s))/sd(score_z_s))
+
+
+for (j in 1:sample_time) {
+  sample_genes = sample(score_z[,1], number_sample, replace = FALSE)  #是抽all gene還是 short而已?
+  loc=which(score_z [,1] %in% sample_genes)
+  score_z_s_p=score_z[loc,2]
+  loc=which(score_z_s_p>0)
+  loc1=which(score_z_s_p<0)
+  score_z_p=sum(score_z_s_p[loc])
+  score_z_n=sum(score_z_s_p[loc1])
+  s_positive=(score_z_p/length(score_z_s_p))
+  s_negative=-(score_z_n/length(score_z_s_p))
+  Maxmean_p=max(s_positive,s_negative)
+  result_p=((Maxmean_p-mean(score_z_s_p))/sd(score_z_s_p))
+   if (result_p > result[i]) {
+      maxmean_short_p[i] =maxmean_short_p[i]+(1/sample_time)
+     }
+  }
+}
+
+
+datdir1='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/篩選後/maxmean'
+outfile = paste(datdir1, 'maxmean_short_p0127.txt', sep='/')
+out1=data.frame(answer[1:nrow(answer), 1])
+out2=data.frame(answer[1:nrow(answer), 2])
+out3=data.frame(answer[1:nrow(answer), 3])
+out4=data.frame(k1[intersection_fit_data])
+out5=data.frame(maxmean_short_p)
+out6=p.adjust(maxmean_short_p, method = 'BH')
+out7=cbind(out1,out2,out3,out4,out5,out6)
+write.table(out7, outfile,row.names = F,col.names= T,sep='\t')
+
+###
+
+########################middle###############################
+##
+score=all_genes_score
+point=  ((score[,3]- mean(score[,3], na.rm = TRUE)) / sd(score[,3], na.rm = TRUE))
+score_z=score
+score_z[,3]=point
+##
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/經過篩選的路徑'
+datfile=paste(datdir,'answer2.txt',sep='/')
+answer2=read.table(datfile,header = F,sep='\t') 
+sample_time=10000
+maxmean_middle_p=numeric(nrow(answer2))  
+result2=c() #每個pathway的分數
+for (i in 1:nrow(answer2)){
+  cat('now is handling',i,'-th pwi','\n')
+  loc=which(score_z[,1] %in% answer2[i,4:ncol(answer2)])
+  score_z_m=score_z[loc,3]
+  
+  loc=which(score_z_m>0)
+  loc1=which(score_z_m<0)
+  score_z_p=sum(score_z_m[loc])
+  score_z_n=sum(score_z_m[loc1])
+  s_positive=(score_z_p/length(score_z_m))
+  s_negative=-(score_z_n/length(score_z_m))
+  Maxmean=max(s_positive,s_negative)
+  
+  number_sample=length(score_z_m)
+  result2[i]=((Maxmean-mean(score_z_m))/sd(score_z_m))
+  
+  
+  for (j in 1:sample_time) {
+    sample_genes = sample(score_z[,1], number_sample, replace = FALSE)  #是抽all gene還是 short而已?
+    loc=which(score_z [,1] %in% sample_genes)
+    score_z_m_p=score_z[loc,3]
+    loc=which(score_z_m_p>0)
+    loc1=which(score_z_m_p<0)
+    score_z_p=sum(score_z_m_p[loc])
+    score_z_n=sum(score_z_m_p[loc1])
+    s_positive=(score_z_p/length(score_z_m_p))
+    s_negative=-(score_z_n/length(score_z_m_p))
+    Maxmean_p=max(s_positive,s_negative)
+    result_p=((Maxmean_p-mean(score_z_m_p))/sd(score_z_m_p))
+    if (result_p > result2[i]) {
+      maxmean_middle_p[i] =maxmean_middle_p[i]+(1/sample_time)
+    }
+  }
+}
+
+
+
+datdir1='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/篩選後/maxmean'
+outfile = paste(datdir1, 'maxmean_middle_p0127.txt', sep='/')
+out1=data.frame(answer2[1:nrow(answer2), 1])
+out2=data.frame(answer2[1:nrow(answer2), 2])
+out3=data.frame(answer2[1:nrow(answer2), 3])
+out4=data.frame(k2[intersection_fit_data2])
+out5=data.frame(maxmean_middle_p)
+out6=p.adjust(maxmean_middle_p, method = 'BH')
+out7=cbind(out1,out2,out3,out4,out5,out6)
+write.table(out7, outfile,row.names = F,col.names= T,sep='\t')

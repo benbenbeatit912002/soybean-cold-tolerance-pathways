@@ -1,0 +1,169 @@
+{
+  "verified_staged_hashes": 17,
+  "runs": {
+    "external_membership": {
+      "qc": [
+        {
+          "phase": "short",
+          "ct_input": "44",
+          "external_rows": "40048",
+          "universe_size": "39958",
+          "ct_in_universe": "29",
+          "missing_ct": "15",
+          "duplicate_extra_rows": "90",
+          "tested_pathways": "2638",
+          "pathways_with_ct": "96"
+        },
+        {
+          "phase": "middle",
+          "ct_input": "143",
+          "external_rows": "40330",
+          "universe_size": "40235",
+          "ct_in_universe": "138",
+          "missing_ct": "5",
+          "duplicate_extra_rows": "95",
+          "tested_pathways": "2637",
+          "pathways_with_ct": "335"
+        }
+      ],
+      "tests": [
+        {
+          "phase": "short",
+          "method": "hypergeometric",
+          "pathways": 2638,
+          "min_p": 9.95798197915401e-09,
+          "min_bh": 2.62691564610083e-05,
+          "bh_below_0_05": 11
+        },
+        {
+          "phase": "middle",
+          "method": "hypergeometric",
+          "pathways": 2637,
+          "min_p": 5.48492217190672e-210,
+          "min_bh": 1.4463739767318e-206,
+          "bh_below_0_05": 140
+        }
+      ]
+    },
+    "score5_diagnostic": {
+      "qc": [
+        {
+          "phase": "short",
+          "ct_input": "44",
+          "external_rows": "40048",
+          "universe_size": "39958",
+          "ct_in_universe": "29",
+          "missing_ct": "15",
+          "duplicate_extra_rows": "90",
+          "tested_pathways": "2638",
+          "pathways_with_ct": "96"
+        },
+        {
+          "phase": "middle",
+          "ct_input": "143",
+          "external_rows": "40330",
+          "universe_size": "40235",
+          "ct_in_universe": "138",
+          "missing_ct": "5",
+          "duplicate_extra_rows": "95",
+          "tested_pathways": "2637",
+          "pathways_with_ct": "335"
+        }
+      ],
+      "tests": [
+        {
+          "phase": "short",
+          "method": "sumstat",
+          "pathways": 2638,
+          "min_p": 0.005,
+          "min_bh": 0.6595,
+          "bh_below_0_05": 0
+        },
+        {
+          "phase": "short",
+          "method": "gsea",
+          "pathways": 2638,
+          "min_p": 0.005,
+          "min_bh": 0.4121875,
+          "bh_below_0_05": 0
+        },
+        {
+          "phase": "middle",
+          "method": "sumstat",
+          "pathways": 2637,
+          "min_p": 0.005,
+          "min_bh": 0.1758,
+          "bh_below_0_05": 0
+        },
+        {
+          "phase": "middle",
+          "method": "gsea",
+          "pathways": 2637,
+          "min_p": 0.005,
+          "min_bh": 0.216147540983607,
+          "bh_below_0_05": 0
+        }
+      ]
+    },
+    "score6_diagnostic": {
+      "qc": [
+        {
+          "phase": "short",
+          "ct_input": "44",
+          "external_rows": "40048",
+          "universe_size": "39958",
+          "ct_in_universe": "29",
+          "missing_ct": "15",
+          "duplicate_extra_rows": "90",
+          "tested_pathways": "2638",
+          "pathways_with_ct": "96"
+        },
+        {
+          "phase": "middle",
+          "ct_input": "143",
+          "external_rows": "40330",
+          "universe_size": "40235",
+          "ct_in_universe": "138",
+          "missing_ct": "5",
+          "duplicate_extra_rows": "95",
+          "tested_pathways": "2637",
+          "pathways_with_ct": "335"
+        }
+      ],
+      "tests": [
+        {
+          "phase": "short",
+          "method": "sumstat",
+          "pathways": 2638,
+          "min_p": 0.005,
+          "min_bh": 0.0897278911564626,
+          "bh_below_0_05": 0
+        },
+        {
+          "phase": "short",
+          "method": "gsea",
+          "pathways": 2638,
+          "min_p": 0.005,
+          "min_bh": 0.0785119047619048,
+          "bh_below_0_05": 0
+        },
+        {
+          "phase": "middle",
+          "method": "sumstat",
+          "pathways": 2637,
+          "min_p": 0.005,
+          "min_bh": 0.0627857142857143,
+          "bh_below_0_05": 0
+        },
+        {
+          "phase": "middle",
+          "method": "gsea",
+          "pathways": 2637,
+          "min_p": 0.005,
+          "min_bh": 0.0669289340101523,
+          "bh_below_0_05": 0
+        }
+      ]
+    }
+  }
+}

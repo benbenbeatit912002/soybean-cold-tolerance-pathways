@@ -1,0 +1,10 @@
+*.R text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.tsv text eol=lf
+*.gmt text eol=lf
+*.json text eol=lf
+# Archival scripts retain their original bytes for source-hash verification.
+legacy/* -text
+# Preserve every prepared input byte so hashes also match after a Git clone.
+data/input/* -text

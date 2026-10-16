@@ -1,0 +1,158 @@
+{
+  "archive_checkpoint": "D:\\Bioinformatics project\\soybean-cold-tolerance-github.zip",
+  "archive_checkpoint_sha256": "911511756cd37722bdb2446e54d3c5e8105f7510b2c0f7845409c25e8ea20498",
+  "extracted_workspace": "D:\\Bioinformatics project\\dual-language-package-check-5_1sgt5a\\soybean-cold-tolerance",
+  "checks": [
+    {
+      "name": "r_numerical",
+      "command": [
+        "C:\\Program Files\\R\\R-4.5.1\\bin\\Rscript.exe",
+        "--vanilla",
+        "tests/test_core.R"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.3
+    },
+    {
+      "name": "r_workflow",
+      "command": [
+        "C:\\Program Files\\R\\R-4.5.1\\bin\\Rscript.exe",
+        "--vanilla",
+        "tests/test_integration.R"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.75
+    },
+    {
+      "name": "python_tests",
+      "command": [
+        "C:\\Program Files\\Python311\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_*.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 9.31
+    },
+    {
+      "name": "shared_null",
+      "command": [
+        "C:\\Program Files\\Python311\\python.exe",
+        "tests/check_cross_language.py",
+        "--rscript",
+        "C:\\Program Files\\R\\R-4.5.1\\bin\\Rscript.exe"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 2.03
+    },
+    {
+      "name": "r_example",
+      "command": [
+        "C:\\Program Files\\R\\R-4.5.1\\bin\\Rscript.exe",
+        "--vanilla",
+        "examples/walkthrough.R"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.25
+    },
+    {
+      "name": "python_example",
+      "command": [
+        "C:\\Program Files\\Python311\\python.exe",
+        "examples/walkthrough.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.79
+    },
+    {
+      "name": "r_membership",
+      "command": [
+        "C:\\Program Files\\R\\R-4.5.1\\bin\\Rscript.exe",
+        "--vanilla",
+        "scripts/run_analysis.R"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 11.26
+    },
+    {
+      "name": "r_plots",
+      "command": [
+        "C:\\Program Files\\R\\R-4.5.1\\bin\\Rscript.exe",
+        "--vanilla",
+        "scripts/plot_results.R"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.28
+    },
+    {
+      "name": "python_membership",
+      "command": [
+        "C:\\Program Files\\Python311\\python.exe",
+        "scripts/run_analysis.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 2.76
+    },
+    {
+      "name": "python_plots",
+      "command": [
+        "C:\\Program Files\\Python311\\python.exe",
+        "scripts/plot_results.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 2.45
+    },
+    {
+      "name": "full_output_verification",
+      "command": [
+        "C:\\Program Files\\Python311\\python.exe",
+        "scripts/verify_full_runs.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 3.11
+    }
+  ],
+  "code_and_config_sha256": {
+    "R/core.R": "35f7e6d3565a71adbc0c64ee4848c2abfb53941738e4eb13e34dac2ce4df777b",
+    "python/ctpathway.py": "556ebb56754a131291b90b3bc9ff2ebc6b7fcd8ff0b69855635798c7b5582bc1",
+    "scripts/audit_inputs.py": "bb2f5ac04deaeb8a3816cb5d2472157ab6a85f8cedf85b2e5efa53e9112f7d9f",
+    "scripts/audit_lineage.py": "1d1fdc1a2907a57696de5d288b04b7895fe429308ffad2526e42b086d3e3f215",
+    "scripts/check_package.py": "5f816c30f3761a2d973ffa996186856d168435216b4fa0876a60f406bdb25ca0",
+    "scripts/correct_scores.py": "30cb81867b8b42a538df1500af388fb6e13bfa81d0a8a275ae770dfc57a0c9ad",
+    "scripts/package_project.py": "bab5ce8c2f291b7f0c39566e1955d863d7721dde55fd512314fd17e6661c4978",
+    "scripts/plot_results.py": "2c22cde2dbba596e6b4ea7f565ff20925905afedc84a5d2bb2fac20cb01d5eb6",
+    "scripts/prepare_inputs.py": "9aa8dde8bb68b6cc37075fdf12e09b048590d33250a62c2cac23bf6da09ba5ea",
+    "scripts/run_analysis.py": "ad0e6fd099ecd188c062c1954615d9e4b973f5135a2f4b6e0dd717bf6fc892b5",
+    "scripts/verify_full_runs.py": "d8513af9ca84fff69d54c8c333a3f2dc116a5e768c7d0720368642b79ef3e196",
+    "scripts/verify_outputs.py": "f3e37d8c297f7cca226bcd68af83a3b2b197a4ba6c7f93f337cd5619fe90be0c",
+    "scripts/check_legacy.R": "0ea5d894b0fc8798033be855b389140059cda592e30aad334a888e4399d0422c",
+    "scripts/correct_scores.R": "33cdda4a51a95f2e1bd3aeb60dfe848c080dbed07f0b52b83df821a4eac3558a",
+    "scripts/plot_results.R": "9d3dfa59353817b3805350b6769528eadd982cddbea80262e4ffca5a0be156eb",
+    "scripts/run_analysis.R": "4cceca3c7cc6526e48350409e0e6ee0c7bdd0cb4bb060ed9a28aa625231f529f",
+    "tests/check_cross_language.py": "1b6c7b5274d7fa0ec5f01e761bb0f91c1ca327dfae33073d5dd1e5fcf35e7349",
+    "tests/test_import.py": "be990ce5dca3c96d0c9059269ee1663ae0c53875436454f3816683c4cb21fd1d",
+    "tests/test_python_statistics.py": "daed5e4a06a461a40d6f1506730ea399c5ecd7267631bada106653726ca15d8e",
+    "tests/test_python_workflow.py": "c642586574b8acb183bf7122ca092ccff025d2016d7272ccc23471c7a181bc8a",
+    "tests/cross_language_reference.R": "d784c11ab5ee5e10f0f7a35ae6b8092f88eb43b626f1758daf989b4a5730a4f7",
+    "tests/test_core.R": "8742f95c216e22ae9e466b95d23b4c464dc084da44a6dd99b92de4a632029a35",
+    "tests/test_integration.R": "659420fc0d34ac57e8b66ebb7c7bdfeed089283d561f02649166325157c2762c",
+    "examples/walkthrough.py": "be788589c1a66ac031eff866d59bd9d533a2143cfe146e93601c28df7f3795a1",
+    "examples/walkthrough.R": "5893b6a0f784d8c39437a021bb405ce16d94bac5ef575d51081866689e8dd09b",
+    "config.R": "e69d81bd8db066e45391a3a1c3c4f753e7c24488d632802c1f8d78511a669cd0",
+    "config.score5-diagnostic.R": "6ea5872bb9424df910dc6c4c7d5eb76132136d1666e6acfb604b5fa0cff11e82",
+    "config.score5-full.R": "07496b104ae7f42b03ffd8ecb32dec4077d218d16053dcf2991c63ebc07c54b4",
+    "config.score6-diagnostic.R": "ebcea8ecb83b0fd2424a2234ae0d0385cf030fe7d02bb80b0b962d67299089fb",
+    "config.score6-full.R": "011efbe00704c607c1e95256c14131ae26b59db605709e4aa596938a573f8c20",
+    "config.python.json": "0cf161977d782e0c058b7d436133dc3dcf83f98fc424cf2b8e4cbca4bd3c603c",
+    "config.score5-diagnostic.json": "6116fc9460f36e3b4d3ba9828091b22244f6524f141219213283ec9782695b74",
+    "config.score5-full.json": "811d82274087d4fe60ca721facbaf3d09338b24938b341ca0080ccf5a9b4d309",
+    "config.score6-diagnostic.json": "4e28271f5ecf4a268a2ad32232c89ab2e199d303a670ec1e7a22eeaa85644601",
+    "config.score6-full.json": "97f19c13624a824175550b48786b7275b25bdb2e6d6f3c17bc2ec08c541f5737",
+    "requirements.txt": "1054d612cda5b50ed69d21ee1b30562dfa336c17c02677bed5e99e2924d808a3"
+  },
+  "status": "passed"
+}

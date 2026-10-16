@@ -1,0 +1,63 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+short: sumstat with 10000 random gene sets
+sumstat: completed 50/372 distinct pathway sizes
+sumstat: completed 100/372 distinct pathway sizes
+sumstat: completed 150/372 distinct pathway sizes
+sumstat: completed 200/372 distinct pathway sizes
+sumstat: completed 250/372 distinct pathway sizes
+sumstat: completed 300/372 distinct pathway sizes
+sumstat: completed 350/372 distinct pathway sizes
+sumstat: completed 372/372 distinct pathway sizes
+short: gsea with 10000 random gene sets
+gsea: completed 50/372 distinct pathway sizes
+gsea: completed 100/372 distinct pathway sizes
+gsea: completed 150/372 distinct pathway sizes
+gsea: completed 200/372 distinct pathway sizes
+gsea: completed 250/372 distinct pathway sizes
+gsea: completed 300/372 distinct pathway sizes
+gsea: completed 350/372 distinct pathway sizes
+gsea: completed 372/372 distinct pathway sizes
+short: maxmean with 10000 random gene sets
+maxmean: completed 50/372 distinct pathway sizes
+maxmean: completed 100/372 distinct pathway sizes
+maxmean: completed 150/372 distinct pathway sizes
+maxmean: completed 200/372 distinct pathway sizes
+maxmean: completed 250/372 distinct pathway sizes
+maxmean: completed 300/372 distinct pathway sizes
+maxmean: completed 350/372 distinct pathway sizes
+maxmean: completed 372/372 distinct pathway sizes
+middle: sumstat with 10000 random gene sets
+sumstat: completed 50/383 distinct pathway sizes
+sumstat: completed 100/383 distinct pathway sizes
+sumstat: completed 150/383 distinct pathway sizes
+sumstat: completed 200/383 distinct pathway sizes
+sumstat: completed 250/383 distinct pathway sizes
+sumstat: completed 300/383 distinct pathway sizes
+sumstat: completed 350/383 distinct pathway sizes
+sumstat: completed 383/383 distinct pathway sizes
+middle: gsea with 10000 random gene sets
+gsea: completed 50/383 distinct pathway sizes
+gsea: completed 100/383 distinct pathway sizes
+gsea: completed 150/383 distinct pathway sizes
+gsea: completed 200/383 distinct pathway sizes
+gsea: completed 250/383 distinct pathway sizes
+gsea: completed 300/383 distinct pathway sizes
+gsea: completed 350/383 distinct pathway sizes
+gsea: completed 383/383 distinct pathway sizes
+middle: maxmean with 10000 random gene sets
+maxmean: completed 50/383 distinct pathway sizes
+maxmean: completed 100/383 distinct pathway sizes
+maxmean: completed 150/383 distinct pathway sizes
+maxmean: completed 200/383 distinct pathway sizes
+maxmean: completed 250/383 distinct pathway sizes
+maxmean: completed 300/383 distinct pathway sizes
+maxmean: completed 350/383 distinct pathway sizes
+maxmean: completed 383/383 distinct pathway sizes
+Warning messages:
+1: MaxMean is experimental; no paper-reproduction claim 
+2: MaxMean is experimental; no paper-reproduction claim 
+Outputs: D:/Bioinformatics project/soybean-cold-tolerance/results/r_score5_full

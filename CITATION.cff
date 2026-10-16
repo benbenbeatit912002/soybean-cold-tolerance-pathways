@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "Please cite the research article associated with these analysis materials."
+type: software
+title: "Soybean cold tolerance pathways"
+repository-code: "https://github.com/benbenbeatit912002/soybean-cold-tolerance-pathways"
+authors:
+  - family-names: Liu
+    given-names: Hao-Yu
+  - family-names: Kao
+    given-names: Pei-Hsiu
+  - family-names: Baiya
+    given-names: Supaporn
+  - family-names: Kao
+    given-names: Chung-Feng
+preferred-citation:
+  type: article
+  title: "A multi-layered systems biology framework reveals dual-phased regulators and hormonal crosstalk underlying soybean cold tolerance"
+  authors:
+    - family-names: Liu
+      given-names: Hao-Yu
+    - family-names: Kao
+      given-names: Pei-Hsiu
+    - family-names: Baiya
+      given-names: Supaporn
+    - family-names: Kao
+      given-names: Chung-Feng
+  journal: Plant Cell Reports
+  volume: 44
+  start: 263
+  year: 2025
+  doi: 10.1007/s00299-025-03643-2

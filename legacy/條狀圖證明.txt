@@ -1,0 +1,67 @@
+
+install.packages('dplyr')
+library(dplyr)
+install.packages('ggplot2')
+library(ggplot2)
+#丟入短、中、短中之分數 長條圖
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/network/PPI/分數比較/0224版本/處理後格式R'
+datfile = paste(datdir, 'short_score.txt', sep='/')
+short_cluster_score = read.table(datfile,header = T,sep='\t')
+datfile = paste(datdir, 'mid_score.txt', sep='/')
+middle_cluster_score = read.table(datfile,header = T,sep='\t')
+datfile = paste(datdir, 'short_mid_score.txt', sep='/')
+short_mid_cluster_score = read.table(datfile,header = T,sep='\t')
+
+
+
+
+# Convert 'Type' to a factor with levels in the desired order
+short_cluster_score$Type <- factor(short_cluster_score$Type, 
+                                   levels = c("Key CTgenes", "CTgenes", "Intermediate genes", "The remaining genes"))
+#dodge可以分開
+ggplot(short_cluster_score, aes(x = period, y = score , fill = Type)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(x = "Cold Period", y = "Mean Score (-loge p)", title = "Comparative Analysis of Key Genes in Short Networks") +
+  theme_minimal()+
+  theme(panel.background = element_rect(fill="#D3D3D3"))+
+  theme(plot.title = element_text(hjust = 0.5))+
+  geom_errorbar(aes(y = score, ymin = pmax(score - sd, 0), ymax = score+sd,width = 0.3), position = position_dodge(width = 0.9))+
+  scale_fill_manual(values = c("Key CTgenes" = "#1f77b4", "CTgenes" = "#ff7f0e", "Intermediate genes" = "#2ca02c", "The remaining genes" = "#d62728"))+
+  geom_segment(aes(x = 0.55, xend = 1.40, y = 5.3, yend = 5.3), color = "#FFD700", linetype = "dashed", size = 1)+ # 添加在“1hr”上的线
+  geom_segment(aes(x = 0.85, xend = 1.40, y = 1.25, yend = 1.25), color = "#800080", linetype = "dashed", size = 1)+
+  geom_segment(aes(x = 1.55, xend = 2.40, y = 12.9, yend = 12.9), color = "#FFD700", linetype = "dashed", size = 1)+
+  geom_segment(aes(x = 1.8, xend = 2.40, y = 11.98, yend = 11.98), color = "#800080", linetype = "dashed", size = 1)
+
+
+
+#中期
+middle_cluster_score$Type <- factor(middle_cluster_score$Type, 
+                                    levels = c("Key CTgenes", "CTgenes", "Intermediate genes", "The remaining genes"))
+
+ggplot(middle_cluster_score, aes(x = period, y = score , fill = Type)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(x = "Cold Period", y = "Mean Score (-loge p)", title = "Comparative Analysis of Key Genes in Short Networks") +
+  theme_minimal()+
+  theme(plot.title = element_text(hjust = 0.5))+
+  geom_errorbar(aes(y = score, ymin = pmax(score - sd, 0), ymax = score+sd,width = 0.3), position = position_dodge(width = 0.9))+
+  scale_fill_manual(values = c("Key CTgenes" = "#1f77b4", "CTgenes" = "#ff7f0e", "Intermediate genes" = "#2ca02c", "The remaining genes" = "#d62728"))+
+  geom_segment(aes(x = 0.55, xend = 1.40, y = 5.7, yend = 5.7), color = "#FFD700", linetype = "dashed", size = 1)+ # 添加在“1hr”上的线
+  geom_segment(aes(x = 0.85, xend = 1.40, y = 1.25, yend = 1.25), color = "#800080", linetype = "dashed", size = 1)+
+  geom_segment(aes(x = 1.55, xend = 2.40, y = 13, yend = 13), color = "#FFD700", linetype = "dashed", size = 1)+
+  geom_segment(aes(x = 1.8, xend = 2.40, y = 11.87, yend = 11.87), color = "#800080", linetype = "dashed", size = 1)
+
+#短中合併
+short_mid_cluster_score$Type <- factor(short_mid_cluster_score$Type, 
+                                       levels = c("Key CTgenes", "CTgenes", "Intermediate genes", "The remaining genes"))
+#dodge可以分開
+ggplot(short_mid_cluster_score, aes(x = period, y = score , fill = Type)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(x = "Cold Period", y = "Mean Score (-loge p)", title = "Comparative Analysis of Key Genes in Short Networks") +
+  theme_minimal()+
+  theme(plot.title = element_text(hjust = 0.5))+
+  geom_errorbar(aes(y = score, ymin = pmax(score - sd, 0), ymax = score+sd,width = 0.3), position = position_dodge(width = 0.9))+
+  scale_fill_manual(values = c("Key CTgenes" = "#1f77b4", "CTgenes" = "#ff7f0e", "Intermediate genes" = "#2ca02c", "The remaining genes" = "#d62728"))+
+  geom_segment(aes(x = 0.55, xend = 1.40, y = 12.95, yend = 12.95), color = "#FFD700", linetype = "dashed", size = 1)+ # 添加在“1hr”上的线
+  geom_segment(aes(x = 0.85, xend = 1.40, y = 1.35, yend = 1.35), color = "#800080", linetype = "dashed", size = 1)+
+  geom_segment(aes(x = 1.55, xend = 2.40, y = 12.6, yend = 12.6), color = "#FFD700", linetype = "dashed", size = 1)+
+  geom_segment(aes(x = 1.8, xend = 2.40, y = 11.92, yend = 11.92), color = "#800080", linetype = "dashed", size = 1)

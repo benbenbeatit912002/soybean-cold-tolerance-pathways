@@ -1,0 +1,150 @@
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據'
+datfile=paste(datdir,'GO_terms_4899.txt',sep='/')
+dat=read.table(datfile,header = T,sep='\t') ;dat[1:10 , 1: 10] ;dim(dat)
+
+
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/外部基因校正'
+datfile1 = paste(datdir,'Yamasaki_Go校正後1213_G_log10.txt',sep='/')
+all_genes_score = read.table(datfile1,header = T,sep='\t')
+
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/CT_genes'
+datfile1 = paste(datdir,'short_CT_G_score.txt',sep='/')
+CTgenes_short = read.table(datfile1,header = F,sep='\t')
+CTgenes_short=CTgenes_short[,1]
+datfile1 = paste(datdir,'middle_CT_G_score.txt',sep='/')
+CTgenes_middle = read.table(datfile1,header = F,sep='\t')
+CTgenes_middle=CTgenes_middle[,1]
+
+#______________________________________________________________________________將分數匯入
+#loc=which(all_genes_short[,1] %in% gene_p_len[,1])
+#all_genes_short[loc,]
+#nrow(all_genes_short)
+
+#________________________________________________________________________________step1
+
+length(dat)
+dat_3=dat[,3]
+dat_3=as.numeric(dat_3)
+address_data=which(dat_3>4&dat_3<1500);address_data 
+fit_data =dat[address_data,1:7857]; fit_data[1:10 , 1:10] 
+fit_data[,3]
+
+#________________________________________________________________________________step2
+
+
+# 處理CTgenes_short
+k1=c()
+for (i in 1:nrow(fit_data)) {
+  cat('now is handling',i,'-th pw','\n')
+  ifgo_term_haveshort_ctgene= which(as.character(as.matrix(fit_data[i,4:7857])) %in% as.character(as.matrix(CTgenes_short[,1]))) ##!!!
+  k1[i]=length(ifgo_term_haveshort_ctgene) #k[i]存放了ct gene在每個pathway中的的數量
+}
+intersection_fit_data = which(k1>0) ;length(intersection_fit_data)
+answer = fit_data[intersection_fit_data,1:7857]    #共ow
+
+
+#  處理CTgenes_middle
+k2=c()
+for (i in 1:nrow(fit_data)) {
+  cat('now is handling',i,'-th pw','\n')
+  ifgo_term_haveshort_ctgene2= which(as.character(as.matrix(fit_data[i,4:7857])) %in% as.character(as.matrix(CTgenes_middle[,1])))
+  k2[i]=length(ifgo_term_haveshort_ctgene2) #k[i]存放了ct gene在每個pathway中的的數量
+}
+intersection_fit_data2 = which(k2>0) ;length(intersection_fit_data2)
+answer2 = fit_data[intersection_fit_data2,1:7857]    #共row
+
+
+
+#________________________________________________________________________________step3 超幾何分布
+#成功整合出來之data hypergeometricexperiment
+#all_genes_score[,1]
+#L=length(unique(setdiff(as.character(as.matrix(answer[,3:ncol(answer)])) , '')))
+# 處理CTgenes_short
+L=length(unique(setdiff(as.character(as.matrix(all_genes_score[,1])) , '')))  #帶有ctgene short之pathway的gene總數 扣掉空集合與重複 #28245個
+M=length(as.character(as.matrix(CTgenes_short)))   #CTgenes_short之總數
+
+
+
+probability = c()
+for (i in 1:nrow(answer)) {
+  cat('now is handling', i, '-th pw', '\n')
+    s=as.numeric(answer[i,3])  #answer中每個pathway的gene數量
+     x=length(intersect(as.character(as.matrix(answer[i,4:ncol(answer)])),as.character(as.matrix(CTgenes_short))))
+     probability[i] = 1-phyper(x-1, s, L-s, M)
+     
+}
+datdir1='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/篩選後'
+outfile = paste(datdir1, '篩選後大豆ct short0109.txt', sep='/')
+
+out1=data.frame(answer[1:100, 1])
+out2=data.frame(answer[1:100, 2])
+out3=data.frame(answer[1:100, 3])
+out4=data.frame(probability)
+out5=data.frame(k1[intersection_fit_data])
+out6=p.adjust(probability, method = 'BH')
+out7=cbind(out1,out2,out3,out4,out5,out6)
+write.table(out7, outfile,row.names = F,col.names= F,sep='\t')
+
+nrow(answer)
+
+#all_genes_score[,1]
+#L=length(unique(setdiff(as.character(as.matrix(answer2[,3:7857])) , '')))
+# 處理CTgenes_middle
+ 
+
+
+nrow(answer2)
+
+
+
+#要計算p-value  減去右尾之機率 
+#L = 帶有ctgene short之pathway的gene總數 扣掉空集合與重複    N
+#M = CTgenes_short之總數  n
+#X= GENE個數中剛好為CT gene      #共有X個為質量合格之機率 k
+#s= GO TERM所含的基因         #質量合格之樣本    m
+#合格樣本*不合格樣本的抽取 /全體抽取M個樣本
+
+#透過迴圈將處理完之answer逐一超幾何分析  S=answer[i,3] 
+#x應該是指每個pathway中含的ct gene數量
+#phyper(至多抽到?个帶有之機率, 带有“中奖”字样乒乓球的数目, 没有带有“中奖”字样乒乓球的数目, 抽取的数目)
+
+
+
+dim(answer4)
+
+
+
+
+
+
+
+
+
+
+
+#以下皆為多餘之筆記
+____________________________________________________________________________________________________________________________________________________
+
+
+#k=c()
+#for (i in 1:nrow(fit_data)) {
+#  cat('now is handling',i,'-th pw','\n')
+#  ifgo_term_haveshort_ctgene= which(fit_data[i,4:( fit_data[i,3])]  %in%  CTgenes_short)
+#  k[i]=length(ifgo_term_haveshort_ctgene)
+#}
+#intersection_fit_data = k
+
+
+#回可跑的
+#k = c()
+#for (i in 1:nrow(fit_data)) {
+#  cat('now is handling', i, '-th pw', '\n')
+#  ifgo_term_haveshort_ctgene <- fit_data[i, 4:7857] %in% CTgenes_short
+#  k[i] <- sum(ifgo_term_haveshort_ctgene)
+#}
+#intersection_fit_data <- fit_data[ifgo_term_haveshort_ctgene, 1:7857]
+
+#在这个上下文中，lower.tail=T表示计算累积概率。也就是说，计算小于等于给定值的概率。这是phyper函数的默认行为。
+#對阿，可是phyper()裡面我指定要左尾，所以所以才用1-phyper() 轉成右尾
+
+#至於為什麼要只頂左尾，因為我記得普遍來說超幾何路徑分析得到的機率值右尾普遍很小，所以一開始直接使用預設的右尾，R軟體好像只記錄到0.00001  更小的就直接顯示0，所可是左尾的話就會顯示到0.999999991之後而不會近似成1，好像是之前跟高老師討論，怕會遇到這個問題，所以才使用phyper()右尾，再用1去減掉

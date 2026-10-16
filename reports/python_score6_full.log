@@ -1,0 +1,55 @@
+short: sumstat, 10000 random sets per distinct size
+sumstat: completed 50/372 distinct pathway sizes
+sumstat: completed 100/372 distinct pathway sizes
+sumstat: completed 150/372 distinct pathway sizes
+sumstat: completed 200/372 distinct pathway sizes
+sumstat: completed 250/372 distinct pathway sizes
+sumstat: completed 300/372 distinct pathway sizes
+sumstat: completed 350/372 distinct pathway sizes
+sumstat: completed 372/372 distinct pathway sizes
+short: gsea, 10000 random sets per distinct size
+gsea: completed 50/372 distinct pathway sizes
+gsea: completed 100/372 distinct pathway sizes
+gsea: completed 150/372 distinct pathway sizes
+gsea: completed 200/372 distinct pathway sizes
+gsea: completed 250/372 distinct pathway sizes
+gsea: completed 300/372 distinct pathway sizes
+gsea: completed 350/372 distinct pathway sizes
+gsea: completed 372/372 distinct pathway sizes
+short: maxmean, 10000 random sets per distinct size (experimental)
+maxmean: completed 50/372 distinct pathway sizes
+maxmean: completed 100/372 distinct pathway sizes
+maxmean: completed 150/372 distinct pathway sizes
+maxmean: completed 200/372 distinct pathway sizes
+maxmean: completed 250/372 distinct pathway sizes
+maxmean: completed 300/372 distinct pathway sizes
+maxmean: completed 350/372 distinct pathway sizes
+maxmean: completed 372/372 distinct pathway sizes
+middle: sumstat, 10000 random sets per distinct size
+sumstat: completed 50/383 distinct pathway sizes
+sumstat: completed 100/383 distinct pathway sizes
+sumstat: completed 150/383 distinct pathway sizes
+sumstat: completed 200/383 distinct pathway sizes
+sumstat: completed 250/383 distinct pathway sizes
+sumstat: completed 300/383 distinct pathway sizes
+sumstat: completed 350/383 distinct pathway sizes
+sumstat: completed 383/383 distinct pathway sizes
+middle: gsea, 10000 random sets per distinct size
+gsea: completed 50/383 distinct pathway sizes
+gsea: completed 100/383 distinct pathway sizes
+gsea: completed 150/383 distinct pathway sizes
+gsea: completed 200/383 distinct pathway sizes
+gsea: completed 250/383 distinct pathway sizes
+gsea: completed 300/383 distinct pathway sizes
+gsea: completed 350/383 distinct pathway sizes
+gsea: completed 383/383 distinct pathway sizes
+middle: maxmean, 10000 random sets per distinct size (experimental)
+maxmean: completed 50/383 distinct pathway sizes
+maxmean: completed 100/383 distinct pathway sizes
+maxmean: completed 150/383 distinct pathway sizes
+maxmean: completed 200/383 distinct pathway sizes
+maxmean: completed 250/383 distinct pathway sizes
+maxmean: completed 300/383 distinct pathway sizes
+maxmean: completed 350/383 distinct pathway sizes
+maxmean: completed 383/383 distinct pathway sizes
+Outputs: D:\Bioinformatics project\soybean-cold-tolerance\results\python_score6_full

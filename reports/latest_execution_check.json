@@ -1,0 +1,138 @@
+{
+  "archive_sha256": "aad818a9c5ad238a535ca8030aa03eb78a3668300ee03560a522e701b6fd00b2",
+  "extracted_root": "D:\\Bioinformatics project\\package-run-check-pbfuj0w5\\soybean-cold-tolerance",
+  "started_utc": "2026-10-15T10:05:18.931447+00:00",
+  "preexisting_results": false,
+  "steps": [
+    {
+      "step": "core_checks",
+      "command": [
+        "C:\\Program Files\\R\\R-4.5.1\\bin\\Rscript.exe",
+        "--vanilla",
+        "tests/test_core.R"
+      ],
+      "exit_code": 0,
+      "seconds": 0.29,
+      "log": "D:\\Bioinformatics project\\package-run-check-pbfuj0w5\\logs\\core_checks.log"
+    },
+    {
+      "step": "integration_checks",
+      "command": [
+        "C:\\Program Files\\R\\R-4.5.1\\bin\\Rscript.exe",
+        "--vanilla",
+        "tests/test_integration.R"
+      ],
+      "exit_code": 0,
+      "seconds": 0.73,
+      "log": "D:\\Bioinformatics project\\package-run-check-pbfuj0w5\\logs\\integration_checks.log"
+    },
+    {
+      "step": "import_checks",
+      "command": [
+        "C:\\Users\\ben\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_*.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.18,
+      "log": "D:\\Bioinformatics project\\package-run-check-pbfuj0w5\\logs\\import_checks.log"
+    },
+    {
+      "step": "legacy_parse_audit",
+      "command": [
+        "C:\\Program Files\\R\\R-4.5.1\\bin\\Rscript.exe",
+        "--vanilla",
+        "scripts/check_legacy.R"
+      ],
+      "exit_code": 0,
+      "seconds": 0.26,
+      "log": "D:\\Bioinformatics project\\package-run-check-pbfuj0w5\\logs\\legacy_parse_audit.log"
+    },
+    {
+      "step": "hypergeometric_both_phases",
+      "command": [
+        "C:\\Program Files\\R\\R-4.5.1\\bin\\Rscript.exe",
+        "--vanilla",
+        "scripts/run_analysis.R"
+      ],
+      "exit_code": 0,
+      "seconds": 14.35,
+      "log": "D:\\Bioinformatics project\\package-run-check-pbfuj0w5\\logs\\hypergeometric_both_phases.log"
+    },
+    {
+      "step": "score5_both_phases",
+      "command": [
+        "C:\\Program Files\\R\\R-4.5.1\\bin\\Rscript.exe",
+        "--vanilla",
+        "scripts/run_analysis.R",
+        "config.score5-diagnostic.R"
+      ],
+      "exit_code": 0,
+      "seconds": 46.86,
+      "log": "D:\\Bioinformatics project\\package-run-check-pbfuj0w5\\logs\\score5_both_phases.log"
+    },
+    {
+      "step": "score6_both_phases",
+      "command": [
+        "C:\\Program Files\\R\\R-4.5.1\\bin\\Rscript.exe",
+        "--vanilla",
+        "scripts/run_analysis.R",
+        "config.score6-diagnostic.R"
+      ],
+      "exit_code": 0,
+      "seconds": 46.1,
+      "log": "D:\\Bioinformatics project\\package-run-check-pbfuj0w5\\logs\\score6_both_phases.log"
+    },
+    {
+      "step": "plot_generation",
+      "command": [
+        "C:\\Program Files\\R\\R-4.5.1\\bin\\Rscript.exe",
+        "--vanilla",
+        "scripts/plot_results.R"
+      ],
+      "exit_code": 0,
+      "seconds": 0.3,
+      "log": "D:\\Bioinformatics project\\package-run-check-pbfuj0w5\\logs\\plot_generation.log"
+    },
+    {
+      "step": "output_validation",
+      "command": [
+        "C:\\Users\\ben\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "scripts/verify_outputs.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.16,
+      "log": "D:\\Bioinformatics project\\package-run-check-pbfuj0w5\\logs\\output_validation.log"
+    }
+  ],
+  "finished_utc": "2026-10-15T10:06:07.748705+00:00",
+  "passed": true,
+  "identical_regenerated_tsv_files": 33,
+  "generated_png_files": [
+    {
+      "path": "results/external_membership/middle_hypergeometric.png",
+      "width": 1500,
+      "height": 950
+    },
+    {
+      "path": "results/external_membership/short_hypergeometric.png",
+      "width": 1500,
+      "height": 950
+    },
+    {
+      "path": "tests/tmp/correction/middle_correction_diagnostics.png",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "path": "tests/tmp/correction/short_correction_diagnostics.png",
+      "width": 1500,
+      "height": 1000
+    }
+  ]
+}

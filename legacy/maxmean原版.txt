@@ -1,0 +1,98 @@
+#maxmean
+#原本抽取的分數 標準差平均 與重新抽取的標準差平均 組成新分數 再跟原本做比較
+#初始SCORE為加總之平均  2.7標準差那邊有問題
+#每個pw分數
+
+
+########################short###############################
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/外部基因校正'
+datfile1 = paste(datdir,'Yamasaki_Go校正後1213_G_log10.txt',sep='/')
+all_genes_score = read.table(datfile1,header = T,sep='\t')
+
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/經過篩選的路徑'
+datfile=paste(datdir,'answer1.txt',sep='/')
+answer=read.table(datfile,header = F,sep='\t') 
+
+
+sample_time=10000
+maxmean_short_p=numeric(nrow(answer))  
+number_sample =numeric(nrow(answer))
+result=c() #每個pathway的分數
+  for (i in 1:nrow(answer)){
+    cat('now is handling',i,'-th pwi','\n')
+    score= which(all_genes_score[,1] %in% answer[i,4:ncol(answer)])
+    number_sample[i]=length(score)
+    result[i]=(sum(all_genes_score[score,2])-mean(all_genes_score[score,2]))/sd(all_genes_score[score,2])
+    
+    if (is.na(result[i])) {  
+      result[i] = 0
+    }
+    
+    for (j in 1:sample_time) {
+      test = sample(all_genes_score[,2], number_sample[i], replace = FALSE)  #是抽all gene還是 short而已?
+      maxmean_test = (sum(test)-mean(test))/sd(test)
+      # 檢查 maxmean_test 是否為NA，如果是NA，則將其設為0
+      if (is.na(maxmean_test)) {  
+        maxmean_test = 0
+      }
+      if (maxmean_test > result[i]) {
+        maxmean_short_p[i] =maxmean_short_p[i]+(1/sample_time)
+      }
+    }
+  }
+
+datdir1='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/篩選後/maxmean'
+outfile = paste(datdir1, 'maxmean_short_p0109.txt', sep='/')
+out1=data.frame(answer[1:nrow(answer), 1])
+out2=data.frame(answer[1:nrow(answer), 2])
+out3=data.frame(answer[1:nrow(answer), 3])
+out4=data.frame(k1[intersection_fit_data])
+out5=data.frame(maxmean_short_p)
+out6=p.adjust(maxmean_short_p, method = 'BH')
+out7=cbind(out1,out2,out3,out4,out5,out6)
+write.table(out7, outfile,row.names = F,col.names= F,sep='\t')
+
+########################middle###############################
+
+
+datdir='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/經過篩選的路徑'
+datfile=paste(datdir,'answer2.txt',sep='/')
+answer2=read.table(datfile,header = F,sep='\t') 
+sample_time=10000
+maxmean_middle_p=numeric(nrow(answer2)) 
+number_sample =numeric(nrow(answer2))
+result2=c() #每個pathway的分數
+number_sample2=c()
+  for (i in 1:nrow(answer2)){   #
+    cat('now is handling',i,'-th pwi','\n')
+    score= which(all_genes_score[,1] %in% answer2[i,4:ncol(answer2)])
+    number_sample2[i]=length(score)
+    result2[i]=(sum(all_genes_score[score,3])-mean(all_genes_score[score,3]))/sd(all_genes_score[score,3])
+    if (is.na(result2[i])) {  
+      result2[i] = 0
+    }
+    
+    for (j in 1:sample_time) {
+      test = sample(all_genes_score[,3], number_sample2[i], replace = FALSE)  #是抽all gene還是 short而已?
+      maxmean_test = (sum(test)-mean(test))/sd(test)
+      # 檢查 maxmean_test 是否為NA，如果是NA，則將其設為0
+      if (is.na(maxmean_test)) {  
+        maxmean_test = 0
+      }
+      if (maxmean_test > result2[i]) {
+        maxmean_middle_p[i] =maxmean_middle_p[i]+(1/sample_time)
+      }
+    }
+  }
+
+
+datdir1='C:/Users/chris/Desktop/程式語言/研究法/大豆基因/篩選後/maxmean'
+outfile = paste(datdir1, 'maxmean_middle_p0109.txt', sep='/')
+out1=data.frame(answer2[1:nrow(answer2), 1])
+out2=data.frame(answer2[1:nrow(answer2), 2])
+out3=data.frame(answer2[1:nrow(answer2), 3])
+out4=data.frame(k2[intersection_fit_data2])
+out5=data.frame(maxmean_middle_p)
+out6=p.adjust(maxmean_middle_p, method = 'BH')
+out7=cbind(out1,out2,out3,out4,out5,out6)
+write.table(out7, outfile,row.names = F,col.names= T,sep='\t')

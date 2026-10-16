@@ -1,0 +1,18 @@
+"file"	"parses"	"diagnostic"
+"#外部資料匯入與校正繪圖.txt"	TRUE	""
+"crosstalk 20240916.R"	TRUE	""
+"gsea_菲斯福氣.txt"	TRUE	""
+"gsea全部.txt"	TRUE	""
+"maxmean0127版本.txt"	TRUE	""
+"maxmean原版.txt"	TRUE	""
+"sumstat.txt"	TRUE	""
+"校正前後的繪圖.txt"	TRUE	""
+"條狀圖證明.txt"	TRUE	""
+"比較分數與無母分析程式.txt"	FALSE	"legacy/比較分數與無母分析程式.txt:132:78: unexpected ','
+131: result4 = run_wilcox_test(all_ct_middle_score[,2], intermediate_middle[,2])
+132: result5 = run_wilcox_test(all_ct_middle_score[,2], remaining_gene_middle[,2]),
+                                                                                  ^"
+"超幾何.txt"	FALSE	"legacy/超幾何.txt:126:2: unexpected input
+125: #以下皆為多餘之筆記
+126: __
+      ^"

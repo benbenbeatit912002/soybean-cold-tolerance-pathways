@@ -1,0 +1,140 @@
+{
+  "legacy_raw": {
+    "duplicate_ids": 8,
+    "conflicting_duplicate_ids": 8
+  },
+  "legacy_corrected": {
+    "duplicate_ids": 8,
+    "conflicting_duplicate_ids": 8
+  },
+  "short": {
+    "logged_vs_minus_log10_corrected": {
+      "unique_genes_compared": 42559,
+      "absolute_error_above_1e_minus_6": 726,
+      "maximum_absolute_error": 0.007997600846741976
+    },
+    "inferred_lambda_from_saved_values": {
+      "n": 39941,
+      "median": 0.010000000008737133,
+      "p05": 0.009999996759000937,
+      "p95": 0.010000003273302291
+    },
+    "external_duplicate_ids": 91,
+    "external_conflicting_duplicate_ids": 91,
+    "external_duplicate_examples": {
+      "Glyma.01G082700": [
+        [
+          1674.0,
+          1842.0,
+          1740.0,
+          1.003244894,
+          1.280864929
+        ],
+        [
+          29.0,
+          22.0,
+          29.0,
+          0.784313725,
+          0.70704288
+        ]
+      ],
+      "Glyma.01G132000": [
+        [
+          3307.0,
+          5434.0,
+          5855.0,
+          1.090311496,
+          1.729829181
+        ],
+        [
+          208.0,
+          390.0,
+          334.0,
+          1.204134367,
+          2.110716055
+        ]
+      ],
+      "Glyma.02G010300": [
+        [
+          2291.0,
+          1496.0,
+          1752.0,
+          0.874210859,
+          0.840935246
+        ],
+        [
+          91.0,
+          51.0,
+          66.0,
+          1.136612022,
+          1.919582941
+        ]
+      ]
+    }
+  },
+  "middle": {
+    "logged_vs_minus_log10_corrected": {
+      "unique_genes_compared": 42559,
+      "absolute_error_above_1e_minus_6": 13807,
+      "maximum_absolute_error": 0.4897219312435581
+    },
+    "inferred_lambda_from_saved_values": {
+      "n": 41085,
+      "median": 0.46999999999935466,
+      "p05": 0.4694900146048779,
+      "p95": 0.47052468010567094
+    },
+    "external_duplicate_ids": 96,
+    "external_conflicting_duplicate_ids": 96,
+    "external_duplicate_examples": {
+      "Glyma.01G082700": [
+        [
+          3180.0,
+          2907.0,
+          2696.0,
+          1.676464974,
+          6.48590044
+        ],
+        [
+          69.0,
+          58.0,
+          60.0,
+          1.833333333,
+          6.959478683
+        ]
+      ],
+      "Glyma.01G132000": [
+        [
+          795.0,
+          1460.0,
+          1425.0,
+          0.274893553,
+          0.812552243
+        ],
+        [
+          64.0,
+          161.0,
+          126.0,
+          0.453488372,
+          1.453819208
+        ]
+      ],
+      "Glyma.02G010300": [
+        [
+          178.0,
+          177.0,
+          137.0,
+          0.077651515,
+          0.298044073
+        ],
+        [
+          5.0,
+          5.0,
+          1.0,
+          0.06010929,
+          0.266302047
+        ]
+      ]
+    }
+  }
+}

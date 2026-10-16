@@ -1,0 +1,13 @@
+{
+  "input_dir": "data/input",
+  "phases": ["short", "middle"],
+  "min_size": 6,
+  "max_size": 1500,
+  "permutations": 10000,
+  "seed": 20261015,
+  "score_column": null,
+  "score_kind": null,
+  "duplicate_policy": "error",
+  "methods": ["sumstat", "gsea"],
+  "output_dir": "results/python_external_membership"
+}
