@@ -1,0 +1,4382 @@
+{
+  "scope": "Original files under 研究法 only; no generated repository inputs/results were used.",
+  "interpretation": "A matching physical line count does not prove the origin of the paper's value.",
+  "text_scan": {
+    "files_scanned": 496,
+    "exact_42576_matches": [
+      {
+        "path": "研究法\\大豆基因\\gg plot\\火山圖\\data\\Dataset.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\gg plot\\火山圖\\data\\gene_fc.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\all_ct_short_score.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\all_middle_score.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\all_short_score.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\gene_p_len.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\glen_p_right_skew_kao.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\Yamasaki_Go校正後1213.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\Yamasaki_Go校正後1213_G.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\Yamasaki_Go校正後1213_G_log10.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\Yamasaki_Go校正後1213_G_loge.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\舊版本\\Yamasaki_Go校正後1209.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\短中處理\\0110重新篩選\\cytoscape後會用到的分數\\all_genes_middle_outside_log_noinf.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\短中處理\\0110重新篩選\\cytoscape後會用到的分數\\all_genes_short_outside_log_noinf.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\短中處理\\0110重新篩選\\Yamasaki_Go校正後1213_G_loge.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      }
+    ],
+    "all_file_counts": [
+      {
+        "path": "研究法\\Glyma_genes_Correspondence_3versions.txt",
+        "physical_lines": 7660,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\GSEA主程式.txt",
+        "physical_lines": 39,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\gsea伺服器.txt",
+        "physical_lines": 153,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\gsea手寫.txt",
+        "physical_lines": 57,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\maxmean的伺服器.txt",
+        "physical_lines": 51,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\前期pathway篩選的伺服器.txt",
+        "physical_lines": 86,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\城市.txt",
+        "physical_lines": 52,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\城市輩分.txt",
+        "physical_lines": 181,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\外部資料處理.txt",
+        "physical_lines": 108,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\#gsea.txt",
+        "physical_lines": 25,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\CTgenes 含分數\\LONG.txt",
+        "physical_lines": 45,
+        "first_column_gene_records": 45,
+        "literal_unique_gene_ids": 45,
+        "case_normalized_unique_gene_ids": 45
+      },
+      {
+        "path": "研究法\\大豆基因\\CTgenes 含分數\\MIDDLE.txt",
+        "physical_lines": 143,
+        "first_column_gene_records": 143,
+        "literal_unique_gene_ids": 143,
+        "case_normalized_unique_gene_ids": 143
+      },
+      {
+        "path": "研究法\\大豆基因\\CTgenes 含分數\\short test.txt",
+        "physical_lines": 45,
+        "first_column_gene_records": 44,
+        "literal_unique_gene_ids": 44,
+        "case_normalized_unique_gene_ids": 44
+      },
+      {
+        "path": "研究法\\大豆基因\\CTgenes 含分數\\SHORT.txt",
+        "physical_lines": 44,
+        "first_column_gene_records": 44,
+        "literal_unique_gene_ids": 44,
+        "case_normalized_unique_gene_ids": 44
+      },
+      {
+        "path": "研究法\\大豆基因\\gg plot\\桑基圖\\data\\all key genes for sankey.txt",
+        "physical_lines": 91,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\gg plot\\桑基圖\\data\\All_pathway.txt",
+        "physical_lines": 22,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\gg plot\\桑基圖\\data\\gene_pathway_data_short.txt",
+        "physical_lines": 38,
+        "first_column_gene_records": 36,
+        "literal_unique_gene_ids": 10,
+        "case_normalized_unique_gene_ids": 10
+      },
+      {
+        "path": "研究法\\大豆基因\\gg plot\\桑基圖\\data\\GO_terms_4899_G.txt",
+        "physical_lines": 4897,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\gg plot\\桑基圖\\data\\Key genes.txt",
+        "physical_lines": 10,
+        "first_column_gene_records": 10,
+        "literal_unique_gene_ids": 10,
+        "case_normalized_unique_gene_ids": 10
+      },
+      {
+        "path": "研究法\\大豆基因\\gg plot\\桑基圖\\data\\Key_Gene_Pathway_Mapping.txt",
+        "physical_lines": 89,
+        "first_column_gene_records": 88,
+        "literal_unique_gene_ids": 10,
+        "case_normalized_unique_gene_ids": 10
+      },
+      {
+        "path": "研究法\\大豆基因\\gg plot\\桑基圖\\data\\testing data for sankey.txt",
+        "physical_lines": 89,
+        "first_column_gene_records": 88,
+        "literal_unique_gene_ids": 10,
+        "case_normalized_unique_gene_ids": 10
+      },
+      {
+        "path": "研究法\\大豆基因\\gg plot\\桑基圖\\data\\中期路徑.txt",
+        "physical_lines": 11,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\gg plot\\桑基圖\\data\\短期路徑.txt",
+        "physical_lines": 13,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\gg plot\\火山圖\\data\\Ct1000_mid.txt",
+        "physical_lines": 1001,
+        "first_column_gene_records": 1000,
+        "literal_unique_gene_ids": 1000,
+        "case_normalized_unique_gene_ids": 1000
+      },
+      {
+        "path": "研究法\\大豆基因\\gg plot\\火山圖\\data\\Ct1000_short.txt",
+        "physical_lines": 1001,
+        "first_column_gene_records": 1000,
+        "literal_unique_gene_ids": 1000,
+        "case_normalized_unique_gene_ids": 1000
+      },
+      {
+        "path": "研究法\\大豆基因\\gg plot\\火山圖\\data\\Ct_gene_cs.uw_m.txt",
+        "physical_lines": 14608,
+        "first_column_gene_records": 14606,
+        "literal_unique_gene_ids": 14606,
+        "case_normalized_unique_gene_ids": 14606
+      },
+      {
+        "path": "研究法\\大豆基因\\gg plot\\火山圖\\data\\Ct_gene_cs.uw_s.txt",
+        "physical_lines": 4015,
+        "first_column_gene_records": 4014,
+        "literal_unique_gene_ids": 4014,
+        "case_normalized_unique_gene_ids": 4014
+      },
+      {
+        "path": "研究法\\大豆基因\\gg plot\\火山圖\\data\\Ct_mid.txt",
+        "physical_lines": 144,
+        "first_column_gene_records": 143,
+        "literal_unique_gene_ids": 143,
+        "case_normalized_unique_gene_ids": 143
+      },
+      {
+        "path": "研究法\\大豆基因\\gg plot\\火山圖\\data\\Ct_short.txt",
+        "physical_lines": 45,
+        "first_column_gene_records": 44,
+        "literal_unique_gene_ids": 44,
+        "case_normalized_unique_gene_ids": 44
+      },
+      {
+        "path": "研究法\\大豆基因\\gg plot\\火山圖\\data\\Dataset.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\gg plot\\火山圖\\data\\gene_fc.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\gg plot\\火山圖\\data\\耐寒資料庫0 1 24hr(轉換後)培修版.txt",
+        "physical_lines": 49778,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\gg plot\\熱點圖\\hot_plot_middle.txt",
+        "physical_lines": 12,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\gg plot\\熱點圖\\hot_plot_short.txt",
+        "physical_lines": 14,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\gg plot\\熱點圖\\中期程式.txt",
+        "physical_lines": 81,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\gg plot\\熱點圖\\短期程式.txt",
+        "physical_lines": 86,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\gg plot\\熱點圖\\舊版本\\hot_plot_middle.txt",
+        "physical_lines": 12,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\gg plot\\熱點圖\\舊版本\\hot_plot_short.txt",
+        "physical_lines": 12,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\install.packages(data.table).txt",
+        "physical_lines": 13,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\0111版本\\both.txt",
+        "physical_lines": 2,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\0111版本\\jc_point_middle.txt",
+        "physical_lines": 15,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\0111版本\\jc_point_short.txt",
+        "physical_lines": 14,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\0111版本\\middle.txt",
+        "physical_lines": 15,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\0111版本\\only_middle.txt",
+        "physical_lines": 14,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\0111版本\\only_short.txt",
+        "physical_lines": 13,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\0111版本\\short.txt",
+        "physical_lines": 13,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\0221版本\\both.txt",
+        "physical_lines": 2,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\0221版本\\jc_point_middle.txt",
+        "physical_lines": 12,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\0221版本\\jc_point_short.txt",
+        "physical_lines": 14,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\0221版本\\only_middle.txt",
+        "physical_lines": 11,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\0221版本\\only_short.txt",
+        "physical_lines": 13,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\1214版本\\both.txt",
+        "physical_lines": 2,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\1214版本\\jc_point.txt",
+        "physical_lines": 21,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\1214版本\\jc_point_middle.txt",
+        "physical_lines": 12,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\1214版本\\jc_point_short1214.txt",
+        "physical_lines": 12,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\1214版本\\middle.txt",
+        "physical_lines": 11,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\1214版本\\middle_short_pw.txt",
+        "physical_lines": 20,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\1214版本\\only_middle.txt",
+        "physical_lines": 11,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\1214版本\\only_short.txt",
+        "physical_lines": 11,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\1214版本\\short.txt",
+        "physical_lines": 11,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\程式.txt",
+        "physical_lines": 76,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\程式_網絡.txt",
+        "physical_lines": 163,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\jc_point_list.txt",
+        "physical_lines": 54,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\1029版本\\both.txt",
+        "physical_lines": 2,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\1029版本\\jc_point_middle.txt",
+        "physical_lines": 10,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\1029版本\\jc_point_short.txt",
+        "physical_lines": 11,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\1029版本\\only_middle.txt",
+        "physical_lines": 11,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\1029版本\\only_short.txt",
+        "physical_lines": 12,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\1029版本\\selected_pw.txt",
+        "physical_lines": 0,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\1029版本\\含繪圖處理.txt",
+        "physical_lines": 156,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\1029版本\\矩陣分數.txt",
+        "physical_lines": 79,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\1114版本\\both.txt",
+        "physical_lines": 2,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\1114版本\\jc_point.txt",
+        "physical_lines": 12,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\1114版本\\jc_point_middle.txt",
+        "physical_lines": 12,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\1114版本\\jc_point_short.txt",
+        "physical_lines": 10,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\1114版本\\only_middle.txt",
+        "physical_lines": 12,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\1114版本\\only_short.txt",
+        "physical_lines": 12,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\jc_point.txt",
+        "physical_lines": 15,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\only_middle.txt",
+        "physical_lines": 9,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\only_short.txt",
+        "physical_lines": 15,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\only_short.txt.txt",
+        "physical_lines": 6,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\selected_pw.txt",
+        "physical_lines": 15,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\圖\\網址 eps.txt",
+        "physical_lines": 3,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\寬鬆中 嚴謹短\\jc_point.txt",
+        "physical_lines": 28,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\寬鬆中 嚴謹短\\only_middle.txt",
+        "physical_lines": 13,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\寬鬆中 嚴謹短\\only_short.txt",
+        "physical_lines": 5,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\寬鬆中 嚴謹短\\selected_pw.txt",
+        "physical_lines": 27,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\crosstalk\\舊版\\程式.txt",
+        "physical_lines": 76,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\25路徑全基因.txt",
+        "physical_lines": 25,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\gene_list\\cluster1_in_list.txt",
+        "physical_lines": 1188,
+        "first_column_gene_records": 1188,
+        "literal_unique_gene_ids": 1188,
+        "case_normalized_unique_gene_ids": 1188
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\gene_list\\cluster2_in_list.txt",
+        "physical_lines": 6056,
+        "first_column_gene_records": 6056,
+        "literal_unique_gene_ids": 6056,
+        "case_normalized_unique_gene_ids": 6056
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\gene_list\\cluster3_in_list.txt",
+        "physical_lines": 4697,
+        "first_column_gene_records": 4697,
+        "literal_unique_gene_ids": 4697,
+        "case_normalized_unique_gene_ids": 4697
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\gene_list\\cluster4_in_list.txt",
+        "physical_lines": 1863,
+        "first_column_gene_records": 1863,
+        "literal_unique_gene_ids": 1863,
+        "case_normalized_unique_gene_ids": 1863
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\gene_list\\cluster5_in_list.txt",
+        "physical_lines": 7908,
+        "first_column_gene_records": 7908,
+        "literal_unique_gene_ids": 7908,
+        "case_normalized_unique_gene_ids": 7908
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\gene_list\\cluster6_in_list.txt",
+        "physical_lines": 2217,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\gene_list\\cluster7_in_list.txt",
+        "physical_lines": 1752,
+        "first_column_gene_records": 1752,
+        "literal_unique_gene_ids": 1752,
+        "case_normalized_unique_gene_ids": 1752
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\paralog資料集.txt",
+        "physical_lines": 15444,
+        "first_column_gene_records": 15444,
+        "literal_unique_gene_ids": 15444,
+        "case_normalized_unique_gene_ids": 15444
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\cluster1_Inter_r.txt",
+        "physical_lines": 114,
+        "first_column_gene_records": 78,
+        "literal_unique_gene_ids": 46,
+        "case_normalized_unique_gene_ids": 46
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\cluster1_Inter_r_83.txt",
+        "physical_lines": 177,
+        "first_column_gene_records": 109,
+        "literal_unique_gene_ids": 52,
+        "case_normalized_unique_gene_ids": 52
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\cluster2_Inter_r.txt",
+        "physical_lines": 234,
+        "first_column_gene_records": 187,
+        "literal_unique_gene_ids": 105,
+        "case_normalized_unique_gene_ids": 105
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\cluster3_Inter_r.txt",
+        "physical_lines": 200,
+        "first_column_gene_records": 174,
+        "literal_unique_gene_ids": 38,
+        "case_normalized_unique_gene_ids": 38
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\cluster4_Inter_r.txt",
+        "physical_lines": 177,
+        "first_column_gene_records": 149,
+        "literal_unique_gene_ids": 62,
+        "case_normalized_unique_gene_ids": 62
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\cluster5_Inter_r.txt",
+        "physical_lines": 298,
+        "first_column_gene_records": 266,
+        "literal_unique_gene_ids": 120,
+        "case_normalized_unique_gene_ids": 120
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\cluster5_Inter_r_all.txt",
+        "physical_lines": 1850,
+        "first_column_gene_records": 1562,
+        "literal_unique_gene_ids": 157,
+        "case_normalized_unique_gene_ids": 157
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0220版本\\0220\\cluster1_all.txt",
+        "physical_lines": 36,
+        "first_column_gene_records": 35,
+        "literal_unique_gene_ids": 35,
+        "case_normalized_unique_gene_ids": 35
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0220版本\\0220\\cluster1_key.txt",
+        "physical_lines": 5,
+        "first_column_gene_records": 4,
+        "literal_unique_gene_ids": 4,
+        "case_normalized_unique_gene_ids": 4
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0220版本\\0220\\cluster2_all.txt",
+        "physical_lines": 132,
+        "first_column_gene_records": 132,
+        "literal_unique_gene_ids": 132,
+        "case_normalized_unique_gene_ids": 132
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0220版本\\0220\\cluster2_key.txt",
+        "physical_lines": 5,
+        "first_column_gene_records": 5,
+        "literal_unique_gene_ids": 5,
+        "case_normalized_unique_gene_ids": 5
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0220版本\\0220\\cluster3_all.txt",
+        "physical_lines": 41,
+        "first_column_gene_records": 41,
+        "literal_unique_gene_ids": 41,
+        "case_normalized_unique_gene_ids": 41
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0220版本\\0220\\cluster3_key.txt",
+        "physical_lines": 2,
+        "first_column_gene_records": 2,
+        "literal_unique_gene_ids": 2,
+        "case_normalized_unique_gene_ids": 2
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0220版本\\0220\\cluster4_all.txt",
+        "physical_lines": 78,
+        "first_column_gene_records": 78,
+        "literal_unique_gene_ids": 78,
+        "case_normalized_unique_gene_ids": 78
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0220版本\\0220\\cluster4_key.txt",
+        "physical_lines": 6,
+        "first_column_gene_records": 6,
+        "literal_unique_gene_ids": 6,
+        "case_normalized_unique_gene_ids": 6
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0220版本\\0220\\cluster5_all.txt",
+        "physical_lines": 92,
+        "first_column_gene_records": 90,
+        "literal_unique_gene_ids": 90,
+        "case_normalized_unique_gene_ids": 90
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0220版本\\cluster1_83_all.txt",
+        "physical_lines": 39,
+        "first_column_gene_records": 37,
+        "literal_unique_gene_ids": 37,
+        "case_normalized_unique_gene_ids": 37
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0220版本\\cluster1_83_key.txt",
+        "physical_lines": 2,
+        "first_column_gene_records": 2,
+        "literal_unique_gene_ids": 2,
+        "case_normalized_unique_gene_ids": 2
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0220版本\\cluster1_all.txt",
+        "physical_lines": 36,
+        "first_column_gene_records": 35,
+        "literal_unique_gene_ids": 35,
+        "case_normalized_unique_gene_ids": 35
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0220版本\\cluster1_key.txt",
+        "physical_lines": 5,
+        "first_column_gene_records": 4,
+        "literal_unique_gene_ids": 4,
+        "case_normalized_unique_gene_ids": 4
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0220版本\\cluster2_all.txt",
+        "physical_lines": 70,
+        "first_column_gene_records": 69,
+        "literal_unique_gene_ids": 69,
+        "case_normalized_unique_gene_ids": 69
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0220版本\\cluster2_key.txt",
+        "physical_lines": 8,
+        "first_column_gene_records": 8,
+        "literal_unique_gene_ids": 8,
+        "case_normalized_unique_gene_ids": 8
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0220版本\\cluster3_all.txt",
+        "physical_lines": 27,
+        "first_column_gene_records": 27,
+        "literal_unique_gene_ids": 27,
+        "case_normalized_unique_gene_ids": 27
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0220版本\\cluster3_key.txt",
+        "physical_lines": 2,
+        "first_column_gene_records": 2,
+        "literal_unique_gene_ids": 2,
+        "case_normalized_unique_gene_ids": 2
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0220版本\\cluster4_all.txt",
+        "physical_lines": 41,
+        "first_column_gene_records": 41,
+        "literal_unique_gene_ids": 41,
+        "case_normalized_unique_gene_ids": 41
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0220版本\\cluster4_key.txt",
+        "physical_lines": 4,
+        "first_column_gene_records": 4,
+        "literal_unique_gene_ids": 4,
+        "case_normalized_unique_gene_ids": 4
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0220版本\\cluster5_all.txt",
+        "physical_lines": 92,
+        "first_column_gene_records": 90,
+        "literal_unique_gene_ids": 90,
+        "case_normalized_unique_gene_ids": 90
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0220版本\\cluster5_key.txt",
+        "physical_lines": 6,
+        "first_column_gene_records": 6,
+        "literal_unique_gene_ids": 6,
+        "case_normalized_unique_gene_ids": 6
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0224版本\\mid_all.txt",
+        "physical_lines": 73,
+        "first_column_gene_records": 71,
+        "literal_unique_gene_ids": 71,
+        "case_normalized_unique_gene_ids": 71
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0224版本\\mid_key.txt",
+        "physical_lines": 6,
+        "first_column_gene_records": 6,
+        "literal_unique_gene_ids": 6,
+        "case_normalized_unique_gene_ids": 6
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0224版本\\short_all.txt",
+        "physical_lines": 27,
+        "first_column_gene_records": 27,
+        "literal_unique_gene_ids": 27,
+        "case_normalized_unique_gene_ids": 27
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0224版本\\short_key.txt",
+        "physical_lines": 2,
+        "first_column_gene_records": 2,
+        "literal_unique_gene_ids": 2,
+        "case_normalized_unique_gene_ids": 2
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0224版本\\short_mid_all.txt",
+        "physical_lines": 94,
+        "first_column_gene_records": 93,
+        "literal_unique_gene_ids": 93,
+        "case_normalized_unique_gene_ids": 93
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0224版本\\short_mid_key.txt",
+        "physical_lines": 3,
+        "first_column_gene_records": 3,
+        "literal_unique_gene_ids": 3,
+        "case_normalized_unique_gene_ids": 3
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\舊版\\cluster1_83_all.txt",
+        "physical_lines": 39,
+        "first_column_gene_records": 37,
+        "literal_unique_gene_ids": 37,
+        "case_normalized_unique_gene_ids": 37
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\舊版\\cluster1_83_key.txt",
+        "physical_lines": 2,
+        "first_column_gene_records": 2,
+        "literal_unique_gene_ids": 2,
+        "case_normalized_unique_gene_ids": 2
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\舊版\\cluster1_all.txt",
+        "physical_lines": 36,
+        "first_column_gene_records": 35,
+        "literal_unique_gene_ids": 35,
+        "case_normalized_unique_gene_ids": 35
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\舊版\\cluster1_key.txt",
+        "physical_lines": 5,
+        "first_column_gene_records": 4,
+        "literal_unique_gene_ids": 4,
+        "case_normalized_unique_gene_ids": 4
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\舊版\\cluster2_all.txt",
+        "physical_lines": 70,
+        "first_column_gene_records": 69,
+        "literal_unique_gene_ids": 69,
+        "case_normalized_unique_gene_ids": 69
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\舊版\\cluster2_key.txt",
+        "physical_lines": 8,
+        "first_column_gene_records": 8,
+        "literal_unique_gene_ids": 8,
+        "case_normalized_unique_gene_ids": 8
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\舊版\\cluster3_all.txt",
+        "physical_lines": 27,
+        "first_column_gene_records": 27,
+        "literal_unique_gene_ids": 27,
+        "case_normalized_unique_gene_ids": 27
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\舊版\\cluster3_key.txt",
+        "physical_lines": 2,
+        "first_column_gene_records": 2,
+        "literal_unique_gene_ids": 2,
+        "case_normalized_unique_gene_ids": 2
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\舊版\\cluster4_all.txt",
+        "physical_lines": 41,
+        "first_column_gene_records": 41,
+        "literal_unique_gene_ids": 41,
+        "case_normalized_unique_gene_ids": 41
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\舊版\\cluster4_key.txt",
+        "physical_lines": 4,
+        "first_column_gene_records": 4,
+        "literal_unique_gene_ids": 4,
+        "case_normalized_unique_gene_ids": 4
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\舊版\\cluster5_all.txt",
+        "physical_lines": 92,
+        "first_column_gene_records": 90,
+        "literal_unique_gene_ids": 90,
+        "case_normalized_unique_gene_ids": 90
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\舊版\\cluster5_key.txt",
+        "physical_lines": 6,
+        "first_column_gene_records": 6,
+        "literal_unique_gene_ids": 6,
+        "case_normalized_unique_gene_ids": 6
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\記錄.txt",
+        "physical_lines": 11,
+        "first_column_gene_records": 11,
+        "literal_unique_gene_ids": 11,
+        "case_normalized_unique_gene_ids": 11
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\0220版本\\cluster1_result.txt",
+        "physical_lines": 25,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\0220版本\\cluster1_score.txt",
+        "physical_lines": 3,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\0220版本\\cluster2_result.txt",
+        "physical_lines": 25,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\0220版本\\cluster2_score.txt",
+        "physical_lines": 3,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\0220版本\\cluster3_result.txt",
+        "physical_lines": 25,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\0220版本\\cluster3_score.txt",
+        "physical_lines": 3,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\0220版本\\cluster4_result.txt",
+        "physical_lines": 25,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\0220版本\\cluster4_score.txt",
+        "physical_lines": 3,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\個時間之分數數據與比較\\mid_error_bar_ranges.txt",
+        "physical_lines": 3,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\個時間之分數數據與比較\\mid_result.txt",
+        "physical_lines": 25,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\個時間之分數數據與比較\\mid_score.txt",
+        "physical_lines": 5,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\個時間之分數數據與比較\\short_error_bar_ranges.txt",
+        "physical_lines": 3,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\個時間之分數數據與比較\\short_mid_error_bar_ranges.txt",
+        "physical_lines": 3,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\個時間之分數數據與比較\\short_mid_result.txt",
+        "physical_lines": 25,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\個時間之分數數據與比較\\short_mid_score.txt",
+        "physical_lines": 5,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\個時間之分數數據與比較\\short_result.txt",
+        "physical_lines": 25,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\個時間之分數數據與比較\\short_score1.txt",
+        "physical_lines": 5,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\處理後格式R\\mid_errorbar.txt",
+        "physical_lines": 0,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\處理後格式R\\mid_score.txt",
+        "physical_lines": 9,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\處理後格式R\\short_errorbar.txt",
+        "physical_lines": 10,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\處理後格式R\\short_mid_errorbar.txt",
+        "physical_lines": 0,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\處理後格式R\\short_mid_score.txt",
+        "physical_lines": 9,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\處理後格式R\\short_score.txt",
+        "physical_lines": 9,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\版本1\\cluster1_result.txt",
+        "physical_lines": 25,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\版本1\\cluster1_score.txt",
+        "physical_lines": 3,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\版本1\\cluster2_result.txt",
+        "physical_lines": 25,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\版本1\\cluster2_score.txt",
+        "physical_lines": 3,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\版本1\\cluster3_result.txt",
+        "physical_lines": 25,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\版本1\\cluster3_score.txt",
+        "physical_lines": 3,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\版本1\\cluster4_result.txt",
+        "physical_lines": 25,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\分數比較\\版本1\\cluster4_score.txt",
+        "physical_lines": 3,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\各種cluster的路徑與基因\\cluster1.txt",
+        "physical_lines": 3,
+        "first_column_gene_records": 3,
+        "literal_unique_gene_ids": 2,
+        "case_normalized_unique_gene_ids": 2
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\各種cluster的路徑與基因\\cluster2.txt",
+        "physical_lines": 14,
+        "first_column_gene_records": 14,
+        "literal_unique_gene_ids": 10,
+        "case_normalized_unique_gene_ids": 10
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\各種cluster的路徑與基因\\cluster3.txt",
+        "physical_lines": 13,
+        "first_column_gene_records": 13,
+        "literal_unique_gene_ids": 11,
+        "case_normalized_unique_gene_ids": 11
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\各種cluster的路徑與基因\\cluster4.txt",
+        "physical_lines": 2,
+        "first_column_gene_records": 2,
+        "literal_unique_gene_ids": 2,
+        "case_normalized_unique_gene_ids": 2
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\各種cluster的路徑與基因\\cluster5.txt",
+        "physical_lines": 25,
+        "first_column_gene_records": 25,
+        "literal_unique_gene_ids": 18,
+        "case_normalized_unique_gene_ids": 18
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\各種cluster的路徑與基因\\cluster6.txt",
+        "physical_lines": 4,
+        "first_column_gene_records": 4,
+        "literal_unique_gene_ids": 4,
+        "case_normalized_unique_gene_ids": 4
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\各種cluster的路徑與基因\\cluster7.txt",
+        "physical_lines": 4,
+        "first_column_gene_records": 4,
+        "literal_unique_gene_ids": 3,
+        "case_normalized_unique_gene_ids": 3
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\各種cluster的路徑與基因\\記錄.txt",
+        "physical_lines": 2,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\大豆基因名稱對照.txt",
+        "physical_lines": 27,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\想知道的基因集 範例.txt",
+        "physical_lines": 70,
+        "first_column_gene_records": 68,
+        "literal_unique_gene_ids": 68,
+        "case_normalized_unique_gene_ids": 68
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\想知道的基因集 範例_geneinpw.txt",
+        "physical_lines": 71,
+        "first_column_gene_records": 68,
+        "literal_unique_gene_ids": 68,
+        "case_normalized_unique_gene_ids": 68
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\流程.txt",
+        "physical_lines": 5,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\程式碼\\cytoscape_基金在兩個點同時出現的次數(線).txt",
+        "physical_lines": 37,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\程式碼\\程式0_找目標基因群.txt",
+        "physical_lines": 43,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\程式碼\\程式1cytoscape_基金在兩個點同時出現的次數(線).txt",
+        "physical_lines": 48,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\程式碼\\程式2_cytoscape後增加點線條件.txt",
+        "physical_lines": 76,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\程式碼\\程式3 增加線的條件.txt",
+        "physical_lines": 26,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\程式碼\\程式4_得出關鍵基因之比較.txt",
+        "physical_lines": 202,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\程式碼\\程式5.txt",
+        "physical_lines": 0,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\篩選組合的ctgene\\ct_cluster1_in_list.txt",
+        "physical_lines": 58,
+        "first_column_gene_records": 58,
+        "literal_unique_gene_ids": 58,
+        "case_normalized_unique_gene_ids": 58
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\篩選組合的ctgene\\ct_cluster2_in_list.txt",
+        "physical_lines": 122,
+        "first_column_gene_records": 122,
+        "literal_unique_gene_ids": 122,
+        "case_normalized_unique_gene_ids": 122
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\篩選組合的ctgene\\ct_cluster3_in_list.txt",
+        "physical_lines": 31,
+        "first_column_gene_records": 31,
+        "literal_unique_gene_ids": 31,
+        "case_normalized_unique_gene_ids": 31
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\篩選組合的ctgene\\ct_cluster4_in_list.txt",
+        "physical_lines": 68,
+        "first_column_gene_records": 68,
+        "literal_unique_gene_ids": 68,
+        "case_normalized_unique_gene_ids": 68
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\篩選組合的ctgene\\ct_cluster5_in_list.txt",
+        "physical_lines": 145,
+        "first_column_gene_records": 145,
+        "literal_unique_gene_ids": 145,
+        "case_normalized_unique_gene_ids": 145
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\篩選組合的ctgene\\ct_cluster7_in_list.txt",
+        "physical_lines": 56,
+        "first_column_gene_records": 10,
+        "literal_unique_gene_ids": 10,
+        "case_normalized_unique_gene_ids": 10
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\123.txt",
+        "physical_lines": 68,
+        "first_column_gene_records": 63,
+        "literal_unique_gene_ids": 63,
+        "case_normalized_unique_gene_ids": 63
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\20個路徑全基因.txt",
+        "physical_lines": 20,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\gene_list\\cluster1_in_list.txt",
+        "physical_lines": 1189,
+        "first_column_gene_records": 1188,
+        "literal_unique_gene_ids": 1188,
+        "case_normalized_unique_gene_ids": 1188
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\gene_list\\cluster2_in_list.txt",
+        "physical_lines": 3869,
+        "first_column_gene_records": 3869,
+        "literal_unique_gene_ids": 3869,
+        "case_normalized_unique_gene_ids": 3869
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\gene_list\\cluster3_in_list.txt",
+        "physical_lines": 5392,
+        "first_column_gene_records": 5391,
+        "literal_unique_gene_ids": 5391,
+        "case_normalized_unique_gene_ids": 5391
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\gene_list\\cluster4_in_list.txt",
+        "physical_lines": 1801,
+        "first_column_gene_records": 1800,
+        "literal_unique_gene_ids": 1800,
+        "case_normalized_unique_gene_ids": 1800
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\gene_list\\cluster5_in_list.txt",
+        "physical_lines": 6707,
+        "first_column_gene_records": 6706,
+        "literal_unique_gene_ids": 6706,
+        "case_normalized_unique_gene_ids": 6706
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\gene_list\\hub_in_list.txt",
+        "physical_lines": 1863,
+        "first_column_gene_records": 1863,
+        "literal_unique_gene_ids": 1863,
+        "case_normalized_unique_gene_ids": 1863
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\gene_list\\middle_in_list.txt",
+        "physical_lines": 3869,
+        "first_column_gene_records": 3869,
+        "literal_unique_gene_ids": 3869,
+        "case_normalized_unique_gene_ids": 3869
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\gene_list\\short_in_list.txt",
+        "physical_lines": 5390,
+        "first_column_gene_records": 5390,
+        "literal_unique_gene_ids": 5390,
+        "case_normalized_unique_gene_ids": 5390
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\gene_list\\short_middle_in_list.txt",
+        "physical_lines": 6706,
+        "first_column_gene_records": 6706,
+        "literal_unique_gene_ids": 6706,
+        "case_normalized_unique_gene_ids": 6706
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\gene_list\\中期123.txt",
+        "physical_lines": 3869,
+        "first_column_gene_records": 3869,
+        "literal_unique_gene_ids": 3869,
+        "case_normalized_unique_gene_ids": 3869
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\gene_list\\舊版\\list_cluster1.txt",
+        "physical_lines": 1188,
+        "first_column_gene_records": 1188,
+        "literal_unique_gene_ids": 1188,
+        "case_normalized_unique_gene_ids": 1188
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\gene_list\\舊版\\list_hub.txt",
+        "physical_lines": 1859,
+        "first_column_gene_records": 1859,
+        "literal_unique_gene_ids": 1859,
+        "case_normalized_unique_gene_ids": 1859
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\gene_list\\舊版\\list_middle.txt",
+        "physical_lines": 3862,
+        "first_column_gene_records": 3862,
+        "literal_unique_gene_ids": 3862,
+        "case_normalized_unique_gene_ids": 3862
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\gene_list\\舊版\\list_short.txt",
+        "physical_lines": 4136,
+        "first_column_gene_records": 4136,
+        "literal_unique_gene_ids": 4136,
+        "case_normalized_unique_gene_ids": 4136
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\KEY比較.txt",
+        "physical_lines": 11,
+        "first_column_gene_records": 10,
+        "literal_unique_gene_ids": 10,
+        "case_normalized_unique_gene_ids": 10
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\cluster1.txt",
+        "physical_lines": 41,
+        "first_column_gene_records": 41,
+        "literal_unique_gene_ids": 17,
+        "case_normalized_unique_gene_ids": 17
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\cluster1_Inter.txt",
+        "physical_lines": 115,
+        "first_column_gene_records": 79,
+        "literal_unique_gene_ids": 47,
+        "case_normalized_unique_gene_ids": 47
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\cluster1_Inter_r.txt",
+        "physical_lines": 167,
+        "first_column_gene_records": 100,
+        "literal_unique_gene_ids": 52,
+        "case_normalized_unique_gene_ids": 52
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\cluster2.txt",
+        "physical_lines": 89,
+        "first_column_gene_records": 89,
+        "literal_unique_gene_ids": 39,
+        "case_normalized_unique_gene_ids": 39
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\cluster2_Inter.txt",
+        "physical_lines": 174,
+        "first_column_gene_records": 146,
+        "literal_unique_gene_ids": 97,
+        "case_normalized_unique_gene_ids": 97
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\cluster3.txt",
+        "physical_lines": 30,
+        "first_column_gene_records": 30,
+        "literal_unique_gene_ids": 11,
+        "case_normalized_unique_gene_ids": 11
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\cluster3_Inter.txt",
+        "physical_lines": 202,
+        "first_column_gene_records": 169,
+        "literal_unique_gene_ids": 101,
+        "case_normalized_unique_gene_ids": 101
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\cluster4.txt",
+        "physical_lines": 13,
+        "first_column_gene_records": 13,
+        "literal_unique_gene_ids": 8,
+        "case_normalized_unique_gene_ids": 8
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\cluster4_Inter.txt",
+        "physical_lines": 234,
+        "first_column_gene_records": 219,
+        "literal_unique_gene_ids": 29,
+        "case_normalized_unique_gene_ids": 29
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\cluster5.txt",
+        "physical_lines": 128,
+        "first_column_gene_records": 128,
+        "literal_unique_gene_ids": 52,
+        "case_normalized_unique_gene_ids": 52
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\cluster5_Inter.txt",
+        "physical_lines": 548,
+        "first_column_gene_records": 489,
+        "literal_unique_gene_ids": 132,
+        "case_normalized_unique_gene_ids": 132
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\篩選後keygene\\中介基因版本\\cluster1_Inter.txt",
+        "physical_lines": 14,
+        "first_column_gene_records": 13,
+        "literal_unique_gene_ids": 13,
+        "case_normalized_unique_gene_ids": 13
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\篩選後keygene\\中介基因版本\\cluster2_Inter.txt",
+        "physical_lines": 17,
+        "first_column_gene_records": 14,
+        "literal_unique_gene_ids": 14,
+        "case_normalized_unique_gene_ids": 14
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\篩選後keygene\\中介基因版本\\cluster3_Inter.txt",
+        "physical_lines": 15,
+        "first_column_gene_records": 15,
+        "literal_unique_gene_ids": 15,
+        "case_normalized_unique_gene_ids": 15
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\篩選後keygene\\中介基因版本\\cluster5_Inter.txt",
+        "physical_lines": 10,
+        "first_column_gene_records": 10,
+        "literal_unique_gene_ids": 10,
+        "case_normalized_unique_gene_ids": 10
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\篩選後keygene\\中介基因版本\\新增 文字文件.txt",
+        "physical_lines": 12,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\篩選後keygene\\版本一\\cluster1_key_gene.txt",
+        "physical_lines": 3,
+        "first_column_gene_records": 3,
+        "literal_unique_gene_ids": 3,
+        "case_normalized_unique_gene_ids": 3
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\篩選後keygene\\版本一\\cluster2_key_gene.txt",
+        "physical_lines": 5,
+        "first_column_gene_records": 5,
+        "literal_unique_gene_ids": 5,
+        "case_normalized_unique_gene_ids": 5
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\篩選後keygene\\版本一\\cluster3_key_gene.txt",
+        "physical_lines": 4,
+        "first_column_gene_records": 4,
+        "literal_unique_gene_ids": 4,
+        "case_normalized_unique_gene_ids": 4
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\篩選後keygene\\版本一\\cluster5_key_gene.txt",
+        "physical_lines": 10,
+        "first_column_gene_records": 10,
+        "literal_unique_gene_ids": 10,
+        "case_normalized_unique_gene_ids": 10
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\篩選後keygene\\版本一\\篩選標準.txt",
+        "physical_lines": 15,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\篩選後keygene\\版本二\\cluster1_key_gene.txt",
+        "physical_lines": 9,
+        "first_column_gene_records": 9,
+        "literal_unique_gene_ids": 9,
+        "case_normalized_unique_gene_ids": 9
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\篩選後keygene\\版本二\\cluster2_key_gene.txt",
+        "physical_lines": 9,
+        "first_column_gene_records": 9,
+        "literal_unique_gene_ids": 9,
+        "case_normalized_unique_gene_ids": 9
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\篩選後keygene\\版本二\\cluster3_key_gene.txt",
+        "physical_lines": 7,
+        "first_column_gene_records": 7,
+        "literal_unique_gene_ids": 7,
+        "case_normalized_unique_gene_ids": 7
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\篩選後keygene\\版本二\\cluster5_key_gene.txt",
+        "physical_lines": 0,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\篩選後keygene\\版本二\\篩選標準.txt",
+        "physical_lines": 7,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\點的裝飾\\cluster1_cytoscape_point.txt",
+        "physical_lines": 26,
+        "first_column_gene_records": 25,
+        "literal_unique_gene_ids": 25,
+        "case_normalized_unique_gene_ids": 25
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\點的裝飾\\cluster1_Inter_cytoscape_point.txt",
+        "physical_lines": 66,
+        "first_column_gene_records": 60,
+        "literal_unique_gene_ids": 60,
+        "case_normalized_unique_gene_ids": 60
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\點的裝飾\\cluster2_cytoscape_point.txt",
+        "physical_lines": 59,
+        "first_column_gene_records": 58,
+        "literal_unique_gene_ids": 58,
+        "case_normalized_unique_gene_ids": 58
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\點的裝飾\\cluster2_Inter_cytoscape_point.txt",
+        "physical_lines": 126,
+        "first_column_gene_records": 115,
+        "literal_unique_gene_ids": 115,
+        "case_normalized_unique_gene_ids": 115
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\點的裝飾\\cluster3_cytoscape_point.txt",
+        "physical_lines": 15,
+        "first_column_gene_records": 14,
+        "literal_unique_gene_ids": 14,
+        "case_normalized_unique_gene_ids": 14
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\點的裝飾\\cluster3_Inter_cytoscape_point.txt",
+        "physical_lines": 130,
+        "first_column_gene_records": 119,
+        "literal_unique_gene_ids": 119,
+        "case_normalized_unique_gene_ids": 119
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\點的裝飾\\cluster4_cytoscape_point.txt",
+        "physical_lines": 11,
+        "first_column_gene_records": 10,
+        "literal_unique_gene_ids": 10,
+        "case_normalized_unique_gene_ids": 10
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\點的裝飾\\cluster4_Inter_cytoscape_point.txt",
+        "physical_lines": 37,
+        "first_column_gene_records": 36,
+        "literal_unique_gene_ids": 36,
+        "case_normalized_unique_gene_ids": 36
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\點的裝飾\\cluster5_cytoscape_point_中期基因表達.txt",
+        "physical_lines": 72,
+        "first_column_gene_records": 71,
+        "literal_unique_gene_ids": 71,
+        "case_normalized_unique_gene_ids": 71
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\點的裝飾\\cluster5_Inter_cytoscape_point.txt",
+        "physical_lines": 166,
+        "first_column_gene_records": 153,
+        "literal_unique_gene_ids": 153,
+        "case_normalized_unique_gene_ids": 153
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\點的裝飾\\parlog\\cluster1_cytoscape_parlog.txt",
+        "physical_lines": 15444,
+        "first_column_gene_records": 15444,
+        "literal_unique_gene_ids": 15444,
+        "case_normalized_unique_gene_ids": 15444
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\點的裝飾\\parlog\\cluster2_cytoscape_parlog.txt",
+        "physical_lines": 15444,
+        "first_column_gene_records": 15444,
+        "literal_unique_gene_ids": 15444,
+        "case_normalized_unique_gene_ids": 15444
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\soynet\\點的裝飾\\parlog\\cluster3_cytoscape_parlog.txt",
+        "physical_lines": 15444,
+        "first_column_gene_records": 15444,
+        "literal_unique_gene_ids": 15444,
+        "case_normalized_unique_gene_ids": 15444
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\分數與是否短中\\cluster1\\cluster1_分數.txt",
+        "physical_lines": 21,
+        "first_column_gene_records": 21,
+        "literal_unique_gene_ids": 21,
+        "case_normalized_unique_gene_ids": 21
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\各種cluster的路徑與基因\\cluster1.txt",
+        "physical_lines": 3,
+        "first_column_gene_records": 3,
+        "literal_unique_gene_ids": 2,
+        "case_normalized_unique_gene_ids": 2
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\各種cluster的路徑與基因\\cluster2.txt",
+        "physical_lines": 11,
+        "first_column_gene_records": 11,
+        "literal_unique_gene_ids": 7,
+        "case_normalized_unique_gene_ids": 7
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\各種cluster的路徑與基因\\cluster3.txt",
+        "physical_lines": 11,
+        "first_column_gene_records": 11,
+        "literal_unique_gene_ids": 8,
+        "case_normalized_unique_gene_ids": 8
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\各種cluster的路徑與基因\\cluster4.txt",
+        "physical_lines": 4,
+        "first_column_gene_records": 4,
+        "literal_unique_gene_ids": 2,
+        "case_normalized_unique_gene_ids": 2
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\各種cluster的路徑與基因\\cluster5.txt",
+        "physical_lines": 20,
+        "first_column_gene_records": 20,
+        "literal_unique_gene_ids": 11,
+        "case_normalized_unique_gene_ids": 11
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\各種cluster的路徑與基因\\Glyma.13G112000.txt",
+        "physical_lines": 19,
+        "first_column_gene_records": 19,
+        "literal_unique_gene_ids": 19,
+        "case_normalized_unique_gene_ids": 19
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\各種cluster的路徑與基因\\hub-pathway.txt",
+        "physical_lines": 2,
+        "first_column_gene_records": 2,
+        "literal_unique_gene_ids": 2,
+        "case_normalized_unique_gene_ids": 2
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\各種cluster的路徑與基因\\middle_short.txt",
+        "physical_lines": 20,
+        "first_column_gene_records": 20,
+        "literal_unique_gene_ids": 11,
+        "case_normalized_unique_gene_ids": 11
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\篩選組合的ctgene\\ct_cluster1_in_list.txt",
+        "physical_lines": 59,
+        "first_column_gene_records": 59,
+        "literal_unique_gene_ids": 59,
+        "case_normalized_unique_gene_ids": 59
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\篩選組合的ctgene\\ct_cluster2_in_list.txt",
+        "physical_lines": 121,
+        "first_column_gene_records": 121,
+        "literal_unique_gene_ids": 121,
+        "case_normalized_unique_gene_ids": 121
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\篩選組合的ctgene\\ct_cluster3_in_list.txt",
+        "physical_lines": 31,
+        "first_column_gene_records": 31,
+        "literal_unique_gene_ids": 31,
+        "case_normalized_unique_gene_ids": 31
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\篩選組合的ctgene\\ct_cluster4_in_list.txt",
+        "physical_lines": 19,
+        "first_column_gene_records": 19,
+        "literal_unique_gene_ids": 19,
+        "case_normalized_unique_gene_ids": 19
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\篩選組合的ctgene\\ct_cluster5_in_list.txt",
+        "physical_lines": 145,
+        "first_column_gene_records": 145,
+        "literal_unique_gene_ids": 145,
+        "case_normalized_unique_gene_ids": 145
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\篩選組合的ctgene\\ct_middle_in_list.txt",
+        "physical_lines": 121,
+        "first_column_gene_records": 121,
+        "literal_unique_gene_ids": 121,
+        "case_normalized_unique_gene_ids": 121
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\篩選組合的ctgene\\ct_short_in_list.txt",
+        "physical_lines": 31,
+        "first_column_gene_records": 31,
+        "literal_unique_gene_ids": 31,
+        "case_normalized_unique_gene_ids": 31
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\篩選組合的ctgene\\ct_short_middle_in_list.txt",
+        "physical_lines": 145,
+        "first_column_gene_records": 145,
+        "literal_unique_gene_ids": 145,
+        "case_normalized_unique_gene_ids": 145
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\篩選組合的ctgene\\舊版\\ct_middle_in_cluster1.txt",
+        "physical_lines": 58,
+        "first_column_gene_records": 58,
+        "literal_unique_gene_ids": 58,
+        "case_normalized_unique_gene_ids": 58
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\篩選組合的ctgene\\舊版\\CT_middle_short.txt",
+        "physical_lines": 187,
+        "first_column_gene_records": 187,
+        "literal_unique_gene_ids": 170,
+        "case_normalized_unique_gene_ids": 170
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\篩選組合的ctgene\\舊版\\ctmiddle_in_list.txt",
+        "physical_lines": 121,
+        "first_column_gene_records": 121,
+        "literal_unique_gene_ids": 121,
+        "case_normalized_unique_gene_ids": 121
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\舊版\\篩選組合的ctgene\\舊版\\ctshort_in_list.txt",
+        "physical_lines": 30,
+        "first_column_gene_records": 30,
+        "literal_unique_gene_ids": 30,
+        "case_normalized_unique_gene_ids": 30
+      },
+      {
+        "path": "研究法\\大豆基因\\network\\PPI\\長期全路徑基因.txt",
+        "physical_lines": 4,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\outer_data_2.0_long.txt",
+        "physical_lines": 43759,
+        "first_column_gene_records": 43754,
+        "literal_unique_gene_ids": 43659,
+        "case_normalized_unique_gene_ids": 43659
+      },
+      {
+        "path": "研究法\\大豆基因\\sample3=numeric().txt",
+        "physical_lines": 55,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\step.txt",
+        "physical_lines": 35,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\大豆gene.txt",
+        "physical_lines": 14776,
+        "first_column_gene_records": 14774,
+        "literal_unique_gene_ids": 14774,
+        "case_normalized_unique_gene_ids": 14774
+      },
+      {
+        "path": "研究法\\大豆基因\\大豆基因 外部\\Glyma_genes_correspondence_final.txt",
+        "physical_lines": 49892,
+        "first_column_gene_records": 46661,
+        "literal_unique_gene_ids": 46453,
+        "case_normalized_unique_gene_ids": 46453
+      },
+      {
+        "path": "研究法\\大豆基因\\大豆基因 外部\\WITHINF\\outer_data_2.0_middle.txt",
+        "physical_lines": 43760,
+        "first_column_gene_records": 43759,
+        "literal_unique_gene_ids": 43657,
+        "case_normalized_unique_gene_ids": 43657
+      },
+      {
+        "path": "研究法\\大豆基因\\大豆基因 外部\\WITHINF\\outer_data_2.0_short.txt",
+        "physical_lines": 43759,
+        "first_column_gene_records": 43754,
+        "literal_unique_gene_ids": 43649,
+        "case_normalized_unique_gene_ids": 43649
+      },
+      {
+        "path": "研究法\\大豆基因\\大豆基因 外部\\WITHOUTINF\\outer_data_2.0_middle_address.txt",
+        "physical_lines": 40332,
+        "first_column_gene_records": 40330,
+        "literal_unique_gene_ids": 40235,
+        "case_normalized_unique_gene_ids": 40235
+      },
+      {
+        "path": "研究法\\大豆基因\\大豆基因 外部\\WITHOUTINF\\outer_data_2.0_short_address.txt",
+        "physical_lines": 40061,
+        "first_column_gene_records": 40056,
+        "literal_unique_gene_ids": 39966,
+        "case_normalized_unique_gene_ids": 39966
+      },
+      {
+        "path": "研究法\\大豆基因\\大豆基因 外部\\外部資料匯入後\\all_genes_middle_address.txt",
+        "physical_lines": 14607,
+        "first_column_gene_records": 14606,
+        "literal_unique_gene_ids": 14606,
+        "case_normalized_unique_gene_ids": 14606
+      },
+      {
+        "path": "研究法\\大豆基因\\大豆基因 外部\\外部資料匯入後\\all_genes_short_address.txt",
+        "physical_lines": 4014,
+        "first_column_gene_records": 4014,
+        "literal_unique_gene_ids": 4014,
+        "case_normalized_unique_gene_ids": 4014
+      },
+      {
+        "path": "研究法\\大豆基因\\大豆基因 外部\\外部資料匯入後\\CTgenes_middle_address.txt",
+        "physical_lines": 143,
+        "first_column_gene_records": 143,
+        "literal_unique_gene_ids": 143,
+        "case_normalized_unique_gene_ids": 143
+      },
+      {
+        "path": "研究法\\大豆基因\\大豆基因 外部\\外部資料匯入後\\CTgenes_short_address.txt",
+        "physical_lines": 44,
+        "first_column_gene_records": 44,
+        "literal_unique_gene_ids": 44,
+        "case_normalized_unique_gene_ids": 44
+      },
+      {
+        "path": "研究法\\大豆基因\\大豆基因 外部\\外部資料匯入後\\yamasaki_size_p_value.txt",
+        "physical_lines": 38660,
+        "first_column_gene_records": 38660,
+        "literal_unique_gene_ids": 38570,
+        "case_normalized_unique_gene_ids": 38570
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\CT_genes\\long_CT_G.txt",
+        "physical_lines": 45,
+        "first_column_gene_records": 45,
+        "literal_unique_gene_ids": 45,
+        "case_normalized_unique_gene_ids": 45
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\CT_genes\\middle_CT_G.txt",
+        "physical_lines": 143,
+        "first_column_gene_records": 143,
+        "literal_unique_gene_ids": 143,
+        "case_normalized_unique_gene_ids": 143
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\CT_genes\\middle_CT_G_score.txt",
+        "physical_lines": 143,
+        "first_column_gene_records": 143,
+        "literal_unique_gene_ids": 143,
+        "case_normalized_unique_gene_ids": 143
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\CT_genes\\new_long_CT_G.txt",
+        "physical_lines": 41,
+        "first_column_gene_records": 41,
+        "literal_unique_gene_ids": 41,
+        "case_normalized_unique_gene_ids": 41
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\CT_genes\\short_CT_G.txt",
+        "physical_lines": 44,
+        "first_column_gene_records": 44,
+        "literal_unique_gene_ids": 44,
+        "case_normalized_unique_gene_ids": 44
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\CT_genes\\short_CT_G_score.txt",
+        "physical_lines": 41,
+        "first_column_gene_records": 41,
+        "literal_unique_gene_ids": 41,
+        "case_normalized_unique_gene_ids": 41
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\CT_genes\\short_middle_CT_G.txt",
+        "physical_lines": 170,
+        "first_column_gene_records": 170,
+        "literal_unique_gene_ids": 170,
+        "case_normalized_unique_gene_ids": 170
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\CT_genes\\想知道的基因集 範例_geneinpw.txt",
+        "physical_lines": 25,
+        "first_column_gene_records": 25,
+        "literal_unique_gene_ids": 25,
+        "case_normalized_unique_gene_ids": 25
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\gene ppi\\glyma1.txt",
+        "physical_lines": 18909,
+        "first_column_gene_records": 18909,
+        "literal_unique_gene_ids": 22,
+        "case_normalized_unique_gene_ids": 22
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\gene ppi\\glyma10.txt",
+        "physical_lines": 38321,
+        "first_column_gene_records": 38321,
+        "literal_unique_gene_ids": 19,
+        "case_normalized_unique_gene_ids": 19
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\gene ppi\\glyma11.txt",
+        "physical_lines": 28092,
+        "first_column_gene_records": 28092,
+        "literal_unique_gene_ids": 16,
+        "case_normalized_unique_gene_ids": 16
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\gene ppi\\glyma12.txt",
+        "physical_lines": 25030,
+        "first_column_gene_records": 25030,
+        "literal_unique_gene_ids": 13,
+        "case_normalized_unique_gene_ids": 13
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\gene ppi\\glyma13.txt",
+        "physical_lines": 35083,
+        "first_column_gene_records": 35083,
+        "literal_unique_gene_ids": 26,
+        "case_normalized_unique_gene_ids": 26
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\gene ppi\\glyma14.txt",
+        "physical_lines": 45597,
+        "first_column_gene_records": 45597,
+        "literal_unique_gene_ids": 17,
+        "case_normalized_unique_gene_ids": 17
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\gene ppi\\glyma15.txt",
+        "physical_lines": 25924,
+        "first_column_gene_records": 25924,
+        "literal_unique_gene_ids": 12,
+        "case_normalized_unique_gene_ids": 12
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\gene ppi\\glyma16.txt",
+        "physical_lines": 14537,
+        "first_column_gene_records": 14537,
+        "literal_unique_gene_ids": 14,
+        "case_normalized_unique_gene_ids": 14
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\gene ppi\\glyma17.txt",
+        "physical_lines": 34943,
+        "first_column_gene_records": 34943,
+        "literal_unique_gene_ids": 14,
+        "case_normalized_unique_gene_ids": 14
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\gene ppi\\glyma18.txt",
+        "physical_lines": 34466,
+        "first_column_gene_records": 34466,
+        "literal_unique_gene_ids": 14,
+        "case_normalized_unique_gene_ids": 14
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\gene ppi\\glyma19.txt",
+        "physical_lines": 30455,
+        "first_column_gene_records": 30455,
+        "literal_unique_gene_ids": 15,
+        "case_normalized_unique_gene_ids": 15
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\gene ppi\\glyma2.txt",
+        "physical_lines": 53945,
+        "first_column_gene_records": 53945,
+        "literal_unique_gene_ids": 20,
+        "case_normalized_unique_gene_ids": 20
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\gene ppi\\glyma20.txt",
+        "physical_lines": 41397,
+        "first_column_gene_records": 41397,
+        "literal_unique_gene_ids": 25,
+        "case_normalized_unique_gene_ids": 25
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\gene ppi\\glyma3.txt",
+        "physical_lines": 45790,
+        "first_column_gene_records": 45790,
+        "literal_unique_gene_ids": 22,
+        "case_normalized_unique_gene_ids": 22
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\gene ppi\\glyma4.txt",
+        "physical_lines": 49944,
+        "first_column_gene_records": 49944,
+        "literal_unique_gene_ids": 17,
+        "case_normalized_unique_gene_ids": 17
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\gene ppi\\glyma5.txt",
+        "physical_lines": 42109,
+        "first_column_gene_records": 42109,
+        "literal_unique_gene_ids": 15,
+        "case_normalized_unique_gene_ids": 15
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\gene ppi\\glyma6.txt",
+        "physical_lines": 48632,
+        "first_column_gene_records": 48632,
+        "literal_unique_gene_ids": 21,
+        "case_normalized_unique_gene_ids": 21
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\gene ppi\\glyma7.txt",
+        "physical_lines": 18368,
+        "first_column_gene_records": 18368,
+        "literal_unique_gene_ids": 14,
+        "case_normalized_unique_gene_ids": 14
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\gene ppi\\glyma8.txt",
+        "physical_lines": 41260,
+        "first_column_gene_records": 41260,
+        "literal_unique_gene_ids": 20,
+        "case_normalized_unique_gene_ids": 20
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\gene ppi\\glyma9.txt",
+        "physical_lines": 43161,
+        "first_column_gene_records": 43161,
+        "literal_unique_gene_ids": 22,
+        "case_normalized_unique_gene_ids": 22
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\go.txt",
+        "physical_lines": 616743,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\go_3194.txt",
+        "physical_lines": 3194,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\go_name_space.txt",
+        "physical_lines": 47729,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\GO_terms_4899.txt",
+        "physical_lines": 4897,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\GO_terms_4899_capital.txt",
+        "physical_lines": 4897,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\GO_terms_4899_G.txt",
+        "physical_lines": 4897,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\go分類程式.txt",
+        "physical_lines": 49,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\jc_point.txt",
+        "physical_lines": 28,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\SoyBase_Glycine_Max_Glyma2.0_gene.txt",
+        "physical_lines": 55590,
+        "first_column_gene_records": 55589,
+        "literal_unique_gene_ids": 55589,
+        "case_normalized_unique_gene_ids": 55589
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\all_ct_short_score.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\all_middle_score.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\all_short_score.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\gene_p_len.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\gene_p_len_go_yamasaki.txt",
+        "physical_lines": 37157,
+        "first_column_gene_records": 37156,
+        "literal_unique_gene_ids": 37153,
+        "case_normalized_unique_gene_ids": 37153
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\glen_p_right_skew_kao.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\Glyma2.0.txt",
+        "physical_lines": 55590,
+        "first_column_gene_records": 55589,
+        "literal_unique_gene_ids": 55589,
+        "case_normalized_unique_gene_ids": 55589
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\snps_allgenes_20kb.set.txt",
+        "physical_lines": 700807,
+        "first_column_gene_records": 55589,
+        "literal_unique_gene_ids": 55589,
+        "case_normalized_unique_gene_ids": 55589
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\Yamasaki_Go校正後1213.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\Yamasaki_Go校正後1213_G.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\Yamasaki_Go校正後1213_G_log10.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\Yamasaki_Go校正後1213_G_loge.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\yamasaki_size_p_value.txt",
+        "physical_lines": 38660,
+        "first_column_gene_records": 38660,
+        "literal_unique_gene_ids": 38570,
+        "case_normalized_unique_gene_ids": 38570
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\備註.txt",
+        "physical_lines": 1,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\圖片\\20231209新版本\\校正程式語言.txt",
+        "physical_lines": 8,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\圖片\\go_yamasaki_intersection\\討論後\\新增 文字文件.txt",
+        "physical_lines": 43,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\舊版本\\Yamasaki_Go_middle校正後.txt",
+        "physical_lines": 42575,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部基因校正\\舊版本\\Yamasaki_Go校正後1209.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部資料匯入\\新增 文字文件.txt",
+        "physical_lines": 0,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部資料匯入\\耐寒資料庫0 1 24hr(轉換後)培修版.txt",
+        "physical_lines": 49778,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部資料匯入\\舊版\\耐寒資料庫 long.txt",
+        "physical_lines": 48310,
+        "first_column_gene_records": 48310,
+        "literal_unique_gene_ids": 48310,
+        "case_normalized_unique_gene_ids": 48310
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部資料匯入\\舊版\\耐寒資料庫 middle _pvalue.txt",
+        "physical_lines": 48312,
+        "first_column_gene_records": 48310,
+        "literal_unique_gene_ids": 48310,
+        "case_normalized_unique_gene_ids": 48310
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部資料匯入\\舊版\\耐寒資料庫 middle.txt",
+        "physical_lines": 48310,
+        "first_column_gene_records": 48310,
+        "literal_unique_gene_ids": 48310,
+        "case_normalized_unique_gene_ids": 48310
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部資料匯入\\舊版\\耐寒資料庫 short _pvalue.txt",
+        "physical_lines": 48311,
+        "first_column_gene_records": 48310,
+        "literal_unique_gene_ids": 48310,
+        "case_normalized_unique_gene_ids": 48310
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\外部資料匯入\\舊版\\耐寒資料庫 short.txt",
+        "physical_lines": 48310,
+        "first_column_gene_records": 48310,
+        "literal_unique_gene_ids": 48310,
+        "case_normalized_unique_gene_ids": 48310
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\短中處理\\0110重新篩選\\cytoscape後會用到的分數\\all_genes_middle_outside_log_noinf.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\短中處理\\0110重新篩選\\cytoscape後會用到的分數\\all_genes_short_outside_log_noinf.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\短中處理\\0110重新篩選\\cytoscape後會用到的分數\\流程.txt",
+        "physical_lines": 1,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\短中處理\\0110重新篩選\\Yamasaki_Go校正後1213_G_loge.txt",
+        "physical_lines": 42576,
+        "first_column_gene_records": 42575,
+        "literal_unique_gene_ids": 42567,
+        "case_normalized_unique_gene_ids": 42567
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\短中處理\\1212重新篩選\\all_genes_middle_outside_log_noinf.txt",
+        "physical_lines": 13461,
+        "first_column_gene_records": 13460,
+        "literal_unique_gene_ids": 13458,
+        "case_normalized_unique_gene_ids": 13458
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\短中處理\\1212重新篩選\\all_genes_short_outside_log_noinf.txt",
+        "physical_lines": 3369,
+        "first_column_gene_records": 3368,
+        "literal_unique_gene_ids": 3368,
+        "case_normalized_unique_gene_ids": 3368
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\短中處理\\1212重新篩選\\cytoscape後會用到的分數\\all_genes_middle_outside_log_noinf.txt",
+        "physical_lines": 13461,
+        "first_column_gene_records": 13460,
+        "literal_unique_gene_ids": 13458,
+        "case_normalized_unique_gene_ids": 13458
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\短中處理\\1212重新篩選\\cytoscape後會用到的分數\\all_genes_short_outside_log_noinf.txt",
+        "physical_lines": 3369,
+        "first_column_gene_records": 3368,
+        "literal_unique_gene_ids": 3368,
+        "case_normalized_unique_gene_ids": 3368
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\短中處理\\1212重新篩選\\cytoscape後會用到的分數\\流程.txt",
+        "physical_lines": 1,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\短中處理\\all_genes_3period.txt",
+        "physical_lines": 14776,
+        "first_column_gene_records": 14774,
+        "literal_unique_gene_ids": 14774,
+        "case_normalized_unique_gene_ids": 14774
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\短中處理\\all_genes_long.txt",
+        "physical_lines": 4070,
+        "first_column_gene_records": 4069,
+        "literal_unique_gene_ids": 4069,
+        "case_normalized_unique_gene_ids": 4069
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\短中處理\\all_genes_middle.txt",
+        "physical_lines": 14608,
+        "first_column_gene_records": 14606,
+        "literal_unique_gene_ids": 14606,
+        "case_normalized_unique_gene_ids": 14606
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\短中處理\\all_genes_middle_outside_log.txt",
+        "physical_lines": 13460,
+        "first_column_gene_records": 13460,
+        "literal_unique_gene_ids": 13458,
+        "case_normalized_unique_gene_ids": 13458
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\短中處理\\all_genes_short.txt",
+        "physical_lines": 4015,
+        "first_column_gene_records": 4014,
+        "literal_unique_gene_ids": 4014,
+        "case_normalized_unique_gene_ids": 4014
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\短中處理\\all_genes_short_outside_log.txt",
+        "physical_lines": 3368,
+        "first_column_gene_records": 3368,
+        "literal_unique_gene_ids": 3368,
+        "case_normalized_unique_gene_ids": 3368
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\短中處理\\無inf\\all_genes_middle_outside_log_noinf.txt",
+        "physical_lines": 13461,
+        "first_column_gene_records": 13460,
+        "literal_unique_gene_ids": 13458,
+        "case_normalized_unique_gene_ids": 13458
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\短中處理\\無inf\\all_genes_short_outside_log_noinf.txt",
+        "physical_lines": 99,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\經過篩選的路徑\\answer1.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\經過篩選的路徑\\answer2.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\經過篩選的路徑\\answer3.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\數據\\經過篩選的路徑\\answer4.txt",
+        "physical_lines": 176,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\期刊撰寫\\ENDNOTES\\endnotes 0917 劉皓羽.txt",
+        "physical_lines": 3,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\期刊撰寫\\ENDNOTES\\My EndNote Library.txt",
+        "physical_lines": 2,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\期刊撰寫\\期刊資訊\\投稿重點.txt",
+        "physical_lines": 108,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\期刊撰寫\\期刊資訊\\期刊.txt",
+        "physical_lines": 2,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\程式\\#外部資料匯入與校正繪圖.txt",
+        "physical_lines": 192,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\程式\\gsea_菲斯福氣.txt",
+        "physical_lines": 252,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\程式\\gsea全部.txt",
+        "physical_lines": 122,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\程式\\maxmean0127版本.txt",
+        "physical_lines": 133,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\程式\\maxmean原版.txt",
+        "physical_lines": 98,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\程式\\sumstat.txt",
+        "physical_lines": 103,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\程式\\校正前後的繪圖.txt",
+        "physical_lines": 48,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\程式\\條狀圖證明.txt",
+        "physical_lines": 67,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\程式\\比較分數與無母分析程式.txt",
+        "physical_lines": 202,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\程式\\超幾何.txt",
+        "physical_lines": 150,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\1213新版篩選\\中\\hyper_ct middle.txt",
+        "physical_lines": 343,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\1213新版篩選\\中\\maxmean_middle_p.txt",
+        "physical_lines": 343,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\1213新版篩選\\中\\SUMSTAT_ct_middle_pavlue.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\1213新版篩選\\短\\hyper_ct short.txt",
+        "physical_lines": 101,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\1213新版篩選\\短\\maxmean_short_p.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\1213新版篩選\\短\\SUMSTAT_ct_short_pavlue.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\0109版本\\中\\gsea_middle_p_1.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\0109版本\\中\\gsea_middle_p_10.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\0109版本\\中\\gsea_middle_p_11.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\0109版本\\中\\gsea_middle_p_13.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\0109版本\\中\\gsea_middle_p_14.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\0109版本\\中\\gsea_middle_p_15.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\0109版本\\中\\gsea_middle_p_17.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\0109版本\\中\\gsea_middle_p_18.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\0109版本\\中\\gsea_middle_p_19.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\0109版本\\中\\gsea_middle_p_2.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\0109版本\\中\\gsea_middle_p_3.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\0109版本\\中\\gsea_middle_p_5.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\0109版本\\中\\gsea_middle_p_6.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\0109版本\\中\\gsea_middle_p_7.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\0109版本\\中\\gsea_middle_p_9.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\0109版本\\短\\gsea_short_p_0_1.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\0109版本\\短\\gsea_short_p_1_2.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\0109版本\\短\\gsea_short_p_2_3.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\0109版本\\短\\gsea_short_p_3_4.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\0109版本\\短\\gsea_short_p_4_5.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\0109版本\\短\\gsea_short_p_5_6.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\0109版本\\短\\gsea_short_p_6_7.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\0109版本\\短\\gsea_short_p_7_8.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\0109版本\\短\\gsea_short_p_8_9.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\0109版本\\短\\gsea_short_p_9_10.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\middle_esmax.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\short_esmax.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\middle_esmax.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\middle_GSEA\\BH_hy_ad.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\middle_GSEA\\GSEA_MIDDLE_P.txt",
+        "physical_lines": 343,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\middle_GSEA\\gsea_middle_p_1.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\middle_GSEA\\gsea_middle_p_10.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\middle_GSEA\\gsea_middle_p_11.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\middle_GSEA\\gsea_middle_p_12.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\middle_GSEA\\gsea_middle_p_13.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\middle_GSEA\\gsea_middle_p_14.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\middle_GSEA\\gsea_middle_p_15.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\middle_GSEA\\gsea_middle_p_16.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\middle_GSEA\\gsea_middle_p_17.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\middle_GSEA\\gsea_middle_p_18.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\middle_GSEA\\gsea_middle_p_19.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\middle_GSEA\\gsea_middle_p_2.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\middle_GSEA\\gsea_middle_p_20.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\middle_GSEA\\gsea_middle_p_3.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\middle_GSEA\\gsea_middle_p_4.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\middle_GSEA\\gsea_middle_p_5.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\middle_GSEA\\gsea_middle_p_6.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\middle_GSEA\\gsea_middle_p_7.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\middle_GSEA\\gsea_middle_p_8.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\middle_GSEA\\gsea_middle_p_9.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\short_GSEA\\BH_hy_ad.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\short_GSEA\\GSEA_SHORT_P.txt",
+        "physical_lines": 101,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\short_GSEA\\gsea_short_p_1.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\short_GSEA\\gsea_short_p_4.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\short_GSEA\\gsea_short_p_5_7.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\short_GSEA\\gsea_short_p_7_9.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\GSEA\\舊版\\short_GSEA\\gsea_short_p_9_10.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\maxmean\\1213新版\\maxmean_middle_p.txt",
+        "physical_lines": 343,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\maxmean\\1213新版\\maxmean_short_p.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\maxmean\\maxmean_middle_p.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\maxmean\\maxmean_middle_p0109.txt",
+        "physical_lines": 343,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\maxmean\\maxmean_middle_p0127.txt",
+        "physical_lines": 343,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\maxmean\\maxmean_short_p.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\maxmean\\maxmean_short_p0109.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\maxmean\\maxmean_short_p0127.txt",
+        "physical_lines": 101,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\SUMSQ\\SUMSQ ct middle_pavlue.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\SUMSQ\\SUMSQ ct short_pavlue.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\SUMSQ\\篩選\\SUMSQ ct middle_pavlue.txt",
+        "physical_lines": 343,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\SUMSQ\\篩選\\SUMSQ ct short_pavlue.txt",
+        "physical_lines": 101,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\SUMSTAT\\SUMSTAT ct middle_pavlue.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\SUMSTAT\\SUMSTAT ct short_pavlue.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\SUMSTAT\\SUMSTAT_ct_middle_pavlue.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\SUMSTAT\\SUMSTAT_ct_short_pavlue.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\SUMSTAT\\程式.txt",
+        "physical_lines": 113,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\SUMSTAT\\篩選\\1213新版\\SUMSTAT_ct_middle_pavlue.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\SUMSTAT\\篩選\\1213新版\\SUMSTAT_ct_short_pavlue1213.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\SUMSTAT\\篩選\\舊版\\SUMSTAT ct middle_pavlue.txt",
+        "physical_lines": 343,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\SUMSTAT\\篩選\\舊版\\SUMSTAT ct short_pavlue.txt",
+        "physical_lines": 101,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\篩選後全路徑.txt",
+        "physical_lines": 25,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\篩選後大豆ct long0715.txt",
+        "physical_lines": 92,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\篩選後大豆ct long0715刪掉10基因.txt",
+        "physical_lines": 86,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\篩選後大豆ct middle0109.txt",
+        "physical_lines": 342,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\篩選後大豆ct short0109.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\超幾何\\程式.txt",
+        "physical_lines": 235,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\超幾何\\篩選\\超幾何大豆ct 3periods.txt",
+        "physical_lines": 176,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\超幾何\\篩選\\超幾何大豆ct long.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\超幾何\\篩選\\超幾何大豆ct middle.txt",
+        "physical_lines": 343,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\超幾何\\篩選\\超幾何大豆ct short.txt",
+        "physical_lines": 101,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\超幾何\\篩選後大豆ct 3periods.txt",
+        "physical_lines": 176,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\超幾何\\篩選後大豆ct long.txt",
+        "physical_lines": 100,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\超幾何\\篩選後大豆ct long0715.txt",
+        "physical_lines": 91,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\超幾何\\篩選後大豆ct middle.txt",
+        "physical_lines": 343,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\超幾何\\篩選後大豆ct short.txt",
+        "physical_lines": 101,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\錯誤數據\\篩選後大豆ct 3periods.txt",
+        "physical_lines": 116,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\錯誤數據\\篩選後大豆ct long.txt",
+        "physical_lines": 56,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\錯誤數據\\篩選後大豆ct middle.txt",
+        "physical_lines": 98,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\篩選後\\錯誤數據\\篩選後大豆ct short.txt",
+        "physical_lines": 62,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\大豆基因\\超幾何.txt",
+        "physical_lines": 41,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\給皓皓.txt",
+        "physical_lines": 2,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\高老師程式.txt",
+        "physical_lines": 30,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      },
+      {
+        "path": "研究法\\高老師程式2.txt",
+        "physical_lines": 38,
+        "first_column_gene_records": 0,
+        "literal_unique_gene_ids": 0,
+        "case_normalized_unique_gene_ids": 0
+      }
+    ]
+  },
+  "go": {
+    "path": "研究法\\大豆基因\\數據\\GO_terms_4899.txt",
+    "header_first_fields": [
+      "GO_id",
+      "Pathway",
+      "N.genes",
+      "Gene1",
+      "Gene2"
+    ],
+    "physical_lines": 4897,
+    "terms": 4896,
+    "literal_unique_member_ids": 44964,
+    "normalized_unique_member_ids": 44964,
+    "size_mismatches": 0
+  },
+  "ct_combinations": [
+    {
+      "phases": [
+        "short"
+      ],
+      "ct_unique_union": 44,
+      "ct_intersection_go": 43,
+      "ct_union_go": 44965,
+      "ct_not_in_go": [
+        "Glyma.11G180700"
+      ],
+      "ct_containing_pathway_gene_unions": {
+        "all_annotation_sizes": {
+          "pathway_count": 113,
+          "unique_gene_union": 32823,
+          "ct_in_pathway_union": 43
+        },
+        "legacy_5_through_1499": {
+          "pathway_count": 100,
+          "unique_gene_union": 16860,
+          "ct_in_pathway_union": 34
+        },
+        "paper_6_through_1500": {
+          "pathway_count": 97,
+          "unique_gene_union": 16856,
+          "ct_in_pathway_union": 34
+        }
+      }
+    },
+    {
+      "phases": [
+        "middle"
+      ],
+      "ct_unique_union": 143,
+      "ct_intersection_go": 143,
+      "ct_union_go": 44964,
+      "ct_not_in_go": [],
+      "ct_containing_pathway_gene_unions": {
+        "all_annotation_sizes": {
+          "pathway_count": 378,
+          "unique_gene_union": 43247,
+          "ct_in_pathway_union": 143
+        },
+        "legacy_5_through_1499": {
+          "pathway_count": 342,
+          "unique_gene_union": 28703,
+          "ct_in_pathway_union": 136
+        },
+        "paper_6_through_1500": {
+          "pathway_count": 337,
+          "unique_gene_union": 28703,
+          "ct_in_pathway_union": 136
+        }
+      }
+    },
+    {
+      "phases": [
+        "long"
+      ],
+      "ct_unique_union": 45,
+      "ct_intersection_go": 44,
+      "ct_union_go": 44965,
+      "ct_not_in_go": [
+        "Glyma.04G232600"
+      ],
+      "ct_containing_pathway_gene_unions": {
+        "all_annotation_sizes": {
+          "pathway_count": 111,
+          "unique_gene_union": 33811,
+          "ct_in_pathway_union": 44
+        },
+        "legacy_5_through_1499": {
+          "pathway_count": 99,
+          "unique_gene_union": 18081,
+          "ct_in_pathway_union": 37
+        },
+        "paper_6_through_1500": {
+          "pathway_count": 96,
+          "unique_gene_union": 18080,
+          "ct_in_pathway_union": 37
+        }
+      }
+    },
+    {
+      "phases": [
+        "short",
+        "middle"
+      ],
+      "ct_unique_union": 170,
+      "ct_intersection_go": 169,
+      "ct_union_go": 44965,
+      "ct_not_in_go": [
+        "Glyma.11G180700"
+      ],
+      "ct_containing_pathway_gene_unions": {
+        "all_annotation_sizes": {
+          "pathway_count": 393,
+          "unique_gene_union": 43326,
+          "ct_in_pathway_union": 169
+        },
+        "legacy_5_through_1499": {
+          "pathway_count": 356,
+          "unique_gene_union": 28993,
+          "ct_in_pathway_union": 158
+        },
+        "paper_6_through_1500": {
+          "pathway_count": 350,
+          "unique_gene_union": 28993,
+          "ct_in_pathway_union": 158
+        }
+      }
+    },
+    {
+      "phases": [
+        "short",
+        "long"
+      ],
+      "ct_unique_union": 49,
+      "ct_intersection_go": 47,
+      "ct_union_go": 44966,
+      "ct_not_in_go": [
+        "Glyma.04G232600",
+        "Glyma.11G180700"
+      ],
+      "ct_containing_pathway_gene_unions": {
+        "all_annotation_sizes": {
+          "pathway_count": 133,
+          "unique_gene_union": 34925,
+          "ct_in_pathway_union": 47
+        },
+        "legacy_5_through_1499": {
+          "pathway_count": 119,
+          "unique_gene_union": 19402,
+          "ct_in_pathway_union": 38
+        },
+        "paper_6_through_1500": {
+          "pathway_count": 116,
+          "unique_gene_union": 19401,
+          "ct_in_pathway_union": 38
+        }
+      }
+    },
+    {
+      "phases": [
+        "middle",
+        "long"
+      ],
+      "ct_unique_union": 171,
+      "ct_intersection_go": 170,
+      "ct_union_go": 44965,
+      "ct_not_in_go": [
+        "Glyma.04G232600"
+      ],
+      "ct_containing_pathway_gene_unions": {
+        "all_annotation_sizes": {
+          "pathway_count": 402,
+          "unique_gene_union": 43633,
+          "ct_in_pathway_union": 170
+        },
+        "legacy_5_through_1499": {
+          "pathway_count": 365,
+          "unique_gene_union": 29512,
+          "ct_in_pathway_union": 161
+        },
+        "paper_6_through_1500": {
+          "pathway_count": 359,
+          "unique_gene_union": 29512,
+          "ct_in_pathway_union": 161
+        }
+      }
+    },
+    {
+      "phases": [
+        "short",
+        "middle",
+        "long"
+      ],
+      "ct_unique_union": 175,
+      "ct_intersection_go": 173,
+      "ct_union_go": 44966,
+      "ct_not_in_go": [
+        "Glyma.04G232600",
+        "Glyma.11G180700"
+      ],
+      "ct_containing_pathway_gene_unions": {
+        "all_annotation_sizes": {
+          "pathway_count": 408,
+          "unique_gene_union": 43633,
+          "ct_in_pathway_union": 173
+        },
+        "legacy_5_through_1499": {
+          "pathway_count": 370,
+          "unique_gene_union": 29531,
+          "ct_in_pathway_union": 162
+        },
+        "paper_6_through_1500": {
+          "pathway_count": 364,
+          "unique_gene_union": 29531,
+          "ct_in_pathway_union": 162
+        }
+      }
+    }
+  ],
+  "external_inputs": {
+    "short": {
+      "path": "研究法\\大豆基因\\大豆基因 外部\\WITHOUTINF\\outer_data_2.0_short_address.txt",
+      "records": 40061,
+      "nonblank_gene_records": 40056,
+      "literal_unique": 39966,
+      "normalized_only_unique": 39966,
+      "mapped_retained_rows": 40048,
+      "mapped_unique": 39958,
+      "decisions": {
+        "already_v2": 38660,
+        "uniquely_mapped_old_id": 1388,
+        "ambiguous_old_id": 8,
+        "blank_id": 5
+      },
+      "excluded_mapping_rows": [
+        {
+          "source_row": 38757,
+          "id": "Glyma07g36300",
+          "targets": [
+            "Glyma.07G235100",
+            "Glyma.07G235200"
+          ],
+          "outcome": "ambiguous_old_id"
+        },
+        {
+          "source_row": 38758,
+          "id": "Glyma07g36311",
+          "targets": [
+            "Glyma.07G235100",
+            "Glyma.07G235200"
+          ],
+          "outcome": "ambiguous_old_id"
+        },
+        {
+          "source_row": 39290,
+          "id": "Glyma08g03005",
+          "targets": [
+            "Glyma.08G026500",
+            "Glyma.08G026600"
+          ],
+          "outcome": "ambiguous_old_id"
+        },
+        {
+          "source_row": 39291,
+          "id": "Glyma08g03010",
+          "targets": [
+            "Glyma.08G026500",
+            "Glyma.08G026600"
+          ],
+          "outcome": "ambiguous_old_id"
+        },
+        {
+          "source_row": 39861,
+          "id": "Glyma08g10435",
+          "targets": [
+            "Glyma.08G099000",
+            "Glyma.08G099100"
+          ],
+          "outcome": "ambiguous_old_id"
+        },
+        {
+          "source_row": 39862,
+          "id": "Glyma08g10440",
+          "targets": [
+            "Glyma.08G099000",
+            "Glyma.08G099100"
+          ],
+          "outcome": "ambiguous_old_id"
+        },
+        {
+          "source_row": 39925,
+          "id": "Glyma08g11220",
+          "targets": [
+            "Glyma.08G106500",
+            "Glyma.08G106600"
+          ],
+          "outcome": "ambiguous_old_id"
+        },
+        {
+          "source_row": 39926,
+          "id": "Glyma08g11230",
+          "targets": [
+            "Glyma.08G106500",
+            "Glyma.08G106600"
+          ],
+          "outcome": "ambiguous_old_id"
+        }
+      ]
+    },
+    "middle": {
+      "path": "研究法\\大豆基因\\大豆基因 外部\\WITHOUTINF\\outer_data_2.0_middle_address.txt",
+      "records": 40332,
+      "nonblank_gene_records": 40330,
+      "literal_unique": 40235,
+      "normalized_only_unique": 40235,
+      "mapped_retained_rows": 40330,
+      "mapped_unique": 40235,
+      "decisions": {
+        "already_v2": 40330,
+        "blank_id": 2
+      },
+      "excluded_mapping_rows": []
+    }
+  },
+  "historical_artifacts": [
+    {
+      "path": "研究法\\大豆基因\\數據\\外部基因校正\\gene_p_len.txt",
+      "sha256": "3ff5d73fc5c42a542a0eb7765b733086a2022eb21b33ff6f84b40e42da467be9",
+      "physical_lines": 42576,
+      "parsed_records": 42576,
+      "first_record": [
+        "gene_2.0",
+        "p_1",
+        "p_24",
+        "len",
+        "snp"
+      ],
+      "gene_records_in_first_column": 42575,
+      "literal_unique_gene_ids": 42567,
+      "case_normalized_unique_gene_ids": 42567,
+      "duplicate_extra_gene_records": 8,
+      "duplicate_gene_ids": {
+        "Glyma.13G198100": 2,
+        "Glyma.13G307500": 2,
+        "Glyma.14G087700": 2,
+        "Glyma.15G012400": 2,
+        "Glyma.15G173500": 2,
+        "Glyma.15G187700": 2,
+        "Glyma.17G191500": 2,
+        "Glyma.18G274000": 2
+      },
+      "non_gene_record_numbers": [
+        1
+      ]
+    },
+    {
+      "path": "研究法\\大豆基因\\數據\\外部基因校正\\gene_p_len_go_yamasaki.txt",
+      "sha256": "fe349e795967c492d25b2861f08ef5a02945d90eab470e16715886df6cd05bd7",
+      "physical_lines": 37157,
+      "parsed_records": 37157,
+      "first_record": [
+        "gene_2.0",
+        "p_1",
+        "p_24",
+        "len",
+        "snp"
+      ],
+      "gene_records_in_first_column": 37156,
+      "literal_unique_gene_ids": 37153,
+      "case_normalized_unique_gene_ids": 37153,
+      "duplicate_extra_gene_records": 3,
+      "duplicate_gene_ids": {
+        "Glyma.14G087700": 2,
+        "Glyma.15G173500": 2,
+        "Glyma.18G274000": 2
+      },
+      "non_gene_record_numbers": [
+        1
+      ]
+    },
+    {
+      "path": "研究法\\大豆基因\\數據\\外部基因校正\\glen_p_right_skew_kao.txt",
+      "sha256": "2b9f6ac2aa889e29aba3715ef0bd246d69d02b2f6aa9d01ca90e8a5cada6c24e",
+      "physical_lines": 42576,
+      "parsed_records": 42576,
+      "first_record": [
+        "g2.0",
+        "p1",
+        "p1.fdr",
+        "p24",
+        "p24.fdr",
+        "fc1",
+        "fc24",
+        "glen"
+      ],
+      "gene_records_in_first_column": 42575,
+      "literal_unique_gene_ids": 42567,
+      "case_normalized_unique_gene_ids": 42567,
+      "duplicate_extra_gene_records": 8,
+      "duplicate_gene_ids": {
+        "Glyma.15G173500": 2,
+        "Glyma.18G274000": 2,
+        "Glyma.13G307500": 2,
+        "Glyma.15G187700": 2,
+        "Glyma.15G012400": 2,
+        "Glyma.14G087700": 2,
+        "Glyma.17G191500": 2,
+        "Glyma.13G198100": 2
+      },
+      "non_gene_record_numbers": [
+        1
+      ]
+    },
+    {
+      "path": "研究法\\大豆基因\\數據\\外部基因校正\\Yamasaki_Go校正後1213.txt",
+      "sha256": "1d6818f1668afc1875d9d8570cfb6c4c479a0207ed942ba2951dbfb69d485e29",
+      "physical_lines": 42576,
+      "parsed_records": 42576,
+      "first_record": [
+        "gene_2.0",
+        "p_1",
+        "p_24",
+        "len",
+        "snp"
+      ],
+      "gene_records_in_first_column": 42575,
+      "literal_unique_gene_ids": 42567,
+      "case_normalized_unique_gene_ids": 42567,
+      "duplicate_extra_gene_records": 8,
+      "duplicate_gene_ids": {
+        "Glyma.13G198100": 2,
+        "Glyma.13G307500": 2,
+        "Glyma.14G087700": 2,
+        "Glyma.15G012400": 2,
+        "Glyma.15G173500": 2,
+        "Glyma.15G187700": 2,
+        "Glyma.17G191500": 2,
+        "Glyma.18G274000": 2
+      },
+      "non_gene_record_numbers": [
+        1
+      ]
+    },
+    {
+      "path": "研究法\\大豆基因\\數據\\外部基因校正\\Yamasaki_Go校正後1213_G.txt",
+      "sha256": "33baa8ab36d8a79124fe29f4ca45bde3d13d91e2085ed4e3350c391dfaa09fca",
+      "physical_lines": 42576,
+      "parsed_records": 42576,
+      "first_record": [
+        "gene_2.0",
+        "p_1",
+        "p_24",
+        "len",
+        "snp"
+      ],
+      "gene_records_in_first_column": 42575,
+      "literal_unique_gene_ids": 42567,
+      "case_normalized_unique_gene_ids": 42567,
+      "duplicate_extra_gene_records": 8,
+      "duplicate_gene_ids": {
+        "Glyma.13G198100": 2,
+        "Glyma.13G307500": 2,
+        "Glyma.14G087700": 2,
+        "Glyma.15G012400": 2,
+        "Glyma.15G173500": 2,
+        "Glyma.15G187700": 2,
+        "Glyma.17G191500": 2,
+        "Glyma.18G274000": 2
+      },
+      "non_gene_record_numbers": [
+        1
+      ]
+    },
+    {
+      "path": "研究法\\大豆基因\\數據\\外部基因校正\\Yamasaki_Go校正後1213_G_log10.txt",
+      "sha256": "f476cf50e2212bbe0e4f6d6bcd0addd2809db04e7c77ab6d4b2588217fa4f9e5",
+      "physical_lines": 42576,
+      "parsed_records": 42576,
+      "first_record": [
+        "gene_2.0",
+        "p_1",
+        "p_24",
+        "len",
+        "snp"
+      ],
+      "gene_records_in_first_column": 42575,
+      "literal_unique_gene_ids": 42567,
+      "case_normalized_unique_gene_ids": 42567,
+      "duplicate_extra_gene_records": 8,
+      "duplicate_gene_ids": {
+        "Glyma.17G191500": 2,
+        "Glyma.14G087700": 2,
+        "Glyma.18G274000": 2,
+        "Glyma.15G173500": 2,
+        "Glyma.15G187700": 2,
+        "Glyma.15G012400": 2,
+        "Glyma.13G198100": 2,
+        "Glyma.13G307500": 2
+      },
+      "non_gene_record_numbers": [
+        1
+      ]
+    },
+    {
+      "path": "研究法\\大豆基因\\數據\\外部基因校正\\Yamasaki_Go校正後1213_G_loge.txt",
+      "sha256": "4e58b0fa521d2ff39c9e699fd71dbf9757eeeffc33b24821f448cd5557d2f78a",
+      "physical_lines": 42576,
+      "parsed_records": 42576,
+      "first_record": [
+        "gene_2.0",
+        "p_1",
+        "p_24",
+        "len",
+        "snp"
+      ],
+      "gene_records_in_first_column": 42575,
+      "literal_unique_gene_ids": 42567,
+      "case_normalized_unique_gene_ids": 42567,
+      "duplicate_extra_gene_records": 8,
+      "duplicate_gene_ids": {
+        "Glyma.13G198100": 2,
+        "Glyma.13G307500": 2,
+        "Glyma.14G087700": 2,
+        "Glyma.15G012400": 2,
+        "Glyma.15G173500": 2,
+        "Glyma.15G187700": 2,
+        "Glyma.17G191500": 2,
+        "Glyma.18G274000": 2
+      },
+      "non_gene_record_numbers": [
+        1
+      ]
+    }
+  ],
+  "sets_against_go_and_ct": {
+    "GO": {
+      "unique_ids": 44964,
+      "intersection_go": 44964,
+      "union_go": 44964,
+      "not_in_go": 0,
+      "ct_overlap": {
+        "short": 43,
+        "middle": 143,
+        "long": 44
+      }
+    },
+    "CT_short": {
+      "unique_ids": 44,
+      "intersection_go": 43,
+      "union_go": 44965,
+      "not_in_go": 1,
+      "ct_overlap": {
+        "short": 44,
+        "middle": 17,
+        "long": 40
+      }
+    },
+    "CT_middle": {
+      "unique_ids": 143,
+      "intersection_go": 143,
+      "union_go": 44964,
+      "not_in_go": 0,
+      "ct_overlap": {
+        "short": 17,
+        "middle": 143,
+        "long": 17
+      }
+    },
+    "CT_long": {
+      "unique_ids": 45,
+      "intersection_go": 44,
+      "union_go": 44965,
+      "not_in_go": 1,
+      "ct_overlap": {
+        "short": 40,
+        "middle": 17,
+        "long": 45
+      }
+    },
+    "external_short_literal": {
+      "unique_ids": 39966,
+      "intersection_go": 0,
+      "union_go": 84930,
+      "not_in_go": 39966,
+      "ct_overlap": {
+        "short": 0,
+        "middle": 0,
+        "long": 0
+      }
+    },
+    "external_short_normalized_only": {
+      "unique_ids": 39966,
+      "intersection_go": 33917,
+      "union_go": 51013,
+      "not_in_go": 6049,
+      "ct_overlap": {
+        "short": 29,
+        "middle": 134,
+        "long": 29
+      }
+    },
+    "external_short_resolved": {
+      "unique_ids": 39958,
+      "intersection_go": 35140,
+      "union_go": 49782,
+      "not_in_go": 4818,
+      "ct_overlap": {
+        "short": 29,
+        "middle": 137,
+        "long": 29
+      }
+    },
+    "external_middle_literal": {
+      "unique_ids": 40235,
+      "intersection_go": 0,
+      "union_go": 85199,
+      "not_in_go": 40235,
+      "ct_overlap": {
+        "short": 0,
+        "middle": 0,
+        "long": 0
+      }
+    },
+    "external_middle_normalized_only": {
+      "unique_ids": 40235,
+      "intersection_go": 35378,
+      "union_go": 49821,
+      "not_in_go": 4857,
+      "ct_overlap": {
+        "short": 32,
+        "middle": 138,
+        "long": 32
+      }
+    },
+    "external_middle_resolved": {
+      "unique_ids": 40235,
+      "intersection_go": 35378,
+      "union_go": 49821,
+      "not_in_go": 4857,
+      "ct_overlap": {
+        "short": 32,
+        "middle": 138,
+        "long": 32
+      }
+    },
+    "gene_p_len.txt": {
+      "unique_ids": 42567,
+      "intersection_go": 37153,
+      "union_go": 50378,
+      "not_in_go": 5414,
+      "ct_overlap": {
+        "short": 41,
+        "middle": 143,
+        "long": 42
+      }
+    },
+    "gene_p_len_go_yamasaki.txt": {
+      "unique_ids": 37153,
+      "intersection_go": 37153,
+      "union_go": 44964,
+      "not_in_go": 0,
+      "ct_overlap": {
+        "short": 40,
+        "middle": 143,
+        "long": 41
+      }
+    },
+    "glen_p_right_skew_kao.txt": {
+      "unique_ids": 42567,
+      "intersection_go": 37153,
+      "union_go": 50378,
+      "not_in_go": 5414,
+      "ct_overlap": {
+        "short": 41,
+        "middle": 143,
+        "long": 42
+      }
+    },
+    "Yamasaki_Go校正後1213.txt": {
+      "unique_ids": 42567,
+      "intersection_go": 37153,
+      "union_go": 50378,
+      "not_in_go": 5414,
+      "ct_overlap": {
+        "short": 41,
+        "middle": 143,
+        "long": 42
+      }
+    },
+    "Yamasaki_Go校正後1213_G.txt": {
+      "unique_ids": 42567,
+      "intersection_go": 37153,
+      "union_go": 50378,
+      "not_in_go": 5414,
+      "ct_overlap": {
+        "short": 41,
+        "middle": 143,
+        "long": 42
+      }
+    },
+    "Yamasaki_Go校正後1213_G_log10.txt": {
+      "unique_ids": 42567,
+      "intersection_go": 37153,
+      "union_go": 50378,
+      "not_in_go": 5414,
+      "ct_overlap": {
+        "short": 41,
+        "middle": 143,
+        "long": 42
+      }
+    },
+    "Yamasaki_Go校正後1213_G_loge.txt": {
+      "unique_ids": 42567,
+      "intersection_go": 37153,
+      "union_go": 50378,
+      "not_in_go": 5414,
+      "ct_overlap": {
+        "short": 41,
+        "middle": 143,
+        "long": 42
+      }
+    }
+  },
+  "external_phase_combinations": {
+    "normalized_only": {
+      "union": 42053,
+      "intersection": 38148,
+      "go_intersect_phase_union": 35694,
+      "go_intersect_phase_intersection": 33601,
+      "go_union_phase_union": 51323
+    },
+    "resolved": {
+      "union": 40667,
+      "intersection": 39526,
+      "go_intersect_phase_union": 35699,
+      "go_intersect_phase_intersection": 34819,
+      "go_union_phase_union": 49932
+    }
+  },
+  "reconciliation_42576": {
+    "observed_identity": "42576 physical lines = 1 header + 42575 gene records = 1 header + 42567 unique IDs + 8 extra duplicate records",
+    "duplicate_ids": {
+      "Glyma.13G198100": 2,
+      "Glyma.13G307500": 2,
+      "Glyma.14G087700": 2,
+      "Glyma.15G012400": 2,
+      "Glyma.15G173500": 2,
+      "Glyma.15G187700": 2,
+      "Glyma.17G191500": 2,
+      "Glyma.18G274000": 2
+    },
+    "go_intersection_historical_unique": 37153,
+    "go_intersection_saved_file_unique": 37153,
+    "go_intersection_file_equals_set_intersection": true,
+    "claim_boundary": "These are reproducible file/count identities; no evidence establishes which count the authors used to write the paper."
+  },
+  "set_comparison_note": "GO and CT comparison sets use normalized uppercase G. The literal external sets deliberately retain lowercase g; their zero literal intersections expose the spelling mismatch, not a biological absence. Use normalized_only or resolved sets for biological overlap counts.",
+  "replayed_original_mapping": {
+    "source": "研究法\\大豆基因\\數據\\外部資料匯入\\耐寒資料庫0 1 24hr(轉換後)培修版.txt",
+    "source_header": [
+      "",
+      "Unnamed: 0",
+      "gene",
+      "logFC 1hr/0hr",
+      "logFC 1hr/0hr p-value",
+      "logFC 1hr/0hr FDR",
+      "logFC 24hr/0hr",
+      "logFC 24hr/0hr p-value",
+      "logFC 24hr/0hr FDR",
+      "FC 1hr/0hr",
+      "Fc 24hr/0hr"
+    ],
+    "source_data_records": 49777,
+    "original_code": "研究法/大豆基因/程式/#外部資料匯入與校正繪圖.txt:41-59",
+    "algorithm": "Find unique correspondence row indices matching source column3 in correspondence columns1 or2. Keep exactly one matching row with nonempty target column3. Multiple matching rows remain excluded even if their targets agree.",
+    "retained_records": 42575,
+    "excluded_records": 7202,
+    "exclusion_outcomes": {
+      "no_match": 6018,
+      "multiple_correspondence_rows": 1183,
+      "one_row_empty_target": 1
+    },
+    "literal_unique_targets": 42567,
+    "normalized_unique_targets": 42567,
+    "saved_gene_p_len_records": 42575,
+    "saved_ids_match_in_original_order_literal": true,
+    "saved_ids_match_in_original_order_normalized": true
+  },
+  "original_code_data_flow": {
+    "source": "研究法/大豆基因/程式/#外部資料匯入與校正繪圖.txt",
+    "full_mapped_data": "Lines41-59 construct out, line62 sets out1=out, lines74-75 write gene_p_len.txt.",
+    "go_filter": "Lines84-88 intersect out1 gene IDs with GO membership, lines91-92 write gene_p_len_go_yamasaki.txt, line104 uses the GO-filtered data for plots.",
+    "correction_branch": "Line150 sets p_middle=out1[,c(1,2,3,4,5)], returning to FULL mapped data. Lines173-174 write Yamasaki_Go校正後1213.txt.",
+    "statistics_input": "研究法/大豆基因/程式/sumstat.txt:2-4 loads Yamasaki_Go校正後1213_G_log10.txt. The saved file's42,575 records /42,567unique IDs agree with the full branch rather than the GO intersection."
+  }
+}

@@ -220,6 +220,93 @@ def permutation_test(scores, members, method, permutations=10000, seed=20261015,
             for value, p, q in zip(observed, p_values, adjusted)]
 
 
+def match_short_reference(rows, reference):
+    """Match a saved short-score reference by source row, checking input identity.
+
+    A gene can have multiple records. Never join on gene ID alone or average
+    these reference scores. Return original reference strings without rounding.
+    """
+    identity = {"source_row", "gene_id", "raw_short", "gene_length", "snp"}
+    saved = {"reference_adjusted_short", "reference_score_short",
+             "reference_snp_short", "reference_log_row"}
+    if (not rows or not reference or any(not identity.issubset(row) for row in rows)
+            or any(not (identity | saved).issubset(row) for row in reference)):
+        raise ValueError("Short reference and input require source-row identity and saved score columns")
+
+    def positive_integer(value):
+        number = float(value)
+        if not np.isfinite(number) or number < 1 or number != np.floor(number):
+            raise ValueError("Reference row numbers and SNP counts must be positive integers")
+        return int(number)
+
+    keys = [positive_integer(row["source_row"]) for row in rows]
+    reference_keys = [positive_integer(row["source_row"]) for row in reference]
+    if (len(set(keys)) != len(keys) or len(set(reference_keys)) != len(reference_keys)
+            or set(keys) != set(reference_keys)):
+        raise ValueError("Short reference source rows must match input exactly, without duplicates")
+    lookup = dict(zip(reference_keys, reference))
+    matched = [lookup[key] for key in keys]
+    for row, old in zip(rows, matched):
+        gene = canonical_id(row["gene_id"])
+        if not gene or gene != canonical_id(old["gene_id"]):
+            raise ValueError("Short reference gene identity differs from input")
+        for field in ("raw_short", "gene_length", "snp"):
+            value, original = float(row[field]), float(old[field])
+            if not np.isfinite(value) or value != original:
+                raise ValueError(f"Short reference {field} differs from input")
+        positive_integer(old["reference_snp_short"])
+        positive_integer(old["reference_log_row"])
+    validate_values([float(row["reference_adjusted_short"]) for row in matched], "pvalue")
+    validate_values([float(row["reference_score_short"]) for row in matched], "score")
+    return matched
+
+
+def impute_snp_counts(snp_counts, gene_lengths=None, bin_width=2000):
+    """Fill zeros from positive input counts in the same length bin, else globally.
+
+    Bins are [1, 2001), [2001, 4001), ... with no upper length limit.
+    Donors are frozen before filling: an imputed count never becomes a donor.
+    Round to the nearest integer, with ties to even, matching R's round().
+    """
+    counts = np.asarray(snp_counts, dtype=float)
+    if (counts.ndim != 1 or not counts.size or
+            np.any(~np.isfinite(counts) | (counts < 0) | (counts != np.floor(counts)))):
+        raise ValueError("SNP counts must be finite nonnegative integers")
+    if not np.isfinite(bin_width) or bin_width < 1 or bin_width != int(bin_width):
+        raise ValueError("bin_width must be a positive integer")
+    positive = counts > 0
+    if not positive.any():
+        raise ValueError("Cannot impute SNP counts: no positive input donors")
+    if gene_lengths is None:
+        if not positive.all():
+            raise ValueError("gene_length is required when SNP counts contain zero")
+        return {"values": counts.copy(), "audit": []}
+    lengths = np.asarray(gene_lengths, dtype=float)
+    if (lengths.shape != counts.shape or
+            np.any(~np.isfinite(lengths) | (lengths < 1) | (lengths != np.floor(lengths)))):
+        raise ValueError("Gene lengths must be finite positive integers matching SNP counts")
+    bins = np.floor((lengths - 1) / bin_width)
+    filled = counts.copy()
+    audit = []
+    for group in np.unique(bins[~positive]):
+        donors = counts[positive & (bins == group)]
+        source = "group_nonzero_mean"
+        if not donors.size:
+            donors = counts[positive]
+            source = "global_nonzero_mean"
+        donor_mean = float(np.mean(donors))
+        replacement = int(np.rint(donor_mean))
+        for index in np.flatnonzero((bins == group) & ~positive):
+            filled[index] = replacement
+            audit.append({"row_number": int(index + 1),
+                          "bin_start": int(group * bin_width + 1),
+                          "bin_end_exclusive": int((group + 1) * bin_width + 1),
+                          "original_snp": 0, "imputed_snp": replacement,
+                          "donor_count": int(donors.size), "donor_mean": donor_mean,
+                          "source": source})
+    return {"values": filled, "audit": sorted(audit, key=lambda row: row["row_number"])}
+
+
 def fosco(probabilities, snp_counts, tuning_parameter):
     """Stable 1-(1-p)^(M^lambda); requires confirmed probabilities or pseudo-scores."""
     probabilities = validate_values(probabilities, "pvalue")

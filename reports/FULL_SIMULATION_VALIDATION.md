@@ -1,5 +1,7 @@
 # Python and R full simulation validation — 15 October 2026
 
+**Interpretation update, 18 October 2026:** the [paper concordance audit](PAPER_CONCORDANCE_2026-10-18.md) found substantive differences from the reported workflow. Column 5 is now identified as fold change; the runs below used it unchanged. Their execution and numerical checks remain valid, but they do not verify paper reproduction. This report preserves the original run settings and outcomes.
+
 **All four full configurations completed successfully.** SUMSTAT, positive-tail GSEA, and experimental MaxMean each used 10,000 random gene sets per distinct pathway size, for short and middle phases, with score columns 5 and 6 analyzed separately in both languages. The earlier runs used 199 draws; these are new, full 10,000-draw runs.
 
 ## What ran
@@ -60,6 +62,6 @@ The exact hypergeometric counts are 11 short and 140 middle in both implementati
 
 Tested locally on Windows with R 4.5.1, Python 3.11, NumPy 2.3.5, SciPy 1.17.1, and Matplotlib 3.10.7. R printed nonfatal startup locale warnings and the intended experimental-MaxMean notices; all commands completed. The saved R session uses locale `C`. GitHub Actions is configured but has not been run remotely.
 
-The code now runs the requested short/middle statistical workflow in both languages. **Real-data FOSCO correction is still unconfirmed:** its raw score definition must be established before using the collaborator's values as correction inputs. Correction execution was tested on synthetic data. Score direction/construction and the scientific duplicate policy also need confirmation before interpreting the full simulations as final research results. This work does not reproduce every historical network, laboratory, supplementary-table, or exploratory analysis, and does not claim exact paper reproduction.
+The code now runs the short/middle statistical workflow in both languages. **Real-data FOSCO correction is still unconfirmed:** its raw score definition must be established before using the collaborator's values as correction inputs. Correction execution was tested on synthetic data. Score direction/construction and the scientific duplicate policy also need confirmation before interpreting the full simulations as final research results. This work does not reproduce every historical network, laboratory, supplementary-table, or exploratory analysis, and does not claim exact paper reproduction.
 
 For readable explanations and runnable examples, start with [the walkthrough](../docs/WALKTHROUGH.md).

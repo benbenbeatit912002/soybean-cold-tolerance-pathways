@@ -1,134 +1,118 @@
 # Soybean cold tolerance pathways
 
-Python and R workflows for short- and mid-term soybean cold-tolerance pathway analysis using hypergeometric testing, SUMSTAT, and GSEA.
+Recalculate gene scores and test short- and mid-term soybean cold-tolerance pathways with **Python or R**. Each language runs independently and implements hypergeometric testing, SUMSTAT, and positive-tail weighted GSEA. MaxMean is optional and experimental.
 
-Research companion for [Liu et al. (2025), *A multi-layered systems biology framework reveals dual-phased regulators and hormonal crosstalk underlying soybean cold tolerance*](https://doi.org/10.1007/s00299-025-03643-2).
+Research companion to [Liu et al. (2025), *A multi-layered systems biology framework reveals dual-phased regulators and hormonal crosstalk underlying soybean cold tolerance*](https://doi.org/10.1007/s00299-025-03643-2).
 
-This package organizes the short- and mid-term analysis, preserves the original scripts, and provides matching **Python and R workflows**. Start with the [step-by-step walkthrough](docs/WALKTHROUGH.md) to understand the code, then the [data dictionary](docs/DATA_DICTIONARY.md) and [code review](docs/CODE_REVIEW.md). This is a documented reanalysis; matching the published numerical results still requires confirmation of the historical score and analysis settings.
+**Research status:** this is a documented reanalysis, not a verified reproduction of every published pathway result. Matching the archived gene scores requires explicitly unconfirmed reconstruction hypotheses. The full workflow uses the historical expression-p-value branch; its relationship to the paper's fold-change description remains unresolved. Read [reproducibility status](docs/REPRODUCIBILITY.md) before interpreting results.
 
-## Scope and inputs
+## Start here
 
-- **Primary CTgenes:** `CTgenes 含分數/SHORT.txt` and `MIDDLE.txt`: 44 and 143 genes, respectively; 170 unique genes together. Their prior scores are preserved.
-- **External data:** the two `WITHOUTINF/outer_data_2.0_*_address.txt` files specified by the author. Columns 5 and 6 are scores supplied by Edward Kao; their exact construction and historical usage remain to be documented.
-- **GO annotation:** `GO_terms_4899.txt`, containing 4,896 GO terms despite the filename. The table contains GO IDs, descriptions, gene counts, and member genes. Gene scores are joined from separate inputs.
-- **Methods:** hypergeometric, SUMSTAT, and a positive-tail weighted GSEA-style analysis. MaxMean is available as an experimental option.
-- **Excluded:** long-term analyses, complete SoyNet/Cytoscape reconstruction, and experimental laboratory analyses. Related scripts in the requested code folder are reviewed and archived.
-
-## Quick start
-
-Clone the repository and enter its folder:
+Download and extract the repository ZIP, or clone it:
 
 ```sh
 git clone https://github.com/benbenbeatit912002/soybean-cold-tolerance-pathways.git
 cd soybean-cold-tolerance-pathways
 ```
 
-Run commands from this folder. Choose either language for analysis, correction, and plotting. The staged inputs are already included. R uses base R only. Python uses NumPy, SciPy, and Matplotlib; the tested versions are pinned in `requirements.txt`. Local validation used R 4.5.1 and Python 3.11.
+Open a terminal in the extracted/cloned folder. **All inputs for the workflow below are included.** No original D: drive, Excel installation, saved interactive session, or online data service is needed. Choose one language:
 
-**Python**
+| Language | Tested environment | Instructions |
+|---|---|---|
+| Python | Python 3.11; pinned NumPy, SciPy, Matplotlib | [Python guide](docs/RUN_PYTHON.md) |
+| R | R 4.5.1; base R only | [R guide](docs/RUN_R.md) |
+
+### Python quick start
 
 ```sh
 python -m pip install -r requirements.txt
-python examples/walkthrough.py
-python -m unittest discover -s tests -p "test_*.py"
-python scripts/run_analysis.py
-python scripts/plot_results.py
+python run_pipeline.py --mode demo
 ```
 
-**R**
+### R quick start
 
 ```sh
-Rscript --vanilla examples/walkthrough.R
-Rscript --vanilla tests/test_core.R
-Rscript --vanilla tests/test_integration.R
-Rscript --vanilla scripts/run_analysis.R
-Rscript --vanilla scripts/plot_results.R
+Rscript --vanilla run_pipeline.R --mode demo
 ```
 
-On the author's Windows machine, the R executable is `C:/Program Files/R/R-4.5.1/bin/Rscript.exe`. In PowerShell, invoke that quoted path with `&` if `Rscript` is not on PATH.
+The demo uses **invented data**, runs both phases, and writes six method tables and six figures under `results/python_demo/analysis/` or `results/r_demo/analysis/`, plus input checks and execution settings. Its numbers are not soybean research results.
 
-The default run computes hypergeometric results for both phases, lists missing CTgenes and duplicate rows, and saves settings and environment information. It uses each external dataset's resolved gene IDs as its background. It does not require an external numerical score.
+## Run the soybean analysis
 
-## Full simulations in both languages
-
-Each full configuration runs SUMSTAT, positive-tail GSEA, and experimental MaxMean with **10,000 random gene sets per distinct pathway size**, for both phases. Edward Kao's two score columns are analyzed separately. Hypergeometric tests are also saved; they are calculated directly and require no simulations.
+Choose either command. The explicit flag enables the [documented score-reconstruction hypotheses](docs/REPRODUCIBILITY.md#score-reconstruction).
 
 ```sh
-python scripts/run_analysis.py config.score5-full.json
-python scripts/run_analysis.py config.score6-full.json
-python scripts/plot_results.py results/python_score5_full
-python scripts/plot_results.py results/python_score6_full
+python run_pipeline.py --mode full --use-reconstruction-hypotheses
 ```
 
 ```sh
-Rscript --vanilla scripts/run_analysis.R config.score5-full.R
-Rscript --vanilla scripts/run_analysis.R config.score6-full.R
-Rscript --vanilla scripts/plot_results.R results/r_score5_full
-Rscript --vanilla scripts/plot_results.R results/r_score6_full
+Rscript --vanilla run_pipeline.R --mode full --use-reconstruction-hypotheses
 ```
 
-These configurations assume larger supplied scores mean stronger evidence and explicitly average scores for duplicate gene IDs. These remain assumptions to confirm before interpreting the results scientifically. The minimum attainable nominal simulation p-value is `1/10001`, approximately 0.0001; BH correction is then applied across all eligible pathways.
+Each command rebuilds both phases' scores from packaged upstream files, runs the analysis, and plots the results. Saved reference scores are used only in separate validation, never as calculation inputs.
 
-The full runs and checks are recorded in [full simulation validation](reports/FULL_SIMULATION_VALIDATION.md). After all four runs finish, verify their tables and compare languages with:
+| Mode | Data | Random sets per distinct pathway size and method | Purpose |
+|---|---|---:|---|
+| `demo` | 20 invented genes, three pathways | 199 | Learn the interface and check installation |
+| `quick` | Complete packaged soybean inputs | 199 | Check execution; not final significance estimates |
+| `full` | Complete packaged soybean inputs | 10,000 | Complete reanalysis |
 
-```sh
-python tests/check_cross_language.py
-python scripts/verify_full_runs.py
+Replace `full` with `quick` for a shorter real-data execution check. Add `--include-maxmean` to include experimental MaxMean. Hypergeometric probabilities are exact and need no simulations. Full runs can take tens of minutes depending on hardware; each method prints progress.
+
+Outputs go to a language/mode-specific directory, such as `results/python_full/`. Existing nonempty output directories are refused to prevent stale results. For another run, add `--output results/my_second_run`. Run `--help` for options.
+
+Without the hypotheses flag, a real-data run saves the unresolved score audit and exits with status 2 before pathway analysis. It does not silently fill or copy the remaining scores.
+
+## What the workflow does
+
+```mermaid
+flowchart LR
+    A[Expression p-values + gene mapping + lengths + SNP markers] --> B[Recalculate short and middle scores]
+    B --> C[Unique measured-gene universe]
+    D[CTgene membership + GO annotation] --> C
+    C --> E[Hypergeometric / SUMSTAT / GSEA]
+    E --> F[BH adjustment + tables + figures]
 ```
 
-Python and R agree on deterministic statistics and exact hypergeometric probabilities within numerical precision. Their native random-number generators produce different null samples, so simulated p-values can differ. The comparison checks identical enumerated null sets separately and reports the differences in the full runs.
+The main analysis uses 42,575 mapped records representing **42,567 unique genes**, averages duplicate-gene scores, and tests 2,689 GO terms with 6-1,500 measured genes. The CT lists contain 44 short-term and 143 mid-term genes; 41 and 143 occur in this measured universe. Long-term analyses are outside scope.
 
-For a quicker execution check, use `config.score5-diagnostic.json` / `.R` or their score-6 equivalents. These use only 199 draws and exclude MaxMean. The earlier R results in `score5_diagnostic` and `score6_diagnostic` are retained as historical diagnostics, not final significance estimates.
+Python and R implement the same statistical definitions. Their native random generators differ, so simulated p-values need not match exactly. Shared-null tests check the implementations using identical random-set inputs.
 
-Original CT prior scores are not added to external scores. They are different measurements, and a combined score would require a defined formula. Short and middle are analyzed separately.
+## Read your results
 
-## Correction and plots
-
-`scripts/correct_scores.py` and `scripts/correct_scores.R` apply numerically stable FOSCO separately to both phases. They require a table with `gene_id`, `raw_short`, `raw_middle`, and positive `snp` counts, with raw values in `(0,1]`. Each version records the lambda search and generates labelled diagnostics. Do not give these scripts column 5 or 6 directly: those supplied scores exceed one.
-
-```sh
-Rscript --vanilla scripts/correct_scores.R confirmed_raw_scores.tsv results/correction
-python scripts/correct_scores.py confirmed_raw_scores.tsv results/python_correction
-```
-
-The correction entry point was tested with synthetic data. The historical correction was audited, but has not been reconstructed end to end from a confirmed raw-score definition. Removing a correlation does not establish that a transformed score is a calibrated p-value.
-
-## Repository contents
-
-| Location | Purpose |
+| Output within a run directory | Contents |
 |---|---|
-| `R/core.R` and `python/ctpathway.py` | Matching statistical functions with explanatory comments |
-| `config*.R` and `config*.json` | Explicit analysis and simulation settings |
-| `examples/walkthrough.R` and `.py` | Matching ten-gene teaching examples |
-| `docs/WALKTHROUGH.md` | Plain-English explanation of the complete workflow |
-| `scripts/` | Input staging, audits, analysis, correction, and plotting |
-| `data/input/` | Staged primary data, external scores, GO membership and ID correspondence |
-| `legacy/` | Byte-identical copies of all 11 scripts from the requested code folder |
-| `docs/CODE_REVIEW.md` | Findings, affected lines, consequences, and remediation |
-| `docs/METHODS.md` | Statistical definitions and differences from historical scripts |
-| `reports/` | Hash manifest, input audit, import decisions, parse checks, and validation summary |
-| `results/` | Generated outputs, excluded from Git by default |
-| `tests/` | Numerical checks and synthetic integration checks |
+| `scores/recalculated_scores.tsv` | Fresh real-data scores, row identities, SNP counts, and repair status; absent in demo |
+| `scores/exception_audit.tsv` | Rows affected by reconstruction hypotheses or unresolved values |
+| `analysis/input_summary.tsv` | Universe sizes, missing CTgenes, duplicates, tested pathways |
+| `analysis/short_*.tsv`, `analysis/middle_*.tsv` | Statistics, nominal and BH-adjusted p-values; simulations also record exceedances, draws, and seed |
+| `analysis/*.png` | Top CT-containing terms; display selection does not establish significance |
+| `analysis_config.*`, `run_manifest.*` | Actual settings and completion status |
 
-Regenerate the data package from the original folder:
+Read [methods](docs/METHODS.md) and the [data dictionary](docs/DATA_DICTIONARY.md) for definitions. A successful run confirms execution; it does not resolve the outstanding differences from the paper.
 
-```sh
-python scripts/audit_inputs.py "D:/Bioinformatics project"
-python scripts/prepare_inputs.py "D:/Bioinformatics project"
-python scripts/audit_lineage.py "D:/Bioinformatics project"
-Rscript --vanilla scripts/check_legacy.R
-```
+## Repository guide
 
-The originals are unchanged. The manifest records SHA-256 hashes and every staging transformation. Import-decision tables record every external row, including exclusions. Old-format IDs are mapped only when the supplied correspondence table has exactly one target.
+| Location | Role |
+|---|---|
+| `run_pipeline.py`, `run_pipeline.R` | Recommended complete entry points |
+| `python/`, `R/` | Statistical functions and score reconstruction |
+| `data/upstream/` | Byte-preserved reconstruction sources and checksum manifest |
+| `data/input/` | CT lists, GO memberships, correspondence, and older WITHOUTINF branch |
+| `data/reference/` | Expected historical values for independent validation only |
+| `examples/`, `tests/` | Teaching examples and statistical/workflow checks |
+| `docs/`, `reports/` | Guides, data lineage, code review, and validation evidence |
+| `legacy/` | Unmodified original scripts; not invoked by the main workflow |
+| `results/`, `dist/` | Generated local outputs and packages, excluded from Git |
 
-`python scripts/verify_outputs.py` checks the earlier membership/199-draw R outputs. `python scripts/verify_full_runs.py` checks the new full runs in both languages. `python scripts/package_project.py` creates a local review ZIP, including generated results and excluding temporary tests, virtual environments, and caches.
+Original Chinese source filenames remain in provenance records and archival scripts. Guides, new entry points, and explanations are in English. Earlier WITHOUTINF runs and archival provenance utilities are in [advanced workflows](docs/ADVANCED_WORKFLOWS.md).
 
-With that ZIP present, `python scripts/check_package.py` extracts it to a fresh folder and runs both languages' tests, examples, membership analyses, and plotting commands, then verifies the included full simulation outputs. Supply `--rscript "C:/Program Files/R/R-4.5.1/bin/Rscript.exe"` if needed. This execution check does not repeat the expensive full simulations; it keeps its logs and writes `reports/latest_dual_language_package_check.json`.
+## Validate and package
 
-## Publication status
+See the [local preparation and validation report](reports/GITHUB_READINESS_2026-10-23.md) for tested scope and remaining scientific limitations.
 
-Repository: [benbenbeatit912002/soybean-cold-tolerance-pathways](https://github.com/benbenbeatit912002/soybean-cold-tolerance-pathways). The repository includes code, prepared inputs, documentation, and validation reports. Generated `results/` files are excluded from Git and can be regenerated with the commands above; the author's local review ZIP also includes the completed results.
+Follow the language guides for tests. With both interpreters installed, run `python tests/check_cross_language.py` for shared-null agreement. [Release instructions](docs/RELEASING.md) describe building and testing a clean source ZIP, including an optional complete rerun.
 
-Before describing the analyses as an exact reproduction, resolve the decisions in the code review and compare a confirmed full run against the final supplementary tables. The published article mentions MaxMean; the author's intended repository treats its results as experimental. That distinction is documented rather than silently removed.
+## Citation and reuse
 
-No software or data license has been assigned on the author's behalf. Select appropriate licenses and confirm redistribution terms for collaborator-provided data before public release. Cite the article using `CITATION.cff`.
+Use [CITATION.cff](CITATION.cff) to cite the article. Software and data licensing have not yet been assigned; see [data provenance and reuse](data/README.md).

@@ -1,0 +1,1589 @@
+{
+  "runs": [
+    {
+      "language": "python",
+      "profile": "full",
+      "input_summary": [
+        {
+          "phase": "short",
+          "ct_input": "44",
+          "external_rows": "42575",
+          "universe_size": "42567",
+          "ct_in_universe": "41",
+          "missing_ct": "3",
+          "duplicate_extra_rows": "8",
+          "tested_pathways": "2689",
+          "pathways_with_ct": "98"
+        },
+        {
+          "phase": "middle",
+          "ct_input": "143",
+          "external_rows": "42575",
+          "universe_size": "42567",
+          "ct_in_universe": "143",
+          "missing_ct": "0",
+          "duplicate_extra_rows": "8",
+          "tested_pathways": "2689",
+          "pathways_with_ct": "337"
+        }
+      ],
+      "tests": [
+        {
+          "phase": "short",
+          "method": "hypergeometric",
+          "pathways": 2689,
+          "distinct_sizes": 377,
+          "min_p": 1.0152708872598018e-13,
+          "min_bh": 2.730063415841607e-10,
+          "bh_below_0_05": 9,
+          "bh_below_0_005": 7
+        },
+        {
+          "phase": "short",
+          "method": "sumstat",
+          "pathways": 2689,
+          "distinct_sizes": 377,
+          "min_p": 9.999000099990002e-05,
+          "min_bh": 0.003319421144305323,
+          "bh_below_0_05": 126,
+          "bh_below_0_005": 81
+        },
+        {
+          "phase": "short",
+          "method": "gsea",
+          "pathways": 2689,
+          "distinct_sizes": 377,
+          "min_p": 9.999000099990002e-05,
+          "min_bh": 0.0036334204417396102,
+          "bh_below_0_05": 113,
+          "bh_below_0_005": 74
+        },
+        {
+          "phase": "short",
+          "method": "maxmean",
+          "pathways": 2689,
+          "distinct_sizes": 377,
+          "min_p": 9.999000099990002e-05,
+          "min_bh": 0.0034034571226421663,
+          "bh_below_0_05": 126,
+          "bh_below_0_005": 79
+        },
+        {
+          "phase": "middle",
+          "method": "hypergeometric",
+          "pathways": 2689,
+          "distinct_sizes": 377,
+          "min_p": 2.009550535304638e-210,
+          "min_bh": 5.4036813894341716e-207,
+          "bh_below_0_05": 139,
+          "bh_below_0_005": 113
+        },
+        {
+          "phase": "middle",
+          "method": "sumstat",
+          "pathways": 2689,
+          "distinct_sizes": 377,
+          "min_p": 9.999000099990002e-05,
+          "min_bh": 0.0026887311268873116,
+          "bh_below_0_05": 247,
+          "bh_below_0_005": 119
+        },
+        {
+          "phase": "middle",
+          "method": "gsea",
+          "pathways": 2689,
+          "distinct_sizes": 377,
+          "min_p": 9.999000099990002e-05,
+          "min_bh": 0.0062528630857844455,
+          "bh_below_0_05": 124,
+          "bh_below_0_005": 0
+        },
+        {
+          "phase": "middle",
+          "method": "maxmean",
+          "pathways": 2689,
+          "distinct_sizes": 377,
+          "min_p": 9.999000099990002e-05,
+          "min_bh": 0.0026621100266211004,
+          "bh_below_0_05": 228,
+          "bh_below_0_005": 118
+        }
+      ]
+    },
+    {
+      "language": "r",
+      "profile": "full",
+      "input_summary": [
+        {
+          "phase": "short",
+          "ct_input": "44",
+          "external_rows": "42575",
+          "universe_size": "42567",
+          "ct_in_universe": "41",
+          "missing_ct": "3",
+          "duplicate_extra_rows": "8",
+          "tested_pathways": "2689",
+          "pathways_with_ct": "98"
+        },
+        {
+          "phase": "middle",
+          "ct_input": "143",
+          "external_rows": "42575",
+          "universe_size": "42567",
+          "ct_in_universe": "143",
+          "missing_ct": "0",
+          "duplicate_extra_rows": "8",
+          "tested_pathways": "2689",
+          "pathways_with_ct": "337"
+        }
+      ],
+      "tests": [
+        {
+          "phase": "short",
+          "method": "hypergeometric",
+          "pathways": 2689,
+          "distinct_sizes": 377,
+          "min_p": 1.0152708872598e-13,
+          "min_bh": 2.7300634158416e-10,
+          "bh_below_0_05": 9,
+          "bh_below_0_005": 7
+        },
+        {
+          "phase": "short",
+          "method": "sumstat",
+          "pathways": 2689,
+          "distinct_sizes": 377,
+          "min_p": 9.99900009999e-05,
+          "min_bh": 0.00331942114430532,
+          "bh_below_0_05": 126,
+          "bh_below_0_005": 81
+        },
+        {
+          "phase": "short",
+          "method": "gsea",
+          "pathways": 2689,
+          "distinct_sizes": 377,
+          "min_p": 9.99900009999e-05,
+          "min_bh": 0.00389671177809755,
+          "bh_below_0_05": 119,
+          "bh_below_0_005": 69
+        },
+        {
+          "phase": "short",
+          "method": "maxmean",
+          "pathways": 2689,
+          "distinct_sizes": 377,
+          "min_p": 9.99900009999e-05,
+          "min_bh": 0.00327894039864306,
+          "bh_below_0_05": 130,
+          "bh_below_0_005": 82
+        },
+        {
+          "phase": "middle",
+          "method": "hypergeometric",
+          "pathways": 2689,
+          "distinct_sizes": 377,
+          "min_p": 2.00955053530474e-210,
+          "min_bh": 5.40368138943444e-207,
+          "bh_below_0_05": 139,
+          "bh_below_0_005": 113
+        },
+        {
+          "phase": "middle",
+          "method": "sumstat",
+          "pathways": 2689,
+          "distinct_sizes": 377,
+          "min_p": 9.99900009999e-05,
+          "min_bh": 0.00280076159050762,
+          "bh_below_0_05": 237,
+          "bh_below_0_005": 113
+        },
+        {
+          "phase": "middle",
+          "method": "gsea",
+          "pathways": 2689,
+          "distinct_sizes": 377,
+          "min_p": 9.99900009999e-05,
+          "min_bh": 0.00572070452529215,
+          "bh_below_0_05": 122,
+          "bh_below_0_005": 0
+        },
+        {
+          "phase": "middle",
+          "method": "maxmean",
+          "pathways": 2689,
+          "distinct_sizes": 377,
+          "min_p": 9.99900009999e-05,
+          "min_bh": 0.00292253383357316,
+          "bh_below_0_05": 229,
+          "bh_below_0_005": 113
+        }
+      ]
+    },
+    {
+      "language": "python",
+      "profile": "historical",
+      "input_summary": [
+        {
+          "phase": "short",
+          "records": "42575",
+          "unique_genes": "42567",
+          "candidates": "100",
+          "distinct_record_sizes": "95",
+          "annotation_union": "16860",
+          "mixed_union": "16953",
+          "ct_input": "44",
+          "ct_measured": "41"
+        },
+        {
+          "phase": "middle",
+          "records": "42575",
+          "unique_genes": "42567",
+          "candidates": "342",
+          "distinct_record_sizes": "231",
+          "annotation_union": "28703",
+          "mixed_union": "28962",
+          "ct_input": "143",
+          "ct_measured": "143"
+        }
+      ],
+      "tests": [
+        {
+          "phase": "short",
+          "method": "sumstat",
+          "pathways": 100,
+          "distinct_sizes": 95,
+          "min_p": 0.0,
+          "min_bh": 0.0,
+          "bh_below_0_05": 46,
+          "bh_below_0_005": 41
+        },
+        {
+          "phase": "middle",
+          "method": "sumstat",
+          "pathways": 342,
+          "distinct_sizes": 231,
+          "min_p": 0.0,
+          "min_bh": 0.0,
+          "bh_below_0_05": 122,
+          "bh_below_0_005": 91
+        }
+      ]
+    },
+    {
+      "language": "r",
+      "profile": "historical",
+      "input_summary": [
+        {
+          "phase": "short",
+          "records": "42575",
+          "unique_genes": "42567",
+          "candidates": "100",
+          "distinct_record_sizes": "95",
+          "annotation_union": "16860",
+          "mixed_union": "16953",
+          "ct_input": "44",
+          "ct_measured": "41"
+        },
+        {
+          "phase": "middle",
+          "records": "42575",
+          "unique_genes": "42567",
+          "candidates": "342",
+          "distinct_record_sizes": "231",
+          "annotation_union": "28703",
+          "mixed_union": "28962",
+          "ct_input": "143",
+          "ct_measured": "143"
+        }
+      ],
+      "tests": [
+        {
+          "phase": "short",
+          "method": "sumstat",
+          "pathways": 100,
+          "distinct_sizes": 95,
+          "min_p": 0.0,
+          "min_bh": 0.0,
+          "bh_below_0_05": 46,
+          "bh_below_0_005": 41
+        },
+        {
+          "phase": "middle",
+          "method": "sumstat",
+          "pathways": 342,
+          "distinct_sizes": 231,
+          "min_p": 0.0,
+          "min_bh": 0.0,
+          "bh_below_0_05": 124,
+          "bh_below_0_005": 91
+        }
+      ]
+    }
+  ],
+  "language_comparisons": [
+    {
+      "profile": "full",
+      "phase": "short",
+      "method": "hypergeometric",
+      "exact_probability_agreement": true
+    },
+    {
+      "profile": "full",
+      "phase": "short",
+      "method": "sumstat",
+      "max_statistic_difference": 1.1368683772161603e-13,
+      "max_p_difference": 0.018198180181981383,
+      "outside_six_SE_screen": 0
+    },
+    {
+      "profile": "full",
+      "phase": "short",
+      "method": "gsea",
+      "max_statistic_difference": 1.2212453270876722e-15,
+      "max_p_difference": 0.018598140185981105,
+      "outside_six_SE_screen": 0
+    },
+    {
+      "profile": "full",
+      "phase": "short",
+      "method": "maxmean",
+      "max_statistic_difference": 4.884981308350689e-15,
+      "max_p_difference": 0.02079792020797916,
+      "outside_six_SE_screen": 0
+    },
+    {
+      "profile": "full",
+      "phase": "middle",
+      "method": "hypergeometric",
+      "exact_probability_agreement": true
+    },
+    {
+      "profile": "full",
+      "phase": "middle",
+      "method": "sumstat",
+      "max_statistic_difference": 5.002220859751105e-12,
+      "max_p_difference": 0.019698030196980576,
+      "outside_six_SE_screen": 0
+    },
+    {
+      "profile": "full",
+      "phase": "middle",
+      "method": "gsea",
+      "max_statistic_difference": 1.5543122344752192e-15,
+      "max_p_difference": 0.017298270172982688,
+      "outside_six_SE_screen": 0
+    },
+    {
+      "profile": "full",
+      "phase": "middle",
+      "method": "maxmean",
+      "max_statistic_difference": 4.884981308350689e-15,
+      "max_p_difference": 0.019298070192980715,
+      "outside_six_SE_screen": 0
+    },
+    {
+      "profile": "historical",
+      "phase": "short",
+      "method": "sumstat",
+      "max_statistic_difference": 1.1368683772161603e-13,
+      "max_p_difference": 0.011699999999999933,
+      "outside_six_SE_screen": 0
+    },
+    {
+      "profile": "historical",
+      "phase": "middle",
+      "method": "sumstat",
+      "max_statistic_difference": 4.092726157978177e-12,
+      "max_p_difference": 0.017900000000000027,
+      "outside_six_SE_screen": 0
+    }
+  ],
+  "simulation_tables": 16,
+  "simulation_result_rows": 33152,
+  "null_set_evaluations": 51760000,
+  "score_verification": {
+    "python": {
+      "short": {
+        "records": 42575,
+        "exact_decimal_matches": 42575,
+        "strict_exact_matches": 42574,
+        "strict_nonfinite": 1
+      },
+      "middle": {
+        "records": 42575,
+        "exact_decimal_matches": 42575,
+        "strict_exact_matches": 42573,
+        "strict_nonfinite": 2
+      },
+      "exceptions": [
+        {
+          "phase": "short",
+          "source_row": "29915",
+          "gene_id": "Glyma.14G129500",
+          "status": "zero_snp_repair_hypothesis",
+          "historical_snp": "0",
+          "final_snp": "12",
+          "adjusted_probability": "0.9947477",
+          "score": "0.002287056",
+          "calculated_finite_max": "13.929283904926232"
+        },
+        {
+          "phase": "middle",
+          "source_row": "7980",
+          "gene_id": "Glyma.04G222100",
+          "status": "maximum_finite_score_repair_hypothesis",
+          "historical_snp": "9",
+          "final_snp": "9",
+          "adjusted_probability": "0.0",
+          "score": "15.47747",
+          "calculated_finite_max": "15.47746851547134"
+        },
+        {
+          "phase": "middle",
+          "source_row": "29915",
+          "gene_id": "Glyma.14G129500",
+          "status": "zero_snp_repair_hypothesis",
+          "historical_snp": "0",
+          "final_snp": "12",
+          "adjusted_probability": "0.9008147",
+          "score": "0.045364535",
+          "calculated_finite_max": "15.47746851547134"
+        }
+      ]
+    },
+    "r": {
+      "short": {
+        "records": 42575,
+        "exact_decimal_matches": 42575,
+        "strict_exact_matches": 42574,
+        "strict_nonfinite": 1
+      },
+      "middle": {
+        "records": 42575,
+        "exact_decimal_matches": 42575,
+        "strict_exact_matches": 42573,
+        "strict_nonfinite": 2
+      },
+      "exceptions": [
+        {
+          "phase": "short",
+          "source_row": "29915",
+          "gene_id": "Glyma.14G129500",
+          "status": "zero_snp_repair_hypothesis",
+          "historical_snp": "0",
+          "final_snp": "12",
+          "adjusted_probability": "0.99474770000000001",
+          "score": "0.002287056",
+          "calculated_finite_max": "13.929283904926232"
+        },
+        {
+          "phase": "middle",
+          "source_row": "7980",
+          "gene_id": "Glyma.04G222100",
+          "status": "maximum_finite_score_repair_hypothesis",
+          "historical_snp": "9",
+          "final_snp": "9",
+          "adjusted_probability": "0",
+          "score": "15.47747",
+          "calculated_finite_max": "15.47746851547134"
+        },
+        {
+          "phase": "middle",
+          "source_row": "29915",
+          "gene_id": "Glyma.14G129500",
+          "status": "zero_snp_repair_hypothesis",
+          "historical_snp": "0",
+          "final_snp": "12",
+          "adjusted_probability": "0.90081469999999997",
+          "score": "0.045364535",
+          "calculated_finite_max": "15.47746851547134"
+        }
+      ]
+    },
+    "historical_repair_provenance_confirmed": false,
+    "reference_used_only_in_verifier": true
+  },
+  "manuscript_comparison": {
+    "source_workbook": "D:\\Bioinformatics project\\研究法\\大豆基因\\期刊撰寫\\期刊要求的檔案\\20250623 plant cell report\\Supplementary data\\TableS2_Pathway enrichment analysis.xlsx",
+    "source_sha256": "1679683b3f0fb5c27a098f9777104a51db3066d78e70863333dbc76e3898fa23",
+    "source_docx": "D:\\Bioinformatics project\\研究法\\大豆基因\\期刊撰寫\\期刊要求的檔案\\20250623 plant cell report\\Supplementary data\\TableS1.docx",
+    "source_docx_sha256": "fd48acfedfddcde696dcf88feff0ff748e229160109bdcb3550ff9c5df12443e",
+    "publisher_identity_verified": false,
+    "comparisons": [
+      {
+        "reference": "S2",
+        "profile": "full",
+        "language": "python",
+        "phase": "short",
+        "method": "hypergeometric",
+        "reference_rows": 100,
+        "compared": 97,
+        "excluded": 3,
+        "max_p_difference": 0.8938087411540795,
+        "outside_six_SE_screen": null,
+        "bh_0_05_classification_agreement": 90
+      },
+      {
+        "reference": "S2",
+        "profile": "full",
+        "language": "python",
+        "phase": "short",
+        "method": "sumstat",
+        "reference_rows": 100,
+        "compared": 97,
+        "excluded": 3,
+        "max_p_difference": 0.9568043195680431,
+        "outside_six_SE_screen": 35,
+        "bh_0_05_classification_agreement": 76
+      },
+      {
+        "reference": "S2",
+        "profile": "full",
+        "language": "python",
+        "phase": "short",
+        "method": "gsea",
+        "reference_rows": 100,
+        "compared": 97,
+        "excluded": 3,
+        "max_p_difference": 0.9999999999999999,
+        "outside_six_SE_screen": 60,
+        "bh_0_05_classification_agreement": 52
+      },
+      {
+        "reference": "S2",
+        "profile": "full",
+        "language": "python",
+        "phase": "short",
+        "method": "maxmean",
+        "reference_rows": 100,
+        "compared": 97,
+        "excluded": 3,
+        "max_p_difference": 0.999900009998906,
+        "outside_six_SE_screen": 95,
+        "bh_0_05_classification_agreement": 32
+      },
+      {
+        "reference": "S2",
+        "profile": "full",
+        "language": "python",
+        "phase": "middle",
+        "method": "hypergeometric",
+        "reference_rows": 342,
+        "compared": 335,
+        "excluded": 7,
+        "max_p_difference": 0.9339336002478597,
+        "outside_six_SE_screen": null,
+        "bh_0_05_classification_agreement": 307
+      },
+      {
+        "reference": "S2",
+        "profile": "full",
+        "language": "python",
+        "phase": "middle",
+        "method": "sumstat",
+        "reference_rows": 342,
+        "compared": 335,
+        "excluded": 7,
+        "max_p_difference": 0.9993000699930006,
+        "outside_six_SE_screen": 112,
+        "bh_0_05_classification_agreement": 228
+      },
+      {
+        "reference": "S2",
+        "profile": "full",
+        "language": "python",
+        "phase": "middle",
+        "method": "gsea",
+        "reference_rows": 342,
+        "compared": 335,
+        "excluded": 7,
+        "max_p_difference": 0.999900009999,
+        "outside_six_SE_screen": 265,
+        "bh_0_05_classification_agreement": 133
+      },
+      {
+        "reference": "S2",
+        "profile": "full",
+        "language": "python",
+        "phase": "middle",
+        "method": "maxmean",
+        "reference_rows": 341,
+        "compared": 334,
+        "excluded": 7,
+        "max_p_difference": 0.9999000099990001,
+        "outside_six_SE_screen": 323,
+        "bh_0_05_classification_agreement": 230
+      },
+      {
+        "reference": "S2",
+        "profile": "full",
+        "language": "r",
+        "phase": "short",
+        "method": "hypergeometric",
+        "reference_rows": 100,
+        "compared": 97,
+        "excluded": 3,
+        "max_p_difference": 0.8938087411540795,
+        "outside_six_SE_screen": null,
+        "bh_0_05_classification_agreement": 90
+      },
+      {
+        "reference": "S2",
+        "profile": "full",
+        "language": "r",
+        "phase": "short",
+        "method": "sumstat",
+        "reference_rows": 100,
+        "compared": 97,
+        "excluded": 3,
+        "max_p_difference": 0.9545045495450449,
+        "outside_six_SE_screen": 35,
+        "bh_0_05_classification_agreement": 76
+      },
+      {
+        "reference": "S2",
+        "profile": "full",
+        "language": "r",
+        "phase": "short",
+        "method": "gsea",
+        "reference_rows": 100,
+        "compared": 97,
+        "excluded": 3,
+        "max_p_difference": 0.9999999999999999,
+        "outside_six_SE_screen": 60,
+        "bh_0_05_classification_agreement": 52
+      },
+      {
+        "reference": "S2",
+        "profile": "full",
+        "language": "r",
+        "phase": "short",
+        "method": "maxmean",
+        "reference_rows": 100,
+        "compared": 97,
+        "excluded": 3,
+        "max_p_difference": 0.999900009998906,
+        "outside_six_SE_screen": 95,
+        "bh_0_05_classification_agreement": 32
+      },
+      {
+        "reference": "S2",
+        "profile": "full",
+        "language": "r",
+        "phase": "middle",
+        "method": "hypergeometric",
+        "reference_rows": 342,
+        "compared": 335,
+        "excluded": 7,
+        "max_p_difference": 0.9339336002478597,
+        "outside_six_SE_screen": null,
+        "bh_0_05_classification_agreement": 307
+      },
+      {
+        "reference": "S2",
+        "profile": "full",
+        "language": "r",
+        "phase": "middle",
+        "method": "sumstat",
+        "reference_rows": 342,
+        "compared": 335,
+        "excluded": 7,
+        "max_p_difference": 0.9986001399860008,
+        "outside_six_SE_screen": 112,
+        "bh_0_05_classification_agreement": 233
+      },
+      {
+        "reference": "S2",
+        "profile": "full",
+        "language": "r",
+        "phase": "middle",
+        "method": "gsea",
+        "reference_rows": 342,
+        "compared": 335,
+        "excluded": 7,
+        "max_p_difference": 0.9999999999999999,
+        "outside_six_SE_screen": 264,
+        "bh_0_05_classification_agreement": 134
+      },
+      {
+        "reference": "S2",
+        "profile": "full",
+        "language": "r",
+        "phase": "middle",
+        "method": "maxmean",
+        "reference_rows": 341,
+        "compared": 334,
+        "excluded": 7,
+        "max_p_difference": 0.9999000099990001,
+        "outside_six_SE_screen": 325,
+        "bh_0_05_classification_agreement": 229
+      },
+      {
+        "reference": "S2",
+        "profile": "historical",
+        "language": "python",
+        "phase": "short",
+        "method": "sumstat",
+        "reference_rows": 100,
+        "compared": 100,
+        "excluded": 0,
+        "max_p_difference": 0.9555999999999999,
+        "outside_six_SE_screen": 36,
+        "bh_0_05_classification_agreement": 76
+      },
+      {
+        "reference": "S2",
+        "profile": "historical",
+        "language": "python",
+        "phase": "middle",
+        "method": "sumstat",
+        "reference_rows": 342,
+        "compared": 342,
+        "excluded": 0,
+        "max_p_difference": 0.9993999999999998,
+        "outside_six_SE_screen": 112,
+        "bh_0_05_classification_agreement": 217
+      },
+      {
+        "reference": "S2",
+        "profile": "historical",
+        "language": "r",
+        "phase": "short",
+        "method": "sumstat",
+        "reference_rows": 100,
+        "compared": 100,
+        "excluded": 0,
+        "max_p_difference": 0.9576999999999999,
+        "outside_six_SE_screen": 36,
+        "bh_0_05_classification_agreement": 76
+      },
+      {
+        "reference": "S2",
+        "profile": "historical",
+        "language": "r",
+        "phase": "middle",
+        "method": "sumstat",
+        "reference_rows": 342,
+        "compared": 342,
+        "excluded": 0,
+        "max_p_difference": 0.9991999999999999,
+        "outside_six_SE_screen": 114,
+        "bh_0_05_classification_agreement": 215
+      },
+      {
+        "reference": "S1",
+        "profile": "full",
+        "language": "python",
+        "phase": "short",
+        "method": "hypergeometric",
+        "reference_rows": 13,
+        "compared": 10,
+        "excluded": 3,
+        "max_p_difference": 0.05294892620349761,
+        "outside_six_SE_screen": null,
+        "bh_0_05_classification_agreement": 9
+      },
+      {
+        "reference": "S1",
+        "profile": "full",
+        "language": "python",
+        "phase": "short",
+        "method": "sumstat",
+        "reference_rows": 13,
+        "compared": 10,
+        "excluded": 3,
+        "max_p_difference": 0.0251000099990001,
+        "outside_six_SE_screen": 6,
+        "bh_0_05_classification_agreement": 5
+      },
+      {
+        "reference": "S1",
+        "profile": "full",
+        "language": "python",
+        "phase": "short",
+        "method": "gsea",
+        "reference_rows": 13,
+        "compared": 10,
+        "excluded": 3,
+        "max_p_difference": 0.9999000099990001,
+        "outside_six_SE_screen": 4,
+        "bh_0_05_classification_agreement": 6
+      },
+      {
+        "reference": "S1",
+        "profile": "full",
+        "language": "python",
+        "phase": "middle",
+        "method": "hypergeometric",
+        "reference_rows": 11,
+        "compared": 11,
+        "excluded": 0,
+        "max_p_difference": 9.89e-14,
+        "outside_six_SE_screen": null,
+        "bh_0_05_classification_agreement": 11
+      },
+      {
+        "reference": "S1",
+        "profile": "full",
+        "language": "python",
+        "phase": "middle",
+        "method": "sumstat",
+        "reference_rows": 11,
+        "compared": 11,
+        "excluded": 0,
+        "max_p_difference": 0.0431000099990001,
+        "outside_six_SE_screen": 11,
+        "bh_0_05_classification_agreement": 0
+      },
+      {
+        "reference": "S1",
+        "profile": "full",
+        "language": "python",
+        "phase": "middle",
+        "method": "gsea",
+        "reference_rows": 11,
+        "compared": 11,
+        "excluded": 0,
+        "max_p_difference": 0.0022000099990001,
+        "outside_six_SE_screen": 0,
+        "bh_0_05_classification_agreement": 11
+      },
+      {
+        "reference": "S1",
+        "profile": "full",
+        "language": "r",
+        "phase": "short",
+        "method": "hypergeometric",
+        "reference_rows": 13,
+        "compared": 10,
+        "excluded": 3,
+        "max_p_difference": 0.052948926203497504,
+        "outside_six_SE_screen": null,
+        "bh_0_05_classification_agreement": 9
+      },
+      {
+        "reference": "S1",
+        "profile": "full",
+        "language": "r",
+        "phase": "short",
+        "method": "sumstat",
+        "reference_rows": 13,
+        "compared": 10,
+        "excluded": 3,
+        "max_p_difference": 0.0251000099990001,
+        "outside_six_SE_screen": 6,
+        "bh_0_05_classification_agreement": 5
+      },
+      {
+        "reference": "S1",
+        "profile": "full",
+        "language": "r",
+        "phase": "short",
+        "method": "gsea",
+        "reference_rows": 13,
+        "compared": 10,
+        "excluded": 3,
+        "max_p_difference": 0.9999000099990001,
+        "outside_six_SE_screen": 4,
+        "bh_0_05_classification_agreement": 6
+      },
+      {
+        "reference": "S1",
+        "profile": "full",
+        "language": "r",
+        "phase": "middle",
+        "method": "hypergeometric",
+        "reference_rows": 11,
+        "compared": 11,
+        "excluded": 0,
+        "max_p_difference": 9.89e-14,
+        "outside_six_SE_screen": null,
+        "bh_0_05_classification_agreement": 11
+      },
+      {
+        "reference": "S1",
+        "profile": "full",
+        "language": "r",
+        "phase": "middle",
+        "method": "sumstat",
+        "reference_rows": 11,
+        "compared": 11,
+        "excluded": 0,
+        "max_p_difference": 0.0431000099990001,
+        "outside_six_SE_screen": 11,
+        "bh_0_05_classification_agreement": 0
+      },
+      {
+        "reference": "S1",
+        "profile": "full",
+        "language": "r",
+        "phase": "middle",
+        "method": "gsea",
+        "reference_rows": 11,
+        "compared": 11,
+        "excluded": 0,
+        "max_p_difference": 0.0022000099990001,
+        "outside_six_SE_screen": 0,
+        "bh_0_05_classification_agreement": 11
+      },
+      {
+        "reference": "S1",
+        "profile": "historical",
+        "language": "python",
+        "phase": "short",
+        "method": "sumstat",
+        "reference_rows": 13,
+        "compared": 13,
+        "excluded": 0,
+        "max_p_difference": 0.7317,
+        "outside_six_SE_screen": 7,
+        "bh_0_05_classification_agreement": 8
+      },
+      {
+        "reference": "S1",
+        "profile": "historical",
+        "language": "python",
+        "phase": "middle",
+        "method": "sumstat",
+        "reference_rows": 11,
+        "compared": 11,
+        "excluded": 0,
+        "max_p_difference": 0.0432,
+        "outside_six_SE_screen": 11,
+        "bh_0_05_classification_agreement": 0
+      },
+      {
+        "reference": "S1",
+        "profile": "historical",
+        "language": "r",
+        "phase": "short",
+        "method": "sumstat",
+        "reference_rows": 13,
+        "compared": 13,
+        "excluded": 0,
+        "max_p_difference": 0.7384,
+        "outside_six_SE_screen": 7,
+        "bh_0_05_classification_agreement": 8
+      },
+      {
+        "reference": "S1",
+        "profile": "historical",
+        "language": "r",
+        "phase": "middle",
+        "method": "sumstat",
+        "reference_rows": 11,
+        "compared": 11,
+        "excluded": 0,
+        "max_p_difference": 0.0432,
+        "outside_six_SE_screen": 11,
+        "bh_0_05_classification_agreement": 0
+      }
+    ],
+    "hypergeometric_fingerprints": [
+      {
+        "language": "python",
+        "phase": "short",
+        "N": 16953,
+        "M": 88,
+        "records": 100,
+        "max_absolute_error": 4.994207269959361e-10,
+        "within_5e_8": 100,
+        "interpretation": "Numeric fingerprint; historical execution state not directly recorded"
+      },
+      {
+        "language": "python",
+        "phase": "middle",
+        "N": 28962,
+        "M": 286,
+        "records": 342,
+        "max_absolute_error": 4.397941933847427e-08,
+        "within_5e_8": 342,
+        "interpretation": "Numeric fingerprint; historical execution state not directly recorded"
+      },
+      {
+        "language": "r",
+        "phase": "short",
+        "N": 16953,
+        "M": 88,
+        "records": 100,
+        "max_absolute_error": 4.99420949040541e-10,
+        "within_5e_8": 100,
+        "interpretation": "Numeric fingerprint; historical execution state not directly recorded"
+      },
+      {
+        "language": "r",
+        "phase": "middle",
+        "N": 28962,
+        "M": 286,
+        "records": 342,
+        "max_absolute_error": 4.397941933839973e-08,
+        "within_5e_8": 342,
+        "interpretation": "Numeric fingerprint; historical execution state not directly recorded"
+      }
+    ],
+    "selected_table_discrepancies": [
+      {
+        "phase": "short",
+        "method": "hypergeometric",
+        "go_id": "GO:0009409",
+        "S1_p": 3.78e-10,
+        "S2_p": 0.01219794
+      },
+      {
+        "phase": "short",
+        "method": "hypergeometric",
+        "go_id": "GO:0009414",
+        "S1_p": 1.32e-07,
+        "S2_p": 0.039385232
+      },
+      {
+        "phase": "short",
+        "method": "hypergeometric",
+        "go_id": "GO:0009415",
+        "S1_p": 0.00481,
+        "S2_p": 0.025689056
+      },
+      {
+        "phase": "short",
+        "method": "sumstat",
+        "go_id": "GO:0009415",
+        "S1_p": 0.0171,
+        "S2_p": 0.7543
+      },
+      {
+        "phase": "short",
+        "method": "hypergeometric",
+        "go_id": "GO:0009631",
+        "S1_p": 8.39e-12,
+        "S2_p": 2.18e-07
+      },
+      {
+        "phase": "short",
+        "method": "hypergeometric",
+        "go_id": "GO:0009737",
+        "S1_p": 0.00118,
+        "S2_p": 0.637406712
+      },
+      {
+        "phase": "short",
+        "method": "hypergeometric",
+        "go_id": "GO:0009873",
+        "S1_p": 5.06e-07,
+        "S2_p": 0.005422176
+      },
+      {
+        "phase": "short",
+        "method": "hypergeometric",
+        "go_id": "GO:0010200",
+        "S1_p": 1.06e-05,
+        "S2_p": 0.231909113
+      },
+      {
+        "phase": "short",
+        "method": "hypergeometric",
+        "go_id": "GO:0010371",
+        "S1_p": 9.03e-06,
+        "S2_p": 0.000263707
+      },
+      {
+        "phase": "short",
+        "method": "gsea",
+        "go_id": "GO:0010371",
+        "S1_p": 1e-16,
+        "S2_p": 0.0324
+      },
+      {
+        "phase": "short",
+        "method": "hypergeometric",
+        "go_id": "GO:0035264",
+        "S1_p": 0.00481,
+        "S2_p": 0.025689056
+      },
+      {
+        "phase": "short",
+        "method": "hypergeometric",
+        "go_id": "GO:0045893",
+        "S1_p": 7.57e-13,
+        "S2_p": 0.000400304
+      },
+      {
+        "phase": "short",
+        "method": "hypergeometric",
+        "go_id": "GO:0050832",
+        "S1_p": 8.77e-10,
+        "S2_p": 0.003002138
+      }
+    ],
+    "selected_hypergeometric_fingerprints": [
+      {
+        "phase": "short",
+        "go_id": "GO:0009409",
+        "reported_p": 3.78e-10,
+        "calculated_from_reported_n_and_x": {
+          "genome_measured_CT_total": 3.78064915570556e-10,
+          "legacy_container_bug": 0.012197940204123495
+        },
+        "matching_profiles_at_print_precision": [
+          "genome_measured_CT_total"
+        ]
+      },
+      {
+        "phase": "short",
+        "go_id": "GO:0009414",
+        "reported_p": 1.32e-07,
+        "calculated_from_reported_n_and_x": {
+          "genome_measured_CT_total": 1.3198523193007536e-07,
+          "legacy_container_bug": 0.03938523226074998
+        },
+        "matching_profiles_at_print_precision": [
+          "genome_measured_CT_total"
+        ]
+      },
+      {
+        "phase": "short",
+        "go_id": "GO:0009415",
+        "reported_p": 0.00481,
+        "calculated_from_reported_n_and_x": {
+          "genome_measured_CT_total": 0.004806894280259134,
+          "legacy_container_bug": 0.025689056476968522
+        },
+        "matching_profiles_at_print_precision": [
+          "genome_measured_CT_total"
+        ]
+      },
+      {
+        "phase": "short",
+        "go_id": "GO:0009631",
+        "reported_p": 8.39e-12,
+        "calculated_from_reported_n_and_x": {
+          "genome_measured_CT_total": 8.38645285864182e-12,
+          "legacy_container_bug": 2.1775588244078793e-07
+        },
+        "matching_profiles_at_print_precision": [
+          "genome_measured_CT_total"
+        ]
+      },
+      {
+        "phase": "short",
+        "go_id": "GO:0009737",
+        "reported_p": 0.00118,
+        "calculated_from_reported_n_and_x": {
+          "genome_measured_CT_total": 0.0011775673242525838,
+          "legacy_container_bug": 0.6374067115841315
+        },
+        "matching_profiles_at_print_precision": [
+          "genome_measured_CT_total"
+        ]
+      },
+      {
+        "phase": "short",
+        "go_id": "GO:0009873",
+        "reported_p": 5.06e-07,
+        "calculated_from_reported_n_and_x": {
+          "genome_measured_CT_total": 5.061219439918825e-07,
+          "legacy_container_bug": 0.005422176413059423
+        },
+        "matching_profiles_at_print_precision": [
+          "genome_measured_CT_total"
+        ]
+      },
+      {
+        "phase": "short",
+        "go_id": "GO:0010117",
+        "reported_p": 0.0654,
+        "calculated_from_reported_n_and_x": {
+          "genome_measured_CT_total": 0.012451073796502392,
+          "legacy_container_bug": 0.06544093543305864
+        },
+        "matching_profiles_at_print_precision": [
+          "legacy_container_bug"
+        ]
+      },
+      {
+        "phase": "short",
+        "go_id": "GO:0010200",
+        "reported_p": 1.06e-05,
+        "calculated_from_reported_n_and_x": {
+          "genome_measured_CT_total": 1.0556517590570816e-05,
+          "legacy_container_bug": 0.23190911260419275
+        },
+        "matching_profiles_at_print_precision": [
+          "genome_measured_CT_total"
+        ]
+      },
+      {
+        "phase": "short",
+        "go_id": "GO:0010371",
+        "reported_p": 9.03e-06,
+        "calculated_from_reported_n_and_x": {
+          "genome_measured_CT_total": 9.03466235435908e-06,
+          "legacy_container_bug": 0.0002637071412153716
+        },
+        "matching_profiles_at_print_precision": [
+          "genome_measured_CT_total"
+        ]
+      },
+      {
+        "phase": "short",
+        "go_id": "GO:0015976",
+        "reported_p": 0.0606,
+        "calculated_from_reported_n_and_x": {
+          "genome_measured_CT_total": 0.011498693263634554,
+          "legacy_container_bug": 0.060561021015335385
+        },
+        "matching_profiles_at_print_precision": [
+          "legacy_container_bug"
+        ]
+      },
+      {
+        "phase": "short",
+        "go_id": "GO:0035264",
+        "reported_p": 0.00481,
+        "calculated_from_reported_n_and_x": {
+          "genome_measured_CT_total": 0.004806894280259134,
+          "legacy_container_bug": 0.025689056476968522
+        },
+        "matching_profiles_at_print_precision": [
+          "genome_measured_CT_total"
+        ]
+      },
+      {
+        "phase": "short",
+        "go_id": "GO:0045893",
+        "reported_p": 7.57e-13,
+        "calculated_from_reported_n_and_x": {
+          "genome_measured_CT_total": 7.564842024728946e-13,
+          "legacy_container_bug": 0.0012473161635364444
+        },
+        "matching_profiles_at_print_precision": [
+          "genome_measured_CT_total"
+        ]
+      },
+      {
+        "phase": "short",
+        "go_id": "GO:0050832",
+        "reported_p": 8.77e-10,
+        "calculated_from_reported_n_and_x": {
+          "genome_measured_CT_total": 8.769824706031272e-10,
+          "legacy_container_bug": 0.008498354899927653
+        },
+        "matching_profiles_at_print_precision": [
+          "genome_measured_CT_total"
+        ]
+      },
+      {
+        "phase": "middle",
+        "go_id": "GO:0006612",
+        "reported_p": 9.89e-14,
+        "calculated_from_reported_n_and_x": {
+          "genome_measured_CT_total": 2.806053216896718e-31,
+          "legacy_container_bug": 9.891237753244293e-14
+        },
+        "matching_profiles_at_print_precision": [
+          "legacy_container_bug"
+        ]
+      },
+      {
+        "phase": "middle",
+        "go_id": "GO:0009414",
+        "reported_p": 9.99e-16,
+        "calculated_from_reported_n_and_x": {
+          "genome_measured_CT_total": 1.254516134965813e-33,
+          "legacy_container_bug": 9.999207809452476e-16
+        },
+        "matching_profiles_at_print_precision": [
+          "legacy_container_bug"
+        ]
+      },
+      {
+        "phase": "middle",
+        "go_id": "GO:0009611",
+        "reported_p": 1e-16,
+        "calculated_from_reported_n_and_x": {
+          "genome_measured_CT_total": 2.347765012140635e-118,
+          "legacy_container_bug": 1.669334219403688e-65
+        },
+        "matching_profiles_at_print_precision": [
+          "genome_measured_CT_total",
+          "legacy_container_bug"
+        ]
+      },
+      {
+        "phase": "middle",
+        "go_id": "GO:0009620",
+        "reported_p": 1e-16,
+        "calculated_from_reported_n_and_x": {
+          "genome_measured_CT_total": 4.522871483121568e-119,
+          "legacy_container_bug": 5.2378888467670045e-80
+        },
+        "matching_profiles_at_print_precision": [
+          "genome_measured_CT_total",
+          "legacy_container_bug"
+        ]
+      },
+      {
+        "phase": "middle",
+        "go_id": "GO:0009695",
+        "reported_p": 1e-16,
+        "calculated_from_reported_n_and_x": {
+          "genome_measured_CT_total": 8.45848241681646e-202,
+          "legacy_container_bug": 2.8320597895458832e-133
+        },
+        "matching_profiles_at_print_precision": [
+          "genome_measured_CT_total",
+          "legacy_container_bug"
+        ]
+      },
+      {
+        "phase": "middle",
+        "go_id": "GO:0009723",
+        "reported_p": 1e-16,
+        "calculated_from_reported_n_and_x": {
+          "genome_measured_CT_total": 5.068555787111805e-37,
+          "legacy_container_bug": 1.0735792552146357e-18
+        },
+        "matching_profiles_at_print_precision": [
+          "genome_measured_CT_total",
+          "legacy_container_bug"
+        ]
+      },
+      {
+        "phase": "middle",
+        "go_id": "GO:0009738",
+        "reported_p": 1e-16,
+        "calculated_from_reported_n_and_x": {
+          "genome_measured_CT_total": 8.801703191771203e-58,
+          "legacy_container_bug": 1.9439205177773322e-32
+        },
+        "matching_profiles_at_print_precision": [
+          "genome_measured_CT_total",
+          "legacy_container_bug"
+        ]
+      },
+      {
+        "phase": "middle",
+        "go_id": "GO:0009753",
+        "reported_p": 1e-16,
+        "calculated_from_reported_n_and_x": {
+          "genome_measured_CT_total": 1.5543275766512667e-129,
+          "legacy_container_bug": 8.657166357420336e-77
+        },
+        "matching_profiles_at_print_precision": [
+          "genome_measured_CT_total",
+          "legacy_container_bug"
+        ]
+      },
+      {
+        "phase": "middle",
+        "go_id": "GO:0009867",
+        "reported_p": 1e-16,
+        "calculated_from_reported_n_and_x": {
+          "genome_measured_CT_total": 5.256480525591811e-57,
+          "legacy_container_bug": 2.439739284170304e-30
+        },
+        "matching_profiles_at_print_precision": [
+          "genome_measured_CT_total",
+          "legacy_container_bug"
+        ]
+      },
+      {
+        "phase": "middle",
+        "go_id": "GO:0010200",
+        "reported_p": 7.33e-15,
+        "calculated_from_reported_n_and_x": {
+          "genome_measured_CT_total": 2.5181764105098655e-34,
+          "legacy_container_bug": 7.298645377956505e-15
+        },
+        "matching_profiles_at_print_precision": [
+          "legacy_container_bug"
+        ]
+      },
+      {
+        "phase": "middle",
+        "go_id": "GO:0010363",
+        "reported_p": 9.58e-14,
+        "calculated_from_reported_n_and_x": {
+          "genome_measured_CT_total": 2.702099776626478e-31,
+          "legacy_container_bug": 9.58352551701348e-14
+        },
+        "matching_profiles_at_print_precision": [
+          "legacy_container_bug"
+        ]
+      }
+    ],
+    "archived_sumstat_reference_matches": [
+      {
+        "phase": "short",
+        "source": "D:\\Bioinformatics project\\研究法\\大豆基因\\篩選後\\SUMSTAT\\SUMSTAT_ct_short_pavlue.txt",
+        "sha256": "48465ba13f5e81d14fc55eeda9ce955bac5515ffdf2c370de51373b1d8f38f82",
+        "reference_rows": 100,
+        "same_p_within_1e_12": 100
+      },
+      {
+        "phase": "middle",
+        "source": "D:\\Bioinformatics project\\研究法\\大豆基因\\篩選後\\SUMSTAT\\SUMSTAT_ct_middle_pavlue.txt",
+        "sha256": "727b9806936db21274bc334b95d771b8e96d35bb1e11ffbb2065ae4ff5c93073",
+        "reference_rows": 342,
+        "same_p_within_1e_12": 342
+      }
+    ],
+    "paper_reproduction_verified": false
+  },
+  "execution_validation": "passed",
+  "paper_reproduction_verified": false,
+  "diagnostic_note": "Six-standard-error screens are broad diagnostics, not equivalence tests. Monte Carlo draws use native, different RNGs.",
+  "execution_records": [
+    {
+      "run": "python_full",
+      "command": "python scripts/run_analysis.py config.recalculated-full.json",
+      "observed_exit_code": 0,
+      "log": "results\\recalculated_2026-10-21\\python_full_run.log",
+      "log_created_utc": "2026-10-21T08:23:55.397780+00:00",
+      "completion_summary_written_utc": "2026-10-21T08:32:07.846930+00:00"
+    },
+    {
+      "run": "r_full",
+      "command": "Rscript --vanilla scripts/run_analysis.R config.recalculated-full.R",
+      "observed_exit_code": 0,
+      "log": "results\\recalculated_2026-10-21\\r_full_run.log",
+      "log_created_utc": "2026-10-21T08:23:55.397780+00:00",
+      "completion_summary_written_utc": "2026-10-21T08:46:40.886411+00:00"
+    },
+    {
+      "run": "python_historical",
+      "command": "python scripts/run_historical_diagnostics.py results/recalculated_2026-10-21/python_scores/recalculated_scores.tsv results/recalculated_2026-10-21/python_historical",
+      "observed_exit_code": 0,
+      "log": "results\\recalculated_2026-10-21\\python_historical_run.log",
+      "log_created_utc": "2026-10-21T08:28:49.008961+00:00",
+      "completion_summary_written_utc": "2026-10-21T08:29:32.989760+00:00"
+    },
+    {
+      "run": "r_historical",
+      "command": "Rscript --vanilla scripts/run_historical_diagnostics.R results/recalculated_2026-10-21/r_scores/recalculated_scores.tsv results/recalculated_2026-10-21/r_historical",
+      "observed_exit_code": 0,
+      "log": "results\\recalculated_2026-10-21\\r_historical_run.log",
+      "log_created_utc": "2026-10-21T08:28:49.010962+00:00",
+      "completion_summary_written_utc": "2026-10-21T08:30:49.337062+00:00"
+    }
+  ],
+  "sha256": {
+    "config.recalculated-full.json": "2d5228ff02303386dbf8d110a8d068867fde2f7e0f099afb1a4eed79c3951102",
+    "config.recalculated-full.R": "75b0134e01c190f48a6ba5994d5be87caf9afe9b3391056392d657046929064b",
+    "python/ctpathway.py": "e8226b3ddf312def39c3db95e80386fb954462b0807d53d5f906ce8ac98e52ee",
+    "python/historical_short.py": "0a81e58e42966f14eca5823055cf26add2ebf57e0c6c8b28b57b3cea95b7af65",
+    "R/core.R": "01e588c2cb648b1bd84cc9374964f2dab34a0225c916bb55642de14ed95b992a",
+    "R/historical_short.R": "3e19147c742524e30a4b90509cd9e78fee1111479eb6d4b6a92fb2a9d48b49b7",
+    "results/recalculated_2026-10-21/archived_sumstat_lineage_check.json": "f63947a78883d0584e5f47fc43dacabe3788e6e869bb7a62c47cf816b8751128",
+    "results/recalculated_2026-10-21/execution_record.json": "6dcbb17b25391fcae4bd964accbe9ed958063f0fa882cebdd6e6d6ff746ebd40",
+    "results/recalculated_2026-10-21/manuscript_reference.json": "135645815e407f60ed8f6119749405b9adab66f24c3a8e85d5d8344cffd5edba",
+    "results/recalculated_2026-10-21/publisher_sources/download_status.json": "a9d3883b1777e64673d8ac6b3366c687d70259095d5db95ebd1f64ee200d423d",
+    "results/recalculated_2026-10-21/python_full/environment.json": "30d56b3c582f3bf172ca13e7c34573557c79b06534918e4f62e76610afad7acf",
+    "results/recalculated_2026-10-21/python_full/input_summary.tsv": "0acd473b386517072e58b727ad0696e03b4e6a25fce3fc685ab7f308f5c4a647",
+    "results/recalculated_2026-10-21/python_full/middle_analysis_scores.tsv": "deeaa95fbd4ba13d40b7eb2c4145a82476f79a639f677112b1de3a7cb43a7b6d",
+    "results/recalculated_2026-10-21/python_full/middle_ct_missing_external.tsv": "a34f2a4b398fb80d33ca4c6c7fbec95b18072679426e3e84c71b198d38377342",
+    "results/recalculated_2026-10-21/python_full/middle_duplicate_rows.tsv": "587896b07f525c8416a71a0f3279971439e1db76f84a16c244dce0b7660dee5c",
+    "results/recalculated_2026-10-21/python_full/middle_gsea.png": "337ea0faf22a8cab394cf70f03e55667401d0061d126356005ff00dc537fa794",
+    "results/recalculated_2026-10-21/python_full/middle_gsea.tsv": "38c379f5ef50854dfd3510e9d390d3d73755fcb791c3cc672df66b4c299a8ca4",
+    "results/recalculated_2026-10-21/python_full/middle_hypergeometric.png": "b331527627ed2bae60bfa98c9c3c56659ede839eef6bddd18e18f3e6cea1ce1a",
+    "results/recalculated_2026-10-21/python_full/middle_hypergeometric.tsv": "abd8b314ce48928216c37f656640880e626e73766d259e931bd7b60a2065dc92",
+    "results/recalculated_2026-10-21/python_full/middle_maxmean.png": "bd6af69aa8755f33c52833437326eeb176e303e25feb3b99f34ac04a9ebe256c",
+    "results/recalculated_2026-10-21/python_full/middle_maxmean.tsv": "53dcaae8358d3f9b841671b593f534313983ce0d3bc01ce98b6b9d32a8e4486a",
+    "results/recalculated_2026-10-21/python_full/middle_sumstat.png": "2ecb0d1c5cdbe5798d3ef457252f55f358a330cd28cb7a8a51639012bbac8b12",
+    "results/recalculated_2026-10-21/python_full/middle_sumstat.tsv": "9d10e6a1def3bd357c7e607a9efc3127c967544caa60b913fdc3158b1aeba8ef",
+    "results/recalculated_2026-10-21/python_full/settings.json": "c48846e9193b311cad28ca81dc2cd63b6ada43262dbfdca6095a810613e5fa8d",
+    "results/recalculated_2026-10-21/python_full/short_analysis_scores.tsv": "f6c7d2c918284b86a45a8edfd8f65346947e2528766f0a96cc176e4bfbcd40e5",
+    "results/recalculated_2026-10-21/python_full/short_ct_missing_external.tsv": "97d1afd32552afe0a883b93f6c1c6345510ed819887ba427a23740b085b183a6",
+    "results/recalculated_2026-10-21/python_full/short_duplicate_rows.tsv": "587896b07f525c8416a71a0f3279971439e1db76f84a16c244dce0b7660dee5c",
+    "results/recalculated_2026-10-21/python_full/short_gsea.png": "993627d68eaab9969e34f447daeac26258f2abc2d6d402152056674ca5da3225",
+    "results/recalculated_2026-10-21/python_full/short_gsea.tsv": "8d29eca1bebc6e8394feca48f897b9bf1d0ab03b47ab5c99ad42c60e66116a8b",
+    "results/recalculated_2026-10-21/python_full/short_hypergeometric.png": "829778438aa8da109e6b0ea3b66d0450722aa152c8cd0eb7219d8854bd6de6d8",
+    "results/recalculated_2026-10-21/python_full/short_hypergeometric.tsv": "097a644031a5e806edaf97b3806b00872fd6d41e9e2dc2709bfbadb7f6ab0924",
+    "results/recalculated_2026-10-21/python_full/short_maxmean.png": "304e31e25709ce29b7829ef3cd6840d444313f4a921198dbed0a08f8ab016e0d",
+    "results/recalculated_2026-10-21/python_full/short_maxmean.tsv": "3d42993c582445945986f05b75479363866f38e2455b5f53c836efea49c28579",
+    "results/recalculated_2026-10-21/python_full/short_sumstat.png": "b26d3ba62bade054ef1254f0d785379a8c412ea7d1d24d12130a8cf43b447ce5",
+    "results/recalculated_2026-10-21/python_full/short_sumstat.tsv": "74a886d078bda65c3ae225e6bf9f279c640778afb3aaf6a688087c31a5fb3425",
+    "results/recalculated_2026-10-21/python_full_run.log": "8994ae1a5497c2eb0fece9691085007e8ecd1e9bdf2d1d468fabdf33a9f6c062",
+    "results/recalculated_2026-10-21/python_historical/input_summary.tsv": "be98674442bca9bf72beae7c11eb4c6f0d23f4d69afab472c797ca48307814ce",
+    "results/recalculated_2026-10-21/python_historical/middle_hypergeometric_variants.tsv": "96d52be32ee42f207fb82e6fea218c94080184aa5da4063fe1588339e74f7bba",
+    "results/recalculated_2026-10-21/python_historical/middle_sumstat.tsv": "c8c59c3c1146e9ea33678a783cac9ddd9752f32933ab72cc67cab6b5f59cae7a",
+    "results/recalculated_2026-10-21/python_historical/settings.json": "0103dfd83da9e1166dd16eb53fba7f83c1767a458fd32833e658a4a372dc6891",
+    "results/recalculated_2026-10-21/python_historical/short_hypergeometric_variants.tsv": "2d1bb8d81dff34e7c688a6d1ec1f14a66cd48233771df9aebaadc8a8cbd0291f",
+    "results/recalculated_2026-10-21/python_historical/short_sumstat.tsv": "d763152125e5063e1ec1df1b224fadcdeb420388424c5216bd183d3468de2c77",
+    "results/recalculated_2026-10-21/python_historical_run.log": "6330736114dea9fa5adf9e7617cf6cf7dda7aa85b94a53bf980f3a5144ce7c23",
+    "results/recalculated_2026-10-21/python_scores/exception_audit.tsv": "3cab4f235e45dc49c61fc84c6c25ca9d27de8a92b184bab4a8fb9b12ae7279d4",
+    "results/recalculated_2026-10-21/python_scores/historical_snp_imputation.tsv": "9e091126e0834f191e7a55cc1243047abfa969743728ae9bba033d46ef7af202",
+    "results/recalculated_2026-10-21/python_scores/middle_lambda_grid.tsv": "4d7e0631d7073ad4bd012a12191713fb856decd396a5c564ad643bd6f9ff0087",
+    "results/recalculated_2026-10-21/python_scores/recalculated_scores.tsv": "3a1e2ded48f165dfc4033f8f42062a9a1067ec0267efb89721b9b7c2fb615744",
+    "results/recalculated_2026-10-21/python_scores/score_manifest.json": "08157ce37f564b5adc32a730e80e4cfc31e9b61b6b788143568537c5bea750c1",
+    "results/recalculated_2026-10-21/python_scores/short_lambda_grid.tsv": "3a93aaaef905b810536e3e045ee8bf25f4252282ac09bbccce201f5cc987ee2b",
+    "results/recalculated_2026-10-21/python_scores/snp_repair_donors.tsv": "eb5c14d08bd3d4cd11fc0672a6c6f823e2f1511bad9961d893ff2c102c5819c4",
+    "results/recalculated_2026-10-21/python_strict/exception_audit.tsv": "fe8c6bc729feebb848b47a13295b71590d60d4680ca6ea44db8d9db784117d84",
+    "results/recalculated_2026-10-21/python_strict/historical_snp_imputation.tsv": "9e091126e0834f191e7a55cc1243047abfa969743728ae9bba033d46ef7af202",
+    "results/recalculated_2026-10-21/python_strict/middle_lambda_grid.tsv": "4d7e0631d7073ad4bd012a12191713fb856decd396a5c564ad643bd6f9ff0087",
+    "results/recalculated_2026-10-21/python_strict/recalculated_scores.tsv": "2d0ed991a7bb9163b735cdab35d1abe6e29c5e9bb255f566e9985744a70c03c7",
+    "results/recalculated_2026-10-21/python_strict/score_manifest.json": "9cb83b418cf49af194cf263fc26f28d3322ef6dc759ea3700f07b5331ef730fb",
+    "results/recalculated_2026-10-21/python_strict/short_lambda_grid.tsv": "3a93aaaef905b810536e3e045ee8bf25f4252282ac09bbccce201f5cc987ee2b",
+    "results/recalculated_2026-10-21/python_strict.log": "c343780d68415121491dc5f4eb0546a3277af2d7e7b38fafec4d3a41265675a0",
+    "results/recalculated_2026-10-21/python_tests.log": "adbddfe099a6e0b62c2ebdebe552979353d6adf70927234713d419dc68bfd721",
+    "results/recalculated_2026-10-21/r_full/input_summary.tsv": "de1dae26b78e39c8ea52f883bb84161ed91ba57fd12fef060584df2c9e1653ea",
+    "results/recalculated_2026-10-21/r_full/middle_analysis_scores.tsv": "f77252d5d16b5bd9b6d33ee6ac4baf7c35c4823207de9345a8f56ed3f5b4bc86",
+    "results/recalculated_2026-10-21/r_full/middle_ct_missing_external.tsv": "46c6f3205134f5d432a5b0c7357212bd0b49d57ec4be6fd993540bff3f8c3164",
+    "results/recalculated_2026-10-21/r_full/middle_duplicate_rows.tsv": "dfcb30539080f4d9cb8d7185b90fa1ed0002cc9de76afa2ae54781bb266159e0",
+    "results/recalculated_2026-10-21/r_full/middle_gsea.png": "c3c755f07750c0a41f9683abfe159fec9e00edd77624217333d8fde67f538594",
+    "results/recalculated_2026-10-21/r_full/middle_gsea.tsv": "556df054cf45da36ba77e93499fcd778bee1e4b8aa2c139898ddb4da85895dd3",
+    "results/recalculated_2026-10-21/r_full/middle_hypergeometric.png": "4660042aab816ea0487f6b704b254e17f4e66d15047f7a1ace085df8f67f78e9",
+    "results/recalculated_2026-10-21/r_full/middle_hypergeometric.tsv": "158f1e8276920f66cc2eb96a361ed20cebd157f383b2328ba700bfa423d41772",
+    "results/recalculated_2026-10-21/r_full/middle_maxmean.png": "ae9e59ec5b579a90ea32d2c3004139114aff5f18b661588ffede84e7409643f2",
+    "results/recalculated_2026-10-21/r_full/middle_maxmean.tsv": "06c965af9582fb7099a74f0e419144f9e11de3d8b20619b588939044ba65023c",
+    "results/recalculated_2026-10-21/r_full/middle_sumstat.png": "669c712097779f18b723cd8cfea46e488279f80acd9eea2d717d7a076b3e3089",
+    "results/recalculated_2026-10-21/r_full/middle_sumstat.tsv": "d400d0881ef5804df6f7627822d197924cbd7c47f58979fa6ed276850a47e136",
+    "results/recalculated_2026-10-21/r_full/sessionInfo.txt": "13bfc1e478004c196f51566ce1ce691b5971aadb9a31f113170a12dfdc9afd23",
+    "results/recalculated_2026-10-21/r_full/settings.R": "6ffea2f1fdf26a0995f3c7c4ca26fdf7466bcaab8001e14165bd6d6e73f7903f",
+    "results/recalculated_2026-10-21/r_full/short_analysis_scores.tsv": "1be7dc5452d50bd4011bf8ef36c1ab6e396e1cdee993fe63a6fd5d10a454f18b",
+    "results/recalculated_2026-10-21/r_full/short_ct_missing_external.tsv": "0141837d4402faa03c4b87afd951df003e2a2afe4267ce865cad5239c40cbf16",
+    "results/recalculated_2026-10-21/r_full/short_duplicate_rows.tsv": "dfcb30539080f4d9cb8d7185b90fa1ed0002cc9de76afa2ae54781bb266159e0",
+    "results/recalculated_2026-10-21/r_full/short_gsea.png": "763df8d4781cd1291be624971975be0d6fa7d1a3dd4cd0a3b5388070783013d6",
+    "results/recalculated_2026-10-21/r_full/short_gsea.tsv": "28a27730d6078fbf28e6980bfb11c27bb3f10d451c4b342bce650f32332fd159",
+    "results/recalculated_2026-10-21/r_full/short_hypergeometric.png": "0fbe162b998244f22d46b5030d8677a2140c46dca05a19afab183cf4ae729b6e",
+    "results/recalculated_2026-10-21/r_full/short_hypergeometric.tsv": "38f1a1d520909fa80d33f6a9e357a13ef511737d6504559dbb81a5dcb99effe6",
+    "results/recalculated_2026-10-21/r_full/short_maxmean.png": "404bf19b330b2281cf03677046a259c569676a287c3fe6216b7c48e2a1e74471",
+    "results/recalculated_2026-10-21/r_full/short_maxmean.tsv": "1dd28f862cb1ded78f2ee343b5f180ad694701c49ecb501ba7efca86ca85b70b",
+    "results/recalculated_2026-10-21/r_full/short_sumstat.png": "033113bd4c0bdbce2adcc1b0be98363bb7f7389bb0fc7318dff7fbb3c26e2835",
+    "results/recalculated_2026-10-21/r_full/short_sumstat.tsv": "c00c231e4d0ea276af2404d03f27aecafc19dba158d52ff55c78d8e382be90d3",
+    "results/recalculated_2026-10-21/r_full_run.log": "5762f5b97afd3032964a5d2dd3b5f59f8b7cb2213986662027ca3e8de9878f0c",
+    "results/recalculated_2026-10-21/r_historical/input_summary.tsv": "5f8713a5403245c184b13386865ce9ea64af808d9cc8ae13cbf27d257ab5e6ea",
+    "results/recalculated_2026-10-21/r_historical/middle_hypergeometric_variants.tsv": "a07862fa6f74c819ff9d248bc6d7bd69c785341cfb461b94fc627279fb278893",
+    "results/recalculated_2026-10-21/r_historical/middle_sumstat.tsv": "6a160df540e0881c16b358ae7880e9733330d1299dcf003fbae1d866abb9d8ed",
+    "results/recalculated_2026-10-21/r_historical/sessionInfo.txt": "13bfc1e478004c196f51566ce1ce691b5971aadb9a31f113170a12dfdc9afd23",
+    "results/recalculated_2026-10-21/r_historical/settings.R": "b986d00672c2b9fe4d5641c33a8fc58527f9f437831dcbc9d137e140dae003c2",
+    "results/recalculated_2026-10-21/r_historical/short_hypergeometric_variants.tsv": "15c3146958acd7f6afef2bf0c982011c3f770dd9aefe34da46e4e0fc22671ed1",
+    "results/recalculated_2026-10-21/r_historical/short_sumstat.tsv": "c396f30e151b2bafc75e8d6f28e1ee8156ecd5722ee953b402045e6695a498df",
+    "results/recalculated_2026-10-21/r_historical_run.log": "9daaa17a6e67bfca4457a4bcf1a2715251944aab55867d6db22da6210cabfeca",
+    "results/recalculated_2026-10-21/r_integration.log": "5f87c7bd14f6eac0d131c98ca8ea6a34b28d6d58eac42199e58dc274914a4087",
+    "results/recalculated_2026-10-21/r_scores/exception_audit.tsv": "6664f0adb11b4c7a51052241347392f37c1fe71c3974b54262ca4394d5f4a0b0",
+    "results/recalculated_2026-10-21/r_scores/historical_snp_imputation.tsv": "2993de23e3ddfdecdfef8b17ff44a9f2bb88845cc0267cf988dfa01e5ad25ef5",
+    "results/recalculated_2026-10-21/r_scores/middle_lambda_grid.tsv": "47b33e2e5aa46744b979b0977b6232f8865e8da8f257aa0a77894bc0a3212a8e",
+    "results/recalculated_2026-10-21/r_scores/recalculated_scores.tsv": "a20bf0ebad24485534f951514e5472c0d4360a48a2a4cd41ad9f3732286dbf67",
+    "results/recalculated_2026-10-21/r_scores/score_settings.tsv": "3c44cca77df633972bdd5e25172087962581f0f551abc5e5ce708fa65fb8baa8",
+    "results/recalculated_2026-10-21/r_scores/short_lambda_grid.tsv": "9e4b5a0c6ef38c910b308cbd40010bd64273cd5675e6e6bda9e76f2fb7ed1df0",
+    "results/recalculated_2026-10-21/r_scores/snp_repair_donors.tsv": "7b1f28de4243e87b45bddc6acfaac51fe729b96ca896cb01016321592d8e60f0",
+    "results/recalculated_2026-10-21/r_scores/source_manifest.tsv": "68f3ef65e1f57830505dd96d71900bd5f3f6a1dbf68aab45be91dc2e001c74ea",
+    "results/recalculated_2026-10-21/r_strict/exception_audit.tsv": "4e3b7cad8a7ffa342365b50f23789e40a1cdf8ffa83b5e4e4ef51a8fcb2ac04e",
+    "results/recalculated_2026-10-21/r_strict/historical_snp_imputation.tsv": "2993de23e3ddfdecdfef8b17ff44a9f2bb88845cc0267cf988dfa01e5ad25ef5",
+    "results/recalculated_2026-10-21/r_strict/middle_lambda_grid.tsv": "47b33e2e5aa46744b979b0977b6232f8865e8da8f257aa0a77894bc0a3212a8e",
+    "results/recalculated_2026-10-21/r_strict/recalculated_scores.tsv": "cf6de2f37a451795e52d12f4ec9de65f357c86c4d6623cb8fb5b56561b1e26a1",
+    "results/recalculated_2026-10-21/r_strict/score_settings.tsv": "ed6d78df9d4d8813415b026b1daa3a7d8e4b15b6f7dce1a4c0efe2fa6992bf7e",
+    "results/recalculated_2026-10-21/r_strict/short_lambda_grid.tsv": "9e4b5a0c6ef38c910b308cbd40010bd64273cd5675e6e6bda9e76f2fb7ed1df0",
+    "results/recalculated_2026-10-21/r_strict/source_manifest.tsv": "68f3ef65e1f57830505dd96d71900bd5f3f6a1dbf68aab45be91dc2e001c74ea",
+    "results/recalculated_2026-10-21/r_strict.log": "f39f2ac7369cf2f7c978c5a4a72b9a2a31ca87a8ab5169bb958f5952520bd948",
+    "results/recalculated_2026-10-21/score_reference_check.json": "a05f8194fb4100ac713de191afa0a357d5493d97b7a95b2d519fb480e36a80e5",
+    "scripts/recalculate_phase_scores.py": "1641d77e4071e59fae9829831b1b8ff15d8fef408d023e1cd04726e2d2ac33f5",
+    "scripts/recalculate_phase_scores.R": "4a6924aa359fc35ca6ef2810fd0372d0d47da8bbef329264f4f2cd4675eaa865",
+    "scripts/run_historical_diagnostics.py": "fac8bbcec90d81694f81e72bc7db4fd367521557f88ad478e8d3b0f4909a8e26",
+    "scripts/run_historical_diagnostics.R": "ad1a8c4d19e9456d1b8031c363b3da6fd068faa2ecf4d7466ef1b681fcc265a8",
+    "scripts/verify_recalculated_runs.py": "11fed6fa0256122091c1d865ac37d97bcf987a20483c709593ac6ef388f4dc6c",
+    "scripts/verify_short_recalculation.py": "1e7226492f17fce79e3f1d0d0b5dc4a64335c37a51d6c154b2ec6d64d9978998"
+  },
+  "verified_staged_hashes": 17
+}

@@ -1,0 +1,151 @@
+{
+  "status": "passed",
+  "permutations": 10000,
+  "runs": {
+    "python": {
+      "score_records": 42575,
+      "short_exact_decimal_matches": 42575,
+      "tables": [
+        {
+          "phase": "short",
+          "method": "hypergeometric",
+          "rows": 2689
+        },
+        {
+          "phase": "short",
+          "method": "sumstat",
+          "rows": 2689
+        },
+        {
+          "phase": "short",
+          "method": "gsea",
+          "rows": 2689
+        },
+        {
+          "phase": "short",
+          "method": "maxmean",
+          "rows": 2689
+        },
+        {
+          "phase": "middle",
+          "method": "hypergeometric",
+          "rows": 2689
+        },
+        {
+          "phase": "middle",
+          "method": "sumstat",
+          "rows": 2689
+        },
+        {
+          "phase": "middle",
+          "method": "gsea",
+          "rows": 2689
+        },
+        {
+          "phase": "middle",
+          "method": "maxmean",
+          "rows": 2689
+        }
+      ],
+      "random_sets": 22620000
+    },
+    "r": {
+      "score_records": 42575,
+      "short_exact_decimal_matches": 42575,
+      "tables": [
+        {
+          "phase": "short",
+          "method": "hypergeometric",
+          "rows": 2689
+        },
+        {
+          "phase": "short",
+          "method": "sumstat",
+          "rows": 2689
+        },
+        {
+          "phase": "short",
+          "method": "gsea",
+          "rows": 2689
+        },
+        {
+          "phase": "short",
+          "method": "maxmean",
+          "rows": 2689
+        },
+        {
+          "phase": "middle",
+          "method": "hypergeometric",
+          "rows": 2689
+        },
+        {
+          "phase": "middle",
+          "method": "sumstat",
+          "rows": 2689
+        },
+        {
+          "phase": "middle",
+          "method": "gsea",
+          "rows": 2689
+        },
+        {
+          "phase": "middle",
+          "method": "maxmean",
+          "rows": 2689
+        }
+      ],
+      "random_sets": 22620000
+    }
+  },
+  "comparisons": [
+    {
+      "phase": "middle",
+      "method": "gsea",
+      "max_observed_difference": 1.5543122344752192e-15,
+      "max_native_monte_carlo_p_difference": 0.017298270172982688
+    },
+    {
+      "phase": "middle",
+      "method": "hypergeometric",
+      "max_observed_difference": 1.27675647831893e-15
+    },
+    {
+      "phase": "middle",
+      "method": "maxmean",
+      "max_observed_difference": 4.884981308350689e-15,
+      "max_native_monte_carlo_p_difference": 0.019298070192980715
+    },
+    {
+      "phase": "middle",
+      "method": "sumstat",
+      "max_observed_difference": 5.002220859751105e-12,
+      "max_native_monte_carlo_p_difference": 0.019698030196980576
+    },
+    {
+      "phase": "short",
+      "method": "gsea",
+      "max_observed_difference": 1.2212453270876722e-15,
+      "max_native_monte_carlo_p_difference": 0.018598140185981105
+    },
+    {
+      "phase": "short",
+      "method": "hypergeometric",
+      "max_observed_difference": 7.771561172376096e-16
+    },
+    {
+      "phase": "short",
+      "method": "maxmean",
+      "max_observed_difference": 4.884981308350689e-15,
+      "max_native_monte_carlo_p_difference": 0.02079792020797916
+    },
+    {
+      "phase": "short",
+      "method": "sumstat",
+      "max_observed_difference": 1.1368683772161603e-13,
+      "max_native_monte_carlo_p_difference": 0.018198180181981383
+    }
+  ],
+  "historical_repairs_confirmed": false,
+  "paper_reproduction_verified": false,
+  "total_random_sets": 45240000
+}

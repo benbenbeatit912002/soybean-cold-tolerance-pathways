@@ -1,10 +1,11 @@
-"""Extract a review ZIP and test its Python and R workflows in a fresh folder.
+"""Extract a source ZIP and exercise both languages without the original folder.
 
-Prerequisites: Python dependencies installed; Rscript available (or --rscript).
-This runs small execution tests and verifies the archived full-run outputs.
-It does not repeat the expensive 10,000-draw analyses. Logs are retained.
+Default: unit/integration tests, both demos and both real-data quick runs.
+--full: also rerun 10,000-draw analyses, including experimental MaxMean.
+The clean extraction, command logs and exit codes are retained under results/.
 """
 import argparse
+from concurrent.futures import ThreadPoolExecutor
 import hashlib
 import json
 from pathlib import Path
@@ -14,59 +15,81 @@ import tempfile
 import time
 from zipfile import ZipFile
 
+ROOT = Path(__file__).resolve().parents[1]
+
 
 def main():
-    root = Path(__file__).resolve().parents[1]
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--archive", type=Path, default=root.parent/"soybean-cold-tolerance-github.zip")
+    parser.add_argument("--archive", type=Path, default=ROOT / "dist/soybean-cold-tolerance-pathways-source.zip")
     parser.add_argument("--rscript", default="Rscript")
+    parser.add_argument("--full", action="store_true")
     args = parser.parse_args()
-    extraction = Path(tempfile.mkdtemp(prefix="dual-language-package-check-", dir=root.parent))
+    scratch = ROOT / "results/package_checks"
+    scratch.mkdir(parents=True, exist_ok=True)
+    extraction = Path(tempfile.mkdtemp(prefix="download test ", dir=scratch))
     with ZipFile(args.archive) as archive:
         if archive.testzip() is not None:
             raise ValueError("Archive integrity failed")
         for name in archive.namelist():
-            if not (extraction/name).resolve().is_relative_to(extraction.resolve()):
+            if not (extraction / name).resolve().is_relative_to(extraction.resolve()):
                 raise ValueError("Unsafe archive path")
         archive.extractall(extraction)
-    workspace = extraction/root.name
-    logs = extraction/"logs"
+    workspace = extraction / "soybean-cold-tolerance-pathways"
+    if (workspace / "results").exists():
+        raise ValueError("Use the source-only ZIP: preexisting outputs could hide missing calculation steps")
+    logs = extraction / "logs"
     logs.mkdir()
     py, r = [sys.executable], [args.rscript, "--vanilla"]
-    commands = [
-        ("r_numerical", r+["tests/test_core.R"]),
-        ("r_workflow", r+["tests/test_integration.R"]),
-        ("python_tests", py+["-m", "unittest", "discover", "-s", "tests", "-p", "test_*.py"]),
-        ("shared_null", py+["tests/check_cross_language.py", "--rscript", args.rscript]),
-        ("r_example", r+["examples/walkthrough.R"]),
-        ("python_example", py+["examples/walkthrough.py"]),
-        ("r_membership", r+["scripts/run_analysis.R"]),
-        ("r_plots", r+["scripts/plot_results.R"]),
-        ("python_membership", py+["scripts/run_analysis.py"]),
-        ("python_plots", py+["scripts/plot_results.py"]),
-        ("full_output_verification", py+["scripts/verify_full_runs.py"]),
-    ]
-    report = {"archive_checkpoint": str(args.archive.resolve()),
-              "archive_checkpoint_sha256": hashlib.sha256(args.archive.read_bytes()).hexdigest(),
-              "extracted_workspace": str(workspace), "checks": [], "code_and_config_sha256": {}}
-    for label, command in commands:
+    report = dict(archive=str(args.archive.resolve()), archive_sha256=hashlib.sha256(args.archive.read_bytes()).hexdigest(),
+                  extracted_workspace=str(workspace), checks=[], full_simulations_requested=args.full,
+                  original_project_used=False, status="running", tested_file_sha256={})
+    for path in workspace.rglob("*"):
+        if path.is_file():
+            report["tested_file_sha256"][path.relative_to(workspace).as_posix()] = hashlib.sha256(path.read_bytes()).hexdigest()
+    report_path = ROOT / "reports/latest_portable_package_check.json"
+
+    def save():
+        report_path.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+
+    def execute(label, command, expected=0, outside=False):
         start = time.perf_counter()
-        result = subprocess.run(command, cwd=workspace, capture_output=True,
-                                encoding="utf-8", errors="replace")
-        (logs/f"{label}.log").write_text(result.stdout+result.stderr, encoding="utf-8")
-        report["checks"].append({"name": label, "command": command, "exit_code": result.returncode,
-                                 "elapsed_seconds": round(time.perf_counter()-start, 2)})
-        print(f"{'PASS' if result.returncode == 0 else 'FAIL'}: {label}", flush=True)
-    for pattern in ("R/*.R", "python/*.py", "scripts/*.py", "scripts/*.R", "tests/*.py",
-                    "tests/*.R", "examples/*", "config*.R", "config*.json", "requirements.txt"):
-        for path in sorted(workspace.glob(pattern)):
-            report["code_and_config_sha256"][path.relative_to(workspace).as_posix()] = hashlib.sha256(path.read_bytes()).hexdigest()
-    passed = all(item['exit_code'] == 0 for item in report['checks'])
-    report['status'] = 'passed' if passed else 'failed'
-    output = root/"reports/latest_dual_language_package_check.json"
-    output.write_text(json.dumps(report, indent=2)+"\n", encoding="utf-8")
-    print(f"Report: {output}\nLogs: {logs}")
-    return 0 if passed else 1
+        with (logs / f"{label}.log").open("w", encoding="utf-8") as handle:
+            result = subprocess.run(command, cwd=extraction if outside else workspace, stdout=handle, stderr=subprocess.STDOUT)
+        item = dict(name=label, command=command, exit_code=result.returncode, expected_exit_code=expected,
+                    elapsed_seconds=round(time.perf_counter() - start, 2), log=str(logs / f"{label}.log"))
+        print(f"{'PASS' if result.returncode == expected else 'FAIL'}: {label} ({item['elapsed_seconds']} s)", flush=True)
+        return item
+
+    commands = [("python_tests", py + ["-m", "unittest", "discover", "-s", "tests", "-p", "test_*.py"]),
+                *[(name, r + [f"tests/{name}.R"]) for name in ("test_core", "test_integration", "test_short_reference", "test_historical_short")],
+                ("shared_null", py + ["tests/check_cross_language.py", "--rscript", args.rscript])]
+    save()
+    for label, command in commands:
+        report["checks"].append(execute(label, command))
+        save()
+    # R and Python have independent output folders. Every entry-point test starts
+    # outside the repository, using a relocated path that contains spaces.
+    with ThreadPoolExecutor(max_workers=2) as pool:
+        for mode in ("demo", "quick", *(("full",) if args.full else ())):
+            jobs = []
+            for language, executable, extension in (("python", py, "py"), ("r", r, "R")):
+                command = executable + [str(workspace / f"run_pipeline.{extension}"), "--mode", mode, "--include-maxmean"]
+                if mode != "demo":
+                    command += ["--use-reconstruction-hypotheses"]
+                jobs.append(pool.submit(execute, f"{language}_{mode}", command, outside=True))
+            report["checks"].extend(job.result() for job in jobs)
+            save()
+    # Deliberately omit the hypotheses: unresolved scores must stop before enrichment.
+    for language, executable, extension in (("python", py, "py"), ("r", r, "R")):
+        command = executable + [str(workspace / f"run_pipeline.{extension}"), "--mode", "quick", "--output", str(workspace / f"results/{language}_strict")]
+        report["checks"].append(execute(f"{language}_strict", command, expected=2, outside=True))
+    mode = "full" if args.full else "quick"
+    report["checks"].append(execute("portable_results", py + ["scripts/verify_portable_runs.py",
+        f"results/python_{mode}", f"results/r_{mode}", "--permutations", "10000" if args.full else "199"]))
+    report["status"] = "passed" if all(c["exit_code"] == c["expected_exit_code"] for c in report["checks"]) else "failed"
+    save()
+    print(f"Report: {report_path}\nLogs: {logs}", flush=True)
+    return 0 if report["status"] == "passed" else 1
 
 
 if __name__ == "__main__":

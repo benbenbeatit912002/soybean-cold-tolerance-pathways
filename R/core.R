@@ -36,6 +36,91 @@ transform_score <- function(x, kind) {
   switch(kind, pvalue = -log10(x), fold_change = abs(log(x)), score = x)
 }
 
+# Match saved short scores by source row; duplicate gene IDs remain distinct.
+# Read the reference as character columns to preserve its printed score precision.
+match_short_reference <- function(d, reference) {
+  identity <- c("source_row", "gene_id", "raw_short", "gene_length", "snp")
+  saved <- c("reference_adjusted_short", "reference_score_short",
+             "reference_snp_short", "reference_log_row")
+  if (!nrow(d) || !nrow(reference) || !all(identity %in% names(d)) ||
+      !all(c(identity, saved) %in% names(reference))) {
+    stop("Short reference and input require source-row identity and saved score columns")
+  }
+  positive_integer <- function(x) {
+    x <- as.numeric(x)
+    if (any(!is.finite(x) | x < 1 | x != floor(x))) {
+      stop("Reference row numbers and SNP counts must be positive integers")
+    }
+    x
+  }
+  keys <- positive_integer(d$source_row)
+  reference_keys <- positive_integer(reference$source_row)
+  if (anyDuplicated(keys) || anyDuplicated(reference_keys) || !setequal(keys, reference_keys)) {
+    stop("Short reference source rows must match input exactly, without duplicates")
+  }
+  matched <- reference[match(keys, reference_keys), , drop = FALSE]
+  genes <- canonical_id(d$gene_id)
+  old_genes <- canonical_id(matched$gene_id)
+  if (anyNA(genes) || anyNA(old_genes) || any(!nzchar(genes)) || any(genes != old_genes)) {
+    stop("Short reference gene identity differs from input")
+  }
+  for (field in c("raw_short", "gene_length", "snp")) {
+    value <- as.numeric(d[[field]])
+    original <- as.numeric(matched[[field]])
+    if (any(!is.finite(value)) || any(!is.finite(original)) || any(value != original)) {
+      stop("Short reference ", field, " differs from input")
+    }
+  }
+  positive_integer(matched$reference_snp_short)
+  positive_integer(matched$reference_log_row)
+  validate_values(as.numeric(matched$reference_adjusted_short), "pvalue")
+  validate_values(as.numeric(matched$reference_score_short), "score")
+  matched
+}
+
+# Fill zeros using positive input counts in the same 2,000-bp group, else globally.
+# Donors are frozen before filling; newly imputed values never become donors.
+impute_snp_counts <- function(snp, gene_length = NULL, bin_width = 2000) {
+  if (!is.numeric(snp) || !length(snp) ||
+      any(!is.finite(snp) | snp < 0 | snp != floor(snp))) {
+    stop("SNP counts must be finite nonnegative integers")
+  }
+  if (length(bin_width) != 1 || !is.finite(bin_width) ||
+      bin_width < 1 || bin_width != floor(bin_width)) stop("Invalid bin width")
+  positive <- snp > 0
+  if (!any(positive)) stop("Cannot impute SNP counts: no positive input donors")
+  audit <- data.frame(row_number = integer(), bin_start = numeric(),
+    bin_end_exclusive = numeric(), original_snp = numeric(), imputed_snp = numeric(),
+    donor_count = integer(), donor_mean = numeric(), source = character())
+  if (is.null(gene_length)) {
+    if (any(!positive)) stop("gene_length is required when SNP counts contain zero")
+    return(list(values = snp, audit = audit))
+  }
+  if (!is.numeric(gene_length) || length(gene_length) != length(snp) ||
+      any(!is.finite(gene_length) | gene_length < 1 | gene_length != floor(gene_length))) {
+    stop("Gene lengths must be finite positive integers matching SNP counts")
+  }
+  bins <- floor((gene_length - 1) / bin_width)
+  filled <- snp
+  for (group in sort(unique(bins[!positive]))) {
+    donors <- snp[positive & bins == group]
+    method <- "group_nonzero_mean"
+    if (!length(donors)) {
+      donors <- snp[positive]
+      method <- "global_nonzero_mean"
+    }
+    donor_mean <- mean(donors)
+    replacement <- round(donor_mean)  # Nearest integer; ties to even.
+    indices <- which(bins == group & !positive)
+    filled[indices] <- replacement
+    audit <- rbind(audit, data.frame(row_number = indices,
+      bin_start = group * bin_width + 1, bin_end_exclusive = (group + 1) * bin_width + 1,
+      original_snp = 0, imputed_snp = replacement, donor_count = length(donors),
+      donor_mean = donor_mean, source = method))
+  }
+  list(values = filled, audit = audit[order(audit$row_number), , drop = FALSE])
+}
+
 # Stable evaluation of 1 - (1 - p)^(M^lambda).
 # A fold-change-derived pseudo-probability is a score, not a calibrated p-value.
 fosco <- function(p, snp, lambda) {

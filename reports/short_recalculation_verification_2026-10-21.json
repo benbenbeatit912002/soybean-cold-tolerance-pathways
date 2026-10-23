@@ -1,0 +1,118 @@
+{
+  "source_sha256": {
+    "gene_p_len.txt": "3ff5d73fc5c42a542a0eb7765b733086a2022eb21b33ff6f84b40e42da467be9",
+    "Yamasaki_Go\u6821\u6b63\u5f8c1213.txt": "1d6818f1668afc1875d9d8570cfb6c4c479a0207ed942ba2951dbfb69d485e29",
+    "Yamasaki_Go\u6821\u6b63\u5f8c1213_G_log10.txt": "f476cf50e2212bbe0e4f6d6bcd0addd2809db04e7c77ab6d4b2588217fa4f9e5"
+  },
+  "upstream_source_sha256": {
+    "expression": "892a6ab94f14e725e9d1e84098dfd493483e21ede86604e9d72aa140cce4c848",
+    "correspondence": "18a44071b6dc82432718560462ea0a1b93f30a3c8264d37ee7b16d4b85499e41",
+    "gene_length": "ea2bb53090fd570804567f835d3ed26400782c2879b1bf0327c68e35f5a381c9",
+    "snp_markers": "2f9434f4350bd4a670904e9b5e8ef583f8e756bca309448fb7569bf55136a584"
+  },
+  "records": 42575,
+  "runs": {
+    "python": {
+      "records": 42575,
+      "input_records_matching_exactly": 42575,
+      "output_sha256": "093c87f73bffbd12b7f60387903a06b7b74243156517c4f6062b3f5db70d6744",
+      "input_mismatch_source_rows": [],
+      "short_lambda": 0.01,
+      "score_values_matching_exactly": 42574,
+      "score_mismatches": [
+        {
+          "source_row": 29915,
+          "gene_id": "Glyma.14G129500",
+          "calculated_score": "Infinity",
+          "saved_score": "0.002287056"
+        }
+      ],
+      "hypothesis_enabled": false,
+      "comparison": "exact decimal equality at saved output precision, without a tolerance"
+    },
+    "r": {
+      "records": 42575,
+      "input_records_matching_exactly": 42575,
+      "output_sha256": "49e9afe5f44ccef221387f8ccc5e37490ee310c57e1f33c2439532e4cacadc84",
+      "input_mismatch_source_rows": [],
+      "short_lambda": 0.01,
+      "score_values_matching_exactly": 42574,
+      "score_mismatches": [
+        {
+          "source_row": 29915,
+          "gene_id": "Glyma.14G129500",
+          "calculated_score": "Infinity",
+          "saved_score": "0.002287056"
+        }
+      ],
+      "hypothesis_enabled": false,
+      "comparison": "exact decimal equality at saved output precision, without a tolerance"
+    },
+    "python_hypothesis": {
+      "records": 42575,
+      "input_records_matching_exactly": 42575,
+      "output_sha256": "b1168ad9db3f3c300be9ac7b32d6595506573f13cba24db16f04f6b4dbfe8bf2",
+      "input_mismatch_source_rows": [],
+      "short_lambda": 0.01,
+      "score_values_matching_exactly": 42575,
+      "score_mismatches": [],
+      "hypothesis_enabled": true,
+      "comparison": "exact decimal equality at saved output precision, without a tolerance",
+      "repair_audit": [
+        {
+          "source_row": "29915",
+          "gene_id": "Glyma.14G129500",
+          "bin_start": "52001",
+          "bin_end_exclusive": "54001",
+          "donor_genes": "Glyma.06g180700;Glyma.10g123400",
+          "donor_counts": "16;7",
+          "donor_mean": "11.5",
+          "snp_after": "12",
+          "lambda_from_middle_grid": "0.47",
+          "adjusted_before_rounding": "0.9947477166692417",
+          "adjusted_7_significant_digits": "0.9947477",
+          "evidence_status": "unconfirmed_reconstruction_hypothesis"
+        }
+      ]
+    },
+    "r_hypothesis": {
+      "records": 42575,
+      "input_records_matching_exactly": 42575,
+      "output_sha256": "45716efc708a05a63f1e314024c5d5668cd1d0333bb377ab893e7471937aa5a3",
+      "input_mismatch_source_rows": [],
+      "short_lambda": 0.01,
+      "score_values_matching_exactly": 42575,
+      "score_mismatches": [],
+      "hypothesis_enabled": true,
+      "comparison": "exact decimal equality at saved output precision, without a tolerance",
+      "repair_audit": [
+        {
+          "source_row": "29915",
+          "gene_id": "Glyma.14G129500",
+          "bin_start": "52001",
+          "bin_end_exclusive": "54001",
+          "donor_genes": "Glyma.06g180700;Glyma.10g123400",
+          "donor_counts": "16;7",
+          "donor_mean": "11.5",
+          "snp_after": "12",
+          "lambda_from_middle_grid": "0.46999999999999997",
+          "adjusted_before_rounding": "0.99474771666924167",
+          "adjusted_7_significant_digits": "0.99474770000000001",
+          "evidence_status": "unconfirmed_reconstruction_hypothesis"
+        }
+      ]
+    }
+  },
+  "scope": "Recalculation from four upstream files; saved scores used here only for verification",
+  "historical_zero_repair_provenance_confirmed": false,
+  "all_paper_methods_and_pathway_results_reproduced": false,
+  "cross_language": {
+    "exported_score_values_equal": 42575,
+    "maximum_adjusted_probability_difference": 1.1102230246251565e-16
+  },
+  "cross_language_hypothesis": {
+    "exported_score_values_equal": 42575,
+    "maximum_adjusted_probability_difference": 1.1102230246251565e-16
+  },
+  "numerical_hypothesis_reproduces_all_saved_short_scores": true
+}

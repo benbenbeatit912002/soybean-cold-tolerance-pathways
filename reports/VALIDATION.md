@@ -8,7 +8,7 @@ Environment: Windows, R 4.5.1 (ucrt); base R statistical functions only. Python 
 
 | Check | Outcome |
 |---|---|
-| Parse every script in the requested original code folder | 9 parse; 2 fail. Exact failures saved in `legacy_parse.tsv`; parse success does not establish runnability |
+| Parse every script in the original code archive | 9 parse; 2 fail. Exact failures saved in `legacy_parse.tsv`; parse success does not establish runnability |
 | Parse all 10 new R/config/test files | Passed |
 | Primary CTgene lists and GO annotation | 44 short / 143 middle / 170 union; 4,896 GO terms; all original declared term sizes match membership counts |
 | External ID mapping | 1,388 older IDs resolved; 8 ambiguous and 7 blank-ID rows excluded with row-level records |

@@ -27,6 +27,26 @@ stopifnot(fosco(1e-30, 2, 0.5) > 0, fosco(1, 2, 0.5) == 1)
 check_error(fosco(0.1, 0, 0.5))
 check_error(fit_fosco(c(.1, .2), c(2, 2)))
 
+# Independent expected means: group (2+5)/2 -> 4; global (2+5+20)/3 -> 9.
+counts <- c(0, 2, 5, 0, 20, 0)
+lengths <- c(1, 2, 2000, 2001, 4001, 120001)
+imputed <- impute_snp_counts(counts, lengths)
+stopifnot(identical(imputed$values, c(4, 2, 5, 9, 20, 9)),
+          identical(imputed$audit$donor_count, c(2L, 3L, 3L)),
+          identical(imputed$audit$source,
+                    c("group_nonzero_mean", "global_nonzero_mean", "global_nonzero_mean")))
+stopifnot(identical(rev(impute_snp_counts(rev(counts), rev(lengths))$values), imputed$values))
+stopifnot(impute_snp_counts(c(0, 2, 3), c(1, 2, 3))$values[1] == 2)
+stopifnot(identical(impute_snp_counts(c(1, 3))$values, c(1, 3)))
+check_error(impute_snp_counts(c(0, 0), c(1, 2)))
+check_error(impute_snp_counts(c(0, 1)))
+check_error(impute_snp_counts(c(1, -1), c(1, 2)))
+check_error(impute_snp_counts(c(1, NA), c(1, 2)))
+check_error(impute_snp_counts(c(1, 2.5), c(1, 2)))
+check_error(impute_snp_counts(c(0, 1), c(0, 2)))
+check_error(impute_snp_counts(c(0, 1), 1))
+check_error(impute_snp_counts(numeric(), numeric()))
+
 # GSEA optimized statistic checked against a separate full running sum.
 s <- c(5, 4, 3, 2, 1, 0)
 for (hits in combn(seq_along(s), 2, simplify = FALSE)) {

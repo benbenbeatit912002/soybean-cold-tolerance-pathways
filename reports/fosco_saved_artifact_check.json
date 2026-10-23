@@ -1,0 +1,51 @@
+{
+  "p_1": {
+    "positive_snp_rows": 42574,
+    "max_abs_expected_error_positive_snp": 6.106226635438361e-16,
+    "within_1e-12": 42574,
+    "grid_objectives": {
+      "SNP_Spearman": {
+        "lambda": 0.01,
+        "abs_correlation": 0.01692116025451656
+      },
+      "SNP_Pearson": {
+        "lambda": 0.01,
+        "abs_correlation": 0.016455909732073754
+      },
+      "length_Spearman": {
+        "lambda": 0.01,
+        "abs_correlation": 0.10515049593899296
+      }
+    }
+  },
+  "p_24": {
+    "positive_snp_rows": 42574,
+    "max_abs_expected_error_positive_snp": 5.551115123125783e-16,
+    "within_1e-12": 42574,
+    "grid_objectives": {
+      "SNP_Spearman": {
+        "lambda": 0.47,
+        "abs_correlation": 8.836948622321737e-06
+      },
+      "SNP_Pearson": {
+        "lambda": 0.27,
+        "abs_correlation": 0.0004344978146902323
+      },
+      "length_Spearman": {
+        "lambda": 1.0,
+        "abs_correlation": 0.14465285866695135
+      }
+    }
+  },
+  "mapping_blank_target": [
+    {
+      "source_gene": "Glyma07g09360",
+      "correspondence_row": 15697,
+      "values": [
+        "Glyma07g09360",
+        "",
+        ""
+      ]
+    }
+  ]
+}

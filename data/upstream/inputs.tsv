@@ -1,0 +1,5 @@
+source	file	bytes	sha256	md5	original_relative_path	transformation
+expression	expression.tsv	5799184	892a6ab94f14e725e9d1e84098dfd493483e21ede86604e9d72aa140cce4c848	c24268d16a00d3204f8be588b8b08387	研究法/大豆基因/數據/外部資料匯入/耐寒資料庫0 1 24hr(轉換後)培修版.txt	Byte-identical copy
+correspondence	../input/gene_correspondence.tsv	2246931	18a44071b6dc82432718560462ea0a1b93f30a3c8264d37ee7b16d4b85499e41	991613ff1f34da1a73c33c64579ac03d	研究法/大豆基因/大豆基因 外部/Glyma_genes_correspondence_final.txt	Byte-identical copy
+gene_length	gene_lengths.tsv	2316456	ea2bb53090fd570804567f835d3ed26400782c2879b1bf0327c68e35f5a381c9	6adec02e9167188cdf19e5c2c887e993	研究法/大豆基因/數據/外部基因校正/Glyma2.0.txt	Byte-identical copy
+snp_markers	snp_markers.txt	7575849	2f9434f4350bd4a670904e9b5e8ef583f8e756bca309448fb7569bf55136a584	27793d00d788aa864be6b1fad7206a1c	研究法/大豆基因/數據/外部基因校正/snps_allgenes_20kb.set.txt	Byte-identical copy

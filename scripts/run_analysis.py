@@ -38,7 +38,8 @@ def main():
             raise ValueError("Only short and middle phases are supported")
         # 1. Keep CT membership distinct from its prior numerical score.
         ct = read_tsv(inputs/f"ct_{phase}.tsv")
-        external = read_tsv(inputs/f"external_{phase}.tsv")
+        score_input = config.get("score_input")
+        external = read_tsv(Path(score_input) if score_input else inputs/f"external_{phase}.tsv")
         if not ct or not external or any(not r["gene_id"] for r in ct+external):
             raise ValueError("Missing gene identifiers")
         foreground = [row["gene_id"] for row in ct]
@@ -68,13 +69,15 @@ def main():
                           "tested_pathways": len(sets), "pathways_with_ct": sum(p["ct_count"] > 0 for p in sets)})
 
         # 3. A score method runs only when its source column and meaning are set.
-        column, kind = config["score_column"], config["score_kind"]
-        if column is None or kind is None:
+        column, kind = config.get("score_column"), config["score_kind"]
+        score_field = config.get("score_field", "").format(phase=phase)
+        if (column is None and not score_field) or kind is None:
             print(f"{phase}: membership analysis complete; score choice is unset.", flush=True)
             continue
-        if column not in range(2, 7):
+        if not score_field and column not in range(2, 7):
             raise ValueError("score_column must be an original column number 2 through 6")
-        values = transform_score([float(r[f"source_col_{column}"]) for r in external], kind)
+        field = score_field or f"source_col_{column}"
+        values = transform_score([float(r[field]) for r in external], kind)
         scores = resolve_duplicate_scores([r["gene_id"] for r in external], values, config["duplicate_policy"])
         write_tsv([{"gene_id": gene, "analysis_score": value} for gene, value in scores.items()],
                   output/f"{phase}_analysis_scores.tsv")

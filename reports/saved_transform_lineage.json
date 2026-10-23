@@ -1,0 +1,186 @@
+{
+  "files": {
+    "gene_p_len.txt": {
+      "rows": 42575,
+      "unique_genes": 42567,
+      "sha256": "3ff5d73fc5c42a542a0eb7765b733086a2022eb21b33ff6f84b40e42da467be9"
+    },
+    "gene_p_len_go_yamasaki.txt": {
+      "rows": 37156,
+      "unique_genes": 37153,
+      "sha256": "fe349e795967c492d25b2861f08ef5a02945d90eab470e16715886df6cd05bd7"
+    },
+    "Yamasaki_Go校正後1213.txt": {
+      "rows": 42575,
+      "unique_genes": 42567,
+      "sha256": "1d6818f1668afc1875d9d8570cfb6c4c479a0207ed942ba2951dbfb69d485e29"
+    },
+    "Yamasaki_Go校正後1213_G.txt": {
+      "rows": 42575,
+      "unique_genes": 42567,
+      "sha256": "33baa8ab36d8a79124fe29f4ca45bde3d13d91e2085ed4e3350c391dfaa09fca"
+    },
+    "Yamasaki_Go校正後1213_G_log10.txt": {
+      "rows": 42575,
+      "unique_genes": 42567,
+      "sha256": "f476cf50e2212bbe0e4f6d6bcd0addd2809db04e7c77ab6d4b2588217fa4f9e5"
+    },
+    "Yamasaki_Go校正後1213_G_loge.txt": {
+      "rows": 42575,
+      "unique_genes": 42567,
+      "sha256": "4e58b0fa521d2ff39c9e699fd71dbf9757eeeffc33b24821f448cd5557d2f78a"
+    }
+  },
+  "raw_corrected_same_order": false,
+  "lambda_inference": {
+    "p_1": {
+      "median_lambda": 0.009999999999999988,
+      "range_nonextreme": [
+        0.009999985729090702,
+        0.010000021130698292
+      ],
+      "eligible_nonextreme": 39883,
+      "max_abs_corrected_error": 0.9947477,
+      "all_within_1e-12": false,
+      "score_range": [
+        1.16e-14,
+        1.0
+      ],
+      "corrected_range": [
+        1.17683640610267e-14,
+        1.0
+      ],
+      "zero_corrected": 0
+    },
+    "p_24": {
+      "median_lambda": 0.47,
+      "range_nonextreme": [
+        0.46999995553962937,
+        0.4700000634490088
+      ],
+      "eligible_nonextreme": 38163,
+      "max_abs_corrected_error": 0.9008147,
+      "all_within_1e-12": false,
+      "score_range": [
+        5.21e-17,
+        1.0
+      ],
+      "corrected_range": [
+        0.0,
+        1.0
+      ],
+      "zero_corrected": 1
+    }
+  },
+  "transformed_comparisons": {
+    "Yamasaki_Go校正後1213_G.txt": {
+      "matched_rows": 42574,
+      "missing_key_count": 1,
+      "max_abs_error_by_phase": [
+        4.983033417489712e-08,
+        4.995720057850329e-08
+      ],
+      "within_5e-8_by_phase": [
+        42574,
+        42574
+      ],
+      "finite_comparison_count": [
+        42574,
+        42574
+      ],
+      "special_mismatch_count": 0,
+      "special_mismatches": []
+    },
+    "Yamasaki_Go校正後1213_G_log10.txt": {
+      "matched_rows": 42574,
+      "missing_key_count": 1,
+      "max_abs_error_by_phase": [
+        4.384133251405912e-08,
+        4.963504651254026e-08
+      ],
+      "within_5e-8_by_phase": [
+        42574,
+        42573
+      ],
+      "finite_comparison_count": [
+        42574,
+        42573
+      ],
+      "special_mismatch_count": 1,
+      "special_mismatches": [
+        {
+          "key": [
+            "Glyma.04G222100",
+            "1783",
+            "9"
+          ],
+          "column": "p_24",
+          "saved": "15.47747",
+          "expected": "inf"
+        }
+      ]
+    },
+    "Yamasaki_Go校正後1213_G_loge.txt": {
+      "matched_rows": 42574,
+      "missing_key_count": 1,
+      "max_abs_error_by_phase": [
+        3.3443497216012474e-07,
+        3.714427947443255e-07
+      ],
+      "within_5e-8_by_phase": [
+        40522,
+        21504
+      ],
+      "finite_comparison_count": [
+        42574,
+        42573
+      ],
+      "special_mismatch_count": 1,
+      "special_mismatches": [
+        {
+          "key": [
+            "Glyma.04G222100",
+            "1783",
+            "9"
+          ],
+          "column": "p_24",
+          "saved": "#NUM!",
+          "expected": "inf"
+        }
+      ]
+    }
+  },
+  "interpretation_notes": [
+    "The raw_corrected_same_order=false flag is a single SNP-count annotation change, not row reordering. Rows and gene IDs correspond exactly.",
+    "Maximum correction errors in lambda_inference include the exceptional raw SNP=0 row Glyma.14g129500. All 42,574 positive-SNP rows match the inferred correction to <=6.2e-16; see fosco_saved_artifact_check.json.",
+    "The key-based transform comparison misses Glyma.14G129500 because SNP strings/values differ; matching by canonical gene plus occurrence shows its log10 scores match the full corrected1213 file, despite the _G variant differing.",
+    "The saved log10 table follows full-precision corrected1213 rather than directly logging the rounded _G table.",
+    "Saved artifacts alone do not establish final published-table provenance or all manual data corrections."
+  ],
+  "exact_import_mapping": {
+    "source_rows": 49777,
+    "unmapped_or_nonunique": 7201,
+    "mapped_but_blank_Glyma2_target": 1,
+    "retained_rows": 42575,
+    "unique_genes": 42567,
+    "all_gene_and_short_middle_score_tuples_match_gene_p_len_in_order": true,
+    "blank_source_gene": "Glyma07g09360",
+    "correspondence_file_row": 15697
+  },
+  "gene_occurrence_based_log_comparison": {
+    "full_corrected_to_log10": {
+      "finite_values_checked": 85149,
+      "max_abs_difference": 4.963504651254026e-08,
+      "exception": "Glyma.04G222100 middle corrected p=0 becomes finite log10 score15.47747"
+    },
+    "full_corrected_to_loge": {
+      "finite_values_checked": 85147,
+      "max_abs_difference": 3.714427947443255e-07,
+      "non_numeric_cells": 3,
+      "exceptions": [
+        "Glyma.04G222100 middle",
+        "#NUM! for both phases of Glyma.14G129500"
+      ]
+    }
+  }
+}

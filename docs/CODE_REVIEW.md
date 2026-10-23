@@ -1,5 +1,11 @@
 # Code and data review — 15 October 2026
 
+**Recalculation update, 21 October 2026:** both historical calculators rebuild inputs from four upstream files. Saved scores serve only as independent verification references; the earlier copying option was removed. The archived calculation and inferred export rules match 42,574 saved short scores exactly. A separately enabled repair hypothesis computes the remaining value from the whole-genome bin's positive mean, the fitted middle lambda, and seven-significant-digit rounding. It matches all 42,575 scores in both languages, but the original repair operation is still unconfirmed. See the [recalculation report](../reports/SHORT_SCORE_RECALCULATION_2026-10-21.md).
+
+**Evidence update, 18 October 2026:** see the [historical data-flow audit](../reports/HISTORICAL_DATA_FLOW_2026-10-18.md) and [script dependency inventory](../reports/SCRIPT_DATA_DEPENDENCIES_2026-10-18.md). The original mapping and both saved FOSCO transformations have now been numerically reconstructed, apart from a zero-SNP exception. Most previously noted logged-score discrepancies are explained by comparing against a rounded intermediate; the high-precision corrected source reproduces the finite logged scores within `5e-8`, with two documented exceptional genes. Earlier unresolved findings below should be read with this newer evidence.
+
+**Implementation update, 20 October 2026:** the alternative nonzero-group-mean/global-fallback SNP policy is implemented in Python and R. A [complete correction rerun](../reports/SNP_IMPUTATION_VALIDATION_2026-10-20.md) from the saved historical input passed comparison across languages and against independent calculations. The new rule resolves the remaining zero for this reanalysis; it does not explain how the original saved exception was produced.
+
 ## Assessment
 
 The supplied material can be organized as a research repository, but the original scripts cannot yet support an exact end-to-end reproduction claim. The audit found input-version mismatches, unresolved gene mappings, parse failures, and statistical implementation differences. Original files were preserved. A checked reanalysis workflow and explicit data lineage are included alongside them.
@@ -12,7 +18,7 @@ Priority meanings: **P1** can change results or prevent execution; **P2** affect
 
 ### 1. The current statistics scripts use a different external-data branch
 
-`超幾何.txt:6–15`, `sumstat.txt:2–4`, and `maxmean0127版本.txt:5–7` load `Yamasaki_Go校正後1213_G_log10.txt`, not the two specified WITHOUTINF files. The corrected file has 42,575 rows and 42,567 unique IDs; the requested files have 40,061 and 40,332 raw rows. `short_CT_G_score.txt` has 41 genes rather than the primary list's 44.
+`超幾何.txt:6–15`, `sumstat.txt:2–4`, and `maxmean0127版本.txt:5–7` load `Yamasaki_Go校正後1213_G_log10.txt`, not the two specified WITHOUTINF files. The corrected file has 42,575 rows and 42,567 unique IDs; the WITHOUTINF files have 40,061 and 40,332 raw rows. `short_CT_G_score.txt` has 41 genes rather than the primary list's 44.
 
 **Consequence:** changing the README alone would misstate the analyzed inputs. **Action:** stage the author's named primary and external inputs, retain hashes, and label new results as a reanalysis. Historical output attribution remains unresolved.
 
@@ -64,7 +70,7 @@ In `gsea_菲斯福氣.txt:47–48`, the observed statistic uses the CT-only midd
 
 At lines 150–170, an object named `p_middle` is created, but only column 2 (short term) is adjusted and written. This exact script does not apply a separate fit to column 3. The plotting script `校正前後的繪圖.txt:19–33` also changes short only, while later displaying middle as corrected. Its objective at line 29 is gene length; the import script's objective at line 165 is SNP count. The upstream `研究法/外部資料處理.txt:103` uses Pearson instead of Spearman.
 
-**Action implemented:** separate per-phase correction functions, explicit required inputs, stable arithmetic, and recorded objectives. The supplied general external scores are not silently corrected. A confirmed historical raw-score definition is still needed for a scientific correction rerun.
+**Action implemented:** separate per-phase correction functions, explicit required inputs, stable arithmetic, and recorded objectives. The 20 October rerun uses the actual saved historical p-value columns and reproduces the ordinary corrected records; the choice between this branch and the paper's fold-change-derived branch still needs reconciliation. The supplied general external scores are not silently corrected.
 
 ### 9. Zero-SNP imputation has uncovered boundaries and no explicit failure policy
 
@@ -72,7 +78,7 @@ At lines 150–170, an object named `p_middle` is created, but only column 2 (sh
 
 The saved `gene_p_len.txt` contains one zero SNP count; the corrected saved file has none. The step that resolves this difference is not fully recorded in the reviewed script.
 
-**Action implemented:** correction rejects missing/nonpositive SNP counts and requires a documented policy. A bin-based replacement should define complete bounds, the donor population, empty-bin handling, and the number of replacements; those scientific choices are not inferred here.
+**Action implemented, 20 October 2026:** zero counts use the same 2,000-bp group's nonzero mean, falling back to the overall nonzero mean. Bins extend to all positive lengths, means use positive input records before any imputation, and rounding uses nearest integer with ties to even. Missing/negative/fractional counts and all-zero inputs are rejected. Original counts and every replacement are recorded. The saved input's sole zero, `Glyma.14G129500`, has no nonzero donors in `[52001,54001)` and becomes 11 from the global mean `10.731667214731996`. Its old saved SNP value 12 and exceptional short score remain historical differences; the new rule should not be described as the original rule.
 
 ### 10. January 27 MaxMean adds an unverified within-set transformation
 
@@ -104,7 +110,7 @@ The group-comparison and crosstalk scripts have been reviewed and archived, not 
 
 1. Define columns 2–6 of the external files, including Edward Kao's score formulas, directionality, and which score entered each method. The diagnostic runs check columns 5 and 6 separately and assume larger means stronger.
 2. Confirm the scientific resolution of duplicated and ambiguous gene mappings. Averaging in the diagnostic run is explicit but provisional.
-3. Identify the actual primary numerical input to FOSCO: collaborator score, fold-change transformation, or the upstream p-value fields. Confirm SNP-window definition and imputation policy.
+3. Reconcile the paper's FOSCO input with the recovered upstream p-value fields and confirm the SNP-window definition. The new imputation policy is specified and tested; the exceptional replacement and short score now have a numerical reconstruction hypothesis whose historical use remains unconfirmed.
 4. Confirm the historical background, pathway boundaries, BH testing family, secondary selection rules, and final GSEA implementation. Current scripts and the described input files differ.
 5. Clarify MaxMean's publication status. The author says its results were omitted; the final online article names it in methods and figure wording. The repository keeps it experimental without asserting that the article never mentioned it.
 6. Compare an agreed full analysis against the final supplementary tables. This review does not conclude that any published biological finding is invalid; it identifies what must be resolved to reproduce the computations.

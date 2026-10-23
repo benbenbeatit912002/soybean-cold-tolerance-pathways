@@ -1,0 +1,16 @@
+{
+  "author_designation": "Original short-term scores designated as paper results on 2026-10-21",
+  "source_sha256": {
+    "gene_p_len.txt": "3ff5d73fc5c42a542a0eb7765b733086a2022eb21b33ff6f84b40e42da467be9",
+    "Yamasaki_Go校正後1213.txt": "1d6818f1668afc1875d9d8570cfb6c4c479a0207ed942ba2951dbfb69d485e29",
+    "Yamasaki_Go校正後1213_G_log10.txt": "f476cf50e2212bbe0e4f6d6bcd0addd2809db04e7c77ab6d4b2588217fa4f9e5"
+  },
+  "reference_sha256": "4398c4e697a2a65e9e63c44ccb43343a46e8f3c3a8fe691637086e1521b1ed93",
+  "records": 42575,
+  "unique_genes": 42567,
+  "join": "canonical gene ID, gene length, and occurrence order within each pair",
+  "short_score_source": "p_1 text in Yamasaki_Go校正後1213_G_log10.txt",
+  "adjusted_short_source": "p_1 text in Yamasaki_Go校正後1213.txt",
+  "independent_log_check_max_absolute_difference": 4.384133251405912e-08,
+  "policy": "Preserve saved strings exactly; no averaging, recalculation, or inferred exception formula."
+}

@@ -1,0 +1,1318 @@
+{
+  "date": "2026-10-18",
+  "scope": "D:\\Bioinformatics project\\研究法\\大豆基因\\程式",
+  "method": "Read-only static examination. Original scripts were not executed. Current paths are inferred by replacing the historical workstation prefix; alternative basename matches are evidence candidates, not automatic substitutions. Assignments are evaluated only for literal strings and simple paste(directory, filename, sep=separator).",
+  "file_count": 11,
+  "files": [
+    {
+      "file": "D:\\Bioinformatics project\\研究法\\大豆基因\\程式\\#外部資料匯入與校正繪圖.txt",
+      "basename": "#外部資料匯入與校正繪圖.txt",
+      "lines": 192,
+      "sha256": "7a365881c3301140cd9ff54ae5cfc241e7014788b56b160f2a45faf98427fad5",
+      "legacy_copy": "D:\\Bioinformatics project\\soybean-cold-tolerance\\legacy\\#外部資料匯入與校正繪圖.txt",
+      "legacy_exists": true,
+      "legacy_byte_identical": true,
+      "operations": [
+        {
+          "line": 4,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "outfile",
+          "path_variable_last_assignment_line": 3,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/外部資料匯入/耐寒資料庫0 1 24hr(轉換後)培修版.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部資料匯入\\耐寒資料庫0 1 24hr(轉換後)培修版.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\gg plot\\火山圖\\data\\耐寒資料庫0 1 24hr(轉換後)培修版.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部資料匯入\\耐寒資料庫0 1 24hr(轉換後)培修版.txt"
+          ],
+          "code": "outside_data=read.table(outfile,header = T,sep='\\t')             #外部"
+        },
+        {
+          "line": 8,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "outfile",
+          "path_variable_last_assignment_line": 7,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/大豆基因 外部/Glyma_genes_correspondence_final.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\大豆基因 外部\\Glyma_genes_correspondence_final.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\大豆基因 外部\\Glyma_genes_correspondence_final.txt"
+          ],
+          "code": "genes_correspondence=read.table(outfile,header = T,sep='\\t')         #基因對照表"
+        },
+        {
+          "line": 12,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "outfile",
+          "path_variable_last_assignment_line": 11,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/外部基因校正/Glyma2.0.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部基因校正\\Glyma2.0.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部基因校正\\Glyma2.0.txt"
+          ],
+          "code": "gene_len=read.table(outfile,header = T,sep='\\t')         #基因對照表"
+        },
+        {
+          "line": 17,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "outfile",
+          "path_variable_last_assignment_line": 16,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/外部基因校正/snps_allgenes_20kb.set.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部基因校正\\snps_allgenes_20kb.set.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部基因校正\\snps_allgenes_20kb.set.txt"
+          ],
+          "code": "SNP_20k=read.table(outfile,header = F,sep='\\t')   "
+        },
+        {
+          "line": 75,
+          "operation": "write.table",
+          "commented": false,
+          "expression": "outfile",
+          "path_variable_last_assignment_line": 74,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/外部基因校正/gene_p_len.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部基因校正\\gene_p_len.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部基因校正\\gene_p_len.txt"
+          ],
+          "code": "write.table(out1, outfile,row.names=F,sep='\\t')#quote=F, row.names=F, col.names=T"
+        },
+        {
+          "line": 81,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "outfile",
+          "path_variable_last_assignment_line": 80,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/GO_terms_4899.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\GO_terms_4899.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\GO_terms_4899.txt"
+          ],
+          "code": "GO_terms_4899=read.table(outfile,header = T,sep='\\t') "
+        },
+        {
+          "line": 92,
+          "operation": "write.table",
+          "commented": false,
+          "expression": "outfile",
+          "path_variable_last_assignment_line": 91,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/外部基因校正/gene_p_len_go_yamasaki.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部基因校正\\gene_p_len_go_yamasaki.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部基因校正\\gene_p_len_go_yamasaki.txt"
+          ],
+          "code": "write.table(GO_terms_yamasaki, outfile,row.names=F, sep='\\t')#quote=F, row.names=F, col.names=T"
+        },
+        {
+          "line": 97,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "outfile",
+          "path_variable_last_assignment_line": 96,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/經過篩選的路徑/answer1.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\經過篩選的路徑\\answer1.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\經過篩選的路徑\\answer1.txt"
+          ],
+          "code": "answer=read.table(outfile,header = F,sep='\\t')      "
+        },
+        {
+          "line": 99,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "outfile",
+          "path_variable_last_assignment_line": 98,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/經過篩選的路徑/answer2.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\經過篩選的路徑\\answer2.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\經過篩選的路徑\\answer2.txt"
+          ],
+          "code": "answer2=read.table(outfile,header = F,sep='\\t')   "
+        },
+        {
+          "line": 174,
+          "operation": "write.table",
+          "commented": false,
+          "expression": "outfile",
+          "path_variable_last_assignment_line": 173,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/外部基因校正/Yamasaki_Go校正後1213.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部基因校正\\Yamasaki_Go校正後1213.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部基因校正\\Yamasaki_Go校正後1213.txt"
+          ],
+          "code": "write.table(p_middle, outfile,row.names=F, sep='\\t')"
+        }
+      ],
+      "packages": [
+        {
+          "line": 134,
+          "operation": "library",
+          "package": "tidyverse"
+        },
+        {
+          "line": 135,
+          "operation": "library",
+          "package": "ggplot2"
+        }
+      ],
+      "plot_creation": [
+        {
+          "line": 140,
+          "code": "plot1 =ggplot() +"
+        }
+      ],
+      "audit": {
+        "purpose": "Map the transformed external expression table to Glyma 2.0; add gene lengths and SNP counts; impute zero SNP counts by length bins; filter mapped rows against GO membership; inspect distributions; apply a correction.",
+        "session_dependencies": [],
+        "data_flow_notes": [
+          "The external input is the separately saved transformed Pei-Hsiu table, not either WITHOUTINF file (lines 2-4). Its columns 5 and 8 supply p_1 and p_24 (50-51).",
+          "GO-filtered mapped external rows are created at 83-88 and saved at 92. This keeps qualifying rows; it does not deduplicate the external gene identifiers.",
+          "gene_p_len is assigned GO_terms_yamasaki at 104, but p_middle is later assigned out1 at 150; the correction/output branch therefore uses the earlier unfiltered mapped table.",
+          "Only p_middle column 2 is replaced by the power correction at 170. The grid uses Spearman correlation with SNP count at 165.",
+          "The emitted corrected filename lacks the _G_log10 suffix consumed by later statistics; no matching writer for that latter file is present in this folder."
+        ],
+        "plot_export": "Creates plot1 at 140, but contains no explicit file export."
+      },
+      "parse_only_result": "OK"
+    },
+    {
+      "file": "D:\\Bioinformatics project\\研究法\\大豆基因\\程式\\crosstalk 20240916.R",
+      "basename": "crosstalk 20240916.R",
+      "lines": 163,
+      "sha256": "f8d702ab31779d9ed659e3a5ca9e85b5874f994928484d3d94af1451489848e6",
+      "legacy_copy": "D:\\Bioinformatics project\\soybean-cold-tolerance\\legacy\\crosstalk 20240916.R",
+      "legacy_exists": true,
+      "legacy_byte_identical": true,
+      "operations": [
+        {
+          "line": 8,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile",
+          "path_variable_last_assignment_line": 7,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/network/crosstalk/0221版本/jc_point_short.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\0221版本\\jc_point_short.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\0111版本\\jc_point_short.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\0221版本\\jc_point_short.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\1029版本\\jc_point_short.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\1114版本\\jc_point_short.txt"
+          ],
+          "code": "jc_point_short= read.table(datfile,header = F,sep='\\t')"
+        },
+        {
+          "line": 12,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile",
+          "path_variable_last_assignment_line": 11,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/network/crosstalk/0221版本/jc_point_middle.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\0221版本\\jc_point_middle.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\0111版本\\jc_point_middle.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\0221版本\\jc_point_middle.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\1214版本\\jc_point_middle.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\1029版本\\jc_point_middle.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\1114版本\\jc_point_middle.txt"
+          ],
+          "code": "jc_point_middle= read.table(datfile,header = F,sep='\\t')"
+        },
+        {
+          "line": 15,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile",
+          "path_variable_last_assignment_line": 14,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/network/crosstalk/0221版本/both.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\0221版本\\both.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\0111版本\\both.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\0221版本\\both.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\1214版本\\both.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\1029版本\\both.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\1114版本\\both.txt"
+          ],
+          "code": "both=read.table(datfile,header = F,sep='\\t')"
+        },
+        {
+          "line": 19,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile",
+          "path_variable_last_assignment_line": 18,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/network/crosstalk/0221版本/only_short.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\0221版本\\only_short.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\0111版本\\only_short.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\0221版本\\only_short.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\1214版本\\only_short.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\only_short.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\1029版本\\only_short.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\1114版本\\only_short.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\舊版\\寬鬆中 嚴謹短\\only_short.txt"
+          ],
+          "code": "only_short= read.table(datfile,header = F,sep='\\t')"
+        },
+        {
+          "line": 21,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile",
+          "path_variable_last_assignment_line": 20,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/network/crosstalk/0221版本/only_middle.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\0221版本\\only_middle.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\0111版本\\only_middle.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\0221版本\\only_middle.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\1214版本\\only_middle.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\only_middle.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\1029版本\\only_middle.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\舊版\\嚴謹中 嚴謹短\\1114版本\\only_middle.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\crosstalk\\舊版\\寬鬆中 嚴謹短\\only_middle.txt"
+          ],
+          "code": "only_middle= read.table(datfile,header = F,sep='\\t')"
+        }
+      ],
+      "packages": [
+        {
+          "line": 3,
+          "operation": "install.packages",
+          "package": "igraph"
+        },
+        {
+          "line": 4,
+          "operation": "library",
+          "package": "igraph"
+        }
+      ],
+      "plot_creation": [
+        {
+          "line": 163,
+          "code": "plot_tk = tkplot(netcb, width = 1000, height = 1000, tkplot.bg = \"transparent\",vertex.frame.color = NA)"
+        }
+      ],
+      "audit": {
+        "purpose": "Read saved short/middle Jaccard-like edge matrices and node lists; create an interactive combined igraph network.",
+        "session_dependencies": [],
+        "data_flow_notes": [
+          "Calls install.packages(igraph) at 3; tkplot at 163 requires an interactive Tcl/Tk display.",
+          "All five data files are read explicitly, but their producing code is absent from this script folder.",
+          "Node/edge selection uses manual indices, including loc3=47 at 139 and selected short nodes at 150; these depend on input order and external inspection."
+        ],
+        "plot_export": "Opens tkplot at 163; contains no explicit saved plot path."
+      },
+      "parse_only_result": "OK"
+    },
+    {
+      "file": "D:\\Bioinformatics project\\研究法\\大豆基因\\程式\\gsea_菲斯福氣.txt",
+      "basename": "gsea_菲斯福氣.txt",
+      "lines": 252,
+      "sha256": "534e07069d9970efc819ddd161bc4db0b386e7491f14ab92fbbb2d5a430124db",
+      "legacy_copy": "D:\\Bioinformatics project\\soybean-cold-tolerance\\legacy\\gsea_菲斯福氣.txt",
+      "legacy_exists": true,
+      "legacy_byte_identical": true,
+      "operations": [
+        {
+          "line": 27,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile1",
+          "path_variable_last_assignment_line": 26,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/CT_genes/short_CT_G.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\CT_genes\\short_CT_G.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\CT_genes\\short_CT_G.txt"
+          ],
+          "code": "CTgenes_short = read.table(datfile1,header = F,sep='\\t')"
+        },
+        {
+          "line": 31,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile1",
+          "path_variable_last_assignment_line": 30,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/經過篩選的路徑/answer2.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\經過篩選的路徑\\answer2.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\經過篩選的路徑\\answer2.txt"
+          ],
+          "code": "answer2 = read.table(datfile1,header = F,sep='\\t')"
+        },
+        {
+          "line": 36,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile1",
+          "path_variable_last_assignment_line": 35,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/經過篩選的路徑/short_CT_G_score.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\經過篩選的路徑\\short_CT_G_score.txt",
+          "inferred_current_path_exists": false,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\CT_genes\\short_CT_G_score.txt"
+          ],
+          "code": "CTgenes_short_address=read.table(datfile1,header = F,sep='\\t')"
+        },
+        {
+          "line": 38,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile1",
+          "path_variable_last_assignment_line": 37,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/經過篩選的路徑/middle_CT_G_score.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\經過篩選的路徑\\middle_CT_G_score.txt",
+          "inferred_current_path_exists": false,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\CT_genes\\middle_CT_G_score.txt"
+          ],
+          "code": "CTgenes_middle_address=read.table(datfile1,header = F,sep='\\t')"
+        },
+        {
+          "line": 42,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile1",
+          "path_variable_last_assignment_line": 41,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/外部基因校正/Yamasaki_Go校正後1213_G_log10.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部基因校正\\Yamasaki_Go校正後1213_G_log10.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部基因校正\\Yamasaki_Go校正後1213_G_log10.txt"
+          ],
+          "code": "all_genes_score = read.table(datfile1,header = T,sep='\\t')"
+        },
+        {
+          "line": 87,
+          "operation": "write.table",
+          "commented": false,
+          "expression": "outfile",
+          "path_variable_last_assignment_line": 86,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/篩選後/GSEA/middle_esmax.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\篩選後\\GSEA\\middle_esmax.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\篩選後\\GSEA\\middle_esmax.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\篩選後\\GSEA\\舊版\\middle_esmax.txt"
+          ],
+          "code": "write.table(ES_MAX, outfile,row.names = F,col.names= F,sep='\\t')"
+        }
+      ],
+      "packages": [],
+      "plot_creation": [],
+      "audit": {
+        "purpose": "Exploratory CT-only and full-score GSEA branches with saved CT and pathway intermediates.",
+        "session_dependencies": [
+          {
+            "object": "dat",
+            "line": 3
+          },
+          {
+            "object": "CTgenes_short",
+            "line": 16,
+            "note": "Used before it is loaded at 27."
+          },
+          {
+            "object": "all_genes_short_outside_log",
+            "line": 157
+          },
+          {
+            "object": "number_sample",
+            "line": 219,
+            "note": "Subassignment before initialization in this file."
+          }
+        ],
+        "data_flow_notes": [
+          "datdir remains the filtered-pathway directory when short_CT_G_score.txt and middle_CT_G_score.txt are read at 36 and 38; both are missing there, but files with these names exist in the CT_genes directory.",
+          "Only middle_esmax.txt is exported (87). The later permutation result objects are not exported.",
+          "The file switches from CTgenes_middle_address for observed scores to all_genes_score for the first permutation branch, and later switches to a pre-existing short score object.",
+          "Saved permutation counts are 100 and 10 (101, 210), although a comment mentions 10000."
+        ],
+        "plot_export": "None."
+      },
+      "parse_only_result": "OK"
+    },
+    {
+      "file": "D:\\Bioinformatics project\\研究法\\大豆基因\\程式\\gsea全部.txt",
+      "basename": "gsea全部.txt",
+      "lines": 122,
+      "sha256": "6e6583d9f2d796674b3e7b40a6c18590342e56fdd4971738c0ef563e9db06748",
+      "legacy_copy": "D:\\Bioinformatics project\\soybean-cold-tolerance\\legacy\\gsea全部.txt",
+      "legacy_exists": true,
+      "legacy_byte_identical": true,
+      "operations": [
+        {
+          "line": 3,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile",
+          "path_variable_last_assignment_line": 2,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/answer1.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\answer1.txt",
+          "inferred_current_path_exists": false,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\經過篩選的路徑\\answer1.txt"
+          ],
+          "code": "answer=read.table(datfile,header = T,sep='\\t') "
+        },
+        {
+          "line": 45,
+          "operation": "write.table",
+          "commented": false,
+          "expression": "outfile",
+          "path_variable_last_assignment_line": 44,
+          "resolved_original_path": "/home/hao_yu/soybean/short_esmax.txt",
+          "inferred_current_path": null,
+          "inferred_current_path_exists": null,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\篩選後\\GSEA\\short_esmax.txt"
+          ],
+          "code": "write.table(ES_MAX, outfile,row.names = F,col.names= F,sep='\\t')"
+        },
+        {
+          "line": 49,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile",
+          "path_variable_last_assignment_line": 2,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/answer1.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\answer1.txt",
+          "inferred_current_path_exists": false,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\經過篩選的路徑\\answer1.txt"
+          ],
+          "code": "ES_MAX=read.table(datfile,header = T,sep='\\t') "
+        },
+        {
+          "line": 122,
+          "operation": "write.table",
+          "commented": true,
+          "expression": "datfile",
+          "path_variable_last_assignment_line": 2,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/answer1.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\answer1.txt",
+          "inferred_current_path_exists": false,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\經過篩選的路徑\\answer1.txt"
+          ],
+          "code": "#write.table(answer, datfile,row.names = F,col.names= F,sep='\\t')"
+        }
+      ],
+      "packages": [],
+      "plot_creation": [],
+      "audit": {
+        "purpose": "Exploratory short-phase enrichment-score and permutation code using a pre-existing score object.",
+        "session_dependencies": [
+          {
+            "object": "all_genes_short_outside_log",
+            "line": 5
+          },
+          {
+            "object": "sample_intersect_2",
+            "line": 88,
+            "note": "Used before its later assignment at 97."
+          },
+          {
+            "object": "和",
+            "line": 91,
+            "note": "Bare symbol, not a comment."
+          },
+          {
+            "object": "o",
+            "line": 118,
+            "note": "Bare symbol, not a comment."
+          }
+        ],
+        "data_flow_notes": [
+          "answer1.txt is requested from the project root; it is absent at that inferred current location, though alternatives exist under the data directories.",
+          "At 49, read.table(datfile) re-reads answer1.txt; it does not read outfile=short_esmax.txt just constructed at 48.",
+          "The output uses a Linux path /home/hao_yu/soybean/short_esmax.txt (43-45).",
+          "The only pathway-file write is commented out at 122.",
+          "p_t is 2 at 66; this saved exploratory code is not a recorded 10000-permutation run."
+        ],
+        "plot_export": "None."
+      },
+      "parse_only_result": "OK"
+    },
+    {
+      "file": "D:\\Bioinformatics project\\研究法\\大豆基因\\程式\\maxmean0127版本.txt",
+      "basename": "maxmean0127版本.txt",
+      "lines": 133,
+      "sha256": "63d6e8098d6be9379c35a2e602eed845b0195c02dd56df3175f71b0a4d3de14b",
+      "legacy_copy": "D:\\Bioinformatics project\\soybean-cold-tolerance\\legacy\\maxmean0127版本.txt",
+      "legacy_exists": true,
+      "legacy_byte_identical": true,
+      "operations": [
+        {
+          "line": 7,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile1",
+          "path_variable_last_assignment_line": 6,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/外部基因校正/Yamasaki_Go校正後1213_G_log10.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部基因校正\\Yamasaki_Go校正後1213_G_log10.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部基因校正\\Yamasaki_Go校正後1213_G_log10.txt"
+          ],
+          "code": "all_genes_score = read.table(datfile1,header = T,sep='\\t')"
+        },
+        {
+          "line": 11,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile",
+          "path_variable_last_assignment_line": 10,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/經過篩選的路徑/answer1.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\經過篩選的路徑\\answer1.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\經過篩選的路徑\\answer1.txt"
+          ],
+          "code": "answer=read.table(datfile,header = F,sep='\\t') "
+        },
+        {
+          "line": 70,
+          "operation": "write.table",
+          "commented": false,
+          "expression": "outfile",
+          "path_variable_last_assignment_line": 62,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/篩選後/maxmean/maxmean_short_p0127.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\篩選後\\maxmean\\maxmean_short_p0127.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\篩選後\\maxmean\\maxmean_short_p0127.txt"
+          ],
+          "code": "write.table(out7, outfile,row.names = F,col.names= T,sep='\\t')"
+        },
+        {
+          "line": 83,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile",
+          "path_variable_last_assignment_line": 82,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/經過篩選的路徑/answer2.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\經過篩選的路徑\\answer2.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\經過篩選的路徑\\answer2.txt"
+          ],
+          "code": "answer2=read.table(datfile,header = F,sep='\\t') "
+        },
+        {
+          "line": 133,
+          "operation": "write.table",
+          "commented": false,
+          "expression": "outfile",
+          "path_variable_last_assignment_line": 125,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/篩選後/maxmean/maxmean_middle_p0127.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\篩選後\\maxmean\\maxmean_middle_p0127.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\篩選後\\maxmean\\maxmean_middle_p0127.txt"
+          ],
+          "code": "write.table(out7, outfile,row.names = F,col.names= T,sep='\\t')"
+        }
+      ],
+      "packages": [],
+      "plot_creation": [],
+      "audit": {
+        "purpose": "Read corrected scores and saved short/middle pathways; calculate z-scores and the 0127 MaxMean variant and permutations.",
+        "session_dependencies": [
+          {
+            "object": "k1; intersection_fit_data",
+            "line": 66
+          },
+          {
+            "object": "k2; intersection_fit_data2",
+            "line": 129
+          }
+        ],
+        "data_flow_notes": [
+          "Reads corrected scores plus answer1/answer2, but CT-count columns still depend on prior session objects.",
+          "Writes the 0127 short and middle outputs (70, 133)."
+        ],
+        "plot_export": "None."
+      },
+      "parse_only_result": "OK"
+    },
+    {
+      "file": "D:\\Bioinformatics project\\研究法\\大豆基因\\程式\\maxmean原版.txt",
+      "basename": "maxmean原版.txt",
+      "lines": 98,
+      "sha256": "59b6e10a3896f70b861b875f527455a2cd2ef8cc84f1fd6db0709337cb25fc67",
+      "legacy_copy": "D:\\Bioinformatics project\\soybean-cold-tolerance\\legacy\\maxmean原版.txt",
+      "legacy_exists": true,
+      "legacy_byte_identical": true,
+      "operations": [
+        {
+          "line": 10,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile1",
+          "path_variable_last_assignment_line": 9,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/外部基因校正/Yamasaki_Go校正後1213_G_log10.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部基因校正\\Yamasaki_Go校正後1213_G_log10.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部基因校正\\Yamasaki_Go校正後1213_G_log10.txt"
+          ],
+          "code": "all_genes_score = read.table(datfile1,header = T,sep='\\t')"
+        },
+        {
+          "line": 14,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile",
+          "path_variable_last_assignment_line": 13,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/經過篩選的路徑/answer1.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\經過篩選的路徑\\answer1.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\經過篩選的路徑\\answer1.txt"
+          ],
+          "code": "answer=read.table(datfile,header = F,sep='\\t') "
+        },
+        {
+          "line": 53,
+          "operation": "write.table",
+          "commented": false,
+          "expression": "outfile",
+          "path_variable_last_assignment_line": 45,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/篩選後/maxmean/maxmean_short_p0109.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\篩選後\\maxmean\\maxmean_short_p0109.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\篩選後\\maxmean\\maxmean_short_p0109.txt"
+          ],
+          "code": "write.table(out7, outfile,row.names = F,col.names= F,sep='\\t')"
+        },
+        {
+          "line": 60,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile",
+          "path_variable_last_assignment_line": 59,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/經過篩選的路徑/answer2.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\經過篩選的路徑\\answer2.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\經過篩選的路徑\\answer2.txt"
+          ],
+          "code": "answer2=read.table(datfile,header = F,sep='\\t') "
+        },
+        {
+          "line": 98,
+          "operation": "write.table",
+          "commented": false,
+          "expression": "outfile",
+          "path_variable_last_assignment_line": 90,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/篩選後/maxmean/maxmean_middle_p0109.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\篩選後\\maxmean\\maxmean_middle_p0109.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\篩選後\\maxmean\\maxmean_middle_p0109.txt"
+          ],
+          "code": "write.table(out7, outfile,row.names = F,col.names= T,sep='\\t')"
+        }
+      ],
+      "packages": [],
+      "plot_creation": [],
+      "audit": {
+        "purpose": "Read corrected scores and saved short/middle pathways; calculate the older experimental statistic and permutation outputs.",
+        "session_dependencies": [
+          {
+            "object": "k1; intersection_fit_data",
+            "line": 49
+          },
+          {
+            "object": "k2; intersection_fit_data2",
+            "line": 94
+          }
+        ],
+        "data_flow_notes": [
+          "The three data files are loaded explicitly, but CT-count columns still depend on prior session objects.",
+          "Writes the 0109 short and middle outputs (53, 98)."
+        ],
+        "plot_export": "None."
+      },
+      "parse_only_result": "OK"
+    },
+    {
+      "file": "D:\\Bioinformatics project\\研究法\\大豆基因\\程式\\sumstat.txt",
+      "basename": "sumstat.txt",
+      "lines": 103,
+      "sha256": "da67592e5a16f2c5790a2884894798eec34b212233476f58b78e0dba446fee81",
+      "legacy_copy": "D:\\Bioinformatics project\\soybean-cold-tolerance\\legacy\\sumstat.txt",
+      "legacy_exists": true,
+      "legacy_byte_identical": true,
+      "operations": [
+        {
+          "line": 4,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile1",
+          "path_variable_last_assignment_line": 3,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/外部基因校正/Yamasaki_Go校正後1213_G_log10.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部基因校正\\Yamasaki_Go校正後1213_G_log10.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部基因校正\\Yamasaki_Go校正後1213_G_log10.txt"
+          ],
+          "code": "all_genes_score = read.table(datfile1,header = T,sep='\\t')"
+        },
+        {
+          "line": 67,
+          "operation": "write.table",
+          "commented": false,
+          "expression": "outfile",
+          "path_variable_last_assignment_line": 61,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/篩選後/SUMSTAT/SUMSTAT_ct_short_pavlue.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\篩選後\\SUMSTAT\\SUMSTAT_ct_short_pavlue.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\篩選後\\1213新版篩選\\短\\SUMSTAT_ct_short_pavlue.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\篩選後\\SUMSTAT\\SUMSTAT_ct_short_pavlue.txt"
+          ],
+          "code": "write.table(out7, outfile,row.names = F,col.names= F,sep='\\t')"
+        },
+        {
+          "line": 102,
+          "operation": "write.table",
+          "commented": false,
+          "expression": "outfile",
+          "path_variable_last_assignment_line": 97,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/篩選後/SUMSTAT/SUMSTAT_ct_middle_pavlue.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\篩選後\\SUMSTAT\\SUMSTAT_ct_middle_pavlue.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\篩選後\\1213新版篩選\\中\\SUMSTAT_ct_middle_pavlue.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\篩選後\\SUMSTAT\\SUMSTAT_ct_middle_pavlue.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\篩選後\\SUMSTAT\\篩選\\1213新版\\SUMSTAT_ct_middle_pavlue.txt"
+          ],
+          "code": "write.table(out7, outfile,row.names = F,col.names= F,sep='\\t')"
+        }
+      ],
+      "packages": [],
+      "plot_creation": [],
+      "audit": {
+        "purpose": "Read saved corrected scores, sum per-pathway short/middle scores, draw 10000 random gene sets per pathway, BH-adjust and export both phases.",
+        "session_dependencies": [
+          {
+            "object": "answer",
+            "line": 17
+          },
+          {
+            "object": "answer2",
+            "line": 32
+          },
+          {
+            "object": "k1; intersection_fit_data",
+            "line": 45
+          },
+          {
+            "object": "k2; intersection_fit_data2",
+            "line": 78
+          }
+        ],
+        "data_flow_notes": [
+          "Reads only Yamasaki_Go校正後1213_G_log10.txt (4); all pathway membership and CT-count objects must exist in the R session.",
+          "Column 2 supplies short scores, column 3 supplies middle scores; it does not load either WITHOUTINF file.",
+          "Simulation comments explicitly say all gene = 42575 (53 and 87), but comments are not proof of the final paper count."
+        ],
+        "plot_export": "None."
+      },
+      "parse_only_result": "OK"
+    },
+    {
+      "file": "D:\\Bioinformatics project\\研究法\\大豆基因\\程式\\校正前後的繪圖.txt",
+      "basename": "校正前後的繪圖.txt",
+      "lines": 48,
+      "sha256": "1720c4ee9ae51488cbb89d62c88b627239da4df23cbfa70a28ecc7f798e193d3",
+      "legacy_copy": "D:\\Bioinformatics project\\soybean-cold-tolerance\\legacy\\校正前後的繪圖.txt",
+      "legacy_exists": true,
+      "legacy_byte_identical": true,
+      "operations": [],
+      "packages": [
+        {
+          "line": 7,
+          "operation": "library",
+          "package": "ggplot2"
+        }
+      ],
+      "plot_creation": [
+        {
+          "line": 12,
+          "code": "plot1 = ggplot(data = p_yamasaki_log10) +                                  #data=p_yamasaki_log10 or  p_yamasaki"
+        },
+        {
+          "line": 39,
+          "code": "plot1 = ggplot() +"
+        },
+        {
+          "line": 45,
+          "code": "plot1 =ggplot() +"
+        }
+      ],
+      "audit": {
+        "purpose": "Transform and plot a pre-existing five-column gene table before/after a power correction.",
+        "session_dependencies": [
+          {
+            "object": "gene_p_len",
+            "line": 2
+          }
+        ],
+        "data_flow_notes": [
+          "Reads no file. The expected gene_p_len can be produced by the external import script (104), but no source call declares or enforces this dependency.",
+          "Correction tuning uses Spearman correlation with gene length at 29; the import script instead tunes against SNP count.",
+          "Only column 2 is corrected at 33. Both score columns are transformed to negative base-10 logs at 36."
+        ],
+        "plot_export": "Overwrites plot1 at 12, 39 and 45; contains no explicit image export."
+      },
+      "parse_only_result": "OK"
+    },
+    {
+      "file": "D:\\Bioinformatics project\\研究法\\大豆基因\\程式\\條狀圖證明.txt",
+      "basename": "條狀圖證明.txt",
+      "lines": 67,
+      "sha256": "9135ea31506a239de45ccc458e8b17064bca5e63d36d707916f40738a1859c4b",
+      "legacy_copy": "D:\\Bioinformatics project\\soybean-cold-tolerance\\legacy\\條狀圖證明.txt",
+      "legacy_exists": true,
+      "legacy_byte_identical": true,
+      "operations": [
+        {
+          "line": 9,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile",
+          "path_variable_last_assignment_line": 8,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/network/PPI/分數比較/0224版本/處理後格式R/short_score.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\處理後格式R\\short_score.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\處理後格式R\\short_score.txt"
+          ],
+          "code": "short_cluster_score = read.table(datfile,header = T,sep='\\t')"
+        },
+        {
+          "line": 11,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile",
+          "path_variable_last_assignment_line": 10,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/network/PPI/分數比較/0224版本/處理後格式R/mid_score.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\處理後格式R\\mid_score.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\個時間之分數數據與比較\\mid_score.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\處理後格式R\\mid_score.txt"
+          ],
+          "code": "middle_cluster_score = read.table(datfile,header = T,sep='\\t')"
+        },
+        {
+          "line": 13,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile",
+          "path_variable_last_assignment_line": 12,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/network/PPI/分數比較/0224版本/處理後格式R/short_mid_score.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\處理後格式R\\short_mid_score.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\個時間之分數數據與比較\\short_mid_score.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\處理後格式R\\short_mid_score.txt"
+          ],
+          "code": "short_mid_cluster_score = read.table(datfile,header = T,sep='\\t')"
+        }
+      ],
+      "packages": [
+        {
+          "line": 2,
+          "operation": "install.packages",
+          "package": "dplyr"
+        },
+        {
+          "line": 3,
+          "operation": "library",
+          "package": "dplyr"
+        },
+        {
+          "line": 4,
+          "operation": "install.packages",
+          "package": "ggplot2"
+        },
+        {
+          "line": 5,
+          "operation": "library",
+          "package": "ggplot2"
+        }
+      ],
+      "plot_creation": [
+        {
+          "line": 22,
+          "code": "ggplot(short_cluster_score, aes(x = period, y = score , fill = Type)) +"
+        },
+        {
+          "line": 41,
+          "code": "ggplot(middle_cluster_score, aes(x = period, y = score , fill = Type)) +"
+        },
+        {
+          "line": 57,
+          "code": "ggplot(short_mid_cluster_score, aes(x = period, y = score , fill = Type)) +"
+        }
+      ],
+      "audit": {
+        "purpose": "Read three manually formatted network-score summary tables and draw grouped bar charts with standard-deviation error bars.",
+        "session_dependencies": [],
+        "data_flow_notes": [
+          "Calls install.packages for dplyr and ggplot2 (2, 4).",
+          "Reads short_score.txt, mid_score.txt and short_mid_score.txt from the 處理後格式R subdirectory (9, 11, 13).",
+          "Significance-line positions and heights are hard-coded (30-33, 48-51, 64-67), not computed from imported test results."
+        ],
+        "plot_export": "Creates three ggplot expressions at 22, 41 and 57; no explicit file export."
+      },
+      "parse_only_result": "OK"
+    },
+    {
+      "file": "D:\\Bioinformatics project\\研究法\\大豆基因\\程式\\比較分數與無母分析程式.txt",
+      "basename": "比較分數與無母分析程式.txt",
+      "lines": 202,
+      "sha256": "082d735899d7eb0d8e7b29da3fe75806e5b59c98b1ecf2b8c5343fbad511c5ad",
+      "legacy_copy": "D:\\Bioinformatics project\\soybean-cold-tolerance\\legacy\\比較分數與無母分析程式.txt",
+      "legacy_exists": true,
+      "legacy_byte_identical": true,
+      "operations": [
+        {
+          "line": 5,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile",
+          "path_variable_last_assignment_line": 4,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/短中處理/0110重新篩選/cytoscape後會用到的分數/all_genes_short_outside_log_noinf.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\短中處理\\0110重新篩選\\cytoscape後會用到的分數\\all_genes_short_outside_log_noinf.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\短中處理\\0110重新篩選\\cytoscape後會用到的分數\\all_genes_short_outside_log_noinf.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\短中處理\\1212重新篩選\\all_genes_short_outside_log_noinf.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\短中處理\\1212重新篩選\\cytoscape後會用到的分數\\all_genes_short_outside_log_noinf.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\短中處理\\無inf\\all_genes_short_outside_log_noinf.txt"
+          ],
+          "code": "short_score = read.table(datfile,header = T,sep='\\t')"
+        },
+        {
+          "line": 8,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile",
+          "path_variable_last_assignment_line": 7,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/短中處理/0110重新篩選/cytoscape後會用到的分數/all_genes_middle_outside_log_noinf.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\短中處理\\0110重新篩選\\cytoscape後會用到的分數\\all_genes_middle_outside_log_noinf.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\短中處理\\0110重新篩選\\cytoscape後會用到的分數\\all_genes_middle_outside_log_noinf.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\短中處理\\1212重新篩選\\all_genes_middle_outside_log_noinf.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\短中處理\\1212重新篩選\\cytoscape後會用到的分數\\all_genes_middle_outside_log_noinf.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\短中處理\\無inf\\all_genes_middle_outside_log_noinf.txt"
+          ],
+          "code": "middle_score = read.table(datfile,header = T,sep='\\t')"
+        },
+        {
+          "line": 12,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile",
+          "path_variable_last_assignment_line": 11,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/network/PPI/soynet/篩選後keygene/0224版本/short_mid_key.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0224版本\\short_mid_key.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0224版本\\short_mid_key.txt"
+          ],
+          "code": "selected_gene = read.table(datfile,header = F,sep='\\t')"
+        },
+        {
+          "line": 15,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile",
+          "path_variable_last_assignment_line": 14,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/network/PPI/soynet/篩選後keygene/0224版本/short_mid_all.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0224版本\\short_mid_all.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\PPI\\soynet\\篩選後keygene\\0224版本\\short_mid_all.txt"
+          ],
+          "code": "all_gene = read.table(datfile,header = F,sep='\\t')"
+        },
+        {
+          "line": 21,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile",
+          "path_variable_last_assignment_line": 20,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/CT_genes/short_CT_G.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\CT_genes\\short_CT_G.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\CT_genes\\short_CT_G.txt"
+          ],
+          "code": "ct_short=read.table(datfile,header = F,sep='\\t')"
+        },
+        {
+          "line": 23,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile",
+          "path_variable_last_assignment_line": 22,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/CT_genes/middle_CT_G.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\CT_genes\\middle_CT_G.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\CT_genes\\middle_CT_G.txt"
+          ],
+          "code": "ct_middle=read.table(datfile,header = F,sep='\\t')"
+        },
+        {
+          "line": 193,
+          "operation": "write.table",
+          "commented": false,
+          "expression": "outfile",
+          "path_variable_last_assignment_line": 192,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/network/PPI/分數比較/0224版本/mid_result.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\mid_result.txt",
+          "inferred_current_path_exists": false,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\個時間之分數數據與比較\\mid_result.txt"
+          ],
+          "code": "write.table(results, outfile,row.names = F,col.names= T,sep='\\t')"
+        },
+        {
+          "line": 198,
+          "operation": "write.table",
+          "commented": false,
+          "expression": "outfile",
+          "path_variable_last_assignment_line": 197,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/network/PPI/分數比較/0224版本/mid_score.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\mid_score.txt",
+          "inferred_current_path_exists": false,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\個時間之分數數據與比較\\mid_score.txt",
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\處理後格式R\\mid_score.txt"
+          ],
+          "code": "write.table(score_short_mid, outfile,row.names = F,col.names= T,sep='\\t')"
+        },
+        {
+          "line": 202,
+          "operation": "write.table",
+          "commented": false,
+          "expression": "outfile",
+          "path_variable_last_assignment_line": 201,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/network/PPI/分數比較/0224版本/short_mid_error_bar_ranges.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\short_mid_error_bar_ranges.txt",
+          "inferred_current_path_exists": false,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\network\\PPI\\分數比較\\0224版本\\個時間之分數數據與比較\\short_mid_error_bar_ranges.txt"
+          ],
+          "code": "write.table(error_bar_ranges, outfile,row.names = F,col.names= T,sep='\\t')"
+        }
+      ],
+      "packages": [],
+      "plot_creation": [],
+      "audit": {
+        "purpose": "Load separate log-score tables, SoyNet/network-selected genes and CT lists; compare four gene groups using Wilcoxon and t tests and export summary tables.",
+        "session_dependencies": [
+          {
+            "object": "short_point",
+            "line": 80,
+            "note": "Printed before assignment at 95."
+          },
+          {
+            "object": "middle_point",
+            "line": 81,
+            "note": "Printed before assignment at 96."
+          }
+        ],
+        "data_flow_notes": [
+          "Reads six files explicitly (5, 8, 12, 15, 21, 23). Upstream generation of the network gene lists and noinf score tables is not present in these 11 scripts.",
+          "Contains a syntax error at 132, so it cannot be sourced intact.",
+          "Output basenames mid_result.txt and mid_score.txt are used despite combining both phases at 188 and 194; those exact output paths are absent from the current tree.",
+          "The long-format plotting files are in a separate 處理後格式R subdirectory; no automatic reshape/write connection to them is defined here."
+        ],
+        "plot_export": "None."
+      },
+      "parse_only_result": "./比較分數與無母分析程式.txt:132:78: unexpected ','\r\n131: result4 = run_wilcox_test(all_ct_middle_score[,2], intermediate_middle[,2])\r\n132: result5 = run_wilcox_test(all_ct_middle_score[,2], remaining_gene_middle[,2]),\r\n                                                                                  ^"
+    },
+    {
+      "file": "D:\\Bioinformatics project\\研究法\\大豆基因\\程式\\超幾何.txt",
+      "basename": "超幾何.txt",
+      "lines": 150,
+      "sha256": "925fbb78bb4ccaa0610e446461b259fd46a2b93a6b85d19e64be9ed3f8bbb178",
+      "legacy_copy": "D:\\Bioinformatics project\\soybean-cold-tolerance\\legacy\\超幾何.txt",
+      "legacy_exists": true,
+      "legacy_byte_identical": true,
+      "operations": [
+        {
+          "line": 3,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile",
+          "path_variable_last_assignment_line": 2,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/GO_terms_4899.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\GO_terms_4899.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\GO_terms_4899.txt"
+          ],
+          "code": "dat=read.table(datfile,header = T,sep='\\t') ;dat[1:10 , 1: 10] ;dim(dat)"
+        },
+        {
+          "line": 8,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile1",
+          "path_variable_last_assignment_line": 7,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/外部基因校正/Yamasaki_Go校正後1213_G_log10.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部基因校正\\Yamasaki_Go校正後1213_G_log10.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部基因校正\\Yamasaki_Go校正後1213_G_log10.txt"
+          ],
+          "code": "all_genes_score = read.table(datfile1,header = T,sep='\\t')"
+        },
+        {
+          "line": 12,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile1",
+          "path_variable_last_assignment_line": 11,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/CT_genes/short_CT_G_score.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\CT_genes\\short_CT_G_score.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\CT_genes\\short_CT_G_score.txt"
+          ],
+          "code": "CTgenes_short = read.table(datfile1,header = F,sep='\\t')"
+        },
+        {
+          "line": 15,
+          "operation": "read.table",
+          "commented": false,
+          "expression": "datfile1",
+          "path_variable_last_assignment_line": 14,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/數據/CT_genes/middle_CT_G_score.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\CT_genes\\middle_CT_G_score.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\CT_genes\\middle_CT_G_score.txt"
+          ],
+          "code": "CTgenes_middle = read.table(datfile1,header = F,sep='\\t')"
+        },
+        {
+          "line": 86,
+          "operation": "write.table",
+          "commented": false,
+          "expression": "outfile",
+          "path_variable_last_assignment_line": 77,
+          "resolved_original_path": "C:/Users/chris/Desktop/程式語言/研究法/大豆基因/篩選後/篩選後大豆ct short0109.txt",
+          "inferred_current_path": "D:\\Bioinformatics project\\研究法\\大豆基因\\篩選後\\篩選後大豆ct short0109.txt",
+          "inferred_current_path_exists": true,
+          "same_basename_candidates": [
+            "D:\\Bioinformatics project\\研究法\\大豆基因\\篩選後\\篩選後大豆ct short0109.txt"
+          ],
+          "code": "write.table(out7, outfile,row.names = F,col.names= F,sep='\\t')"
+        }
+      ],
+      "packages": [],
+      "plot_creation": [],
+      "audit": {
+        "purpose": "Read GO membership, saved corrected scores and separate short/middle CT lists; select CT-bearing pathways and calculate short-phase hypergeometric results.",
+        "session_dependencies": [
+          {
+            "object": "answer4",
+            "line": 113,
+            "note": "Inspected but never created."
+          }
+        ],
+        "data_flow_notes": [
+          "Creates answer, answer2, k1, k2 and intersection indices in memory (42-53); no active write saves answer1.txt or answer2.txt.",
+          "The reference population is unique nonempty all_genes_score column 1 at 63, not the union of CT lists.",
+          "CT lists are flattened to vectors at 13 and 16, then incorrectly indexed as two-dimensional objects at 39 and 50.",
+          "Only a short-phase hypergeometric output is written (86); the middle block is incomplete.",
+          "The file cannot be sourced intact because the un-commented underscore separator at 126 is invalid R syntax."
+        ],
+        "plot_export": "None."
+      },
+      "parse_only_result": "./超幾何.txt:126:2: unexpected input\r\n125: #以下皆為多餘之筆記\r\n126: __\r\n      ^"
+    }
+  ],
+  "source_calls_found": 0,
+  "summary": {
+    "active_read_calls": 39,
+    "active_write_calls": 15,
+    "commented_write_calls": 1,
+    "source_calls": 0,
+    "legacy_copies_byte_identical": 11,
+    "originals_missing_from_legacy": [],
+    "parse_only_pass": 9,
+    "parse_only_fail": 2,
+    "explicit_plot_file_exports": 0,
+    "note": "Parse success does not imply execution success; the scripts contain hard-coded historical paths, workspace dependencies and exploratory fragments."
+  },
+  "unresolved_data_edges": [
+    {
+      "target": "Yamasaki_Go校正後1213_G_log10.txt",
+      "consumers": [
+        "超幾何.txt:8",
+        "sumstat.txt:4",
+        "maxmean原版.txt:10",
+        "maxmean0127版本.txt:7",
+        "gsea_菲斯福氣.txt:42"
+      ],
+      "gap": "No active writer for this exact file among these 11 scripts. The correction file and log-transform objects exist as separate steps but are not explicitly connected to this saved file."
+    },
+    {
+      "target": "answer1.txt; answer2.txt",
+      "consumers": [
+        "#外部資料匯入與校正繪圖.txt:97,99",
+        "maxmean原版.txt:14,60",
+        "maxmean0127版本.txt:11,83",
+        "gsea全部.txt:3",
+        "gsea_菲斯福氣.txt:31"
+      ],
+      "gap": "Hypergeometric code creates answer/answer2 in memory but never actively saves these files. GSEA has one commented pathway write. Folder/version selection is therefore not enforced."
+    },
+    {
+      "target": "CTgenes 含分數 -> short_CT_G_score.txt; middle_CT_G_score.txt; short_CT_G.txt; middle_CT_G.txt",
+      "gap": "These scripts read saved CT intermediates; none directly imports the named main CT workbook or defines this extraction/mapping step."
+    },
+    {
+      "target": "WITHOUTINF/outer_data_2.0_short_address.txt; WITHOUTINF/outer_data_2.0_middle_address.txt",
+      "gap": "No direct read of either file in these 11 original scripts. Their relationship to corrected score tables or noinf log-score tables requires separate provenance evidence."
+    },
+    {
+      "target": "all_genes_short_outside_log; all_genes_middle_outside_log_noinf.txt; all_genes_short_outside_log_noinf.txt",
+      "gap": "Exploratory GSEA relies on an unbound in-memory object; downstream comparisons load saved noinf score files. Their construction is not defined in this folder."
+    },
+    {
+      "target": "SoyNet selected-gene files; crosstalk edge matrices/node lists; plotting summary files",
+      "gap": "Loaded as external saved intermediates. No SoyNet/Cytoscape invocation or upstream exporter for these files is present in this folder."
+    }
+  ]
+}

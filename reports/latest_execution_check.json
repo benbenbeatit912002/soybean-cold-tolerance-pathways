@@ -7,7 +7,7 @@
     {
       "step": "core_checks",
       "command": [
-        "C:\\Program Files\\R\\R-4.5.1\\bin\\Rscript.exe",
+        "Rscript",
         "--vanilla",
         "tests/test_core.R"
       ],
@@ -18,7 +18,7 @@
     {
       "step": "integration_checks",
       "command": [
-        "C:\\Program Files\\R\\R-4.5.1\\bin\\Rscript.exe",
+        "Rscript",
         "--vanilla",
         "tests/test_integration.R"
       ],
@@ -29,7 +29,7 @@
     {
       "step": "import_checks",
       "command": [
-        "C:\\Users\\ben\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "python",
         "-m",
         "unittest",
         "discover",
@@ -45,7 +45,7 @@
     {
       "step": "legacy_parse_audit",
       "command": [
-        "C:\\Program Files\\R\\R-4.5.1\\bin\\Rscript.exe",
+        "Rscript",
         "--vanilla",
         "scripts/check_legacy.R"
       ],
@@ -56,7 +56,7 @@
     {
       "step": "hypergeometric_both_phases",
       "command": [
-        "C:\\Program Files\\R\\R-4.5.1\\bin\\Rscript.exe",
+        "Rscript",
         "--vanilla",
         "scripts/run_analysis.R"
       ],
@@ -67,7 +67,7 @@
     {
       "step": "score5_both_phases",
       "command": [
-        "C:\\Program Files\\R\\R-4.5.1\\bin\\Rscript.exe",
+        "Rscript",
         "--vanilla",
         "scripts/run_analysis.R",
         "config.score5-diagnostic.R"
@@ -79,7 +79,7 @@
     {
       "step": "score6_both_phases",
       "command": [
-        "C:\\Program Files\\R\\R-4.5.1\\bin\\Rscript.exe",
+        "Rscript",
         "--vanilla",
         "scripts/run_analysis.R",
         "config.score6-diagnostic.R"
@@ -91,7 +91,7 @@
     {
       "step": "plot_generation",
       "command": [
-        "C:\\Program Files\\R\\R-4.5.1\\bin\\Rscript.exe",
+        "Rscript",
         "--vanilla",
         "scripts/plot_results.R"
       ],
@@ -102,7 +102,7 @@
     {
       "step": "output_validation",
       "command": [
-        "C:\\Users\\ben\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "python",
         "scripts/verify_outputs.py"
       ],
       "exit_code": 0,
@@ -134,5 +134,6 @@
       "width": 1500,
       "height": 1000
     }
-  ]
+  ],
+  "publication_note": "Executable installation paths were normalized to command names for publication. Arguments, exit codes, durations, and historical result fields are unchanged."
 }

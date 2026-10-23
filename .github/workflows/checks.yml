@@ -2,7 +2,10 @@ name: Statistical checks
 on: [push, pull_request]
 jobs:
   checks:
-    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
       - uses: r-lib/actions/setup-r@v2
@@ -10,9 +13,16 @@ jobs:
           r-version: '4.5.1'
       - run: Rscript --vanilla tests/test_core.R
       - run: Rscript --vanilla tests/test_integration.R
+      - run: Rscript --vanilla tests/test_short_reference.R
+      - run: Rscript --vanilla tests/test_historical_short.R
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       - run: python -m pip install -r requirements.txt
       - run: python -m unittest discover -s tests -p 'test_*.py'
       - run: python tests/check_cross_language.py
+      - run: python run_pipeline.py --mode demo --include-maxmean
+      - run: Rscript --vanilla run_pipeline.R --mode demo --include-maxmean
+      - run: python run_pipeline.py --mode quick --use-reconstruction-hypotheses --include-maxmean
+      - run: Rscript --vanilla run_pipeline.R --mode quick --use-reconstruction-hypotheses --include-maxmean
+      - run: python scripts/verify_portable_runs.py results/python_quick results/r_quick --permutations 199

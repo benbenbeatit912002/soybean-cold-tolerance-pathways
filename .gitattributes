@@ -1,10 +1,15 @@
-*.R text eol=lf
+# Keep source code readable across platforms.
 *.py text eol=lf
+*.R text eol=lf
 *.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
 *.tsv text eol=lf
 *.gmt text eol=lf
-*.json text eol=lf
-# Archival scripts retain their original bytes for source-hash verification.
-legacy/* -text
-# Preserve every prepared input byte so hashes also match after a Git clone.
-data/input/* -text
+.gitattributes text eol=lf
+.gitignore text eol=lf
+requirements.txt text eol=lf
+# Scientific inputs and original scripts have byte-level provenance hashes.
+data/** -text
+legacy/** -text
+examples/data/** -text

@@ -1,0 +1,181 @@
+{
+  "source": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部資料匯入\\耐寒資料庫0 1 24hr(轉換後)培修版.txt",
+  "sha256": "892a6ab94f14e725e9d1e84098dfd493483e21ede86604e9d72aa140cce4c848",
+  "header": [
+    "",
+    "Unnamed: 0",
+    "gene",
+    "logFC 1hr/0hr",
+    "logFC 1hr/0hr p-value",
+    "logFC 1hr/0hr FDR",
+    "logFC 24hr/0hr",
+    "logFC 24hr/0hr p-value",
+    "logFC 24hr/0hr FDR",
+    "FC 1hr/0hr",
+    "Fc 24hr/0hr"
+  ],
+  "rows": 49777,
+  "tolerance": {
+    "relative": 1e-08,
+    "absolute": 1e-08
+  },
+  "phases": {
+    "short": {
+      "exponential_checks": {
+        "10_power_logFC": {
+          "finite_rows_compared": 49777,
+          "matches": 49543,
+          "maximum_relative_error": 0.004676753861357076,
+          "matches_within_half_last_printed_digit_and_propagated_log_rounding": 49777
+        },
+        "exp_logFC": {
+          "finite_rows_compared": 49777,
+          "matches": 1964,
+          "maximum_relative_error": 6700.730242125948
+        },
+        "2_power_logFC": {
+          "finite_rows_compared": 49777,
+          "matches": 1964,
+          "maximum_relative_error": 53431.79100370459
+        }
+      },
+      "cached_FC_vs_original_treatment_control_FC": {
+        "finite_ids_compared": 46994,
+        "matches": 0
+      },
+      "examples": [
+        {
+          "gene_id": "Glyma0002s50",
+          "logFC": -0.066659471,
+          "cached_FC": 0.85771011,
+          "original_treatment_control_FC": 0.972619788,
+          "p_value_column": 0.591887937
+        },
+        {
+          "gene_id": "Glyma0003s50",
+          "logFC": -0.147249285,
+          "cached_FC": 0.71244397,
+          "original_treatment_control_FC": 0.924754635,
+          "p_value_column": 0.278394069
+        },
+        {
+          "gene_id": "Glyma0005s50",
+          "logFC": -0.346691783,
+          "cached_FC": 0.450099175,
+          "original_treatment_control_FC": 0.798679868,
+          "p_value_column": 0.255508479
+        }
+      ]
+    },
+    "middle": {
+      "exponential_checks": {
+        "10_power_logFC": {
+          "finite_rows_compared": 49777,
+          "matches": 49292,
+          "maximum_relative_error": 0.004866990952214889,
+          "matches_within_half_last_printed_digit_and_propagated_log_rounding": 49777
+        },
+        "exp_logFC": {
+          "finite_rows_compared": 49777,
+          "matches": 401,
+          "maximum_relative_error": 669453.9138461906
+        },
+        "2_power_logFC": {
+          "finite_rows_compared": 49777,
+          "matches": 401,
+          "maximum_relative_error": 15782841.286341777
+        }
+      },
+      "cached_FC_vs_original_treatment_control_FC": {
+        "finite_ids_compared": 45569,
+        "matches": 7
+      },
+      "examples": [
+        {
+          "gene_id": "Glyma0002s50",
+          "logFC": -0.19871265,
+          "cached_FC": 0.632830424,
+          "original_treatment_control_FC": 0.950840075,
+          "p_value_column": 0.123879074
+        },
+        {
+          "gene_id": "Glyma0003s50",
+          "logFC": -0.486014003,
+          "cached_FC": 0.326577302,
+          "original_treatment_control_FC": 0.780079971,
+          "p_value_column": 0.002238955
+        },
+        {
+          "gene_id": "Glyma0005s50",
+          "logFC": -3.063451005,
+          "cached_FC": 0.00086407,
+          "original_treatment_control_FC": 0.130363036,
+          "p_value_column": 2.44e-07
+        }
+      ]
+    }
+  },
+  "workbook_formulas": {
+    "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部資料匯入\\Pvalue轉換_Yamasaki (2016) 耐寒資料庫0 1 24hr.xlsx": {
+      "sha256": "e00e32aa244cc908aa7936faf1a69ea2fce89e296c92e1b08035ddd8816fba99",
+      "sheets": [
+        {
+          "name": "whole processed data",
+          "formula_count": 0,
+          "formula_examples": []
+        },
+        {
+          "name": "0hr cold treatment",
+          "formula_count": 2,
+          "formula_examples": [
+            "AVERAGE(E2416:E48311)",
+            "MEDIAN(E2416:E48312)"
+          ]
+        },
+        {
+          "name": "1hr cold treatment",
+          "formula_count": 0,
+          "formula_examples": []
+        },
+        {
+          "name": "24hr cold treatment",
+          "formula_count": 0,
+          "formula_examples": []
+        },
+        {
+          "name": "工作表1",
+          "formula_count": 2,
+          "formula_examples": [
+            "AVERAGE(A1:A46994)",
+            "MEDIAN(A1:A46994)"
+          ]
+        }
+      ]
+    },
+    "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部資料匯入\\Yamasaki (2016) 耐寒資料庫0 1 24hr.xlsx": {
+      "sha256": "6873b060a56964578aeeac51d4b000e7aaab402e4a2f43aab9f73c97e1f9d5b6",
+      "sheets": [
+        {
+          "name": "whole processed data",
+          "formula_count": 0,
+          "formula_examples": []
+        },
+        {
+          "name": "0hr cold treatment",
+          "formula_count": 0,
+          "formula_examples": []
+        },
+        {
+          "name": "1hr cold treatment",
+          "formula_count": 0,
+          "formula_examples": []
+        },
+        {
+          "name": "24hr cold treatment",
+          "formula_count": 0,
+          "formula_examples": []
+        }
+      ]
+    }
+  }
+}

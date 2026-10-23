@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "records": 42575,
+  "unique_genes": 42567,
+  "exact_short_score_text_matches_per_language": 42575,
+  "exact_short_adjusted_text_matches_per_language": 42575,
+  "cross_language_max_absolute_errors": {
+    "score_short": 0.0,
+    "adjusted_short": 0.0,
+    "recomputed_score_short": 4.973799150320701e-14,
+    "recomputed_adjusted_short": 6.106226635438361e-16,
+    "score_middle": 4.973799150320701e-14,
+    "adjusted_middle": 6.661338147750939e-16
+  },
+  "recomputed_lambdas": {
+    "short": 0.01,
+    "middle": 0.47
+  },
+  "recomputed_short_differences_above_5e_8": 56,
+  "recomputed_short_max_absolute_difference_from_saved": 0.08806984157297067,
+  "special_gene": {
+    "source_row": "29915",
+    "gene_id": "Glyma.14G129500",
+    "raw_short": "0.804571275",
+    "raw_middle": "0.512608881",
+    "gene_length": "52247",
+    "snp": "11.0",
+    "snp_original": "0.0",
+    "snp_imputation_source": "global_nonzero_mean",
+    "adjusted_short": "0.9947477",
+    "score_short": "0.002287056",
+    "recomputed_adjusted_short": "0.8121628169781555",
+    "recomputed_score_short": "0.09035689757297066",
+    "reference_snp_short": "1.20E+01",
+    "reference_log_row": "11",
+    "short_score_source": "historical_reference",
+    "adjusted_middle": "0.8911921463726061",
+    "score_middle": "0.05002864937194956"
+  },
+  "historical_clue": {
+    "adjusted_using_snp12_lambda047": 0.9947477166692417,
+    "rounded_to_7_decimals": 0.9947477,
+    "status": "Numerical consistency only; historical operation unproven"
+  },
+  "reference_sha256": "4398c4e697a2a65e9e63c44ccb43343a46e8f3c3a8fe691637086e1521b1ed93",
+  "input_sha256": "46ef330b0a4419d137889125b29e443968537b2008f9d5c65e58799343572763",
+  "source_sha256": {
+    "gene_p_len.txt": "3ff5d73fc5c42a542a0eb7765b733086a2022eb21b33ff6f84b40e42da467be9",
+    "Yamasaki_Go校正後1213.txt": "1d6818f1668afc1875d9d8570cfb6c4c479a0207ed942ba2951dbfb69d485e29",
+    "Yamasaki_Go校正後1213_G_log10.txt": "f476cf50e2212bbe0e4f6d6bcd0addd2809db04e7c77ab6d4b2588217fa4f9e5"
+  },
+  "outputs_sha256": {
+    "python\\corrected_scores.tsv": "bd7370c0be01fb9baa11f67f4b44d913ef7da2f312bd9cc6940d08eb19521819",
+    "python\\correction_settings.tsv": "28d31ecb3a866c7e25ff9d4d1724b4237fc42a8aae009068a4fec035fdda153c",
+    "python\\correction_summary.tsv": "a6f9add8daa6d5c9ceaafa91bba68bb9a490ed5c29f4225c05934c9cb532d4d8",
+    "python\\middle_lambda_grid.tsv": "e8cc37e677e7207190f776a005eec946328790f0972924759fa293f634273929",
+    "python\\short_lambda_grid.tsv": "4c1dcd7b576684f9207452ea0b42dc9bb846395173c1f4461528d700da0a614a",
+    "python\\short_reference_comparison.tsv": "bf32d6f2b1c4a5bff0183c1ffcefb44cfaa445a39fb577b265548aa48b3eaf0a",
+    "python\\snp_imputation.tsv": "3f53fe70eee5ab79d79a0986c937748e1d4ce8309c5e74a275b4666c3990d943",
+    "r\\corrected_scores.tsv": "f3c9ee6d31721180851837ea891dbc6017f79522678c2c0a056bc733432ee5c3",
+    "r\\correction_settings.tsv": "3f6eebc0578036518fce79700731d035a3428e1663bab7832354e0864082912a",
+    "r\\correction_summary.tsv": "a087f52c6caf30b764eece33faa11f85bf565185f7ce60964f3026066d9e0d07",
+    "r\\middle_lambda_grid.tsv": "e75bef7aed22914d74211b7be4ab02446f4d5c598c88aee745dcfb6ecdb16073",
+    "r\\short_lambda_grid.tsv": "b72d45cd861426b1b9a6e2138c9840b9b02ce10dd048b8405880ad2270abb593",
+    "r\\short_reference_comparison.tsv": "680b0636d0a5e2926bca28111e78fb74f048a88ec43f3120f2c4d1107cad1b33",
+    "r\\snp_imputation.tsv": "7bda6317e138342b2bca8b213d1128d02491b3857d4b1f7e12b229f3e8f40365"
+  },
+  "scope": "Exact preservation of author-designated original short scores, not regeneration of their historical derivation. Middle and diagnostic short recomputed after SNP imputation. No new pathway simulations."
+}

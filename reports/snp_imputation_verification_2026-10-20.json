@@ -1,0 +1,119 @@
+{
+  "status": "PASS",
+  "records": 42575,
+  "unique_genes": 42567,
+  "duplicate_extra_rows_preserved": 8,
+  "zero_input_rows": 1,
+  "input_nonzero_mean": 10.731667214731996,
+  "imputation": [
+    {
+      "row_number": "29914",
+      "gene_id": "Glyma.14G129500",
+      "bin_start": "52001",
+      "bin_end_exclusive": "54001",
+      "original_snp": "0",
+      "imputed_snp": "11",
+      "donor_count": "42574",
+      "donor_mean": "10.731667214731996",
+      "source": "global_nonzero_mean"
+    }
+  ],
+  "phases": {
+    "short": {
+      "lambda": 0.01,
+      "cross_language_max_absolute_errors": {
+        "adjusted_short": 6.106226635438361e-16,
+        "score_short": 4.973799150320701e-14
+      },
+      "independent_formula_max_absolute_error": 0.0,
+      "historical_corrected_rows_with_absolute_difference_above_1e_12": 1,
+      "historical_positive_snp_rows_max_absolute_difference": 7.216449660063518e-16,
+      "all_new_scores_finite": true,
+      "historical_zero_adjusted_rows": 0
+    },
+    "middle": {
+      "lambda": 0.47,
+      "cross_language_max_absolute_errors": {
+        "adjusted_middle": 6.661338147750939e-16,
+        "score_middle": 4.973799150320701e-14
+      },
+      "independent_formula_max_absolute_error": 0.0,
+      "historical_corrected_rows_with_absolute_difference_above_1e_12": 1,
+      "historical_positive_snp_rows_max_absolute_difference": 7.216449660063518e-16,
+      "all_new_scores_finite": true,
+      "historical_zero_adjusted_rows": 1
+    }
+  },
+  "raw_source_sha256": "3ff5d73fc5c42a542a0eb7765b733086a2022eb21b33ff6f84b40e42da467be9",
+  "historical_corrected_sha256": "1d6818f1668afc1875d9d8570cfb6c4c479a0207ed942ba2951dbfb69d485e29",
+  "input_sha256": "46ef330b0a4419d137889125b29e443968537b2008f9d5c65e58799343572763",
+  "scope": "Real-data SNP imputation and FOSCO rerun. No new pathway permutation p-values.",
+  "gene_universe_unchanged": true,
+  "go_terms_containing_imputed_genes": [
+    "GO:0009507",
+    "GO:0009630",
+    "GO:0009793",
+    "GO:0048046"
+  ],
+  "changed_gene_details": [
+    {
+      "source_row": "29915",
+      "gene_id": "Glyma.14G129500",
+      "phase": "short",
+      "input_snp": 0.0,
+      "new_snp": 11,
+      "historical_snp": 12.0,
+      "lambda": 0.01,
+      "new_adjusted": 0.8121628169781555,
+      "historical_adjusted": 0.9947477,
+      "new_score": 0.09035689757297066,
+      "historical_score_from_stored_probability": 0.0022870563318260653,
+      "model_score_using_historical_snp": 0.09021082063909275,
+      "score_change_due_only_to_snp_at_same_lambda": 0.00014607693387791443
+    },
+    {
+      "source_row": "7980",
+      "gene_id": "Glyma.04G222100",
+      "phase": "middle",
+      "input_snp": 9.0,
+      "new_snp": 9.0,
+      "historical_snp": 9.0,
+      "lambda": 0.47,
+      "new_adjusted": 1.4632943736267197e-16,
+      "historical_adjusted": 0.0,
+      "new_score": 15.834668297263994,
+      "historical_score_from_stored_probability": "Inf",
+      "model_score_using_historical_snp": 15.834668297263994,
+      "score_change_due_only_to_snp_at_same_lambda": 0.0
+    },
+    {
+      "source_row": "29915",
+      "gene_id": "Glyma.14G129500",
+      "phase": "middle",
+      "input_snp": 0.0,
+      "new_snp": 11,
+      "historical_snp": 12.0,
+      "lambda": 0.47,
+      "new_adjusted": 0.8911921463726061,
+      "historical_adjusted": 0.9008147,
+      "new_score": 0.05002864937194956,
+      "historical_score_from_stored_probability": 0.045364535373730565,
+      "model_score_using_historical_snp": 0.0453645535468505,
+      "score_change_due_only_to_snp_at_same_lambda": 0.0046640958250990655
+    }
+  ],
+  "outputs_sha256": {
+    "python\\corrected_scores.tsv": "4ba19b0c293c31307713304c6590a9ab85956fb3e86748569d66c05c54827b15",
+    "python\\correction_settings.tsv": "7d9d049c0277f4d29cd042481668e3f7ca4ebe095313fdd571d4739caabf7b94",
+    "python\\correction_summary.tsv": "fc3cc027e3ddd70485c72a8ece725aa2f6434a83ad38549942e8ab2f56f09c82",
+    "python\\middle_lambda_grid.tsv": "e8cc37e677e7207190f776a005eec946328790f0972924759fa293f634273929",
+    "python\\short_lambda_grid.tsv": "4c1dcd7b576684f9207452ea0b42dc9bb846395173c1f4461528d700da0a614a",
+    "python\\snp_imputation.tsv": "3f53fe70eee5ab79d79a0986c937748e1d4ce8309c5e74a275b4666c3990d943",
+    "r\\corrected_scores.tsv": "82f7122f610e87164e4b835ef9a79b50c38b400fb5d9cb48e5c5a76357179906",
+    "r\\correction_settings.tsv": "7cf103bc1f9410131055576f5acf4f952e6b4c31e4d08f027376bbf76810d084",
+    "r\\correction_summary.tsv": "2ca2b8d1c32c454bac0ed6bf23c7bbf8d31693dc64d84396784332cad8ec2bf3",
+    "r\\middle_lambda_grid.tsv": "e75bef7aed22914d74211b7be4ab02446f4d5c598c88aee745dcfb6ecdb16073",
+    "r\\short_lambda_grid.tsv": "b72d45cd861426b1b9a6e2138c9840b9b02ce10dd048b8405880ad2270abb593",
+    "r\\snp_imputation.tsv": "7bda6317e138342b2bca8b213d1128d02491b3857d4b1f7e12b229f3e8f40365"
+  }
+}

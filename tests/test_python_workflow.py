@@ -44,9 +44,21 @@ class WorkflowTest(unittest.TestCase):
                     self.assertTrue(all(float(r['p_value']) >= 1/40 for r in rows))
             self.command("scripts/plot_results.py", output)
             self.assertEqual(len(list(output.glob("*.png"))), 8)
+            # A named recalculated column must override the old external file.
+            fresh = folder/"recalculated.tsv"
+            write_tsv([dict(gene_id=gene, score_short=2*i, score_middle=3*i)
+                       for i, gene in enumerate(genes, start=1)], fresh)
+            config.update(score_input=str(fresh), score_field="score_{phase}", score_column=None,
+                          methods=["sumstat"], output_dir=str(folder/"fresh"))
+            config_path.write_text(json.dumps(config))
+            self.command("scripts/run_analysis.py", config_path)
+            for phase, multiplier in (("short", 2), ("middle", 3)):
+                result = read_tsv(folder/"fresh"/f"{phase}_sumstat.tsv")
+                self.assertEqual(float(result[0]["statistic"]), multiplier*sum(range(1, 7)))
             raw = folder/"raw.tsv"
             write_tsv([{"gene_id": gene, "raw_short": .01+i*.04,
-                        "raw_middle": .8-i*.03, "snp": i % 5+1}
+                        "raw_middle": .8-i*.03, "snp": 0 if i in (0, 19) else i % 5+1,
+                        "gene_length": 52247 if i == 19 else 100+i}
                        for i, gene in enumerate(genes)], raw)
             correction = folder/"correction"
             self.command("scripts/correct_scores.py", raw, correction)
@@ -55,6 +67,11 @@ class WorkflowTest(unittest.TestCase):
             self.assertTrue(all(0 < float(row[f'adjusted_{phase}']) <= 1
                                 for row in corrected for phase in ('short', 'middle')))
             self.assertEqual(len(list(correction.glob("*.png"))), 2)
+            audit = read_tsv(correction/"snp_imputation.tsv")
+            self.assertEqual([r["source"] for r in audit],
+                             ["group_nonzero_mean", "global_nonzero_mean"])
+            self.assertTrue(all(float(r["imputed_snp"]) == 3 for r in audit))
+            self.assertTrue(all(float(r["snp_original"]) == 0 for r in (corrected[0], corrected[-1])))
 
 
 if __name__ == "__main__":

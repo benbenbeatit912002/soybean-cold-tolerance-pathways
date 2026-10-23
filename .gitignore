@@ -8,3 +8,4 @@ __pycache__/
 tests/tmp/
 # Generated analyses are local; curated review summaries are in reports/.
 results/
+dist/

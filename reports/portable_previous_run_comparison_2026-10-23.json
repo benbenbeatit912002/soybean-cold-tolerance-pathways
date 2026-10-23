@@ -1,0 +1,144 @@
+{
+  "status": "passed",
+  "tables": [
+    {
+      "language": "python",
+      "phase": "short",
+      "method": "hypergeometric",
+      "rows": 2689,
+      "all_fields_equal": true
+    },
+    {
+      "language": "python",
+      "phase": "short",
+      "method": "sumstat",
+      "rows": 2689,
+      "all_fields_equal": true
+    },
+    {
+      "language": "python",
+      "phase": "short",
+      "method": "gsea",
+      "rows": 2689,
+      "all_fields_equal": true
+    },
+    {
+      "language": "python",
+      "phase": "short",
+      "method": "maxmean",
+      "rows": 2689,
+      "all_fields_equal": true
+    },
+    {
+      "language": "python",
+      "phase": "middle",
+      "method": "hypergeometric",
+      "rows": 2689,
+      "all_fields_equal": true
+    },
+    {
+      "language": "python",
+      "phase": "middle",
+      "method": "sumstat",
+      "rows": 2689,
+      "all_fields_equal": true
+    },
+    {
+      "language": "python",
+      "phase": "middle",
+      "method": "gsea",
+      "rows": 2689,
+      "all_fields_equal": true
+    },
+    {
+      "language": "python",
+      "phase": "middle",
+      "method": "maxmean",
+      "rows": 2689,
+      "all_fields_equal": true
+    },
+    {
+      "language": "r",
+      "phase": "short",
+      "method": "hypergeometric",
+      "rows": 2689,
+      "all_fields_equal": true
+    },
+    {
+      "language": "r",
+      "phase": "short",
+      "method": "sumstat",
+      "rows": 2689,
+      "all_fields_equal": true
+    },
+    {
+      "language": "r",
+      "phase": "short",
+      "method": "gsea",
+      "rows": 2689,
+      "all_fields_equal": true
+    },
+    {
+      "language": "r",
+      "phase": "short",
+      "method": "maxmean",
+      "rows": 2689,
+      "all_fields_equal": true
+    },
+    {
+      "language": "r",
+      "phase": "middle",
+      "method": "hypergeometric",
+      "rows": 2689,
+      "all_fields_equal": true
+    },
+    {
+      "language": "r",
+      "phase": "middle",
+      "method": "sumstat",
+      "rows": 2689,
+      "all_fields_equal": true
+    },
+    {
+      "language": "r",
+      "phase": "middle",
+      "method": "gsea",
+      "rows": 2689,
+      "all_fields_equal": true
+    },
+    {
+      "language": "r",
+      "phase": "middle",
+      "method": "maxmean",
+      "rows": 2689,
+      "all_fields_equal": true
+    }
+  ],
+  "scores": {
+    "python": {
+      "short_exact_matches": 42575,
+      "middle_exact_matches": 42575
+    },
+    "r": {
+      "short_exact_matches": 42575,
+      "middle_exact_matches": 42575
+    }
+  },
+  "strict_runs": {
+    "python": {
+      "nonfinite_scores": {
+        "short": 1,
+        "middle": 2
+      },
+      "enrichment_not_started": true
+    },
+    "r": {
+      "nonfinite_scores": {
+        "short": 1,
+        "middle": 2
+      },
+      "enrichment_not_started": true
+    }
+  },
+  "note": "Comparison to the previous recalculation, not a new claim of paper reproduction."
+}

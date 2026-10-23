@@ -8,7 +8,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]/"python"))
 import numpy as np
 from ctpathway import (prepare_membership, hypergeometric, bh_adjust, transform_score,
                       monte_carlo_p, gsea_es, maxmean_stat, fosco, fit_fosco,
-                      resolve_duplicate_scores, permutation_test)
+                      resolve_duplicate_scores, permutation_test, impute_snp_counts)
 
 
 class StatisticsTests(unittest.TestCase):
@@ -40,6 +40,29 @@ class StatisticsTests(unittest.TestCase):
             fosco([.1], [0], .5)
         with self.assertRaises(ValueError):
             fit_fosco([.1, .2], [2, 2])
+
+    def test_snp_imputation_groups_fallback_and_frozen_donors(self):
+        # First group: (2+5)/2 rounds to 4. Global: (2+5+20)/3 = 9.
+        counts = [0, 2, 5, 0, 20, 0]
+        lengths = [1, 2, 2000, 2001, 4001, 120001]
+        result = impute_snp_counts(counts, lengths)
+        np.testing.assert_array_equal(result["values"], [4, 2, 5, 9, 20, 9])
+        self.assertEqual([r["source"] for r in result["audit"]],
+                         ["group_nonzero_mean", "global_nonzero_mean", "global_nonzero_mean"])
+        self.assertEqual([r["donor_count"] for r in result["audit"]], [2, 3, 3])
+        np.testing.assert_array_equal(
+            impute_snp_counts(counts[::-1], lengths[::-1])["values"][::-1], result["values"])
+        self.assertEqual(impute_snp_counts([0, 2, 3], [1, 2, 3])["values"][0], 2)
+        np.testing.assert_array_equal(impute_snp_counts([1, 3])["values"], [1, 3])
+        self.assertEqual(impute_snp_counts([1, 3])["audit"], [])
+
+    def test_snp_imputation_rejects_invalid_inputs(self):
+        for counts, lengths in [([0, 0], [1, 2]), ([0, 1], None),
+                                ([1, -1], [1, 2]), ([1, np.nan], [1, 2]),
+                                ([1, 2.5], [1, 2]), ([0, 1], [0, 2]),
+                                ([0, 1], [1]), ([], [])]:
+            with self.assertRaises(ValueError):
+                impute_snp_counts(counts, lengths)
 
     def test_gsea_against_full_running_sum(self):
         scores = np.array([5, 4, 3, 2, 1, 0])

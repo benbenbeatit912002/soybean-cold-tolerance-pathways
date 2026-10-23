@@ -1,0 +1,8 @@
+{
+  "source": "D:\\Bioinformatics project\\研究法\\大豆基因\\數據\\外部基因校正\\gene_p_len.txt",
+  "sha256": "3ff5d73fc5c42a542a0eb7765b733086a2022eb21b33ff6f84b40e42da467be9",
+  "rows": 42575,
+  "zero_snp_rows": 1,
+  "policy": "Preserve all rows, scores, lengths, and stored SNP counts; rename columns only.",
+  "scope": "Saved input already contains historical imputations; not raw SNP reconstruction."
+}
