@@ -2,6 +2,8 @@
 
 Python runs independently of R. Commands assume a terminal in the repository folder unless stated otherwise. The tested interpreter is Python 3.11; dependency versions are pinned in `requirements.txt`.
 
+To include the historical Excel selection and offline crosstalk, add `--crosstalk reference` to a real-data command. See [crosstalk instructions](CROSSTALK.md) for complete commands and reuse of existing analysis results.
+
 ## 1. Install in a virtual environment
 
 Windows PowerShell:

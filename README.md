@@ -72,11 +72,15 @@ flowchart LR
     D[CTgene membership + GO annotation] --> C
     C --> E[Hypergeometric / SUMSTAT / GSEA]
     E --> F[BH adjustment + tables + figures]
+    F --> G[Optional historical Excel pathway selection]
+    G --> H[Jaccard crosstalk + gene lists for SoyNet]
 ```
 
 The main analysis uses 42,575 mapped records representing **42,567 unique genes**, averages duplicate-gene scores, and tests 2,689 GO terms with 6-1,500 measured genes. The CT lists contain 44 short-term and 143 mid-term genes; 41 and 143 occur in this measured universe. Long-term analyses are outside scope.
 
 Python and R implement the same statistical definitions. Their native random generators differ, so simulated p-values need not match exactly. Shared-null tests check the implementations using identical random-set inputs.
+
+Add `--crosstalk reference` to a real-data run to use the historical Excel selection (13 short / 11 middle), recompute pathway overlap, plot the network and export gene lists. This step runs offline and stops before SoyNet. See [crosstalk instructions and paper comparison](docs/CROSSTALK.md); the final filtered edge count is not claimed to match the paper exactly.
 
 ## Read your results
 

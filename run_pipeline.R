@@ -7,6 +7,7 @@ args <- commandArgs(trailingOnly = TRUE)
 usage <- paste(
   "Usage: Rscript --vanilla run_pipeline.R [--mode demo|quick|full]",
   "       [--output NEW_DIRECTORY] [--use-reconstruction-hypotheses] [--include-maxmean]",
+  "       [--crosstalk reference|reanalysis]",
   "Demo uses invented data. Quick/full recalculate the included real inputs.",
   "Quick uses 199 draws; full uses 10000. Real-data repairs require the explicit flag.",
   "Output paths are relative to your current directory. Existing results are not overwritten.", sep = "\n")
@@ -15,12 +16,13 @@ mode <- "demo"
 output <- NULL
 hypotheses <- FALSE
 maxmean <- FALSE
+crosstalk <- NULL
 i <- 1L
 while (i <= length(args)) {
   arg <- args[i]
-  if (arg %in% c("--mode", "--output")) {
+  if (arg %in% c("--mode", "--output", "--crosstalk")) {
     if (i == length(args)) stop("Missing value for ", arg)
-    if (arg == "--mode") mode <- args[i+1L] else output <- args[i+1L]
+    if (arg == "--mode") mode <- args[i+1L] else if (arg == "--output") output <- args[i+1L] else crosstalk <- args[i+1L]
     i <- i+2L
   } else if (arg == "--use-reconstruction-hypotheses") { hypotheses <- TRUE; i <- i+1L
   } else if (arg == "--include-maxmean") { maxmean <- TRUE; i <- i+1L
@@ -28,6 +30,8 @@ while (i <= length(args)) {
 }
 if (!mode %in% c("demo", "quick", "full")) stop("Mode must be demo, quick, or full")
 if (mode == "demo" && hypotheses) stop("Demo uses invented scores and does not accept reconstruction hypotheses")
+if (!is.null(crosstalk) && !crosstalk %in% c("reference", "reanalysis")) stop("Crosstalk must be reference or reanalysis")
+if (mode == "demo" && identical(crosstalk, "reference")) stop("The historical soybean selection cannot be applied to invented demo pathways")
 if (is.null(output)) output <- file.path(root, "results", paste0("r_", mode))
 if (file.exists(output) && (!dir.exists(output) || length(list.files(output, all.files=TRUE, no..=TRUE)))) {
   stop("Output must be new or empty. Use --output with a different directory.")
@@ -42,7 +46,8 @@ save_manifest <- function() {
   write.table(steps, file.path(output, "execution_steps.tsv"), sep="\t", row.names=FALSE, quote=TRUE)
   values <- c(language="R", mode=mode, status=status, hypotheses_enabled=hypotheses,
               historical_repairs_confirmed=FALSE, paper_reproduction_verified=FALSE,
-              permutations=if (mode == "full") 10000L else 199L, include_maxmean=maxmean)
+              permutations=if (mode == "full") 10000L else 199L, include_maxmean=maxmean,
+              crosstalk=if (is.null(crosstalk)) "none" else crosstalk)
   write.table(data.frame(setting=names(values), value=unname(values)),
               file.path(output, "run_manifest.tsv"), sep="\t", row.names=FALSE, quote=TRUE)
 }
@@ -89,6 +94,11 @@ writeLines(c("config <-", capture.output(dput(config))), config_path)
 # 3. Exact overlap probabilities, score simulations, and labelled figures.
 run_step("scripts/run_analysis.R", config_path)
 run_step("scripts/plot_results.R", file.path(output, "analysis"))
+if (!is.null(crosstalk)) {
+  flags <- if (crosstalk == "reference") c("--selected-pathways",file.path(root,"data/reference/crosstalk/selected_pathways.tsv"),
+    "--selection-label","Historical Excel selection","--membership","annotation") else character()
+  run_step("scripts/run_presoynet.R",c(file.path(output,"analysis"),file.path(output,"crosstalk"),"--input-dir",inputs,flags))
+}
 status <- "completed"
 save_manifest()
 cat("\nCompleted", mode, ". Tables and plots:", file.path(output, "analysis"), "\n")

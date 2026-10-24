@@ -14,12 +14,14 @@ class PortableEntryPoints(unittest.TestCase):
         with tempfile.TemporaryDirectory(prefix="caller with spaces ") as temporary:
             caller = Path(temporary)
             command = [*prefix, str(ROOT / f"run_pipeline.{suffix}"), "--mode", "demo",
-                       "--output", "relative results"]
+                       "--output", "relative results", "--crosstalk", "reanalysis"]
             completed = subprocess.run(command, cwd=caller, capture_output=True, text=True)
             self.assertEqual(completed.returncode, 0, completed.stdout + completed.stderr)
             output = caller / "relative results/analysis"
             self.assertEqual(len(list(output.glob("*.png"))), 6)
             self.assertFalse((output / "short_maxmean.tsv").exists())
+            self.assertTrue((output.parent / "crosstalk/crosstalk.png").is_file())
+            self.assertEqual(len(list((output.parent / "crosstalk/soynet_inputs").glob("*.txt"))), 8)
             table = output / "short_sumstat.tsv"
             original = table.read_bytes()
             again = subprocess.run(command, cwd=caller, capture_output=True, text=True)

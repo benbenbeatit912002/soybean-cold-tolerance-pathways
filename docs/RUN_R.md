@@ -2,6 +2,8 @@
 
 The R implementation uses **base R only**. Python, RStudio, Excel, and additional R packages are not required. The tested version is R 4.5.1.
 
+To include the historical Excel selection and offline crosstalk, add `--crosstalk reference` to a real-data command. See [crosstalk instructions](CROSSTALK.md) for complete commands and reuse of existing analysis results.
+
 ## 1. Open a terminal in the repository folder
 
 Check your installation with `Rscript --version`. Then:

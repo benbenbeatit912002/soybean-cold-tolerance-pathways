@@ -24,12 +24,16 @@ def main():
     parser.add_argument("--use-reconstruction-hypotheses", action="store_true",
                         help="Enable the two documented, unconfirmed historical score repairs")
     parser.add_argument("--include-maxmean", action="store_true", help="Also run experimental MaxMean")
+    parser.add_argument("--crosstalk", choices=("reference", "reanalysis"),
+                        help="Optional offline crosstalk: historical Excel list or fresh BH selection")
     args = parser.parse_args()
     output = (args.output or ROOT / f"results/python_{args.mode}").resolve()
     if output.exists() and (not output.is_dir() or any(output.iterdir())):
         parser.error("Output must be new or empty. Use --output with a different directory.")
     if args.mode == "demo" and args.use_reconstruction_hypotheses:
         parser.error("Demo uses invented scores and does not accept reconstruction hypotheses.")
+    if args.mode == "demo" and args.crosstalk == "reference":
+        parser.error("The historical soybean selection cannot be applied to invented demo pathways.")
     output.mkdir(parents=True, exist_ok=True)
     metadata = dict(language="Python", mode=args.mode, status="running", steps=[],
                     hypotheses_enabled=args.use_reconstruction_hypotheses,
@@ -82,6 +86,12 @@ def main():
     # 3. Run overlap and score tests, then plot the resulting tables.
     run("scripts/run_analysis.py", config_path)
     run("scripts/plot_results.py", output / "analysis")
+    if args.crosstalk:
+        flags = (["--selected-pathways", ROOT / "data/reference/crosstalk/selected_pathways.tsv",
+                  "--selection-label", "Historical Excel selection", "--membership", "annotation"]
+                 if args.crosstalk == "reference" else [])
+        run("scripts/run_presoynet.py", output / "analysis", output / "crosstalk", "--input-dir", inputs, *flags)
+        metadata["crosstalk"] = args.crosstalk
     metadata.update(status="completed", permutations=config["permutations"], methods=["hypergeometric", *config["methods"]])
     save()
     print(f"\nCompleted {args.mode}. Tables and plots: {output / 'analysis'}", flush=True)

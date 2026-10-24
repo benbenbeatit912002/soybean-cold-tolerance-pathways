@@ -1,0 +1,25 @@
+phase	go_id	description	historical_annotation_size	historical_ct_count	historical_ct_ratio	historical_hypergeometric_bh	historical_sumstat_bh	historical_gsea_bh	source_sheet	source_row	selection_basis
+short	GO:0009409	Response to cold	1113	12	0.01078167115902965	1.26e-08	0.053571429	1e-16	Short-term	8	historical_excel_selection
+short	GO:0009414	Response to water deprivation	883	9	0.010192525481313703	2.64e-06	0.051794872	1e-16	Short-term	9	historical_excel_selection
+short	GO:0009415	Response to water	5	1	0.2	0.028275849	0.051794872	0.002133333	Short-term	10	historical_excel_selection
+short	GO:0009631	Cold acclimation	50	6	0.12	4.19e-10	0.796	0.03	Short-term	11	historical_excel_selection
+short	GO:0009737	Response to abscisic acid stimulus	1249	6	0.004803843074459567	0.009300373	0.054	1	Short-term	12	historical_excel_selection
+short	GO:0009873	Ethylene mediated signaling pathway	309	6	0.019417475728155338	8.44e-06	0.045625	1e-16	Short-term	13	historical_excel_selection
+short	GO:0010117	Photoprotection	13	1	0.07692307692307693	0.442340793	0.0075	1e-16	Short-term	14	historical_excel_selection
+short	GO:0010200	Response to chitin	1130	8	0.007079646017699115	0.000131956	0.054782609	1e-16	Short-term	15	historical_excel_selection
+short	GO:0010371	Regulation of gibberellin biosynthetic process	5	2	0.4	0.000129067	0.005	1e-16	Short-term	16	historical_excel_selection
+short	GO:0015976	Carbon utilization	12	1	0.08333333333333333	0.442340793	0.900322581	1e-16	Short-term	17	historical_excel_selection
+short	GO:0035264	Multicellular organism growth	5	1	0.2	0.028275849	0.006666667	0.00027027	Short-term	18	historical_excel_selection
+short	GO:0045893	Positive regulation of transcription, dna-dependent	1077	14	0.012999071494893221	7.57e-11	0.900322581	1e-16	Short-term	19	historical_excel_selection
+short	GO:0050832	Defense response to fungus	929	11	0.011840688912809472	2.19e-08	0.051794872	1e-16	Short-term	20	historical_excel_selection
+middle	GO:0006612	Protein targeting to membrane	1016	40	0.03937007874015748	9.95e-13	0.1026	1.753846153846154e-16	Mid-term	10	historical_excel_selection
+middle	GO:0009414	Response to water deprivation	883	40	0.045300113250283124	1.42e-14	0.0990923076923075	1.75384615384615e-16	Mid-term	11	historical_excel_selection
+middle	GO:0009611	Response to wounding	1025	95	0.09268292682926829	1e-16	0.1026	1.753846153846154e-16	Mid-term	12	historical_excel_selection
+middle	GO:0009620	Response to fungus	310	73	0.23548387096774193	1e-16	0.0728999999999998	0.000170149253731343	Mid-term	13	historical_excel_selection
+middle	GO:0009695	Jasmonic acid biosynthetic process	415	112	0.26987951807228916	1e-16	0.0740329411764704	1.753846153846154e-16	Mid-term	14	historical_excel_selection
+middle	GO:0009723	Response to ethylene stimulus	723	40	0.05532503457814661	1e-16	0.0876582524271841	0.00345	Mid-term	15	historical_excel_selection
+middle	GO:0009738	Abscisic acid mediated signaling pathway	630	52	0.08253968253968254	1e-16	0.0824399999999997	0.000814285714285714	Mid-term	16	historical_excel_selection
+middle	GO:0009753	Response to jasmonic acid stimulus	754	94	0.1246684350132626	1e-16	0.0930486486486483	1.753846153846154e-16	Mid-term	17	historical_excel_selection
+middle	GO:0009867	Jasmonic acid mediated signaling pathway	797	55	0.06900878293601004	1e-16	0.0937446428571425	1.753846153846154e-16	Mid-term	18	historical_excel_selection
+middle	GO:0010200	Response to chitin	1130	44	0.03893805309734513	8.36e-14	0.105510638297873	1.753846153846154e-16	Mid-term	19	historical_excel_selection
+middle	GO:0010363	Regulation of plant-type hypersensitive response	1015	40	0.03940886699507389	9.93e-13	0.1026	1.753846153846154e-16	Mid-term	20	historical_excel_selection

@@ -15,6 +15,7 @@ jobs:
       - run: Rscript --vanilla tests/test_integration.R
       - run: Rscript --vanilla tests/test_short_reference.R
       - run: Rscript --vanilla tests/test_historical_short.R
+      - run: Rscript --vanilla tests/test_presoynet.R
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -23,6 +24,7 @@ jobs:
       - run: python tests/check_cross_language.py
       - run: python run_pipeline.py --mode demo --include-maxmean
       - run: Rscript --vanilla run_pipeline.R --mode demo --include-maxmean
-      - run: python run_pipeline.py --mode quick --use-reconstruction-hypotheses --include-maxmean
-      - run: Rscript --vanilla run_pipeline.R --mode quick --use-reconstruction-hypotheses --include-maxmean
+      - run: python run_pipeline.py --mode quick --use-reconstruction-hypotheses --include-maxmean --crosstalk reference
+      - run: Rscript --vanilla run_pipeline.R --mode quick --use-reconstruction-hypotheses --include-maxmean --crosstalk reference
       - run: python scripts/verify_portable_runs.py results/python_quick results/r_quick --permutations 199
+      - run: python scripts/verify_presoynet.py results/python_quick/crosstalk results/r_quick/crosstalk --historical-reference

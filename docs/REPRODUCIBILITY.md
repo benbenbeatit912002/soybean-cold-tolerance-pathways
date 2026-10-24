@@ -38,6 +38,8 @@ The [paper concordance audit](../reports/PAPER_CONCORDANCE_2026-10-18.md) and [f
 
 ## What tests establish
 
+The [crosstalk extension](CROSSTALK.md) uses the author's historical Excel selection, verified against the saved 13/11 lists and local Table S1. The paper documents the selection considerations. Workbook values are compatible with a count-or-ratio interpretation, but the complete logical sequence is not saved as formulas. Recomputed Jaccard coefficients match the archived matrices at printed precision. Explicit edge filtering yields 67 edges rather than 61; current middle CT membership yields 121 rather than 122. These differences remain documented.
+
 Tests check formulas, input identity, duplicate handling, imputation, shared-null cross-language agreement, executable entry points, and independent verification of outputs. Portable package tests start from a source ZIP with no saved results, in a new directory containing spaces.
 
 Python and R use different random generators. Native simulation p-values can differ; they are not required to be identical. For every run, retain the saved settings and language environment. Local Windows validation does not establish that the configured GitHub Actions jobs have already passed on remote runners.

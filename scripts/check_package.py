@@ -61,7 +61,7 @@ def main():
         return item
 
     commands = [("python_tests", py + ["-m", "unittest", "discover", "-s", "tests", "-p", "test_*.py"]),
-                *[(name, r + [f"tests/{name}.R"]) for name in ("test_core", "test_integration", "test_short_reference", "test_historical_short")],
+                *[(name, r + [f"tests/{name}.R"]) for name in ("test_core", "test_integration", "test_short_reference", "test_historical_short", "test_presoynet")],
                 ("shared_null", py + ["tests/check_cross_language.py", "--rscript", args.rscript])]
     save()
     for label, command in commands:
@@ -75,7 +75,7 @@ def main():
             for language, executable, extension in (("python", py, "py"), ("r", r, "R")):
                 command = executable + [str(workspace / f"run_pipeline.{extension}"), "--mode", mode, "--include-maxmean"]
                 if mode != "demo":
-                    command += ["--use-reconstruction-hypotheses"]
+                    command += ["--use-reconstruction-hypotheses", "--crosstalk", "reference"]
                 jobs.append(pool.submit(execute, f"{language}_{mode}", command, outside=True))
             report["checks"].extend(job.result() for job in jobs)
             save()
@@ -86,6 +86,8 @@ def main():
     mode = "full" if args.full else "quick"
     report["checks"].append(execute("portable_results", py + ["scripts/verify_portable_runs.py",
         f"results/python_{mode}", f"results/r_{mode}", "--permutations", "10000" if args.full else "199"]))
+    report["checks"].append(execute("crosstalk_results", py + ["scripts/verify_presoynet.py",
+        f"results/python_{mode}/crosstalk", f"results/r_{mode}/crosstalk", "--historical-reference"]))
     report["status"] = "passed" if all(c["exit_code"] == c["expected_exit_code"] for c in report["checks"]) else "failed"
     save()
     print(f"Report: {report_path}\nLogs: {logs}", flush=True)
