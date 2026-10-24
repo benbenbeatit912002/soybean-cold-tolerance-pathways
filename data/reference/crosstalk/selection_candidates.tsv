@@ -1,0 +1,1327 @@
+phase	method	go_id	description	annotation_size	ct_count	p_value	p_bh	source_sheet	source_range
+short	hypergeometric	GO:0000165	Mapkkk cascade	572	1	0.951602563	0.99934288	Hypergeometric(Short-term)	B15:G15
+short	hypergeometric	GO:0002679	Respiratory burst involved in defense response	418	5	0.066351119	0.442340793	Hypergeometric(Short-term)	B16:G16
+short	hypergeometric	GO:0003690	Double-stranded dna binding	40	1	0.188129213	0.8179531	Hypergeometric(Short-term)	B17:G17
+short	hypergeometric	GO:0004089	Carbonate dehydratase activity	37	1	0.175324985	0.8179531	Hypergeometric(Short-term)	B18:G18
+short	hypergeometric	GO:0005516	Calmodulin binding	479	1	0.920244865	0.99934288	Hypergeometric(Short-term)	B19:G19
+short	hypergeometric	GO:0006096	Glycolysis	658	1	0.969583249	0.99934288	Hypergeometric(Short-term)	B20:G20
+short	hypergeometric	GO:0006098	Pentose-phosphate shunt	420	1	0.890667515	0.99934288	Hypergeometric(Short-term)	B21:G21
+short	hypergeometric	GO:0006406	Mrna export from nucleus	133	1	0.500872286	0.99934288	Hypergeometric(Short-term)	B22:G22
+short	hypergeometric	GO:0006457	Protein folding	773	1	0.983717898	0.99934288	Hypergeometric(Short-term)	B23:G23
+short	hypergeometric	GO:0006606	Protein import into nucleus	239	1	0.71426041	0.99934288	Hypergeometric(Short-term)	B24:G24
+short	hypergeometric	GO:0006612	Protein targeting to membrane	1016	1	0.995716419	0.99934288	Hypergeometric(Short-term)	B25:G25
+short	hypergeometric	GO:0006833	Water transport	448	1	0.905854847	0.99934288	Hypergeometric(Short-term)	B26:G26
+short	hypergeometric	GO:0006970	Response to osmotic stress	341	1	0.833500973	0.99934288	Hypergeometric(Short-term)	B27:G27
+short	hypergeometric	GO:0006972	Hyperosmotic response	302	1	0.795230164	0.99934288	Hypergeometric(Short-term)	B28:G28
+short	hypergeometric	GO:0006979	Response to oxidative stress	629	1	0.964416375	0.99934288	Hypergeometric(Short-term)	B29:G29
+short	hypergeometric	GO:0007030	Golgi organization	536	1	0.941258661	0.99934288	Hypergeometric(Short-term)	B30:G30
+short	hypergeometric	GO:0007165	Signal transduction	1301	3	0.969430076	0.99934288	Hypergeometric(Short-term)	B31:G31
+short	hypergeometric	GO:0008284	Positive regulation of cell proliferation	187	1	0.624164652	0.99934288	Hypergeometric(Short-term)	B32:G32
+short	hypergeometric	GO:0009266	Response to temperature stimulus	356	1	0.84625676	0.99934288	Hypergeometric(Short-term)	B33:G33
+short	hypergeometric	GO:0009408	Response to heat	652	3	0.663206329	0.99934288	Hypergeometric(Short-term)	B34:G34
+short	hypergeometric	GO:0009409	Response to cold	1113	12	0.01219794	0.203299	Hypergeometric(Short-term)	B35:G35
+short	hypergeometric	GO:0009414	Response to water deprivation	883	9	0.039385232	0.39385232	Hypergeometric(Short-term)	B36:G36
+short	hypergeometric	GO:0009415	Response to water	5	1	0.025689056	0.3211132	Hypergeometric(Short-term)	B37:G37
+short	hypergeometric	GO:0009535	Chloroplast thylakoid membrane	695	1	0.975111302	0.99934288	Hypergeometric(Short-term)	B38:G38
+short	hypergeometric	GO:0009570	Chloroplast stroma	1351	1	0.99934288	0.99934288	Hypergeometric(Short-term)	B39:G39
+short	hypergeometric	GO:0009579	Thylakoid	465	1	0.914037438	0.99934288	Hypergeometric(Short-term)	B40:G40
+short	hypergeometric	GO:0009595	Detection of biotic stimulus	276	1	0.765008753	0.99934288	Hypergeometric(Short-term)	B41:G41
+short	hypergeometric	GO:0009611	Response to wounding	1025	4	0.786697175	0.99934288	Hypergeometric(Short-term)	B42:G42
+short	hypergeometric	GO:0009612	Response to mechanical stimulus	150	2	0.182973652	0.8179531	Hypergeometric(Short-term)	B43:G43
+short	hypergeometric	GO:0009620	Response to fungus	310	1	0.803731072	0.99934288	Hypergeometric(Short-term)	B44:G44
+short	hypergeometric	GO:0009631	Cold acclimation	50	6	2.18e-07	2.18e-05	Hypergeometric(Short-term)	B45:G45
+short	hypergeometric	GO:0009640	Photomorphogenesis	500	1	0.928734299	0.99934288	Hypergeometric(Short-term)	B46:G46
+short	hypergeometric	GO:0009644	Response to high light intensity	578	2	0.806814159	0.99934288	Hypergeometric(Short-term)	B47:G47
+short	hypergeometric	GO:0009695	Jasmonic acid biosynthetic process	415	3	0.365575233	0.99934288	Hypergeometric(Short-term)	B48:G48
+short	hypergeometric	GO:0009697	Salicylic acid biosynthetic process	649	1	0.968064634	0.99934288	Hypergeometric(Short-term)	B49:G49
+short	hypergeometric	GO:0009723	Response to ethylene stimulus	723	3	0.73046187	0.99934288	Hypergeometric(Short-term)	B50:G50
+short	hypergeometric	GO:0009733	Response to auxin stimulus	1009	3	0.901670422	0.99934288	Hypergeometric(Short-term)	B51:G51
+short	hypergeometric	GO:0009737	Response to abscisic acid stimulus	1249	6	0.637406712	0.99934288	Hypergeometric(Short-term)	B52:G52
+short	hypergeometric	GO:0009738	Abscisic acid mediated signaling pathway	630	3	0.640109783	0.99934288	Hypergeometric(Short-term)	B53:G53
+short	hypergeometric	GO:0009740	Gibberellic acid mediated signaling pathway	212	1	0.670527423	0.99934288	Hypergeometric(Short-term)	B54:G54
+short	hypergeometric	GO:0009751	Response to salicylic acid stimulus	378	1	0.863236691	0.99934288	Hypergeometric(Short-term)	B55:G55
+short	hypergeometric	GO:0009753	Response to jasmonic acid stimulus	754	4	0.554142496	0.99934288	Hypergeometric(Short-term)	B56:G56
+short	hypergeometric	GO:0009814	Defense response, incompatible interaction	194	1	0.637760082	0.99934288	Hypergeometric(Short-term)	B57:G57
+short	hypergeometric	GO:0009817	Defense response to fungus, incompatible interaction	155	1	0.555305962	0.99934288	Hypergeometric(Short-term)	B58:G58
+short	hypergeometric	GO:0009862	Systemic acquired resistance, salicylic acid mediated signaling pathway	684	1	0.973580738	0.99934288	Hypergeometric(Short-term)	B59:G59
+short	hypergeometric	GO:0009867	Jasmonic acid mediated signaling pathway	797	3	0.789047719	0.99934288	Hypergeometric(Short-term)	B60:G60
+short	hypergeometric	GO:0009873	Ethylene mediated signaling pathway	309	6	0.005422176	0.10844352	Hypergeometric(Short-term)	B61:G61
+short	hypergeometric	GO:0009909	Regulation of flower development	742	1	0.98072204	0.99934288	Hypergeometric(Short-term)	B62:G62
+short	hypergeometric	GO:0009941	Chloroplast envelope	1208	1	0.998530037	0.99934288	Hypergeometric(Short-term)	B63:G63
+short	hypergeometric	GO:0009963	Positive regulation of flavonoid biosynthetic process	299	1	0.791949335	0.99934288	Hypergeometric(Short-term)	B64:G64
+short	hypergeometric	GO:0010017	Red or far-red light signaling pathway	64	1	0.283731274	0.978383703	Hypergeometric(Short-term)	B65:G65
+short	hypergeometric	GO:0010074	Maintenance of meristem identity	54	1	0.245330804	0.876181443	Hypergeometric(Short-term)	B66:G66
+short	hypergeometric	GO:0010099	Regulation of photomorphogenesis	22	1	0.108247505	0.601375028	Hypergeometric(Short-term)	B67:G67
+short	hypergeometric	GO:0010114	Response to red light	251	1	0.731805494	0.99934288	Hypergeometric(Short-term)	B68:G68
+short	hypergeometric	GO:0010117	Photoprotection	13	1	0.065440935	0.442340793	Hypergeometric(Short-term)	B69:G69
+short	hypergeometric	GO:0010119	Regulation of stomatal movement	172	1	0.593309884	0.99934288	Hypergeometric(Short-term)	B70:G70
+short	hypergeometric	GO:0010200	Response to chitin	1130	8	0.231909113	0.864513907	Hypergeometric(Short-term)	B71:G71
+short	hypergeometric	GO:0010218	Response to far red light	251	1	0.731805494	0.99934288	Hypergeometric(Short-term)	B72:G72
+short	hypergeometric	GO:0010224	Response to uv-b	274	1	0.762509241	0.99934288	Hypergeometric(Short-term)	B73:G73
+short	hypergeometric	GO:0010286	Heat acclimation	183	1	0.616170609	0.99934288	Hypergeometric(Short-term)	B74:G74
+short	hypergeometric	GO:0010310	Regulation of hydrogen peroxide metabolic process	532	1	0.939982313	0.99934288	Hypergeometric(Short-term)	B75:G75
+short	hypergeometric	GO:0010319	Stromule	96	1	0.394091038	0.99934288	Hypergeometric(Short-term)	B76:G76
+short	hypergeometric	GO:0010363	Regulation of plant-type hypersensitive response	1015	1	0.995692637	0.99934288	Hypergeometric(Short-term)	B77:G77
+short	hypergeometric	GO:0010371	Regulation of gibberellin biosynthetic process	5	2	0.000263707	0.01318535	Hypergeometric(Short-term)	B78:G78
+short	hypergeometric	GO:0010413	Glucuronoxylan metabolic process	493	1	0.926008777	0.99934288	Hypergeometric(Short-term)	B79:G79
+short	hypergeometric	GO:0015976	Carbon utilization	12	1	0.060561021	0.442340793	Hypergeometric(Short-term)	B80:G80
+short	hypergeometric	GO:0015979	Photosynthesis	449	1	0.906356802	0.99934288	Hypergeometric(Short-term)	B81:G81
+short	hypergeometric	GO:0016049	Cell growth	354	2	0.551457013	0.99934288	Hypergeometric(Short-term)	B82:G82
+short	hypergeometric	GO:0019684	Photosynthesis, light reaction	318	1	0.811882915	0.99934288	Hypergeometric(Short-term)	B83:G83
+short	hypergeometric	GO:0019722	Calcium-mediated signaling	139	1	0.516339262	0.99934288	Hypergeometric(Short-term)	B84:G84
+short	hypergeometric	GO:0031348	Negative regulation of defense response	762	1	0.982711623	0.99934288	Hypergeometric(Short-term)	B85:G85
+short	hypergeometric	GO:0031539	Positive regulation of anthocyanin metabolic process	10	1	0.050725494	0.4380213	Hypergeometric(Short-term)	B86:G86
+short	hypergeometric	GO:0035264	Multicellular organism growth	5	1	0.025689056	0.3211132	Hypergeometric(Short-term)	B87:G87
+short	hypergeometric	GO:0035556	Intracellular signal transduction	476	5	0.101554	0.597376471	Hypergeometric(Short-term)	B88:G88
+short	hypergeometric	GO:0042538	Hyperosmotic salinity response	459	4	0.215501903	0.864513907	Hypergeometric(Short-term)	B89:G89
+short	hypergeometric	GO:0042542	Response to hydrogen peroxide	507	1	0.931360523	0.99934288	Hypergeometric(Short-term)	B90:G90
+short	hypergeometric	GO:0042742	Defense response to bacterium	1056	1	0.99656837	0.99934288	Hypergeometric(Short-term)	B91:G91
+short	hypergeometric	GO:0042753	Positive regulation of circadian rhythm	18	1	0.089467111	0.559169444	Hypergeometric(Short-term)	B92:G92
+short	hypergeometric	GO:0042802	Identical protein binding	318	1	0.811882915	0.99934288	Hypergeometric(Short-term)	B93:G93
+short	hypergeometric	GO:0042991	Transcription factor import into nucleus	71	2	0.052562556	0.4380213	Hypergeometric(Short-term)	B94:G94
+short	hypergeometric	GO:0043565	Sequence-specific dna binding	880	5	0.483843424	0.99934288	Hypergeometric(Short-term)	B95:G95
+short	hypergeometric	GO:0043687	Post-translational protein modification	221	1	0.685794265	0.99934288	Hypergeometric(Short-term)	B96:G96
+short	hypergeometric	GO:0043900	Regulation of multi-organism process	262	1	0.746950611	0.99934288	Hypergeometric(Short-term)	B97:G97
+short	hypergeometric	GO:0045492	Xylan biosynthetic process	495	1	0.926797843	0.99934288	Hypergeometric(Short-term)	B98:G98
+short	hypergeometric	GO:0045892	Negative regulation of transcription, dna-dependent	465	2	0.699563439	0.99934288	Hypergeometric(Short-term)	B99:G99
+short	hypergeometric	GO:0045893	Positive regulation of transcription, dna-dependent	1077	15	0.000400304	0.013343467	Hypergeometric(Short-term)	B100:G100
+short	hypergeometric	GO:0046686	Response to cadmium ion	1301	3	0.969430076	0.99934288	Hypergeometric(Short-term)	B101:G101
+short	hypergeometric	GO:0046983	Protein dimerization activity	725	1	0.978854114	0.99934288	Hypergeometric(Short-term)	B102:G102
+short	hypergeometric	GO:0048046	Apoplast	1001	1	0.995345646	0.99934288	Hypergeometric(Short-term)	B103:G103
+short	hypergeometric	GO:0048364	Root development	397	1	0.876399683	0.99934288	Hypergeometric(Short-term)	B104:G104
+short	hypergeometric	GO:0048366	Leaf development	327	1	0.820654124	0.99934288	Hypergeometric(Short-term)	B105:G105
+short	hypergeometric	GO:0048510	Regulation of timing of transition from vegetative to reproductive phase	53	2	0.030936244	0.343736044	Hypergeometric(Short-term)	B106:G106
+short	hypergeometric	GO:0048825	Cotyledon development	183	1	0.616170609	0.99934288	Hypergeometric(Short-term)	B107:G107
+short	hypergeometric	GO:0050826	Response to freezing	219	2	0.314855382	0.99934288	Hypergeometric(Short-term)	B108:G108
+short	hypergeometric	GO:0050832	Defense response to fungus	929	12	0.003002138	0.07505345	Hypergeometric(Short-term)	B109:G109
+short	hypergeometric	GO:0051276	Chromosome organization	51	1	0.233418755	0.864513907	Hypergeometric(Short-term)	B110:G110
+short	hypergeometric	GO:0051555	Flavonol biosynthetic process	39	1	0.183883127	0.8179531	Hypergeometric(Short-term)	B111:G111
+short	hypergeometric	GO:0052542	Defense response by callose deposition	115	2	0.120090491	0.632055216	Hypergeometric(Short-term)	B112:G112
+short	hypergeometric	GO:0080167	Response to karrikin	355	1	0.845437292	0.99934288	Hypergeometric(Short-term)	B113:G113
+short	hypergeometric	GO:2000652	Regulation of secondary cell wall biogenesis	48	1	0.221320851	0.864513907	Hypergeometric(Short-term)	B114:G114
+middle	hypergeometric	GO:0000023	Maltose metabolic process	302	1	0.950847959	0.99999943	Hypergeometric(Mid-term)	B8:G8
+middle	hypergeometric	GO:0000038	Very long-chain fatty acid metabolic process	103	1	0.640842587	0.887320505	Hypergeometric(Mid-term)	B9:G9
+middle	hypergeometric	GO:0000096	Sulfur amino acid metabolic process	136	19	1.11e-16	2e-15	Hypergeometric(Mid-term)	B10:G10
+middle	hypergeometric	GO:0000165	Mapkkk cascade	572	32	2.89e-15	3.66e-14	Hypergeometric(Mid-term)	B11:G11
+middle	hypergeometric	GO:0000271	Polysaccharide biosynthetic process	271	1	0.932935897	0.99999943	Hypergeometric(Mid-term)	B12:G12
+middle	hypergeometric	GO:0000287	Magnesium ion binding	247	3	0.441523914	0.66520343	Hypergeometric(Mid-term)	B13:G13
+middle	hypergeometric	GO:0000413	Protein peptidyl-prolyl isomerization	36	2	0.049130707	0.126971452	Hypergeometric(Mid-term)	B14:G14
+middle	hypergeometric	GO:0000910	Cytokinesis	91	2	0.226762292	0.416090785	Hypergeometric(Mid-term)	B15:G15
+middle	hypergeometric	GO:0000911	Cytokinesis by cell plate formation	469	2	0.947266582	0.99999943	Hypergeometric(Mid-term)	B16:G16
+middle	hypergeometric	GO:0001676	Long-chain fatty acid metabolic process	57	1	0.432334789	0.654241141	Hypergeometric(Mid-term)	B17:G17
+middle	hypergeometric	GO:0002213	Defense response to insect	71	1	0.506122382	0.72424207	Hypergeometric(Mid-term)	B18:G18
+middle	hypergeometric	GO:0002237	Response to molecule of bacterial origin	261	6	0.045743069	0.124159759	Hypergeometric(Mid-term)	B19:G19
+middle	hypergeometric	GO:0002679	Respiratory burst involved in defense response	418	21	1.44e-09	1.05e-08	Hypergeometric(Mid-term)	B20:G20
+middle	hypergeometric	GO:0003690	Double-stranded dna binding	40	1	0.327822238	0.54161935	Hypergeometric(Mid-term)	B21:G21
+middle	hypergeometric	GO:0003723	Rna binding	1040	1	0.999972784	0.99999943	Hypergeometric(Mid-term)	B22:G22
+middle	hypergeometric	GO:0003755	Peptidyl-prolyl cis-trans isomerase activity	114	2	0.310697107	0.51833371	Hypergeometric(Mid-term)	B23:G23
+middle	hypergeometric	GO:0003995	Acyl-coa dehydrogenase activity	15	1	0.138342586	0.288494905	Hypergeometric(Mid-term)	B24:G24
+middle	hypergeometric	GO:0003997	Acyl-coa oxidase activity	12	1	0.112291462	0.247765677	Hypergeometric(Mid-term)	B25:G25
+middle	hypergeometric	GO:0004022	Alcohol dehydrogenase (nad) activity	18	2	0.013395448	0.040903957	Hypergeometric(Mid-term)	B26:G26
+middle	hypergeometric	GO:0004033	Aldo-keto reductase (nadp) activity	24	1	0.212012659	0.391936916	Hypergeometric(Mid-term)	B27:G27
+middle	hypergeometric	GO:0004321	Fatty-acyl-coa synthase activity	10	1	0.094489494	0.222864876	Hypergeometric(Mid-term)	B28:G28
+middle	hypergeometric	GO:0004602	Glutathione peroxidase activity	26	1	0.227511628	0.416090785	Hypergeometric(Mid-term)	B29:G29
+middle	hypergeometric	GO:0004659	Prenyltransferase activity	37	3	0.005777483	0.019758992	Hypergeometric(Mid-term)	B30:G30
+middle	hypergeometric	GO:0004709	Map kinase kinase kinase activity	20	10	1.33e-15	1.82e-14	Hypergeometric(Mid-term)	B31:G31
+middle	hypergeometric	GO:0004712	Protein serine/threonine/tyrosine kinase activity	99	1	0.626246665	0.873849317	Hypergeometric(Mid-term)	B32:G32
+middle	hypergeometric	GO:0004751	Ribose-5-phosphate isomerase activity	7	1	0.067117349	0.170030617	Hypergeometric(Mid-term)	B33:G33
+middle	hypergeometric	GO:0004765	Shikimate kinase activity	13	3	0.000253264	0.001186524	Hypergeometric(Mid-term)	B34:G34
+middle	hypergeometric	GO:0005484	Snap receptor activity	72	2	0.159001171	0.321765683	Hypergeometric(Mid-term)	B35:G35
+middle	hypergeometric	GO:0005506	Iron ion binding	705	10	0.162097035	0.326101094	Hypergeometric(Mid-term)	B36:G36
+middle	hypergeometric	GO:0005509	Calcium ion binding	539	1	0.995481816	0.99999943	Hypergeometric(Mid-term)	B37:G37
+middle	hypergeometric	GO:0005543	Phospholipid binding	140	1	0.751604765	0.981316289	Hypergeometric(Mid-term)	B38:G38
+middle	hypergeometric	GO:0005575	Cellular_component	1413	1	0.99999943	0.99999943	Hypergeometric(Mid-term)	B39:G39
+middle	hypergeometric	GO:0005730	Nucleolus	637	2	0.98744849	0.99999943	Hypergeometric(Mid-term)	B40:G40
+middle	hypergeometric	GO:0005774	Vacuolar membrane	1127	4	0.996180164	0.99999943	Hypergeometric(Mid-term)	B41:G41
+middle	hypergeometric	GO:0005777	Peroxisome	386	5	0.333994082	0.547313204	Hypergeometric(Mid-term)	B42:G42
+middle	hypergeometric	GO:0005783	Endoplasmic reticulum	1152	1	0.999991429	0.99999943	Hypergeometric(Mid-term)	B43:G43
+middle	hypergeometric	GO:0005788	Endoplasmic reticulum lumen	23	1	0.204147361	0.385737003	Hypergeometric(Mid-term)	B44:G44
+middle	hypergeometric	GO:0006098	Pentose-phosphate shunt	420	5	0.400290453	0.633793217	Hypergeometric(Mid-term)	B45:G45
+middle	hypergeometric	GO:0006312	Mitotic recombination	109	1	0.661678223	0.905175809	Hypergeometric(Mid-term)	B46:G46
+middle	hypergeometric	GO:0006364	Rrna processing	531	1	0.995101137	0.99999943	Hypergeometric(Mid-term)	B47:G47
+middle	hypergeometric	GO:0006406	Mrna export from nucleus	133	1	0.733647881	0.976294067	Hypergeometric(Mid-term)	B48:G48
+middle	hypergeometric	GO:0006417	Regulation of translation	70	1	0.501184642	0.720189696	Hypergeometric(Mid-term)	B49:G49
+middle	hypergeometric	GO:0006457	Protein folding	773	3	0.983145735	0.99999943	Hypergeometric(Mid-term)	B50:G50
+middle	hypergeometric	GO:0006499	N-terminal protein myristoylation	1037	3	0.998062076	0.99999943	Hypergeometric(Mid-term)	B51:G51
+middle	hypergeometric	GO:0006520	Cellular amino acid metabolic process	109	2	0.292494414	0.495213315	Hypergeometric(Mid-term)	B52:G52
+middle	hypergeometric	GO:0006546	Glycine catabolic process	156	19	1.55e-15	2.04e-14	Hypergeometric(Mid-term)	B53:G53
+middle	hypergeometric	GO:0006561	Proline biosynthetic process	30	2	0.035250715	0.098817578	Hypergeometric(Mid-term)	B54:G54
+middle	hypergeometric	GO:0006568	Tryptophan metabolic process	15	1	0.138342586	0.288494905	Hypergeometric(Mid-term)	B55:G55
+middle	hypergeometric	GO:0006569	Tryptophan catabolic process	192	6	0.012320494	0.039014898	Hypergeometric(Mid-term)	B56:G56
+middle	hypergeometric	GO:0006596	Polyamine biosynthetic process	15	2	0.009373557	0.031123849	Hypergeometric(Mid-term)	B57:G57
+middle	hypergeometric	GO:0006612	Protein targeting to membrane	1016	40	9.89e-14	9.95e-13	Hypergeometric(Mid-term)	B58:G58
+middle	hypergeometric	GO:0006629	Lipid metabolic process	533	2	0.96919636	0.99999943	Hypergeometric(Mid-term)	B59:G59
+middle	hypergeometric	GO:0006631	Fatty acid metabolic process	86	2	0.208646777	0.389930042	Hypergeometric(Mid-term)	B60:G60
+middle	hypergeometric	GO:0006633	Fatty acid biosynthetic process	236	4	0.205623236	0.386390916	Hypergeometric(Mid-term)	B61:G61
+middle	hypergeometric	GO:0006635	Fatty acid beta-oxidation	452	3	0.825886882	0.99999943	Hypergeometric(Mid-term)	B62:G62
+middle	hypergeometric	GO:0006636	Unsaturated fatty acid biosynthetic process	203	19	2.04e-13	1.99e-12	Hypergeometric(Mid-term)	B63:G63
+middle	hypergeometric	GO:0006655	Phosphatidylglycerol biosynthetic process	175	5	0.030246395	0.086926614	Hypergeometric(Mid-term)	B64:G64
+middle	hypergeometric	GO:0006733	Oxidoreduction coenzyme metabolic process	120	19	1e-16	1e-16	Hypergeometric(Mid-term)	B65:G65
+middle	hypergeometric	GO:0006766	Vitamin metabolic process	120	19	1e-16	1e-16	Hypergeometric(Mid-term)	B66:G66
+middle	hypergeometric	GO:0006816	Calcium ion transport	324	1	0.96058309	0.99999943	Hypergeometric(Mid-term)	B67:G67
+middle	hypergeometric	GO:0006820	Anion transport	143	2	0.413393632	0.636682401	Hypergeometric(Mid-term)	B68:G68
+middle	hypergeometric	GO:0006862	Nucleotide transport	101	2	0.263259479	0.459360928	Hypergeometric(Mid-term)	B69:G69
+middle	hypergeometric	GO:0006888	Er to golgi vesicle-mediated transport	311	2	0.814270967	0.99999943	Hypergeometric(Mid-term)	B70:G70
+middle	hypergeometric	GO:0006944	Cellular membrane fusion	714	18	0.00029401	0.001340686	Hypergeometric(Mid-term)	B71:G71
+middle	hypergeometric	GO:0006952	Defense response	1095	11	0.520002772	0.74100395	Hypergeometric(Mid-term)	B72:G72
+middle	hypergeometric	GO:0006970	Response to osmotic stress	341	12	0.000163533	0.000776782	Hypergeometric(Mid-term)	B73:G73
+middle	hypergeometric	GO:0006979	Response to oxidative stress	629	10	0.095857294	0.224542428	Hypergeometric(Mid-term)	B74:G74
+middle	hypergeometric	GO:0007030	Golgi organization	536	1	0.995342645	0.99999943	Hypergeometric(Mid-term)	B75:G75
+middle	hypergeometric	GO:0007154	Cell communication	186	20	3.22e-15	3.93e-14	Hypergeometric(Mid-term)	B76:G76
+middle	hypergeometric	GO:0007165	Signal transduction	1301	33	7.61e-07	4.49e-06	Hypergeometric(Mid-term)	B77:G77
+middle	hypergeometric	GO:0007275	Multicellular organismal development	235	9	0.00058381	0.002434915	Hypergeometric(Mid-term)	B78:G78
+middle	hypergeometric	GO:0008168	Methyltransferase activity	336	1	0.96505664	0.99999943	Hypergeometric(Mid-term)	B79:G79
+middle	hypergeometric	GO:0008234	Cysteine-type peptidase activity	142	2	0.409966676	0.634428069	Hypergeometric(Mid-term)	B80:G80
+middle	hypergeometric	GO:0008284	Positive regulation of cell proliferation	187	1	0.844610378	0.99999943	Hypergeometric(Mid-term)	B81:G81
+middle	hypergeometric	GO:0008295	Spermidine biosynthetic process	34	2	0.044311987	0.121237596	Hypergeometric(Mid-term)	B82:G82
+middle	hypergeometric	GO:0008299	Isoprenoid biosynthetic process	41	1	0.33446918	0.547313204	Hypergeometric(Mid-term)	B83:G83
+middle	hypergeometric	GO:0008610	Lipid biosynthetic process	56	1	0.426662104	0.649042009	Hypergeometric(Mid-term)	B84:G84
+middle	hypergeometric	GO:0008652	Cellular amino acid biosynthetic process	192	19	7.39e-14	7.9e-13	Hypergeometric(Mid-term)	B85:G85
+middle	hypergeometric	GO:0008661	1-deoxy-d-xylulose-5-phosphate synthase activity	13	1	0.121061225	0.262043917	Hypergeometric(Mid-term)	B86:G86
+middle	hypergeometric	GO:0008757	S-adenosylmethionine-dependent methyltransferase activity	43	1	0.3475672	0.563355367	Hypergeometric(Mid-term)	B87:G87
+middle	hypergeometric	GO:0009052	Pentose-phosphate shunt, non-oxidative branch	9	1	0.085455552	0.208755706	Hypergeometric(Mid-term)	B88:G88
+middle	hypergeometric	GO:0009055	Electron carrier activity	966	12	0.248714676	0.445342509	Hypergeometric(Mid-term)	B89:G89
+middle	hypergeometric	GO:0009069	Serine family amino acid metabolic process	21	1	0.1881813	0.363604546	Hypergeometric(Mid-term)	B90:G90
+middle	hypergeometric	GO:0009072	Aromatic amino acid family metabolic process	127	19	1e-16	1e-16	Hypergeometric(Mid-term)	B91:G91
+middle	hypergeometric	GO:0009073	Aromatic amino acid family biosynthetic process	138	6	0.002549359	0.009275327	Hypergeometric(Mid-term)	B92:G92
+middle	hypergeometric	GO:0009106	Lipoate metabolic process	120	19	1e-16	1e-16	Hypergeometric(Mid-term)	B93:G93
+middle	hypergeometric	GO:0009108	Coenzyme biosynthetic process	120	19	1e-16	1e-16	Hypergeometric(Mid-term)	B94:G94
+middle	hypergeometric	GO:0009117	Nucleotide metabolic process	149	19	6.66e-16	1.04e-14	Hypergeometric(Mid-term)	B95:G95
+middle	hypergeometric	GO:0009257	10-formyltetrahydrofolate biosynthetic process	11	1	0.103434506	0.235795875	Hypergeometric(Mid-term)	B96:G96
+middle	hypergeometric	GO:0009266	Response to temperature stimulus	356	4	0.467935686	0.693593528	Hypergeometric(Mid-term)	B97:G97
+middle	hypergeometric	GO:0009268	Response to ph	6	3	1.86e-05	9.49e-05	Hypergeometric(Mid-term)	B98:G98
+middle	hypergeometric	GO:0009269	Response to desiccation	98	2	0.252290548	0.44706408	Hypergeometric(Mid-term)	B99:G99
+middle	hypergeometric	GO:0009396	Folic acid-containing compound biosynthetic process	32	1	0.272209325	0.467817031	Hypergeometric(Mid-term)	B100:G100
+middle	hypergeometric	GO:0009407	Toxin catabolic process	534	3	0.899856056	0.99999943	Hypergeometric(Mid-term)	B101:G101
+middle	hypergeometric	GO:0009408	Response to heat	652	6	0.625421548	0.873849317	Hypergeometric(Mid-term)	B102:G102
+middle	hypergeometric	GO:0009409	Response to cold	1113	37	1.2e-10	9.33e-10	Hypergeometric(Mid-term)	B103:G103
+middle	hypergeometric	GO:0009410	Response to xenobiotic stimulus	173	4	0.092893047	0.222163791	Hypergeometric(Mid-term)	B104:G104
+middle	hypergeometric	GO:0009414	Response to water deprivation	883	40	9.99e-16	1.42e-14	Hypergeometric(Mid-term)	B105:G105
+middle	hypergeometric	GO:0009416	Response to light stimulus	440	12	0.001545435	0.005744987	Hypergeometric(Mid-term)	B106:G106
+middle	hypergeometric	GO:0009446	Putrescine biosynthetic process	6	2	0.00141997	0.005336591	Hypergeometric(Mid-term)	B107:G107
+middle	hypergeometric	GO:0009504	Cell plate	75	2	0.169459169	0.335000207	Hypergeometric(Mid-term)	B108:G108
+middle	hypergeometric	GO:0009505	Plant-type cell wall	666	1	0.998752853	0.99999943	Hypergeometric(Mid-term)	B109:G109
+middle	hypergeometric	GO:0009534	Chloroplast thylakoid	464	3	0.839037355	0.99999943	Hypergeometric(Mid-term)	B110:G110
+middle	hypergeometric	GO:0009535	Chloroplast thylakoid membrane	695	6	0.685698136	0.926912105	Hypergeometric(Mid-term)	B111:G111
+middle	hypergeometric	GO:0009536	Plastid	730	5	0.849923731	0.99999943	Hypergeometric(Mid-term)	B112:G112
+middle	hypergeometric	GO:0009543	Chloroplast thylakoid lumen	146	1	0.766032847	0.985432123	Hypergeometric(Mid-term)	B113:G113
+middle	hypergeometric	GO:0009555	Pollen development	403	8	0.047823705	0.126390525	Hypergeometric(Mid-term)	B114:G114
+middle	hypergeometric	GO:0009556	Microsporogenesis	120	10	3.36e-07	2.09e-06	Hypergeometric(Mid-term)	B115:G115
+middle	hypergeometric	GO:0009560	Embryo sac egg cell differentiation	288	1	0.943440674	0.99999943	Hypergeometric(Mid-term)	B116:G116
+middle	hypergeometric	GO:0009570	Chloroplast stroma	1351	8	0.959100993	0.99999943	Hypergeometric(Mid-term)	B117:G117
+middle	hypergeometric	GO:0009579	Thylakoid	465	5	0.48668198	0.705276429	Hypergeometric(Mid-term)	B118:G118
+middle	hypergeometric	GO:0009595	Detection of biotic stimulus	276	12	2.17e-05	0.000107557	Hypergeometric(Mid-term)	B119:G119
+middle	hypergeometric	GO:0009611	Response to wounding	1025	95	1e-16	1e-16	Hypergeometric(Mid-term)	B120:G120
+middle	hypergeometric	GO:0009612	Response to mechanical stimulus	150	15	2.83e-11	2.36e-10	Hypergeometric(Mid-term)	B121:G121
+middle	hypergeometric	GO:0009617	Response to bacterium	405	7	0.108099422	0.24204248	Hypergeometric(Mid-term)	B122:G122
+middle	hypergeometric	GO:0009620	Response to fungus	310	73	1e-16	1e-16	Hypergeometric(Mid-term)	B123:G123
+middle	hypergeometric	GO:0009625	Response to insect	83	2	0.197852237	0.378019358	Hypergeometric(Mid-term)	B124:G124
+middle	hypergeometric	GO:0009627	Systemic acquired resistance	747	2	0.995268295	0.99999943	Hypergeometric(Mid-term)	B125:G125
+middle	hypergeometric	GO:0009631	Cold acclimation	50	2	0.087416925	0.212032541	Hypergeometric(Mid-term)	B126:G126
+middle	hypergeometric	GO:0009637	Response to blue light	269	4	0.275572241	0.471228532	Hypergeometric(Mid-term)	B127:G127
+middle	hypergeometric	GO:0009640	Photomorphogenesis	500	1	0.99329906	0.99999943	Hypergeometric(Mid-term)	B128:G128
+middle	hypergeometric	GO:0009642	Response to light intensity	41	2	0.061944581	0.158097363	Hypergeometric(Mid-term)	B129:G129
+middle	hypergeometric	GO:0009644	Response to high light intensity	578	12	0.012926019	0.039826113	Hypergeometric(Mid-term)	B130:G130
+middle	hypergeometric	GO:0009646	Response to absence of light	90	6	0.000273554	0.001264263	Hypergeometric(Mid-term)	B131:G131
+middle	hypergeometric	GO:0009657	Plastid organization	201	1	0.864894062	0.99999943	Hypergeometric(Mid-term)	B132:G132
+middle	hypergeometric	GO:0009658	Chloroplast organization	313	2	0.817063094	0.99999943	Hypergeometric(Mid-term)	B133:G133
+middle	hypergeometric	GO:0009684	Indoleacetic acid biosynthetic process	231	6	0.027701705	0.080287992	Hypergeometric(Mid-term)	B134:G134
+middle	hypergeometric	GO:0009686	Gibberellin biosynthetic process	106	1	0.6514155	0.894715265	Hypergeometric(Mid-term)	B135:G135
+middle	hypergeometric	GO:0009688	Abscisic acid biosynthetic process	53	13	3.77e-15	4.45e-14	Hypergeometric(Mid-term)	B136:G136
+middle	hypergeometric	GO:0009693	Ethylene biosynthetic process	268	10	0.000359598	0.001572442	Hypergeometric(Mid-term)	B137:G137
+middle	hypergeometric	GO:0009694	Jasmonic acid metabolic process	100	8	6.96e-06	3.84e-05	Hypergeometric(Mid-term)	B138:G138
+middle	hypergeometric	GO:0009695	Jasmonic acid biosynthetic process	415	112	1e-16	1e-16	Hypergeometric(Mid-term)	B139:G139
+middle	hypergeometric	GO:0009697	Salicylic acid biosynthetic process	649	24	3.75e-08	2.47e-07	Hypergeometric(Mid-term)	B140:G140
+middle	hypergeometric	GO:0009723	Response to ethylene stimulus	723	40	1e-16	1e-16	Hypergeometric(Mid-term)	B141:G141
+middle	hypergeometric	GO:0009733	Response to auxin stimulus	1009	28	9.97e-07	5.78e-06	Hypergeometric(Mid-term)	B142:G142
+middle	hypergeometric	GO:0009737	Response to abscisic acid stimulus	1249	35	3.13e-08	2.1e-07	Hypergeometric(Mid-term)	B143:G143
+middle	hypergeometric	GO:0009738	Abscisic acid mediated signaling pathway	630	52	1e-16	1e-16	Hypergeometric(Mid-term)	B144:G144
+middle	hypergeometric	GO:0009739	Response to gibberellin stimulus	250	1	0.917239394	0.99999943	Hypergeometric(Mid-term)	B145:G145
+middle	hypergeometric	GO:0009740	Gibberellic acid mediated signaling pathway	212	2	0.621143063	0.873849317	Hypergeometric(Mid-term)	B146:G146
+middle	hypergeometric	GO:0009744	Response to sucrose stimulus	528	4	0.767759596	0.985432123	Hypergeometric(Mid-term)	B147:G147
+middle	hypergeometric	GO:0009750	Response to fructose stimulus	361	2	0.873701922	0.99999943	Hypergeometric(Mid-term)	B148:G148
+middle	hypergeometric	GO:0009751	Response to salicylic acid stimulus	378	12	0.000416404	0.00175815	Hypergeometric(Mid-term)	B149:G149
+middle	hypergeometric	GO:0009753	Response to jasmonic acid stimulus	754	94	1e-16	1e-16	Hypergeometric(Mid-term)	B150:G150
+middle	hypergeometric	GO:0009759	Indole glucosinolate biosynthetic process	29	1	0.250192305	0.445655043	Hypergeometric(Mid-term)	B151:G151
+middle	hypergeometric	GO:0009788	Negative regulation of abscisic acid mediated signaling pathway	70	7	6e-06	3.36e-05	Hypergeometric(Mid-term)	B152:G152
+middle	hypergeometric	GO:0009789	Positive regulation of abscisic acid mediated signaling pathway	67	2	0.141864444	0.292274939	Hypergeometric(Mid-term)	B153:G153
+middle	hypergeometric	GO:0009793	Embryo development ending in seed dormancy	1174	4	0.997360112	0.99999943	Hypergeometric(Mid-term)	B154:G154
+middle	hypergeometric	GO:0009814	Defense response, incompatible interaction	194	8	0.000725202	0.002952608	Hypergeometric(Mid-term)	B155:G155
+middle	hypergeometric	GO:0009816	Defense response to bacterium, incompatible interaction	143	5	0.013970595	0.042282686	Hypergeometric(Mid-term)	B156:G156
+middle	hypergeometric	GO:0009825	Multidimensional cell growth	264	1	0.928064694	0.99999943	Hypergeometric(Mid-term)	B157:G157
+middle	hypergeometric	GO:0009826	Unidimensional cell growth	272	2	0.751768619	0.981316289	Hypergeometric(Mid-term)	B158:G158
+middle	hypergeometric	GO:0009827	Plant-type cell wall modification	321	1	0.959378252	0.99999943	Hypergeometric(Mid-term)	B159:G159
+middle	hypergeometric	GO:0009845	Seed germination	477	1	0.991547742	0.99999943	Hypergeometric(Mid-term)	B160:G160
+middle	hypergeometric	GO:0009860	Pollen tube growth	458	2	0.942239394	0.99999943	Hypergeometric(Mid-term)	B161:G161
+middle	hypergeometric	GO:0009862	Systemic acquired resistance, salicylic acid mediated signaling pathway	684	32	3.9e-13	3.71e-12	Hypergeometric(Mid-term)	B162:G162
+middle	hypergeometric	GO:0009863	Salicylic acid mediated signaling pathway	456	36	1e-16	1e-16	Hypergeometric(Mid-term)	B163:G163
+middle	hypergeometric	GO:0009867	Jasmonic acid mediated signaling pathway	797	55	1e-16	1e-16	Hypergeometric(Mid-term)	B164:G164
+middle	hypergeometric	GO:0009873	Ethylene mediated signaling pathway	309	21	5.5e-12	4.82e-11	Hypergeometric(Mid-term)	B165:G165
+middle	hypergeometric	GO:0009901	Anther dehiscence	49	3	0.012563073	0.039059736	Hypergeometric(Mid-term)	B166:G166
+middle	hypergeometric	GO:0009902	Chloroplast relocation	229	1	0.897884871	0.99999943	Hypergeometric(Mid-term)	B167:G167
+middle	hypergeometric	GO:0009908	Flower development	268	5	0.127338421	0.273897736	Hypergeometric(Mid-term)	B168:G168
+middle	hypergeometric	GO:0009909	Regulation of flower development	742	1	0.999424344	0.99999943	Hypergeometric(Mid-term)	B169:G169
+middle	hypergeometric	GO:0009915	Phloem sucrose loading	25	3	0.00186586	0.00686155	Hypergeometric(Mid-term)	B170:G170
+middle	hypergeometric	GO:0009932	Cell tip growth	247	1	0.91471634	0.99999943	Hypergeometric(Mid-term)	B171:G171
+middle	hypergeometric	GO:0009941	Chloroplast envelope	1208	10	0.758187927	0.985432123	Hypergeometric(Mid-term)	B172:G172
+middle	hypergeometric	GO:0009963	Positive regulation of flavonoid biosynthetic process	299	2	0.796708633	0.99999943	Hypergeometric(Mid-term)	B173:G173
+middle	hypergeometric	GO:0009965	Leaf morphogenesis	487	11	0.00954635	0.031392805	Hypergeometric(Mid-term)	B174:G174
+middle	hypergeometric	GO:0009966	Regulation of signal transduction	20	1	0.180078977	0.351925772	Hypergeometric(Mid-term)	B175:G175
+middle	hypergeometric	GO:0009978	Allene oxide synthase activity	6	2	0.00141997	0.005336591	Hypergeometric(Mid-term)	B176:G176
+middle	hypergeometric	GO:0010017	Red or far-red light signaling pathway	64	1	0.47050789	0.693593528	Hypergeometric(Mid-term)	B177:G177
+middle	hypergeometric	GO:0010025	Wax biosynthetic process	59	1	0.443512913	0.66526937	Hypergeometric(Mid-term)	B178:G178
+middle	hypergeometric	GO:0010027	Thylakoid membrane organization	467	4	0.679608241	0.92232547	Hypergeometric(Mid-term)	B179:G179
+middle	hypergeometric	GO:0010074	Maintenance of meristem identity	54	1	0.415146712	0.636682401	Hypergeometric(Mid-term)	B180:G180
+middle	hypergeometric	GO:0010099	Regulation of photomorphogenesis	22	1	0.196203833	0.376975904	Hypergeometric(Mid-term)	B181:G181
+middle	hypergeometric	GO:0010103	Stomatal complex morphogenesis	360	2	0.87270713	0.99999943	Hypergeometric(Mid-term)	B182:G182
+middle	hypergeometric	GO:0010114	Response to red light	251	5	0.104108705	0.235795875	Hypergeometric(Mid-term)	B183:G183
+middle	hypergeometric	GO:0010115	Regulation of abscisic acid biosynthetic process	6	2	0.00141997	0.005336591	Hypergeometric(Mid-term)	B184:G184
+middle	hypergeometric	GO:0010117	Photoprotection	13	5	1.09e-07	7.03e-07	Hypergeometric(Mid-term)	B185:G185
+middle	hypergeometric	GO:0010118	Stomatal movement	108	3	0.091675981	0.220797081	Hypergeometric(Mid-term)	B186:G186
+middle	hypergeometric	GO:0010155	Regulation of proton transport	191	5	0.04157064	0.114654507	Hypergeometric(Mid-term)	B187:G187
+middle	hypergeometric	GO:0010162	Seed dormancy	404	1	0.982360775	0.99999943	Hypergeometric(Mid-term)	B188:G188
+middle	hypergeometric	GO:0010176	Homogentisate phytyltransferase activity	14	3	0.000319985	0.001421232	Hypergeometric(Mid-term)	B189:G189
+middle	hypergeometric	GO:0010181	Fmn binding	94	1	0.60716788	0.861624128	Hypergeometric(Mid-term)	B190:G190
+middle	hypergeometric	GO:0010182	Sugar mediated signaling pathway	271	2	0.749950951	0.981316289	Hypergeometric(Mid-term)	B191:G191
+middle	hypergeometric	GO:0010189	Vitamin e biosynthetic process	35	3	0.004937615	0.017057215	Hypergeometric(Mid-term)	B192:G192
+middle	hypergeometric	GO:0010193	Response to ozone	141	2	0.406529988	0.634428069	Hypergeometric(Mid-term)	B193:G193
+middle	hypergeometric	GO:0010200	Response to chitin	1130	44	7.33e-15	8.36e-14	Hypergeometric(Mid-term)	B194:G194
+middle	hypergeometric	GO:0010205	Photoinhibition	16	2	0.010643332	0.034666853	Hypergeometric(Mid-term)	B195:G195
+middle	hypergeometric	GO:0010207	Photosystem ii assembly	372	1	0.975662354	0.99999943	Hypergeometric(Mid-term)	B196:G196
+middle	hypergeometric	GO:0010218	Response to far red light	251	5	0.104108705	0.235795875	Hypergeometric(Mid-term)	B197:G197
+middle	hypergeometric	GO:0010224	Response to uv-b	274	1	0.934921582	0.99999943	Hypergeometric(Mid-term)	B198:G198
+middle	hypergeometric	GO:0010228	Vegetative to reproductive phase transition of meristem	749	1	0.999463966	0.99999943	Hypergeometric(Mid-term)	B199:G199
+middle	hypergeometric	GO:0010286	Heat acclimation	183	4	0.108282162	0.24204248	Hypergeometric(Mid-term)	B200:G200
+middle	hypergeometric	GO:0010287	Plastoglobule	147	2	0.427001322	0.649042009	Hypergeometric(Mid-term)	B201:G201
+middle	hypergeometric	GO:0010304	Psii associated light-harvesting complex ii catabolic process	69	1	0.496197709	0.716032137	Hypergeometric(Mid-term)	B202:G202
+middle	hypergeometric	GO:0010310	Regulation of hydrogen peroxide metabolic process	532	16	8.91e-05	0.000435317	Hypergeometric(Mid-term)	B203:G203
+middle	hypergeometric	GO:0010311	Lateral root formation	137	5	0.011783407	0.037968632	Hypergeometric(Mid-term)	B204:G204
+middle	hypergeometric	GO:0010363	Regulation of plant-type hypersensitive response	1015	40	9.58e-14	9.93e-13	Hypergeometric(Mid-term)	B205:G205
+middle	hypergeometric	GO:0010371	Regulation of gibberellin biosynthetic process	5	1	0.048412745	0.126390525	Hypergeometric(Mid-term)	B206:G206
+middle	hypergeometric	GO:0010413	Glucuronoxylan metabolic process	493	1	0.992808261	0.99999943	Hypergeometric(Mid-term)	B207:G207
+middle	hypergeometric	GO:0010449	Root meristem growth	17	10	1.11e-16	2e-15	Hypergeometric(Mid-term)	B208:G208
+middle	hypergeometric	GO:0010555	Response to mannitol stimulus	30	2	0.035250715	0.098817578	Hypergeometric(Mid-term)	B209:G209
+middle	hypergeometric	GO:0010817	Regulation of hormone levels	211	1	0.877745426	0.99999943	Hypergeometric(Mid-term)	B210:G210
+middle	hypergeometric	GO:0015035	Protein disulfide oxidoreductase activity	188	4	0.116380433	0.253516612	Hypergeometric(Mid-term)	B211:G211
+middle	hypergeometric	GO:0015696	Ammonium transport	105	2	0.277886264	0.472821404	Hypergeometric(Mid-term)	B212:G212
+middle	hypergeometric	GO:0015802	Basic amino acid transport	102	2	0.266916729	0.463378281	Hypergeometric(Mid-term)	B213:G213
+middle	hypergeometric	GO:0015824	Proline transport	246	1	0.913858404	0.99999943	Hypergeometric(Mid-term)	B214:G214
+middle	hypergeometric	GO:0015979	Photosynthesis	449	5	0.456348007	0.681532831	Hypergeometric(Mid-term)	B215:G215
+middle	hypergeometric	GO:0015994	Chlorophyll metabolic process	90	12	9.43e-11	7.5e-10	Hypergeometric(Mid-term)	B216:G216
+middle	hypergeometric	GO:0015995	Chlorophyll biosynthetic process	293	13	7.96e-06	4.32e-05	Hypergeometric(Mid-term)	B217:G217
+middle	hypergeometric	GO:0016045	Detection of bacterium	30	6	4.28e-07	2.57e-06	Hypergeometric(Mid-term)	B218:G218
+middle	hypergeometric	GO:0016049	Cell growth	354	1	0.970836043	0.99999943	Hypergeometric(Mid-term)	B219:G219
+middle	hypergeometric	GO:0016114	Terpenoid biosynthetic process	52	3	0.014748198	0.044244594	Hypergeometric(Mid-term)	B220:G220
+middle	hypergeometric	GO:0016117	Carotenoid biosynthetic process	258	8	0.004302382	0.015014435	Hypergeometric(Mid-term)	B221:G221
+middle	hypergeometric	GO:0016122	Xanthophyll metabolic process	8	1	0.0763318	0.190550917	Hypergeometric(Mid-term)	B222:G222
+middle	hypergeometric	GO:0016165	Lipoxygenase activity	53	9	2.39e-09	1.63e-08	Hypergeometric(Mid-term)	B223:G223
+middle	hypergeometric	GO:0016192	Vesicle-mediated transport	548	2	0.972891168	0.99999943	Hypergeometric(Mid-term)	B224:G224
+middle	hypergeometric	GO:0016207	4-coumarate-coa ligase activity	37	1	0.307481875	0.518023651	Hypergeometric(Mid-term)	B225:G225
+middle	hypergeometric	GO:0016226	Iron-sulfur cluster assembly	226	4	0.185555301	0.360567687	Hypergeometric(Mid-term)	B226:G226
+middle	hypergeometric	GO:0016491	Oxidoreductase activity	1460	9	0.954431561	0.99999943	Hypergeometric(Mid-term)	B227:G227
+middle	hypergeometric	GO:0016614	Oxidoreductase activity, acting on ch-oh group of donors	138	1	0.746601032	0.981316289	Hypergeometric(Mid-term)	B228:G228
+middle	hypergeometric	GO:0016624	Oxidoreductase activity, acting on the aldehyde or oxo group of donors, disulfide as acceptor	28	1	0.242706791	0.436872224	Hypergeometric(Mid-term)	B229:G229
+middle	hypergeometric	GO:0016627	Oxidoreductase activity, acting on the ch-ch group of donors	46	1	0.36673413	0.591618266	Hypergeometric(Mid-term)	B230:G230
+middle	hypergeometric	GO:0016629	12-oxophytodienoate reductase activity	14	1	0.129744651	0.27560665	Hypergeometric(Mid-term)	B231:G231
+middle	hypergeometric	GO:0016705	Oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen	499	4	0.728462961	0.973180987	Hypergeometric(Mid-term)	B232:G232
+middle	hypergeometric	GO:0016706	Oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, 2-oxoglutarate as one donor, and incorporation of one atom each of oxygen into both donors	297	4	0.337565557	0.549749621	Hypergeometric(Mid-term)	B233:G233
+middle	hypergeometric	GO:0016747	Transferase activity, transferring acyl groups other than amino-acyl groups	258	3	0.469680743	0.693593528	Hypergeometric(Mid-term)	B234:G234
+middle	hypergeometric	GO:0016779	Nucleotidyltransferase activity	98	1	0.622506255	0.873849317	Hypergeometric(Mid-term)	B235:G235
+middle	hypergeometric	GO:0016836	Hydro-lyase activity	25	2	0.025104611	0.073382709	Hypergeometric(Mid-term)	B236:G236
+middle	hypergeometric	GO:0016853	Isomerase activity	62	3	0.023493985	0.069266749	Hypergeometric(Mid-term)	B237:G237
+middle	hypergeometric	GO:0018685	Alkane 1-monooxygenase activity	14	2	0.008176692	0.027415967	Hypergeometric(Mid-term)	B238:G238
+middle	hypergeometric	GO:0019216	Regulation of lipid metabolic process	81	12	2.63e-11	2.25e-10	Hypergeometric(Mid-term)	B239:G239
+middle	hypergeometric	GO:0019252	Starch biosynthetic process	370	2	0.882338833	0.99999943	Hypergeometric(Mid-term)	B240:G240
+middle	hypergeometric	GO:0019253	Reductive pentose-phosphate cycle	24	1	0.212012659	0.391936916	Hypergeometric(Mid-term)	B241:G241
+middle	hypergeometric	GO:0019288	Isopentenyl diphosphate biosynthetic process, mevalonate-independent pathway	579	21	3.77e-07	2.3e-06	Hypergeometric(Mid-term)	B242:G242
+middle	hypergeometric	GO:0019344	Cysteine biosynthetic process	455	7	0.165568207	0.329211202	Hypergeometric(Mid-term)	B243:G243
+middle	hypergeometric	GO:0019373	Epoxygenase p450 pathway	6	2	0.00141997	0.005336591	Hypergeometric(Mid-term)	B244:G244
+middle	hypergeometric	GO:0019395	Fatty acid oxidation	6	2	0.00141997	0.005336591	Hypergeometric(Mid-term)	B245:G245
+middle	hypergeometric	GO:0019684	Photosynthesis, light reaction	318	6	0.096560989	0.224652097	Hypergeometric(Mid-term)	B246:G246
+middle	hypergeometric	GO:0019722	Calcium-mediated signaling	139	4	0.049377787	0.126971452	Hypergeometric(Mid-term)	B247:G247
+middle	hypergeometric	GO:0019725	Cellular homeostasis	14	1	0.129744651	0.27560665	Hypergeometric(Mid-term)	B248:G248
+middle	hypergeometric	GO:0019748	Secondary metabolic process	134	19	1.11e-16	2e-15	Hypergeometric(Mid-term)	B249:G249
+middle	hypergeometric	GO:0019760	Glucosinolate metabolic process	52	1	0.40340085999999997	0.634428069	Hypergeometric(Mid-term)	B250:G250
+middle	hypergeometric	GO:0019761	Glucosinolate biosynthetic process	348	3	0.670247749	0.913245937	Hypergeometric(Mid-term)	B251:G251
+middle	hypergeometric	GO:0019825	Oxygen binding	437	4	0.628558281	0.873849317	Hypergeometric(Mid-term)	B252:G252
+middle	hypergeometric	GO:0019900	Kinase binding	19	10	6.66e-16	1.04e-14	Hypergeometric(Mid-term)	B253:G253
+middle	hypergeometric	GO:0020037	Heme binding	745	4	0.938313698	0.99999943	Hypergeometric(Mid-term)	B254:G254
+middle	hypergeometric	GO:0022622	Root system development	19	10	6.66e-16	1.04e-14	Hypergeometric(Mid-term)	B255:G255
+middle	hypergeometric	GO:0022626	Cytosolic ribosome	389	2	0.898811162	0.99999943	Hypergeometric(Mid-term)	B256:G256
+middle	hypergeometric	GO:0022900	Electron transport chain	29	2	0.033112403	0.094370349	Hypergeometric(Mid-term)	B257:G257
+middle	hypergeometric	GO:0030003	Cellular cation homeostasis	274	1	0.934921582	0.99999943	Hypergeometric(Mid-term)	B258:G258
+middle	hypergeometric	GO:0030095	Chloroplast photosystem ii	39	1	0.321109145	0.533103532	Hypergeometric(Mid-term)	B259:G259
+middle	hypergeometric	GO:0030154	Cell differentiation	321	11	0.000381082	0.001629126	Hypergeometric(Mid-term)	B260:G260
+middle	hypergeometric	GO:0030397	Membrane disassembly	31	5	1.25e-05	6.68e-05	Hypergeometric(Mid-term)	B261:G261
+middle	hypergeometric	GO:0030968	Endoplasmic reticulum unfolded protein response	500	29	2.51e-14	2.77e-13	Hypergeometric(Mid-term)	B262:G262
+middle	hypergeometric	GO:0031072	Heat shock protein binding	279	1	0.938101701	0.99999943	Hypergeometric(Mid-term)	B263:G263
+middle	hypergeometric	GO:0031347	Regulation of defense response	341	11	0.000630003	0.002595916	Hypergeometric(Mid-term)	B264:G264
+middle	hypergeometric	GO:0031348	Negative regulation of defense response	762	33	1.35e-12	1.25e-11	Hypergeometric(Mid-term)	B265:G265
+middle	hypergeometric	GO:0031407	Oxylipin metabolic process	10	2	0.004150077	0.01463223	Hypergeometric(Mid-term)	B266:G266
+middle	hypergeometric	GO:0031408	Oxylipin biosynthetic process	96	12	2.04e-10	1.55e-09	Hypergeometric(Mid-term)	B267:G267
+middle	hypergeometric	GO:0031539	Positive regulation of anthocyanin metabolic process	10	1	0.094489494	0.222864876	Hypergeometric(Mid-term)	B268:G268
+middle	hypergeometric	GO:0031977	Thylakoid lumen	104	3	0.084085879	0.208386744	Hypergeometric(Mid-term)	B269:G269
+middle	hypergeometric	GO:0032880	Regulation of protein localization	122	1	0.702781552	0.946264924	Hypergeometric(Mid-term)	B270:G270
+middle	hypergeometric	GO:0032957	Inositol trisphosphate metabolic process	48	3	0.011879075	0.037968632	Hypergeometric(Mid-term)	B271:G271
+middle	hypergeometric	GO:0034440	Lipid oxidation	53	9	2.39e-09	1.63e-08	Hypergeometric(Mid-term)	B272:G272
+middle	hypergeometric	GO:0034605	Cellular response to heat	28	1	0.242706791	0.436872224	Hypergeometric(Mid-term)	B273:G273
+middle	hypergeometric	GO:0034660	Ncrna metabolic process	186	1	0.843050483	0.99999943	Hypergeometric(Mid-term)	B274:G274
+middle	hypergeometric	GO:0035264	Multicellular organism growth	5	5	9.07e-11	7.39e-10	Hypergeometric(Mid-term)	B275:G275
+middle	hypergeometric	GO:0035304	Regulation of protein dephosphorylation	335	6	0.115890192	0.253516612	Hypergeometric(Mid-term)	B276:G276
+middle	hypergeometric	GO:0035556	Intracellular signal transduction	476	30	8.88e-16	1.32e-14	Hypergeometric(Mid-term)	B277:G277
+middle	hypergeometric	GO:0040007	Growth	200	8	0.000883641	0.003555356	Hypergeometric(Mid-term)	B278:G278
+middle	hypergeometric	GO:0042335	Cuticle development	130	1	0.72556144	0.973105931	Hypergeometric(Mid-term)	B279:G279
+middle	hypergeometric	GO:0042362	Fat-soluble vitamin biosynthetic process	14	3	0.000319985	0.001421232	Hypergeometric(Mid-term)	B280:G280
+middle	hypergeometric	GO:0042538	Hyperosmotic salinity response	459	35	1e-16	1e-16	Hypergeometric(Mid-term)	B281:G281
+middle	hypergeometric	GO:0042542	Response to hydrogen peroxide	507	1	0.993756473	0.99999943	Hypergeometric(Mid-term)	B282:G282
+middle	hypergeometric	GO:0042545	Cell wall modification	266	1	0.929491367	0.99999943	Hypergeometric(Mid-term)	B283:G283
+middle	hypergeometric	GO:0042742	Defense response to bacterium	1056	23	0.000363225	0.001572442	Hypergeometric(Mid-term)	B284:G284
+middle	hypergeometric	GO:0042753	Positive regulation of circadian rhythm	18	1	0.163631796	0.327263592	Hypergeometric(Mid-term)	B285:G285
+middle	hypergeometric	GO:0042793	Transcription from plastid promoter	168	1	0.812147211	0.99999943	Hypergeometric(Mid-term)	B286:G286
+middle	hypergeometric	GO:0042802	Identical protein binding	318	4	0.384470983	0.614434935	Hypergeometric(Mid-term)	B287:G287
+middle	hypergeometric	GO:0043069	Negative regulation of programmed cell death	523	33	1e-16	1e-16	Hypergeometric(Mid-term)	B288:G288
+middle	hypergeometric	GO:0043090	Amino acid import	266	2	0.740690735	0.981316289	Hypergeometric(Mid-term)	B289:G289
+middle	hypergeometric	GO:0043161	Proteasomal ubiquitin-dependent protein catabolic process	282	2	0.769328587	0.985432123	Hypergeometric(Mid-term)	B290:G290
+middle	hypergeometric	GO:0043231	Intracellular membrane-bounded organelle	68	2	0.145259489	0.297477516	Hypergeometric(Mid-term)	B291:G291
+middle	hypergeometric	GO:0043269	Regulation of ion transport	101	2	0.263259479	0.459360928	Hypergeometric(Mid-term)	B292:G292
+middle	hypergeometric	GO:0043481	Anthocyanin accumulation in tissues in response to uv light	307	1	0.95325212	0.99999943	Hypergeometric(Mid-term)	B293:G293
+middle	hypergeometric	GO:0043565	Sequence-specific dna binding	880	13	0.098447814	0.227494273	Hypergeometric(Mid-term)	B294:G294
+middle	hypergeometric	GO:0043619	Regulation of transcription from rna polymerase ii promoter in response to oxidative stress	5	1	0.048412745	0.126390525	Hypergeometric(Mid-term)	B295:G295
+middle	hypergeometric	GO:0043687	Post-translational protein modification	221	1	0.889378225	0.99999943	Hypergeometric(Mid-term)	B296:G296
+middle	hypergeometric	GO:0043900	Regulation of multi-organism process	262	12	1.3e-05	6.84e-05	Hypergeometric(Mid-term)	B297:G297
+middle	hypergeometric	GO:0044237	Cellular metabolic process	145	1	0.763687517	0.985432123	Hypergeometric(Mid-term)	B298:G298
+middle	hypergeometric	GO:0044272	Sulfur compound biosynthetic process	120	19	1e-16	1e-16	Hypergeometric(Mid-term)	B299:G299
+middle	hypergeometric	GO:0045036	Protein targeting to chloroplast	114	2	0.310697107	0.51833371	Hypergeometric(Mid-term)	B300:G300
+middle	hypergeometric	GO:0045087	Innate immune response	273	12	1.95e-05	9.81e-05	Hypergeometric(Mid-term)	B301:G301
+middle	hypergeometric	GO:0045454	Cell redox homeostasis	263	4	0.262521941	0.459360928	Hypergeometric(Mid-term)	B302:G302
+middle	hypergeometric	GO:0045485	Omega-6 fatty acid desaturase activity	9	2	0.003341787	0.012030433	Hypergeometric(Mid-term)	B303:G303
+middle	hypergeometric	GO:0045492	Xylan biosynthetic process	495	1	0.992952034	0.99999943	Hypergeometric(Mid-term)	B304:G304
+middle	hypergeometric	GO:0045544	Gibberellin 20-oxidase activity	12	1	0.112291462	0.247765677	Hypergeometric(Mid-term)	B305:G305
+middle	hypergeometric	GO:0045892	Negative regulation of transcription, dna-dependent	465	5	0.48668198	0.705276429	Hypergeometric(Mid-term)	B306:G306
+middle	hypergeometric	GO:0045893	Positive regulation of transcription, dna-dependent	1077	17	0.039757945	0.110546481	Hypergeometric(Mid-term)	B307:G307
+middle	hypergeometric	GO:0045962	Positive regulation of development, heterochronic	19	1	0.171896076	0.337864701	Hypergeometric(Mid-term)	B308:G308
+middle	hypergeometric	GO:0046423	Allene-oxide cyclase activity	6	3	1.86e-05	9.49e-05	Hypergeometric(Mid-term)	B309:G309
+middle	hypergeometric	GO:0046686	Response to cadmium ion	1301	17	0.147576499	0.300423587	Hypergeometric(Mid-term)	B310:G310
+middle	hypergeometric	GO:0046777	Protein autophosphorylation	475	11	0.00801344	0.027134619	Hypergeometric(Mid-term)	B311:G311
+middle	hypergeometric	GO:0046872	Metal ion binding	548	4	0.792184126	0.99999943	Hypergeometric(Mid-term)	B312:G312
+middle	hypergeometric	GO:0046983	Protein dimerization activity	725	1	0.999315545	0.99999943	Hypergeometric(Mid-term)	B313:G313
+middle	hypergeometric	GO:0047325	Inositol tetrakisphosphate 1-kinase activity	10	3	0.000108627	0.000523246	Hypergeometric(Mid-term)	B314:G314
+middle	hypergeometric	GO:0048046	Apoplast	1001	2	0.999538837	0.99999943	Hypergeometric(Mid-term)	B315:G315
+middle	hypergeometric	GO:0048316	Seed development	161	2	0.473268724	0.694669114	Hypergeometric(Mid-term)	B316:G316
+middle	hypergeometric	GO:0048364	Root development	397	6	0.200569821	0.38108266	Hypergeometric(Mid-term)	B317:G317
+middle	hypergeometric	GO:0048366	Leaf development	327	2	0.835579472	0.99999943	Hypergeometric(Mid-term)	B318:G318
+middle	hypergeometric	GO:0048481	Ovule development	411	1	0.983560921	0.99999943	Hypergeometric(Mid-term)	B319:G319
+middle	hypergeometric	GO:0048510	Regulation of timing of transition from vegetative to reproductive phase	53	1	0.409302878	0.634428069	Hypergeometric(Mid-term)	B320:G320
+middle	hypergeometric	GO:0048575	Short-day photoperiodism, flowering	15	1	0.138342586	0.288494905	Hypergeometric(Mid-term)	B321:G321
+middle	hypergeometric	GO:0048608	Reproductive structure development	67	1	0.486074306	0.705276429	Hypergeometric(Mid-term)	B322:G322
+middle	hypergeometric	GO:0048653	Anther development	172	3	0.241735977	0.436872224	Hypergeometric(Mid-term)	B323:G323
+middle	hypergeometric	GO:0048767	Root hair elongation	500	1	0.99329906	0.99999943	Hypergeometric(Mid-term)	B324:G324
+middle	hypergeometric	GO:0050660	Flavin adenine dinucleotide binding	316	2	0.821181076	0.99999943	Hypergeometric(Mid-term)	B325:G325
+middle	hypergeometric	GO:0050691	Regulation of defense response to virus by host	13	6	1.42e-09	1.05e-08	Hypergeometric(Mid-term)	B326:G326
+middle	hypergeometric	GO:0050776	Regulation of immune response	25	6	1.33e-07	8.42e-07	Hypergeometric(Mid-term)	B327:G327
+middle	hypergeometric	GO:0050826	Response to freezing	219	1	0.887143459	0.99999943	Hypergeometric(Mid-term)	B328:G328
+middle	hypergeometric	GO:0050832	Defense response to fungus	929	36	3.01e-12	2.71e-11	Hypergeometric(Mid-term)	B329:G329
+middle	hypergeometric	GO:0051082	Unfolded protein binding	255	1	0.921280256	0.99999943	Hypergeometric(Mid-term)	B330:G330
+middle	hypergeometric	GO:0051090	Regulation of sequence-specific dna binding transcription factor activity	9	1	0.085455552	0.208755706	Hypergeometric(Mid-term)	B331:G331
+middle	hypergeometric	GO:0051276	Chromosome organization	51	1	0.397440079	0.632207009	Hypergeometric(Mid-term)	B332:G332
+middle	hypergeometric	GO:0051536	Iron-sulfur cluster binding	105	4	0.020462753	0.060854448	Hypergeometric(Mid-term)	B333:G333
+middle	hypergeometric	GO:0051537	2 iron, 2 sulfur cluster binding	49	3	0.012563073	0.039059736	Hypergeometric(Mid-term)	B334:G334
+middle	hypergeometric	GO:0051539	4 iron, 4 sulfur cluster binding	53	1	0.409302878	0.634428069	Hypergeometric(Mid-term)	B335:G335
+middle	hypergeometric	GO:0051707	Response to other organism	254	8	0.003919086	0.013961744	Hypergeometric(Mid-term)	B336:G336
+middle	hypergeometric	GO:0051788	Response to misfolded protein	425	2	0.924295935	0.99999943	Hypergeometric(Mid-term)	B337:G337
+middle	hypergeometric	GO:0052542	Defense response by callose deposition	115	9	2.22e-06	1.27e-05	Hypergeometric(Mid-term)	B338:G338
+middle	hypergeometric	GO:0052543	Callose deposition in cell wall	72	10	2.36e-09	1.63e-08	Hypergeometric(Mid-term)	B339:G339
+middle	hypergeometric	GO:0052624	2-phytyl-1,4-naphthoquinone methyltransferase activity	8	1	0.0763318	0.190550917	Hypergeometric(Mid-term)	B340:G340
+middle	hypergeometric	GO:0070838	Divalent metal ion transport	237	1	0.905739479	0.99999943	Hypergeometric(Mid-term)	B341:G341
+middle	hypergeometric	GO:0071555	Cell wall organization	447	4	0.646131502	0.891036184	Hypergeometric(Mid-term)	B342:G342
+middle	hypergeometric	GO:0080027	Response to herbivore	32	1	0.272209325	0.467817031	Hypergeometric(Mid-term)	B343:G343
+middle	hypergeometric	GO:0080086	Stamen filament development	22	3	0.001276925	0.005078004	Hypergeometric(Mid-term)	B344:G344
+middle	hypergeometric	GO:0080129	Proteasome core complex assembly	318	2	0.823880159	0.99999943	Hypergeometric(Mid-term)	B345:G345
+middle	hypergeometric	GO:0080150	S-adenosyl-l-methionine:benzoic acid carboxyl methyl transferase activity	5	1	0.048412745	0.126390525	Hypergeometric(Mid-term)	B346:G346
+middle	hypergeometric	GO:0080167	Response to karrikin	355	6	0.140913309	0.292074859	Hypergeometric(Mid-term)	B347:G347
+middle	hypergeometric	GO:2000068	Regulation of defense response to insect	5	1	0.048412745	0.126390525	Hypergeometric(Mid-term)	B348:G348
+middle	hypergeometric	GO:2000652	Regulation of secondary cell wall biogenesis	48	1	0.379199303	0.608855219	Hypergeometric(Mid-term)	B349:G349
+short	gsea	GO:0000165	Mapkkk cascade	572	1	1e-16	1e-16	GSEA(Short-term)	B9:G9
+short	gsea	GO:0002679	Respiratory burst involved in defense response	418	5	0.0002	0.00027027	GSEA(Short-term)	B10:G10
+short	gsea	GO:0003690	Double-stranded dna binding	40	1	0.4947	0.526276596	GSEA(Short-term)	B11:G11
+short	gsea	GO:0004089	Carbonate dehydratase activity	37	1	1e-16	1e-16	GSEA(Short-term)	B12:G12
+short	gsea	GO:0005516	Calmodulin binding	479	1	1e-16	1e-16	GSEA(Short-term)	B13:G13
+short	gsea	GO:0006096	Glycolysis	658	1	1e-16	1e-16	GSEA(Short-term)	B14:G14
+short	gsea	GO:0006098	Pentose-phosphate shunt	420	1	1e-16	1e-16	GSEA(Short-term)	B15:G15
+short	gsea	GO:0006406	Mrna export from nucleus	133	1	0.1443	0.165862069	GSEA(Short-term)	B16:G16
+short	gsea	GO:0006457	Protein folding	773	1	1e-16	1e-16	GSEA(Short-term)	B17:G17
+short	gsea	GO:0006606	Protein import into nucleus	239	1	1e-16	1e-16	GSEA(Short-term)	B18:G18
+short	gsea	GO:0006612	Protein targeting to membrane	1016	1	1e-16	1e-16	GSEA(Short-term)	B19:G19
+short	gsea	GO:0006833	Water transport	448	1	1e-16	1e-16	GSEA(Short-term)	B20:G20
+short	gsea	GO:0006970	Response to osmotic stress	341	1	1e-16	1e-16	GSEA(Short-term)	B21:G21
+short	gsea	GO:0006972	Hyperosmotic response	302	1	1e-16	1e-16	GSEA(Short-term)	B22:G22
+short	gsea	GO:0006979	Response to oxidative stress	629	1	1e-16	1e-16	GSEA(Short-term)	B23:G23
+short	gsea	GO:0007030	Golgi organization	536	1	1e-16	1e-16	GSEA(Short-term)	B24:G24
+short	gsea	GO:0007165	Signal transduction	1301	3	1e-16	1e-16	GSEA(Short-term)	B25:G25
+short	gsea	GO:0008284	Positive regulation of cell proliferation	187	1	0.3242	0.364269663	GSEA(Short-term)	B26:G26
+short	gsea	GO:0009266	Response to temperature stimulus	356	1	1e-16	1e-16	GSEA(Short-term)	B27:G27
+short	gsea	GO:0009408	Response to heat	652	3	1e-16	1e-16	GSEA(Short-term)	B28:G28
+short	gsea	GO:0009409	Response to cold	1113	12	1e-16	1e-16	GSEA(Short-term)	B29:G29
+short	gsea	GO:0009414	Response to water deprivation	883	9	1e-16	1e-16	GSEA(Short-term)	B30:G30
+short	gsea	GO:0009415	Response to water	5	1	0.0016	0.002133333	GSEA(Short-term)	B31:G31
+short	gsea	GO:0009535	Chloroplast thylakoid membrane	695	1	1e-16	1e-16	GSEA(Short-term)	B32:G32
+short	gsea	GO:0009570	Chloroplast stroma	1351	1	1e-16	1e-16	GSEA(Short-term)	B33:G33
+short	gsea	GO:0009579	Thylakoid	465	1	1e-16	1e-16	GSEA(Short-term)	B34:G34
+short	gsea	GO:0009595	Detection of biotic stimulus	276	1	1e-16	1e-16	GSEA(Short-term)	B35:G35
+short	gsea	GO:0009611	Response to wounding	1025	4	1e-16	1e-16	GSEA(Short-term)	B36:G36
+short	gsea	GO:0009612	Response to mechanical stimulus	150	2	1e-16	1e-16	GSEA(Short-term)	B37:G37
+short	gsea	GO:0009620	Response to fungus	310	1	1e-16	1e-16	GSEA(Short-term)	B38:G38
+short	gsea	GO:0009631	Cold acclimation	50	6	0.0237	0.03	GSEA(Short-term)	B39:G39
+short	gsea	GO:0009640	Photomorphogenesis	500	1	0.0028	0.003684211	GSEA(Short-term)	B40:G40
+short	gsea	GO:0009644	Response to high light intensity	578	2	1e-16	1e-16	GSEA(Short-term)	B41:G41
+short	gsea	GO:0009695	Jasmonic acid biosynthetic process	415	3	1e-16	1e-16	GSEA(Short-term)	B42:G42
+short	gsea	GO:0009697	Salicylic acid biosynthetic process	649	1	1e-16	1e-16	GSEA(Short-term)	B43:G43
+short	gsea	GO:0009723	Response to ethylene stimulus	723	3	1e-16	1e-16	GSEA(Short-term)	B44:G44
+short	gsea	GO:0009733	Response to auxin stimulus	1009	3	1e-16	1e-16	GSEA(Short-term)	B45:G45
+short	gsea	GO:0009737	Response to abscisic acid stimulus	1249	6	1	1	GSEA(Short-term)	B46:G46
+short	gsea	GO:0009738	Abscisic acid mediated signaling pathway	630	3	1e-16	1e-16	GSEA(Short-term)	B47:G47
+short	gsea	GO:0009740	Gibberellic acid mediated signaling pathway	212	1	0.0838	0.098588235	GSEA(Short-term)	B48:G48
+short	gsea	GO:0009751	Response to salicylic acid stimulus	378	1	1e-16	1e-16	GSEA(Short-term)	B49:G49
+short	gsea	GO:0009753	Response to jasmonic acid stimulus	754	4	1e-16	1e-16	GSEA(Short-term)	B50:G50
+short	gsea	GO:0009814	Defense response, incompatible interaction	194	1	1e-16	1e-16	GSEA(Short-term)	B51:G51
+short	gsea	GO:0009817	Defense response to fungus, incompatible interaction	155	1	1e-16	1e-16	GSEA(Short-term)	B52:G52
+short	gsea	GO:0009862	Systemic acquired resistance, salicylic acid mediated signaling pathway	684	1	1e-16	1e-16	GSEA(Short-term)	B53:G53
+short	gsea	GO:0009867	Jasmonic acid mediated signaling pathway	797	3	1e-16	1e-16	GSEA(Short-term)	B54:G54
+short	gsea	GO:0009873	Ethylene mediated signaling pathway	309	6	1e-16	1e-16	GSEA(Short-term)	B55:G55
+short	gsea	GO:0009909	Regulation of flower development	742	1	0.0002	0.00027027	GSEA(Short-term)	B56:G56
+short	gsea	GO:0009941	Chloroplast envelope	1208	1	1e-16	1e-16	GSEA(Short-term)	B57:G57
+short	gsea	GO:0009963	Positive regulation of flavonoid biosynthetic process	299	1	0.122	0.141860465	GSEA(Short-term)	B58:G58
+short	gsea	GO:0010017	Red or far-red light signaling pathway	64	1	0.5407	0.569157895	GSEA(Short-term)	B59:G59
+short	gsea	GO:0010074	Maintenance of meristem identity	54	1	0.3988	0.438241758	GSEA(Short-term)	B60:G60
+short	gsea	GO:0010099	Regulation of photomorphogenesis	22	1	0.7675	0.783163265	GSEA(Short-term)	B61:G61
+short	gsea	GO:0010114	Response to red light	251	1	0.1481	0.168295455	GSEA(Short-term)	B62:G62
+short	gsea	GO:0010117	Photoprotection	13	1	1e-16	1e-16	GSEA(Short-term)	B63:G63
+short	gsea	GO:0010119	Regulation of stomatal movement	172	1	1e-16	1e-16	GSEA(Short-term)	B64:G64
+short	gsea	GO:0010200	Response to chitin	1130	8	1e-16	1e-16	GSEA(Short-term)	B65:G65
+short	gsea	GO:0010218	Response to far red light	251	1	0.0654	0.077857143	GSEA(Short-term)	B66:G66
+short	gsea	GO:0010224	Response to uv-b	274	1	0.0326	0.040246914	GSEA(Short-term)	B67:G67
+short	gsea	GO:0010286	Heat acclimation	183	1	1e-16	1e-16	GSEA(Short-term)	B68:G68
+short	gsea	GO:0010310	Regulation of hydrogen peroxide metabolic process	532	1	1e-16	1e-16	GSEA(Short-term)	B69:G69
+short	gsea	GO:0010319	Stromule	96	1	1e-16	1e-16	GSEA(Short-term)	B70:G70
+short	gsea	GO:0010363	Regulation of plant-type hypersensitive response	1015	1	1e-16	1e-16	GSEA(Short-term)	B71:G71
+short	gsea	GO:0010371	Regulation of gibberellin biosynthetic process	5	2	0.0324	0.040246914	GSEA(Short-term)	B72:G72
+short	gsea	GO:0010413	Glucuronoxylan metabolic process	493	1	1e-16	1e-16	GSEA(Short-term)	B73:G73
+short	gsea	GO:0015976	Carbon utilization	12	1	1e-16	1e-16	GSEA(Short-term)	B74:G74
+short	gsea	GO:0015979	Photosynthesis	449	1	1e-16	1e-16	GSEA(Short-term)	B75:G75
+short	gsea	GO:0016049	Cell growth	354	2	1e-16	1e-16	GSEA(Short-term)	B76:G76
+short	gsea	GO:0019684	Photosynthesis, light reaction	318	1	1e-16	1e-16	GSEA(Short-term)	B77:G77
+short	gsea	GO:0019722	Calcium-mediated signaling	139	1	0.386	0.428888889	GSEA(Short-term)	B78:G78
+short	gsea	GO:0031348	Negative regulation of defense response	762	1	1e-16	1e-16	GSEA(Short-term)	B79:G79
+short	gsea	GO:0031539	Positive regulation of anthocyanin metabolic process	10	1	0.747	0.770103093	GSEA(Short-term)	B80:G80
+short	gsea	GO:0035264	Multicellular organism growth	5	1	0.0002	0.00027027	GSEA(Short-term)	B81:G81
+short	gsea	GO:0035556	Intracellular signal transduction	476	5	0.0002	0.00027027	GSEA(Short-term)	B82:G82
+short	gsea	GO:0042538	Hyperosmotic salinity response	459	4	1e-16	1e-16	GSEA(Short-term)	B83:G83
+short	gsea	GO:0042542	Response to hydrogen peroxide	507	1	1e-16	1e-16	GSEA(Short-term)	B84:G84
+short	gsea	GO:0042742	Defense response to bacterium	1056	1	1e-16	1e-16	GSEA(Short-term)	B85:G85
+short	gsea	GO:0042753	Positive regulation of circadian rhythm	18	1	0.7261	0.756354167	GSEA(Short-term)	B86:G86
+short	gsea	GO:0042802	Identical protein binding	318	1	1e-16	1e-16	GSEA(Short-term)	B87:G87
+short	gsea	GO:0042991	Transcription factor import into nucleus	71	2	0.0059	0.007662338	GSEA(Short-term)	B88:G88
+short	gsea	GO:0043565	Sequence-specific dna binding	880	5	1e-16	1e-16	GSEA(Short-term)	B89:G89
+short	gsea	GO:0043687	Post-translational protein modification	221	1	0.0348	0.042439024	GSEA(Short-term)	B90:G90
+short	gsea	GO:0043900	Regulation of multi-organism process	262	1	1e-16	1e-16	GSEA(Short-term)	B91:G91
+short	gsea	GO:0045492	Xylan biosynthetic process	495	1	1e-16	1e-16	GSEA(Short-term)	B92:G92
+short	gsea	GO:0045892	Negative regulation of transcription, dna-dependent	465	2	1e-16	1e-16	GSEA(Short-term)	B93:G93
+short	gsea	GO:0045893	Positive regulation of transcription, dna-dependent	1077	15	1e-16	1e-16	GSEA(Short-term)	B94:G94
+short	gsea	GO:0046686	Response to cadmium ion	1301	3	1e-16	1e-16	GSEA(Short-term)	B95:G95
+short	gsea	GO:0046983	Protein dimerization activity	725	1	0.0073	0.009358974	GSEA(Short-term)	B96:G96
+short	gsea	GO:0048046	Apoplast	1001	1	1e-16	1e-16	GSEA(Short-term)	B97:G97
+short	gsea	GO:0048364	Root development	397	1	1e-16	1e-16	GSEA(Short-term)	B98:G98
+short	gsea	GO:0048366	Leaf development	327	1	1e-16	1e-16	GSEA(Short-term)	B99:G99
+short	gsea	GO:0048510	Regulation of timing of transition from vegetative to reproductive phase	53	2	1e-16	1e-16	GSEA(Short-term)	B100:G100
+short	gsea	GO:0048825	Cotyledon development	183	1	1e-16	1e-16	GSEA(Short-term)	B101:G101
+short	gsea	GO:0050826	Response to freezing	219	2	1e-16	1e-16	GSEA(Short-term)	B102:G102
+short	gsea	GO:0050832	Defense response to fungus	929	12	1e-16	1e-16	GSEA(Short-term)	B103:G103
+short	gsea	GO:0051276	Chromosome organization	51	1	0.4508	0.484731183	GSEA(Short-term)	B104:G104
+short	gsea	GO:0051555	Flavonol biosynthetic process	39	1	0.4326	0.470217391	GSEA(Short-term)	B105:G105
+short	gsea	GO:0052542	Defense response by callose deposition	115	2	0.9999	1	GSEA(Short-term)	B106:G106
+short	gsea	GO:0080167	Response to karrikin	355	1	0.0601	0.072409639	GSEA(Short-term)	B107:G107
+short	gsea	GO:2000652	Regulation of secondary cell wall biogenesis	48	1	1e-16	1e-16	GSEA(Short-term)	B108:G108
+middle	gsea	GO:0000023	Maltose metabolic process	302	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B9:G9
+middle	gsea	GO:0000038	Very long-chain fatty acid metabolic process	103	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B10:G10
+middle	gsea	GO:0000096	Sulfur amino acid metabolic process	136	19	0.002	0.00304	GSEA(Mid-term)	B11:G11
+middle	gsea	GO:0000165	Mapkkk cascade	572	32	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B12:G12
+middle	gsea	GO:0000271	Polysaccharide biosynthetic process	271	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B13:G13
+middle	gsea	GO:0000287	Magnesium ion binding	247	3	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B14:G14
+middle	gsea	GO:0000413	Protein peptidyl-prolyl isomerization	36	2	0.8418	0.8645513513513513	GSEA(Mid-term)	B15:G15
+middle	gsea	GO:0000910	Cytokinesis	91	2	0.0014	0.002237383177570094	GSEA(Mid-term)	B16:G16
+middle	gsea	GO:0000911	Cytokinesis by cell plate formation	469	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B17:G17
+middle	gsea	GO:0001676	Long-chain fatty acid metabolic process	57	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B18:G18
+middle	gsea	GO:0002213	Defense response to insect	71	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B19:G19
+middle	gsea	GO:0002237	Response to molecule of bacterial origin	261	6	0.0004	0.0006576923076923078	GSEA(Mid-term)	B20:G20
+middle	gsea	GO:0002679	Respiratory burst involved in defense response	418	20	0.0259	0.03406846153846154	GSEA(Mid-term)	B21:G21
+middle	gsea	GO:0003690	Double-stranded dna binding	40	1	0.4995	0.5475288461538462	GSEA(Mid-term)	B22:G22
+middle	gsea	GO:0003723	Rna binding	1040	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B23:G23
+middle	gsea	GO:0003755	Peptidyl-prolyl cis-trans isomerase activity	114	2	0.6374	0.6855009404388714	GSEA(Mid-term)	B24:G24
+middle	gsea	GO:0003995	Acyl-coa dehydrogenase activity	15	1	0.0026	0.003849350649350649	GSEA(Mid-term)	B25:G25
+middle	gsea	GO:0003997	Acyl-coa oxidase activity	12	1	0.0142	0.0194256	GSEA(Mid-term)	B26:G26
+middle	gsea	GO:0004022	Alcohol dehydrogenase (nad) activity	18	2	0.0175	0.02375	GSEA(Mid-term)	B27:G27
+middle	gsea	GO:0004033	Aldo-keto reductase (nadp) activity	24	1	0.0023	0.00345	GSEA(Mid-term)	B28:G28
+middle	gsea	GO:0004321	Fatty-acyl-coa synthase activity	10	1	0.9019	0.9098814159292036	GSEA(Mid-term)	B29:G29
+middle	gsea	GO:0004602	Glutathione peroxidase activity	26	1	0.88	0.8930563798219584	GSEA(Mid-term)	B30:G30
+middle	gsea	GO:0004659	Prenyltransferase activity	37	3	0.0144	0.0196207171314741	GSEA(Mid-term)	B31:G31
+middle	gsea	GO:0004709	Map kinase kinase kinase activity	20	10	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B32:G32
+middle	gsea	GO:0004712	Protein serine/threonine/tyrosine kinase activity	99	1	0.002	0.00304	GSEA(Mid-term)	B33:G33
+middle	gsea	GO:0004751	Ribose-5-phosphate isomerase activity	7	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B34:G34
+middle	gsea	GO:0004765	Shikimate kinase activity	13	3	0.0042	0.006051851851851852	GSEA(Mid-term)	B35:G35
+middle	gsea	GO:0005484	Snap receptor activity	72	2	0.0295	0.03850763358778626	GSEA(Mid-term)	B36:G36
+middle	gsea	GO:0005506	Iron ion binding	705	10	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B37:G37
+middle	gsea	GO:0005509	Calcium ion binding	539	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B38:G38
+middle	gsea	GO:0005543	Phospholipid binding	140	1	0.3344	0.3824909698996655	GSEA(Mid-term)	B39:G39
+middle	gsea	GO:0005575	Cellular_component	1413	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B40:G40
+middle	gsea	GO:0005730	Nucleolus	637	2	0.0559	0.07106988847583642	GSEA(Mid-term)	B41:G41
+middle	gsea	GO:0005774	Vacuolar membrane	1127	4	0.1683	0.2026711267605634	GSEA(Mid-term)	B42:G42
+middle	gsea	GO:0005777	Peroxisome	386	5	0.478	0.5256463022508039	GSEA(Mid-term)	B43:G43
+middle	gsea	GO:0005783	Endoplasmic reticulum	1152	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B44:G44
+middle	gsea	GO:0005788	Endoplasmic reticulum lumen	23	1	0.7624	0.7949414634146341	GSEA(Mid-term)	B45:G45
+middle	gsea	GO:0006098	Pentose-phosphate shunt	420	5	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B46:G46
+middle	gsea	GO:0006312	Mitotic recombination	109	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B47:G47
+middle	gsea	GO:0006364	Rrna processing	531	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B48:G48
+middle	gsea	GO:0006406	Mrna export from nucleus	133	1	0.1261	0.1534740213523131	GSEA(Mid-term)	B49:G49
+middle	gsea	GO:0006417	Regulation of translation	70	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B50:G50
+middle	gsea	GO:0006457	Protein folding	773	3	0.1075	0.1317741935483871	GSEA(Mid-term)	B51:G51
+middle	gsea	GO:0006499	N-terminal protein myristoylation	1037	3	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B52:G52
+middle	gsea	GO:0006520	Cellular amino acid metabolic process	109	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B53:G53
+middle	gsea	GO:0006546	Glycine catabolic process	156	19	0.0004	0.0006576923076923078	GSEA(Mid-term)	B54:G54
+middle	gsea	GO:0006561	Proline biosynthetic process	30	2	0.0015	0.002331818181818182	GSEA(Mid-term)	B55:G55
+middle	gsea	GO:0006568	Tryptophan metabolic process	15	1	0.0015	0.002331818181818182	GSEA(Mid-term)	B56:G56
+middle	gsea	GO:0006569	Tryptophan catabolic process	192	6	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B57:G57
+middle	gsea	GO:0006596	Polyamine biosynthetic process	15	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B58:G58
+middle	gsea	GO:0006612	Protein targeting to membrane	1016	40	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B59:G59
+middle	gsea	GO:0006629	Lipid metabolic process	533	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B60:G60
+middle	gsea	GO:0006631	Fatty acid metabolic process	86	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B61:G61
+middle	gsea	GO:0006633	Fatty acid biosynthetic process	236	4	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B62:G62
+middle	gsea	GO:0006635	Fatty acid beta-oxidation	452	3	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B63:G63
+middle	gsea	GO:0006636	Unsaturated fatty acid biosynthetic process	203	19	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B64:G64
+middle	gsea	GO:0006655	Phosphatidylglycerol biosynthetic process	175	5	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B65:G65
+middle	gsea	GO:0006733	Oxidoreduction coenzyme metabolic process	120	19	0.0043	0.006051851851851852	GSEA(Mid-term)	B66:G66
+middle	gsea	GO:0006766	Vitamin metabolic process	120	19	0.0043	0.006051851851851852	GSEA(Mid-term)	B67:G67
+middle	gsea	GO:0006816	Calcium ion transport	324	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B68:G68
+middle	gsea	GO:0006820	Anion transport	143	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B69:G69
+middle	gsea	GO:0006862	Nucleotide transport	101	2	0.0015	0.002331818181818182	GSEA(Mid-term)	B70:G70
+middle	gsea	GO:0006888	Er to golgi vesicle-mediated transport	311	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B71:G71
+middle	gsea	GO:0006944	Cellular membrane fusion	714	18	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B72:G72
+middle	gsea	GO:0006952	Defense response	1095	11	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B73:G73
+middle	gsea	GO:0006970	Response to osmotic stress	341	12	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B74:G74
+middle	gsea	GO:0006979	Response to oxidative stress	629	10	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B75:G75
+middle	gsea	GO:0007030	Golgi organization	536	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B76:G76
+middle	gsea	GO:0007154	Cell communication	186	20	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B77:G77
+middle	gsea	GO:0007165	Signal transduction	1301	32	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B78:G78
+middle	gsea	GO:0007275	Multicellular organismal development	235	9	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B79:G79
+middle	gsea	GO:0008168	Methyltransferase activity	336	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B80:G80
+middle	gsea	GO:0008234	Cysteine-type peptidase activity	142	2	0.9717	0.9717	GSEA(Mid-term)	B81:G81
+middle	gsea	GO:0008284	Positive regulation of cell proliferation	187	1	0.0754	0.09436204379562044	GSEA(Mid-term)	B82:G82
+middle	gsea	GO:0008295	Spermidine biosynthetic process	34	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B83:G83
+middle	gsea	GO:0008299	Isoprenoid biosynthetic process	41	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B84:G84
+middle	gsea	GO:0008610	Lipid biosynthetic process	56	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B85:G85
+middle	gsea	GO:0008652	Cellular amino acid biosynthetic process	192	19	0.0003	0.0005029411764705883	GSEA(Mid-term)	B86:G86
+middle	gsea	GO:0008661	1-deoxy-d-xylulose-5-phosphate synthase activity	13	1	0.6394	0.6855009404388714	GSEA(Mid-term)	B87:G87
+middle	gsea	GO:0008757	S-adenosylmethionine-dependent methyltransferase activity	43	1	0.1707	0.20484	GSEA(Mid-term)	B88:G88
+middle	gsea	GO:0009052	Pentose-phosphate shunt, non-oxidative branch	9	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B89:G89
+middle	gsea	GO:0009055	Electron carrier activity	966	12	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B90:G90
+middle	gsea	GO:0009069	Serine family amino acid metabolic process	21	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B91:G91
+middle	gsea	GO:0009072	Aromatic amino acid family metabolic process	127	19	0.004	0.005821276595744681	GSEA(Mid-term)	B92:G92
+middle	gsea	GO:0009073	Aromatic amino acid family biosynthetic process	138	6	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B93:G93
+middle	gsea	GO:0009106	Lipoate metabolic process	120	19	0.0043	0.006051851851851852	GSEA(Mid-term)	B94:G94
+middle	gsea	GO:0009108	Coenzyme biosynthetic process	120	19	0.0043	0.006051851851851852	GSEA(Mid-term)	B95:G95
+middle	gsea	GO:0009117	Nucleotide metabolic process	149	19	0.0013	0.002097169811320755	GSEA(Mid-term)	B96:G96
+middle	gsea	GO:0009257	10-formyltetrahydrofolate biosynthetic process	11	1	0.3337	0.3824909698996655	GSEA(Mid-term)	B97:G97
+middle	gsea	GO:0009266	Response to temperature stimulus	356	4	0.006	0.008341463414634147	GSEA(Mid-term)	B98:G98
+middle	gsea	GO:0009268	Response to ph	6	3	0.4021	0.4494058823529412	GSEA(Mid-term)	B99:G99
+middle	gsea	GO:0009269	Response to desiccation	98	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B100:G100
+middle	gsea	GO:0009396	Folic acid-containing compound biosynthetic process	32	1	0.0284	0.03721379310344827	GSEA(Mid-term)	B101:G101
+middle	gsea	GO:0009407	Toxin catabolic process	534	3	0.4245	0.4728957654723127	GSEA(Mid-term)	B102:G102
+middle	gsea	GO:0009408	Response to heat	652	6	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B103:G103
+middle	gsea	GO:0009409	Response to cold	1113	37	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B104:G104
+middle	gsea	GO:0009410	Response to xenobiotic stimulus	173	4	0.0001	0.0001701492537313433	GSEA(Mid-term)	B105:G105
+middle	gsea	GO:0009414	Response to water deprivation	883	39	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B106:G106
+middle	gsea	GO:0009416	Response to light stimulus	440	12	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B107:G107
+middle	gsea	GO:0009446	Putrescine biosynthetic process	6	2	0.0003	0.0005029411764705883	GSEA(Mid-term)	B108:G108
+middle	gsea	GO:0009504	Cell plate	75	2	0.0027	0.003980172413793104	GSEA(Mid-term)	B109:G109
+middle	gsea	GO:0009505	Plant-type cell wall	666	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B110:G110
+middle	gsea	GO:0009534	Chloroplast thylakoid	464	3	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B111:G111
+middle	gsea	GO:0009535	Chloroplast thylakoid membrane	695	6	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B112:G112
+middle	gsea	GO:0009536	Plastid	730	5	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B113:G113
+middle	gsea	GO:0009543	Chloroplast thylakoid lumen	146	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B114:G114
+middle	gsea	GO:0009555	Pollen development	403	8	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B115:G115
+middle	gsea	GO:0009556	Microsporogenesis	120	10	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B116:G116
+middle	gsea	GO:0009560	Embryo sac egg cell differentiation	288	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B117:G117
+middle	gsea	GO:0009570	Chloroplast stroma	1351	8	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B118:G118
+middle	gsea	GO:0009579	Thylakoid	465	5	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B119:G119
+middle	gsea	GO:0009595	Detection of biotic stimulus	276	12	0.0023	0.00345	GSEA(Mid-term)	B120:G120
+middle	gsea	GO:0009611	Response to wounding	1025	94	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B121:G121
+middle	gsea	GO:0009612	Response to mechanical stimulus	150	15	0.206	0.2454773519163763	GSEA(Mid-term)	B122:G122
+middle	gsea	GO:0009617	Response to bacterium	405	7	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B123:G123
+middle	gsea	GO:0009620	Response to fungus	310	73	0.0001	0.0001701492537313433	GSEA(Mid-term)	B124:G124
+middle	gsea	GO:0009625	Response to insect	83	2	0.0014	0.002237383177570094	GSEA(Mid-term)	B125:G125
+middle	gsea	GO:0009627	Systemic acquired resistance	747	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B126:G126
+middle	gsea	GO:0009631	Cold acclimation	50	2	0.3356	0.382584	GSEA(Mid-term)	B127:G127
+middle	gsea	GO:0009637	Response to blue light	269	4	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B128:G128
+middle	gsea	GO:0009640	Photomorphogenesis	500	1	0.0019	0.00291390134529148	GSEA(Mid-term)	B129:G129
+middle	gsea	GO:0009642	Response to light intensity	41	2	0.8757	0.8913375000000001	GSEA(Mid-term)	B130:G130
+middle	gsea	GO:0009644	Response to high light intensity	578	12	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B131:G131
+middle	gsea	GO:0009646	Response to absence of light	90	6	0.0233	0.03088604651162791	GSEA(Mid-term)	B132:G132
+middle	gsea	GO:0009657	Plastid organization	201	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B133:G133
+middle	gsea	GO:0009658	Chloroplast organization	313	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B134:G134
+middle	gsea	GO:0009684	Indoleacetic acid biosynthetic process	231	6	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B135:G135
+middle	gsea	GO:0009686	Gibberellin biosynthetic process	106	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B136:G136
+middle	gsea	GO:0009688	Abscisic acid biosynthetic process	53	13	0.7437	0.7778146788990826	GSEA(Mid-term)	B137:G137
+middle	gsea	GO:0009693	Ethylene biosynthetic process	268	10	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B138:G138
+middle	gsea	GO:0009694	Jasmonic acid metabolic process	100	8	0.1153	0.1408307142857143	GSEA(Mid-term)	B139:G139
+middle	gsea	GO:0009695	Jasmonic acid biosynthetic process	415	111	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B140:G140
+middle	gsea	GO:0009697	Salicylic acid biosynthetic process	649	24	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B141:G141
+middle	gsea	GO:0009723	Response to ethylene stimulus	723	39	0.0023	0.00345	GSEA(Mid-term)	B142:G142
+middle	gsea	GO:0009733	Response to auxin stimulus	1009	27	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B143:G143
+middle	gsea	GO:0009737	Response to abscisic acid stimulus	1249	34	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B144:G144
+middle	gsea	GO:0009738	Abscisic acid mediated signaling pathway	630	51	0.0005	0.0008142857142857142	GSEA(Mid-term)	B145:G145
+middle	gsea	GO:0009739	Response to gibberellin stimulus	250	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B146:G146
+middle	gsea	GO:0009740	Gibberellic acid mediated signaling pathway	212	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B147:G147
+middle	gsea	GO:0009744	Response to sucrose stimulus	528	4	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B148:G148
+middle	gsea	GO:0009750	Response to fructose stimulus	361	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B149:G149
+middle	gsea	GO:0009751	Response to salicylic acid stimulus	378	12	0.0036	0.005261538461538462	GSEA(Mid-term)	B150:G150
+middle	gsea	GO:0009753	Response to jasmonic acid stimulus	754	93	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B151:G151
+middle	gsea	GO:0009759	Indole glucosinolate biosynthetic process	29	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B152:G152
+middle	gsea	GO:0009788	Negative regulation of abscisic acid mediated signaling pathway	70	7	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B153:G153
+middle	gsea	GO:0009789	Positive regulation of abscisic acid mediated signaling pathway	67	2	0.7044	0.7435333333333334	GSEA(Mid-term)	B154:G154
+middle	gsea	GO:0009793	Embryo development ending in seed dormancy	1174	4	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B155:G155
+middle	gsea	GO:0009814	Defense response, incompatible interaction	194	8	0.0005	0.0008142857142857142	GSEA(Mid-term)	B156:G156
+middle	gsea	GO:0009816	Defense response to bacterium, incompatible interaction	143	5	0.0001	0.0001701492537313433	GSEA(Mid-term)	B157:G157
+middle	gsea	GO:0009825	Multidimensional cell growth	264	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B158:G158
+middle	gsea	GO:0009826	Unidimensional cell growth	272	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B159:G159
+middle	gsea	GO:0009827	Plant-type cell wall modification	321	1	0.5119	0.5593284345047923	GSEA(Mid-term)	B160:G160
+middle	gsea	GO:0009845	Seed germination	477	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B161:G161
+middle	gsea	GO:0009860	Pollen tube growth	458	2	0.3176	0.3657212121212121	GSEA(Mid-term)	B162:G162
+middle	gsea	GO:0009862	Systemic acquired resistance, salicylic acid mediated signaling pathway	684	32	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B163:G163
+middle	gsea	GO:0009863	Salicylic acid mediated signaling pathway	456	36	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B164:G164
+middle	gsea	GO:0009867	Jasmonic acid mediated signaling pathway	797	54	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B165:G165
+middle	gsea	GO:0009873	Ethylene mediated signaling pathway	309	20	0.0019	0.00291390134529148	GSEA(Mid-term)	B166:G166
+middle	gsea	GO:0009901	Anther dehiscence	49	3	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B167:G167
+middle	gsea	GO:0009902	Chloroplast relocation	229	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B168:G168
+middle	gsea	GO:0009908	Flower development	268	5	0.0004	0.0006576923076923078	GSEA(Mid-term)	B169:G169
+middle	gsea	GO:0009909	Regulation of flower development	742	1	0.0004	0.0006576923076923078	GSEA(Mid-term)	B170:G170
+middle	gsea	GO:0009915	Phloem sucrose loading	25	3	0.0721	0.09065514705882353	GSEA(Mid-term)	B171:G171
+middle	gsea	GO:0009932	Cell tip growth	247	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B172:G172
+middle	gsea	GO:0009941	Chloroplast envelope	1208	10	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B173:G173
+middle	gsea	GO:0009963	Positive regulation of flavonoid biosynthetic process	299	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B174:G174
+middle	gsea	GO:0009965	Leaf morphogenesis	487	11	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B175:G175
+middle	gsea	GO:0009966	Regulation of signal transduction	20	1	0.1824	0.2181146853146853	GSEA(Mid-term)	B176:G176
+middle	gsea	GO:0009978	Allene oxide synthase activity	6	2	0.2954	0.3436285714285714	GSEA(Mid-term)	B177:G177
+middle	gsea	GO:0010017	Red or far-red light signaling pathway	64	1	0.368	0.4167417218543046	GSEA(Mid-term)	B178:G178
+middle	gsea	GO:0010025	Wax biosynthetic process	59	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B179:G179
+middle	gsea	GO:0010027	Thylakoid membrane organization	467	4	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B180:G180
+middle	gsea	GO:0010074	Maintenance of meristem identity	54	1	0.3876	0.4346203278688525	GSEA(Mid-term)	B181:G181
+middle	gsea	GO:0010099	Regulation of photomorphogenesis	22	1	0.6666	0.7108714285714286	GSEA(Mid-term)	B182:G182
+middle	gsea	GO:0010103	Stomatal complex morphogenesis	360	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B183:G183
+middle	gsea	GO:0010114	Response to red light	251	5	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B184:G184
+middle	gsea	GO:0010115	Regulation of abscisic acid biosynthetic process	6	2	0.0756	0.09436204379562044	GSEA(Mid-term)	B185:G185
+middle	gsea	GO:0010117	Photoprotection	13	5	0.4334	0.4812428571428572	GSEA(Mid-term)	B186:G186
+middle	gsea	GO:0010118	Stomatal movement	108	3	0.0001	0.0001701492537313433	GSEA(Mid-term)	B187:G187
+middle	gsea	GO:0010155	Regulation of proton transport	191	5	0.454	0.5024854368932039	GSEA(Mid-term)	B188:G188
+middle	gsea	GO:0010162	Seed dormancy	404	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B189:G189
+middle	gsea	GO:0010176	Homogentisate phytyltransferase activity	14	3	0.2387	0.2815013793103448	GSEA(Mid-term)	B190:G190
+middle	gsea	GO:0010181	Fmn binding	94	1	0.0596	0.07549333333333333	GSEA(Mid-term)	B191:G191
+middle	gsea	GO:0010182	Sugar mediated signaling pathway	271	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B192:G192
+middle	gsea	GO:0010189	Vitamin e biosynthetic process	35	3	0.0246	0.03248339768339768	GSEA(Mid-term)	B193:G193
+middle	gsea	GO:0010193	Response to ozone	141	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B194:G194
+middle	gsea	GO:0010200	Response to chitin	1130	43	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B195:G195
+middle	gsea	GO:0010205	Photoinhibition	16	2	0.0001	0.0001701492537313433	GSEA(Mid-term)	B196:G196
+middle	gsea	GO:0010207	Photosystem ii assembly	372	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B197:G197
+middle	gsea	GO:0010218	Response to far red light	251	5	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B198:G198
+middle	gsea	GO:0010224	Response to uv-b	274	1	0.0213	0.02845546875	GSEA(Mid-term)	B199:G199
+middle	gsea	GO:0010228	Vegetative to reproductive phase transition of meristem	749	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B200:G200
+middle	gsea	GO:0010286	Heat acclimation	183	4	0.9597	0.9625143695014663	GSEA(Mid-term)	B201:G201
+middle	gsea	GO:0010287	Plastoglobule	147	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B202:G202
+middle	gsea	GO:0010304	Psii associated light-harvesting complex ii catabolic process	69	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B203:G203
+middle	gsea	GO:0010310	Regulation of hydrogen peroxide metabolic process	532	16	0.0001	0.0001701492537313433	GSEA(Mid-term)	B204:G204
+middle	gsea	GO:0010311	Lateral root formation	137	5	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B205:G205
+middle	gsea	GO:0010363	Regulation of plant-type hypersensitive response	1015	40	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B206:G206
+middle	gsea	GO:0010371	Regulation of gibberellin biosynthetic process	5	1	0.0119	0.01641048387096774	GSEA(Mid-term)	B207:G207
+middle	gsea	GO:0010413	Glucuronoxylan metabolic process	493	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B208:G208
+middle	gsea	GO:0010449	Root meristem growth	17	10	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B209:G209
+middle	gsea	GO:0010555	Response to mannitol stimulus	30	2	0.8682	0.8863414925373134	GSEA(Mid-term)	B210:G210
+middle	gsea	GO:0010817	Regulation of hormone levels	211	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B211:G211
+middle	gsea	GO:0015035	Protein disulfide oxidoreductase activity	188	4	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B212:G212
+middle	gsea	GO:0015696	Ammonium transport	105	2	0.0015	0.002331818181818182	GSEA(Mid-term)	B213:G213
+middle	gsea	GO:0015802	Basic amino acid transport	102	2	0.0015	0.002331818181818182	GSEA(Mid-term)	B214:G214
+middle	gsea	GO:0015824	Proline transport	246	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B215:G215
+middle	gsea	GO:0015979	Photosynthesis	449	5	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B216:G216
+middle	gsea	GO:0015994	Chlorophyll metabolic process	90	12	0.05	0.06417303370786517	GSEA(Mid-term)	B217:G217
+middle	gsea	GO:0015995	Chlorophyll biosynthetic process	293	13	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B218:G218
+middle	gsea	GO:0016045	Detection of bacterium	30	6	0.3	0.3477966101694915	GSEA(Mid-term)	B219:G219
+middle	gsea	GO:0016049	Cell growth	354	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B220:G220
+middle	gsea	GO:0016114	Terpenoid biosynthetic process	52	3	0.3562	0.4047189368770764	GSEA(Mid-term)	B221:G221
+middle	gsea	GO:0016117	Carotenoid biosynthetic process	258	8	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B222:G222
+middle	gsea	GO:0016122	Xanthophyll metabolic process	8	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B223:G223
+middle	gsea	GO:0016165	Lipoxygenase activity	53	9	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B224:G224
+middle	gsea	GO:0016192	Vesicle-mediated transport	548	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B225:G225
+middle	gsea	GO:0016207	4-coumarate-coa ligase activity	37	1	0.8458	0.8660586826347305	GSEA(Mid-term)	B226:G226
+middle	gsea	GO:0016226	Iron-sulfur cluster assembly	226	4	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B227:G227
+middle	gsea	GO:0016491	Oxidoreductase activity	1460	9	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B228:G228
+middle	gsea	GO:0016614	Oxidoreductase activity, acting on ch-oh group of donors	138	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B229:G229
+middle	gsea	GO:0016624	Oxidoreductase activity, acting on the aldehyde or oxo group of donors, disulfide as acceptor	28	1	0.3714	0.4178250000000001	GSEA(Mid-term)	B230:G230
+middle	gsea	GO:0016627	Oxidoreductase activity, acting on the ch-ch group of donors	46	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B231:G231
+middle	gsea	GO:0016629	12-oxophytodienoate reductase activity	14	1	0.4665	0.5146548387096774	GSEA(Mid-term)	B232:G232
+middle	gsea	GO:0016705	Oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen	499	4	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B233:G233
+middle	gsea	GO:0016706	Oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, 2-oxoglutarate as one donor, and incorporation of one atom each of oxygen into both donors	297	4	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B234:G234
+middle	gsea	GO:0016747	Transferase activity, transferring acyl groups other than amino-acyl groups	258	3	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B235:G235
+middle	gsea	GO:0016779	Nucleotidyltransferase activity	98	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B236:G236
+middle	gsea	GO:0016836	Hydro-lyase activity	25	2	0.0663	0.08367011070110701	GSEA(Mid-term)	B237:G237
+middle	gsea	GO:0016853	Isomerase activity	62	3	0.6693	0.7108714285714286	GSEA(Mid-term)	B238:G238
+middle	gsea	GO:0018685	Alkane 1-monooxygenase activity	14	2	0.0206	0.02762823529411765	GSEA(Mid-term)	B239:G239
+middle	gsea	GO:0019216	Regulation of lipid metabolic process	81	12	0.0764	0.09501381818181819	GSEA(Mid-term)	B240:G240
+middle	gsea	GO:0019252	Starch biosynthetic process	370	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B241:G241
+middle	gsea	GO:0019253	Reductive pentose-phosphate cycle	24	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B242:G242
+middle	gsea	GO:0019288	Isopentenyl diphosphate biosynthetic process, mevalonate-independent pathway	579	21	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B243:G243
+middle	gsea	GO:0019344	Cysteine biosynthetic process	455	7	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B244:G244
+middle	gsea	GO:0019373	Epoxygenase p450 pathway	6	2	0.2954	0.3436285714285714	GSEA(Mid-term)	B245:G245
+middle	gsea	GO:0019395	Fatty acid oxidation	6	2	0.9134	0.9187729411764707	GSEA(Mid-term)	B246:G246
+middle	gsea	GO:0019684	Photosynthesis, light reaction	318	6	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B247:G247
+middle	gsea	GO:0019722	Calcium-mediated signaling	139	4	0.0025	0.003733624454148471	GSEA(Mid-term)	B248:G248
+middle	gsea	GO:0019725	Cellular homeostasis	14	1	0.8306	0.8582030211480363	GSEA(Mid-term)	B249:G249
+middle	gsea	GO:0019748	Secondary metabolic process	134	19	0.0026	0.003849350649350649	GSEA(Mid-term)	B250:G250
+middle	gsea	GO:0019760	Glucosinolate metabolic process	52	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B251:G251
+middle	gsea	GO:0019761	Glucosinolate biosynthetic process	348	3	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B252:G252
+middle	gsea	GO:0019825	Oxygen binding	437	4	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B253:G253
+middle	gsea	GO:0019900	Kinase binding	19	10	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B254:G254
+middle	gsea	GO:0020037	Heme binding	745	4	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B255:G255
+middle	gsea	GO:0022622	Root system development	19	10	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B256:G256
+middle	gsea	GO:0022626	Cytosolic ribosome	389	2	0.3154	0.3644148648648649	GSEA(Mid-term)	B257:G257
+middle	gsea	GO:0022900	Electron transport chain	29	2	0.1527	0.1851893617021277	GSEA(Mid-term)	B258:G258
+middle	gsea	GO:0030003	Cellular cation homeostasis	274	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B259:G259
+middle	gsea	GO:0030095	Chloroplast photosystem ii	39	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B260:G260
+middle	gsea	GO:0030154	Cell differentiation	321	11	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B261:G261
+middle	gsea	GO:0030397	Membrane disassembly	31	5	0.104	0.1279424460431655	GSEA(Mid-term)	B262:G262
+middle	gsea	GO:0030968	Endoplasmic reticulum unfolded protein response	500	29	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B263:G263
+middle	gsea	GO:0031072	Heat shock protein binding	279	1	0.0462	0.06007756653992395	GSEA(Mid-term)	B264:G264
+middle	gsea	GO:0031347	Regulation of defense response	341	11	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B265:G265
+middle	gsea	GO:0031348	Negative regulation of defense response	762	33	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B266:G266
+middle	gsea	GO:0031407	Oxylipin metabolic process	10	2	0.2239	0.26588125	GSEA(Mid-term)	B267:G267
+middle	gsea	GO:0031408	Oxylipin biosynthetic process	96	12	0.0501	0.06417303370786517	GSEA(Mid-term)	B268:G268
+middle	gsea	GO:0031539	Positive regulation of anthocyanin metabolic process	10	1	0.7939	0.822769090909091	GSEA(Mid-term)	B269:G269
+middle	gsea	GO:0031977	Thylakoid lumen	104	3	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B270:G270
+middle	gsea	GO:0032880	Regulation of protein localization	122	1	0.0195	0.0263596837944664	GSEA(Mid-term)	B271:G271
+middle	gsea	GO:0032957	Inositol trisphosphate metabolic process	48	3	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B272:G272
+middle	gsea	GO:0034440	Lipid oxidation	53	9	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B273:G273
+middle	gsea	GO:0034605	Cellular response to heat	28	1	0.6676	0.7108714285714286	GSEA(Mid-term)	B274:G274
+middle	gsea	GO:0034660	Ncrna metabolic process	186	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B275:G275
+middle	gsea	GO:0035264	Multicellular organism growth	5	5	0.5815	0.6293449367088608	GSEA(Mid-term)	B276:G276
+middle	gsea	GO:0035304	Regulation of protein dephosphorylation	335	6	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B277:G277
+middle	gsea	GO:0035556	Intracellular signal transduction	476	29	0.6346	0.6846473186119875	GSEA(Mid-term)	B278:G278
+middle	gsea	GO:0040007	Growth	200	8	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B279:G279
+middle	gsea	GO:0042335	Cuticle development	130	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B280:G280
+middle	gsea	GO:0042362	Fat-soluble vitamin biosynthetic process	14	3	0.2387	0.2815013793103448	GSEA(Mid-term)	B281:G281
+middle	gsea	GO:0042538	Hyperosmotic salinity response	459	34	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B282:G282
+middle	gsea	GO:0042542	Response to hydrogen peroxide	507	1	0.0102	0.01412307692307692	GSEA(Mid-term)	B283:G283
+middle	gsea	GO:0042545	Cell wall modification	266	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B284:G284
+middle	gsea	GO:0042742	Defense response to bacterium	1056	23	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B285:G285
+middle	gsea	GO:0042753	Positive regulation of circadian rhythm	18	1	0.7195	0.7548128834355828	GSEA(Mid-term)	B286:G286
+middle	gsea	GO:0042793	Transcription from plastid promoter	168	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B287:G287
+middle	gsea	GO:0042802	Identical protein binding	318	4	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B288:G288
+middle	gsea	GO:0043069	Negative regulation of programmed cell death	523	33	0.0002	0.0003386138613861386	GSEA(Mid-term)	B289:G289
+middle	gsea	GO:0043090	Amino acid import	266	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B290:G290
+middle	gsea	GO:0043161	Proteasomal ubiquitin-dependent protein catabolic process	282	2	0.2765	0.323845890410959	GSEA(Mid-term)	B291:G291
+middle	gsea	GO:0043231	Intracellular membrane-bounded organelle	68	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B292:G292
+middle	gsea	GO:0043269	Regulation of ion transport	101	2	0.0015	0.002331818181818182	GSEA(Mid-term)	B293:G293
+middle	gsea	GO:0043481	Anthocyanin accumulation in tissues in response to uv light	307	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B294:G294
+middle	gsea	GO:0043565	Sequence-specific dna binding	880	13	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B295:G295
+middle	gsea	GO:0043619	Regulation of transcription from rna polymerase ii promoter in response to oxidative stress	5	1	0.05	0.06417303370786517	GSEA(Mid-term)	B296:G296
+middle	gsea	GO:0043687	Post-translational protein modification	221	1	0.0527	0.06725149253731343	GSEA(Mid-term)	B297:G297
+middle	gsea	GO:0043900	Regulation of multi-organism process	262	12	0.0043	0.006051851851851852	GSEA(Mid-term)	B298:G298
+middle	gsea	GO:0044237	Cellular metabolic process	145	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B299:G299
+middle	gsea	GO:0044272	Sulfur compound biosynthetic process	120	19	0.0043	0.006051851851851852	GSEA(Mid-term)	B300:G300
+middle	gsea	GO:0045036	Protein targeting to chloroplast	114	2	0.6995	0.7406470588235294	GSEA(Mid-term)	B301:G301
+middle	gsea	GO:0045087	Innate immune response	273	12	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B302:G302
+middle	gsea	GO:0045454	Cell redox homeostasis	263	4	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B303:G303
+middle	gsea	GO:0045485	Omega-6 fatty acid desaturase activity	9	2	0.0233	0.03088604651162791	GSEA(Mid-term)	B304:G304
+middle	gsea	GO:0045492	Xylan biosynthetic process	495	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B305:G305
+middle	gsea	GO:0045544	Gibberellin 20-oxidase activity	12	1	0.0199	0.02679448818897638	GSEA(Mid-term)	B306:G306
+middle	gsea	GO:0045892	Negative regulation of transcription, dna-dependent	465	5	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B307:G307
+middle	gsea	GO:0045893	Positive regulation of transcription, dna-dependent	1077	17	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B308:G308
+middle	gsea	GO:0045962	Positive regulation of development, heterochronic	19	1	0.8384	0.8636530120481929	GSEA(Mid-term)	B309:G309
+middle	gsea	GO:0046423	Allene-oxide cyclase activity	6	3	0.8895	0.9000266272189349	GSEA(Mid-term)	B310:G310
+middle	gsea	GO:0046686	Response to cadmium ion	1301	16	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B311:G311
+middle	gsea	GO:0046777	Protein autophosphorylation	475	11	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B312:G312
+middle	gsea	GO:0046872	Metal ion binding	548	4	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B313:G313
+middle	gsea	GO:0046983	Protein dimerization activity	725	1	0.0036	0.005261538461538462	GSEA(Mid-term)	B314:G314
+middle	gsea	GO:0047325	Inositol tetrakisphosphate 1-kinase activity	10	3	0.0046	0.006447540983606558	GSEA(Mid-term)	B315:G315
+middle	gsea	GO:0048046	Apoplast	1001	2	0.0941	0.1161812274368231	GSEA(Mid-term)	B316:G316
+middle	gsea	GO:0048316	Seed development	161	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B317:G317
+middle	gsea	GO:0048364	Root development	397	6	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B318:G318
+middle	gsea	GO:0048366	Leaf development	327	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B319:G319
+middle	gsea	GO:0048481	Ovule development	411	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B320:G320
+middle	gsea	GO:0048510	Regulation of timing of transition from vegetative to reproductive phase	53	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B321:G321
+middle	gsea	GO:0048575	Short-day photoperiodism, flowering	15	1	0.0013	0.002097169811320755	GSEA(Mid-term)	B322:G322
+middle	gsea	GO:0048608	Reproductive structure development	67	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B323:G323
+middle	gsea	GO:0048653	Anther development	172	3	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B324:G324
+middle	gsea	GO:0048767	Root hair elongation	500	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B325:G325
+middle	gsea	GO:0050660	Flavin adenine dinucleotide binding	316	2	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B326:G326
+middle	gsea	GO:0050691	Regulation of defense response to virus by host	13	6	0.5397	0.5859599999999999	GSEA(Mid-term)	B327:G327
+middle	gsea	GO:0050776	Regulation of immune response	25	6	0.3693	0.4168336633663366	GSEA(Mid-term)	B328:G328
+middle	gsea	GO:0050826	Response to freezing	219	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B329:G329
+middle	gsea	GO:0050832	Defense response to fungus	929	36	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B330:G330
+middle	gsea	GO:0051082	Unfolded protein binding	255	1	0.0775	0.09603260869565218	GSEA(Mid-term)	B331:G331
+middle	gsea	GO:0051090	Regulation of sequence-specific dna binding transcription factor activity	9	1	0.0047	0.006560816326530612	GSEA(Mid-term)	B332:G332
+middle	gsea	GO:0051276	Chromosome organization	51	1	0.5302	0.5774789808917198	GSEA(Mid-term)	B333:G333
+middle	gsea	GO:0051536	Iron-sulfur cluster binding	105	4	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B334:G334
+middle	gsea	GO:0051537	2 iron, 2 sulfur cluster binding	49	3	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B335:G335
+middle	gsea	GO:0051539	4 iron, 4 sulfur cluster binding	53	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B336:G336
+middle	gsea	GO:0051707	Response to other organism	254	8	0.0017	0.00263076923076923	GSEA(Mid-term)	B337:G337
+middle	gsea	GO:0051788	Response to misfolded protein	425	2	0.1613	0.1949279151943463	GSEA(Mid-term)	B338:G338
+middle	gsea	GO:0052542	Defense response by callose deposition	115	8	0.0043	0.006051851851851852	GSEA(Mid-term)	B339:G339
+middle	gsea	GO:0052543	Callose deposition in cell wall	72	10	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B340:G340
+middle	gsea	GO:0052624	2-phytyl-1,4-naphthoquinone methyltransferase activity	8	1	0.714	0.7513476923076923	GSEA(Mid-term)	B341:G341
+middle	gsea	GO:0070838	Divalent metal ion transport	237	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B342:G342
+middle	gsea	GO:0071555	Cell wall organization	447	4	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B343:G343
+middle	gsea	GO:0080027	Response to herbivore	32	1	0.0127	0.0174433734939759	GSEA(Mid-term)	B344:G344
+middle	gsea	GO:0080086	Stamen filament development	22	3	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B345:G345
+middle	gsea	GO:0080129	Proteasome core complex assembly	318	2	0.2406	0.2827670103092784	GSEA(Mid-term)	B346:G346
+middle	gsea	GO:0080150	S-adenosyl-l-methionine:benzoic acid carboxyl methyl transferase activity	5	1	0.7716	0.802088753799392	GSEA(Mid-term)	B347:G347
+middle	gsea	GO:0080167	Response to karrikin	355	6	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B348:G348
+middle	gsea	GO:2000068	Regulation of defense response to insect	5	1	0.05	0.06417303370786517	GSEA(Mid-term)	B349:G349
+middle	gsea	GO:2000652	Regulation of secondary cell wall biogenesis	48	1	1e-16	1.753846153846154e-16	GSEA(Mid-term)	B350:G350
+short	sumstat	GO:0000165	Mapkkk cascade	572	1	0.0108	0.046956522	SumStat(Short-term)	B9:G9
+short	sumstat	GO:0002679	Respiratory burst involved in defense response	418	5	0.0091	0.046956522	SumStat(Short-term)	B10:G10
+short	sumstat	GO:0003690	Double-stranded dna binding	40	1	0.8831	1	SumStat(Short-term)	B11:G11
+short	sumstat	GO:0004089	Carbonate dehydratase activity	37	1	0.8812	1	SumStat(Short-term)	B12:G12
+short	sumstat	GO:0005516	Calmodulin binding	479	1	0.064	0.130612245	SumStat(Short-term)	B13:G13
+short	sumstat	GO:0006096	Glycolysis	658	1	1	1	SumStat(Short-term)	B14:G14
+short	sumstat	GO:0006098	Pentose-phosphate shunt	420	1	1	1	SumStat(Short-term)	B15:G15
+short	sumstat	GO:0006406	Mrna export from nucleus	133	1	1	1	SumStat(Short-term)	B16:G16
+short	sumstat	GO:0006457	Protein folding	773	1	1	1	SumStat(Short-term)	B17:G17
+short	sumstat	GO:0006606	Protein import into nucleus	239	1	1	1	SumStat(Short-term)	B18:G18
+short	sumstat	GO:0006612	Protein targeting to membrane	1016	1	0.0225	0.053571429	SumStat(Short-term)	B19:G19
+short	sumstat	GO:0006833	Water transport	448	1	0.9352	1	SumStat(Short-term)	B20:G20
+short	sumstat	GO:0006970	Response to osmotic stress	341	1	0.0237	0.054	SumStat(Short-term)	B21:G21
+short	sumstat	GO:0006972	Hyperosmotic response	302	1	0.7844	1	SumStat(Short-term)	B22:G22
+short	sumstat	GO:0006979	Response to oxidative stress	629	1	0.0139	0.050625	SumStat(Short-term)	B23:G23
+short	sumstat	GO:0007030	Golgi organization	536	1	0.9419	1	SumStat(Short-term)	B24:G24
+short	sumstat	GO:0007165	Signal transduction	1301	3	0.0264	0.056170213	SumStat(Short-term)	B25:G25
+short	sumstat	GO:0008284	Positive regulation of cell proliferation	187	1	0.7815	1	SumStat(Short-term)	B26:G26
+short	sumstat	GO:0009266	Response to temperature stimulus	356	1	0.8032	1	SumStat(Short-term)	B27:G27
+short	sumstat	GO:0009408	Response to heat	652	3	0.944	1	SumStat(Short-term)	B28:G28
+short	sumstat	GO:0009409	Response to cold	1113	12	0.0219	0.053571429	SumStat(Short-term)	B29:G29
+short	sumstat	GO:0009414	Response to water deprivation	883	9	0.0171	0.051794872	SumStat(Short-term)	B30:G30
+short	sumstat	GO:0009415	Response to water	5	1	0.7543	1	SumStat(Short-term)	B31:G31
+short	sumstat	GO:0009535	Chloroplast thylakoid membrane	695	1	0.9996	1	SumStat(Short-term)	B32:G32
+short	sumstat	GO:0009570	Chloroplast stroma	1351	1	1	1	SumStat(Short-term)	B33:G33
+short	sumstat	GO:0009579	Thylakoid	465	1	0.9994	1	SumStat(Short-term)	B34:G34
+short	sumstat	GO:0009595	Detection of biotic stimulus	276	1	0.0058	0.045625	SumStat(Short-term)	B35:G35
+short	sumstat	GO:0009611	Response to wounding	1025	4	0.0202	0.051794872	SumStat(Short-term)	B36:G36
+short	sumstat	GO:0009612	Response to mechanical stimulus	150	2	0.0025	0.041666667	SumStat(Short-term)	B37:G37
+short	sumstat	GO:0009620	Response to fungus	310	1	0.0061	0.045625	SumStat(Short-term)	B38:G38
+short	sumstat	GO:0009631	Cold acclimation	50	6	0.4378	0.796	SumStat(Short-term)	B39:G39
+short	sumstat	GO:0009640	Photomorphogenesis	500	1	1	1	SumStat(Short-term)	B40:G40
+short	sumstat	GO:0009644	Response to high light intensity	578	2	0.999	1	SumStat(Short-term)	B41:G41
+short	sumstat	GO:0009695	Jasmonic acid biosynthetic process	415	3	0.0079	0.046470588	SumStat(Short-term)	B42:G42
+short	sumstat	GO:0009697	Salicylic acid biosynthetic process	649	1	0.0133	0.050625	SumStat(Short-term)	B43:G43
+short	sumstat	GO:0009723	Response to ethylene stimulus	723	3	0.013	0.050625	SumStat(Short-term)	B44:G44
+short	sumstat	GO:0009733	Response to auxin stimulus	1009	3	0.0201	0.051794872	SumStat(Short-term)	B45:G45
+short	sumstat	GO:0009737	Response to abscisic acid stimulus	1249	6	0.0241	0.054	SumStat(Short-term)	B46:G46
+short	sumstat	GO:0009738	Abscisic acid mediated signaling pathway	630	3	0.0104	0.046956522	SumStat(Short-term)	B47:G47
+short	sumstat	GO:0009740	Gibberellic acid mediated signaling pathway	212	1	0.4982	0.874035088	SumStat(Short-term)	B48:G48
+short	sumstat	GO:0009751	Response to salicylic acid stimulus	378	1	0.0066	0.045625	SumStat(Short-term)	B49:G49
+short	sumstat	GO:0009753	Response to jasmonic acid stimulus	754	4	0.0149	0.050625	SumStat(Short-term)	B50:G50
+short	sumstat	GO:0009814	Defense response, incompatible interaction	194	1	0.004	0.045625	SumStat(Short-term)	B51:G51
+short	sumstat	GO:0009817	Defense response to fungus, incompatible interaction	155	1	0.5273	0.900322581	SumStat(Short-term)	B52:G52
+short	sumstat	GO:0009862	Systemic acquired resistance, salicylic acid mediated signaling pathway	684	1	0.0143	0.050625	SumStat(Short-term)	B53:G53
+short	sumstat	GO:0009867	Jasmonic acid mediated signaling pathway	797	3	0.0157	0.050625	SumStat(Short-term)	B54:G54
+short	sumstat	GO:0009873	Ethylene mediated signaling pathway	309	6	0.0069	0.045625	SumStat(Short-term)	B55:G55
+short	sumstat	GO:0009909	Regulation of flower development	742	1	1	1	SumStat(Short-term)	B56:G56
+short	sumstat	GO:0009941	Chloroplast envelope	1208	1	1	1	SumStat(Short-term)	B57:G57
+short	sumstat	GO:0009963	Positive regulation of flavonoid biosynthetic process	299	1	0.006	0.045625	SumStat(Short-term)	B58:G58
+short	sumstat	GO:0010017	Red or far-red light signaling pathway	64	1	0.029	0.060416667	SumStat(Short-term)	B59:G59
+short	sumstat	GO:0010074	Maintenance of meristem identity	54	1	0.9906	1	SumStat(Short-term)	B60:G60
+short	sumstat	GO:0010099	Regulation of photomorphogenesis	22	1	0.2834	0.545	SumStat(Short-term)	B61:G61
+short	sumstat	GO:0010114	Response to red light	251	1	0.9967	1	SumStat(Short-term)	B62:G62
+short	sumstat	GO:0010117	Photoprotection	13	1	0.0003	0.0075	SumStat(Short-term)	B63:G63
+short	sumstat	GO:0010119	Regulation of stomatal movement	172	1	0.0243	0.054	SumStat(Short-term)	B64:G64
+short	sumstat	GO:0010200	Response to chitin	1130	8	0.0252	0.054782609	SumStat(Short-term)	B65:G65
+short	sumstat	GO:0010218	Response to far red light	251	1	1	1	SumStat(Short-term)	B66:G66
+short	sumstat	GO:0010224	Response to uv-b	274	1	0.3268	0.616603774	SumStat(Short-term)	B67:G67
+short	sumstat	GO:0010286	Heat acclimation	183	1	0.0031	0.044285714	SumStat(Short-term)	B68:G68
+short	sumstat	GO:0010310	Regulation of hydrogen peroxide metabolic process	532	1	0.0114	0.0475	SumStat(Short-term)	B69:G69
+short	sumstat	GO:0010319	Stromule	96	1	0.9902	1	SumStat(Short-term)	B70:G70
+short	sumstat	GO:0010363	Regulation of plant-type hypersensitive response	1015	1	0.0196	0.051794872	SumStat(Short-term)	B71:G71
+short	sumstat	GO:0010371	Regulation of gibberellin biosynthetic process	5	2	0.0001	0.005	SumStat(Short-term)	B72:G72
+short	sumstat	GO:0010413	Glucuronoxylan metabolic process	493	1	0.548	0.900322581	SumStat(Short-term)	B73:G73
+short	sumstat	GO:0015976	Carbon utilization	12	1	0.5405	0.900322581	SumStat(Short-term)	B74:G74
+short	sumstat	GO:0015979	Photosynthesis	449	1	0.009	0.046956522	SumStat(Short-term)	B75:G75
+short	sumstat	GO:0016049	Cell growth	354	2	0.0827	0.1654	SumStat(Short-term)	B76:G76
+short	sumstat	GO:0019684	Photosynthesis, light reaction	318	1	0.019	0.051794872	SumStat(Short-term)	B77:G77
+short	sumstat	GO:0019722	Calcium-mediated signaling	139	1	0.2079	0.407647059	SumStat(Short-term)	B78:G78
+short	sumstat	GO:0031348	Negative regulation of defense response	762	1	0.0162	0.050625	SumStat(Short-term)	B79:G79
+short	sumstat	GO:0031539	Positive regulation of anthocyanin metabolic process	10	1	0.3868	0.716296296	SumStat(Short-term)	B80:G80
+short	sumstat	GO:0035264	Multicellular organism growth	5	1	0.0002	0.006666667	SumStat(Short-term)	B81:G81
+short	sumstat	GO:0035556	Intracellular signal transduction	476	5	0.0096	0.046956522	SumStat(Short-term)	B82:G82
+short	sumstat	GO:0042538	Hyperosmotic salinity response	459	4	0.0073	0.045625	SumStat(Short-term)	B83:G83
+short	sumstat	GO:0042542	Response to hydrogen peroxide	507	1	0.9999	1	SumStat(Short-term)	B84:G84
+short	sumstat	GO:0042742	Defense response to bacterium	1056	1	0.022	0.053571429	SumStat(Short-term)	B85:G85
+short	sumstat	GO:0042753	Positive regulation of circadian rhythm	18	1	0.8984	1	SumStat(Short-term)	B86:G86
+short	sumstat	GO:0042802	Identical protein binding	318	1	0.4912	0.874035088	SumStat(Short-term)	B87:G87
+short	sumstat	GO:0042991	Transcription factor import into nucleus	71	2	0.7293	1	SumStat(Short-term)	B88:G88
+short	sumstat	GO:0043565	Sequence-specific dna binding	880	5	0.0158	0.050625	SumStat(Short-term)	B89:G89
+short	sumstat	GO:0043687	Post-translational protein modification	221	1	1	1	SumStat(Short-term)	B90:G90
+short	sumstat	GO:0043900	Regulation of multi-organism process	262	1	0.0055	0.045625	SumStat(Short-term)	B91:G91
+short	sumstat	GO:0045492	Xylan biosynthetic process	495	1	0.5582	0.900322581	SumStat(Short-term)	B92:G92
+short	sumstat	GO:0045892	Negative regulation of transcription, dna-dependent	465	2	0.0103	0.046956522	SumStat(Short-term)	B93:G93
+short	sumstat	GO:0045893	Positive regulation of transcription, dna-dependent	1077	15	0.5562	0.900322581	SumStat(Short-term)	B94:G94
+short	sumstat	GO:0046686	Response to cadmium ion	1301	3	0.9999	1	SumStat(Short-term)	B95:G95
+short	sumstat	GO:0046983	Protein dimerization activity	725	1	0.9979	1	SumStat(Short-term)	B96:G96
+short	sumstat	GO:0048046	Apoplast	1001	1	1e-16	1e-16	SumStat(Short-term)	B97:G97
+short	sumstat	GO:0048364	Root development	397	1	0.9414	1	SumStat(Short-term)	B98:G98
+short	sumstat	GO:0048366	Leaf development	327	1	0.9879	1	SumStat(Short-term)	B99:G99
+short	sumstat	GO:0048510	Regulation of timing of transition from vegetative to reproductive phase	53	2	0.0048	0.045625	SumStat(Short-term)	B100:G100
+short	sumstat	GO:0048825	Cotyledon development	183	1	0.9703	1	SumStat(Short-term)	B101:G101
+short	sumstat	GO:0050826	Response to freezing	219	2	0.7042	1	SumStat(Short-term)	B102:G102
+short	sumstat	GO:0050832	Defense response to fungus	929	12	0.019	0.051794872	SumStat(Short-term)	B103:G103
+short	sumstat	GO:0051276	Chromosome organization	51	1	0.9213	1	SumStat(Short-term)	B104:G104
+short	sumstat	GO:0051555	Flavonol biosynthetic process	39	1	0.5975	0.93359375	SumStat(Short-term)	B105:G105
+short	sumstat	GO:0052542	Defense response by callose deposition	115	2	0.0013	0.026	SumStat(Short-term)	B106:G106
+short	sumstat	GO:0080167	Response to karrikin	355	1	0.0188	0.051794872	SumStat(Short-term)	B107:G107
+short	sumstat	GO:2000652	Regulation of secondary cell wall biogenesis	48	1	0.5709	0.906190476	SumStat(Short-term)	B108:G108
+middle	sumstat	GO:0000023	Maltose metabolic process	302	1	0.0128	0.0728999999999998	SumStat(Mid-term)	B9:G9
+middle	sumstat	GO:0000038	Very long-chain fatty acid metabolic process	103	1	0.139400000000001	0.252247619047621	SumStat(Mid-term)	B10:G10
+middle	sumstat	GO:0000096	Sulfur amino acid metabolic process	136	19	0.0684000000000009	0.140920481927713	SumStat(Mid-term)	B11:G11
+middle	sumstat	GO:0000165	Mapkkk cascade	572	32	0.0240999999999999	0.0841040816326527	SumStat(Mid-term)	B12:G12
+middle	sumstat	GO:0000271	Polysaccharide biosynthetic process	271	1	0.0104	0.0728999999999998	SumStat(Mid-term)	B13:G13
+middle	sumstat	GO:0000287	Magnesium ion binding	247	3	0.0338999999999999	0.0990923076923075	SumStat(Mid-term)	B14:G14
+middle	sumstat	GO:0000413	Protein peptidyl-prolyl isomerization	36	2	0.23559999999999	0.381872985781975	SumStat(Mid-term)	B15:G15
+middle	sumstat	GO:0000910	Cytokinesis	91	2	0.485599999999963	0.633874809160257	SumStat(Mid-term)	B16:G16
+middle	sumstat	GO:0000911	Cytokinesis by cell plate formation	469	2	0.999699999999906	0.999999999999906	SumStat(Mid-term)	B17:G17
+middle	sumstat	GO:0001676	Long-chain fatty acid metabolic process	57	1	0.0624000000000008	0.132032727272729	SumStat(Mid-term)	B18:G18
+middle	sumstat	GO:0002213	Defense response to insect	71	1	0.381599999999974	0.530517073170696	SumStat(Mid-term)	B19:G19
+middle	sumstat	GO:0002237	Response to molecule of bacterial origin	261	6	0.0568000000000006	0.126140259740261	SumStat(Mid-term)	B20:G20
+middle	sumstat	GO:0002679	Respiratory burst involved in defense response	418	20	0.0162	0.0728999999999998	SumStat(Mid-term)	B21:G21
+middle	sumstat	GO:0003690	Double-stranded dna binding	40	1	0.00720000000000001	0.0728999999999998	SumStat(Mid-term)	B22:G22
+middle	sumstat	GO:0003723	Rna binding	1040	1	0.0745000000000011	0.149876470588238	SumStat(Mid-term)	B23:G23
+middle	sumstat	GO:0003755	Peptidyl-prolyl cis-trans isomerase activity	114	2	0.670499999999942	0.80743309859148	SumStat(Mid-term)	B24:G24
+middle	sumstat	GO:0003995	Acyl-coa dehydrogenase activity	15	1	0.0632000000000008	0.132032727272729	SumStat(Mid-term)	B25:G25
+middle	sumstat	GO:0003997	Acyl-coa oxidase activity	12	1	0.1469	0.263035602094241	SumStat(Mid-term)	B26:G26
+middle	sumstat	GO:0004022	Alcohol dehydrogenase (nad) activity	18	2	0.78479999999993	0.904703999999919	SumStat(Mid-term)	B27:G27
+middle	sumstat	GO:0004033	Aldo-keto reductase (nadp) activity	24	1	0.69139999999994	0.82677902097895	SumStat(Mid-term)	B28:G28
+middle	sumstat	GO:0004321	Fatty-acyl-coa synthase activity	10	1	0.0354	0.100056198347107	SumStat(Mid-term)	B29:G29
+middle	sumstat	GO:0004602	Glutathione peroxidase activity	26	1	0.24039999999999	0.387815094339606	SumStat(Mid-term)	B30:G30
+middle	sumstat	GO:0004659	Prenyltransferase activity	37	3	0.0958000000000017	0.184065168539329	SumStat(Mid-term)	B31:G31
+middle	sumstat	GO:0004709	Map kinase kinase kinase activity	20	10	0.259099999999988	0.407105504587137	SumStat(Mid-term)	B32:G32
+middle	sumstat	GO:0004712	Protein serine/threonine/tyrosine kinase activity	99	1	0.335899999999979	0.496931896551693	SumStat(Mid-term)	B33:G33
+middle	sumstat	GO:0004751	Ribose-5-phosphate isomerase activity	7	1	0.0435000000000002	0.105510638297873	SumStat(Mid-term)	B34:G34
+middle	sumstat	GO:0004765	Shikimate kinase activity	13	3	0.126400000000002	0.231901604278079	SumStat(Mid-term)	B35:G35
+middle	sumstat	GO:0005484	Snap receptor activity	72	2	0.919399999999915	0.995046835442946	SumStat(Mid-term)	B36:G36
+middle	sumstat	GO:0005506	Iron ion binding	705	10	0.0760000000000011	0.152000000000002	SumStat(Mid-term)	B37:G37
+middle	sumstat	GO:0005509	Calcium ion binding	539	1	0.0237999999999999	0.0841040816326527	SumStat(Mid-term)	B38:G38
+middle	sumstat	GO:0005543	Phospholipid binding	140	1	0.548599999999956	0.684748905109434	SumStat(Mid-term)	B39:G39
+middle	sumstat	GO:0005575	Cellular_component	1413	1	0.800799999999928	0.90987906976736	SumStat(Mid-term)	B40:G40
+middle	sumstat	GO:0005730	Nucleolus	637	2	0.0257999999999999	0.087511764705882	SumStat(Mid-term)	B41:G41
+middle	sumstat	GO:0005774	Vacuolar membrane	1127	4	0.659099999999944	0.799334042553123	SumStat(Mid-term)	B42:G42
+middle	sumstat	GO:0005777	Peroxisome	386	5	0.0144	0.0728999999999998	SumStat(Mid-term)	B43:G43
+middle	sumstat	GO:0005783	Endoplasmic reticulum	1152	1	0.0583000000000006	0.128522292993632	SumStat(Mid-term)	B44:G44
+middle	sumstat	GO:0005788	Endoplasmic reticulum lumen	23	1	0.96479999999991	0.999999999999906	SumStat(Mid-term)	B45:G45
+middle	sumstat	GO:0006098	Pentose-phosphate shunt	420	5	0.0201999999999999	0.0782799999999997	SumStat(Mid-term)	B46:G46
+middle	sumstat	GO:0006312	Mitotic recombination	109	1	0.895599999999918	0.975462420382076	SumStat(Mid-term)	B47:G47
+middle	sumstat	GO:0006364	Rrna processing	531	1	0.0216999999999999	0.0789510638297869	SumStat(Mid-term)	B48:G48
+middle	sumstat	GO:0006406	Mrna export from nucleus	133	1	0.00770000000000001	0.0728999999999998	SumStat(Mid-term)	B49:G49
+middle	sumstat	GO:0006417	Regulation of translation	70	1	0.0146	0.0728999999999998	SumStat(Mid-term)	B50:G50
+middle	sumstat	GO:0006457	Protein folding	773	3	0.993199999999907	0.999999999999906	SumStat(Mid-term)	B51:G51
+middle	sumstat	GO:0006499	N-terminal protein myristoylation	1037	3	0.0423000000000002	0.105510638297873	SumStat(Mid-term)	B52:G52
+middle	sumstat	GO:0006520	Cellular amino acid metabolic process	109	2	0.537699999999957	0.681485294117593	SumStat(Mid-term)	B53:G53
+middle	sumstat	GO:0006546	Glycine catabolic process	156	19	0.0918000000000016	0.177376271186444	SumStat(Mid-term)	B54:G54
+middle	sumstat	GO:0006561	Proline biosynthetic process	30	2	0.96379999999991	0.999999999999906	SumStat(Mid-term)	B55:G55
+middle	sumstat	GO:0006568	Tryptophan metabolic process	15	1	0.768599999999932	0.894085714285635	SumStat(Mid-term)	B56:G56
+middle	sumstat	GO:0006569	Tryptophan catabolic process	192	6	0.541999999999957	0.681485294117593	SumStat(Mid-term)	B57:G57
+middle	sumstat	GO:0006596	Polyamine biosynthetic process	15	2	0.137100000000001	0.249405319148938	SumStat(Mid-term)	B58:G58
+middle	sumstat	GO:0006612	Protein targeting to membrane	1016	40	0.0387000000000001	0.1026	SumStat(Mid-term)	B59:G59
+middle	sumstat	GO:0006629	Lipid metabolic process	533	2	0.0727000000000011	0.147120710059174	SumStat(Mid-term)	B60:G60
+middle	sumstat	GO:0006631	Fatty acid metabolic process	86	2	0.0056	0.0728999999999998	SumStat(Mid-term)	B61:G61
+middle	sumstat	GO:0006633	Fatty acid biosynthetic process	236	4	0.0136	0.0728999999999998	SumStat(Mid-term)	B62:G62
+middle	sumstat	GO:0006635	Fatty acid beta-oxidation	452	3	0.069500000000001	0.142329341317367	SumStat(Mid-term)	B63:G63
+middle	sumstat	GO:0006636	Unsaturated fatty acid biosynthetic process	203	19	0.009	0.0728999999999998	SumStat(Mid-term)	B64:G64
+middle	sumstat	GO:0006655	Phosphatidylglycerol biosynthetic process	175	5	0.00730000000000001	0.0728999999999998	SumStat(Mid-term)	B65:G65
+middle	sumstat	GO:0006733	Oxidoreduction coenzyme metabolic process	120	19	0.175699999999997	0.296512315270931	SumStat(Mid-term)	B66:G66
+middle	sumstat	GO:0006766	Vitamin metabolic process	120	19	0.166099999999998	0.285458291457283	SumStat(Mid-term)	B67:G67
+middle	sumstat	GO:0006816	Calcium ion transport	324	1	0.434199999999969	0.577158139534842	SumStat(Mid-term)	B68:G68
+middle	sumstat	GO:0006820	Anion transport	143	2	0.0156	0.0728999999999998	SumStat(Mid-term)	B69:G69
+middle	sumstat	GO:0006862	Nucleotide transport	101	2	0.00700000000000001	0.0728999999999998	SumStat(Mid-term)	B70:G70
+middle	sumstat	GO:0006888	Er to golgi vesicle-mediated transport	311	2	0.0273999999999999	0.0884037735849053	SumStat(Mid-term)	B71:G71
+middle	sumstat	GO:0006944	Cellular membrane fusion	714	18	0.0280999999999999	0.0884807339449538	SumStat(Mid-term)	B72:G72
+middle	sumstat	GO:0006952	Defense response	1095	11	0.995799999999907	0.999999999999906	SumStat(Mid-term)	B73:G73
+middle	sumstat	GO:0006970	Response to osmotic stress	341	12	0.012	0.0728999999999998	SumStat(Mid-term)	B74:G74
+middle	sumstat	GO:0006979	Response to oxidative stress	629	10	0.323399999999981	0.485099999999971	SumStat(Mid-term)	B75:G75
+middle	sumstat	GO:0007030	Golgi organization	536	1	0.303099999999983	0.464843946188315	SumStat(Mid-term)	B76:G76
+middle	sumstat	GO:0007154	Cell communication	186	20	0.00770000000000001	0.0728999999999998	SumStat(Mid-term)	B77:G77
+middle	sumstat	GO:0007165	Signal transduction	1301	32	0.0632000000000008	0.132032727272729	SumStat(Mid-term)	B78:G78
+middle	sumstat	GO:0007275	Multicellular organismal development	235	9	0.357199999999977	0.514580672268874	SumStat(Mid-term)	B79:G79
+middle	sumstat	GO:0008168	Methyltransferase activity	336	1	0.0600000000000007	0.12987341772152	SumStat(Mid-term)	B80:G80
+middle	sumstat	GO:0008234	Cysteine-type peptidase activity	142	2	0.999499999999906	0.999999999999906	SumStat(Mid-term)	B81:G81
+middle	sumstat	GO:0008284	Positive regulation of cell proliferation	187	1	0.664399999999943	0.80291448763244	SumStat(Mid-term)	B82:G82
+middle	sumstat	GO:0008295	Spermidine biosynthetic process	34	2	0.108000000000002	0.202945054945059	SumStat(Mid-term)	B83:G83
+middle	sumstat	GO:0008299	Isoprenoid biosynthetic process	41	1	0.0564000000000006	0.126070588235295	SumStat(Mid-term)	B84:G84
+middle	sumstat	GO:0008610	Lipid biosynthetic process	56	1	0.520899999999959	0.667220224719049	SumStat(Mid-term)	B85:G85
+middle	sumstat	GO:0008652	Cellular amino acid biosynthetic process	192	19	0.298399999999983	0.461777375565585	SumStat(Mid-term)	B86:G86
+middle	sumstat	GO:0008661	1-deoxy-d-xylulose-5-phosphate synthase activity	13	1	0.371499999999975	0.522250819672096	SumStat(Mid-term)	B87:G87
+middle	sumstat	GO:0008757	S-adenosylmethionine-dependent methyltransferase activity	43	1	0.351399999999978	0.509377118644035	SumStat(Mid-term)	B88:G88
+middle	sumstat	GO:0009052	Pentose-phosphate shunt, non-oxidative branch	9	1	0.0627000000000008	0.132032727272729	SumStat(Mid-term)	B89:G89
+middle	sumstat	GO:0009055	Electron carrier activity	966	12	0.0605000000000007	0.1301320754717	SumStat(Mid-term)	B90:G90
+middle	sumstat	GO:0009069	Serine family amino acid metabolic process	21	1	0.071700000000001	0.145960714285716	SumStat(Mid-term)	B91:G91
+middle	sumstat	GO:0009072	Aromatic amino acid family metabolic process	127	19	0.159699999999999	0.280089230769229	SumStat(Mid-term)	B92:G92
+middle	sumstat	GO:0009073	Aromatic amino acid family biosynthetic process	138	6	0.384999999999974	0.530927419354803	SumStat(Mid-term)	B93:G93
+middle	sumstat	GO:0009106	Lipoate metabolic process	120	19	0.165399999999998	0.285458291457283	SumStat(Mid-term)	B94:G94
+middle	sumstat	GO:0009108	Coenzyme biosynthetic process	120	19	0.170499999999998	0.291554999999996	SumStat(Mid-term)	B95:G95
+middle	sumstat	GO:0009117	Nucleotide metabolic process	149	19	0.0478000000000003	0.112742068965518	SumStat(Mid-term)	B96:G96
+middle	sumstat	GO:0009257	10-formyltetrahydrofolate biosynthetic process	11	1	0.0511000000000004	0.117289932885907	SumStat(Mid-term)	B97:G97
+middle	sumstat	GO:0009266	Response to temperature stimulus	356	4	0.0590000000000007	0.128522292993632	SumStat(Mid-term)	B98:G98
+middle	sumstat	GO:0009268	Response to ph	6	3	0.426699999999969	0.574937007873974	SumStat(Mid-term)	B99:G99
+middle	sumstat	GO:0009269	Response to desiccation	98	2	0.363099999999976	0.516689626555983	SumStat(Mid-term)	B100:G100
+middle	sumstat	GO:0009396	Folic acid-containing compound biosynthetic process	32	1	0.0088	0.0728999999999998	SumStat(Mid-term)	B101:G101
+middle	sumstat	GO:0009407	Toxin catabolic process	534	3	0.0180999999999999	0.0740329411764704	SumStat(Mid-term)	B102:G102
+middle	sumstat	GO:0009408	Response to heat	652	6	0.960799999999911	0.999999999999906	SumStat(Mid-term)	B103:G103
+middle	sumstat	GO:0009409	Response to cold	1113	37	0.0457000000000003	0.109296503496504	SumStat(Mid-term)	B104:G104
+middle	sumstat	GO:0009410	Response to xenobiotic stimulus	173	4	0.0118	0.0728999999999998	SumStat(Mid-term)	B105:G105
+middle	sumstat	GO:0009414	Response to water deprivation	883	39	0.0338999999999999	0.0990923076923075	SumStat(Mid-term)	B106:G106
+middle	sumstat	GO:0009416	Response to light stimulus	440	12	0.0174	0.0740329411764704	SumStat(Mid-term)	B107:G107
+middle	sumstat	GO:0009446	Putrescine biosynthetic process	6	2	0.0405000000000001	0.1026	SumStat(Mid-term)	B108:G108
+middle	sumstat	GO:0009504	Cell plate	75	2	0.0383000000000001	0.1026	SumStat(Mid-term)	B109:G109
+middle	sumstat	GO:0009505	Plant-type cell wall	666	1	0.907099999999916	0.984851428571338	SumStat(Mid-term)	B110:G110
+middle	sumstat	GO:0009534	Chloroplast thylakoid	464	3	0.0183999999999999	0.0740329411764704	SumStat(Mid-term)	B111:G111
+middle	sumstat	GO:0009535	Chloroplast thylakoid membrane	695	6	0.0286999999999999	0.0892309090909087	SumStat(Mid-term)	B112:G112
+middle	sumstat	GO:0009536	Plastid	730	5	0.50909999999996	0.654557142857092	SumStat(Mid-term)	B113:G113
+middle	sumstat	GO:0009543	Chloroplast thylakoid lumen	146	1	0.0054	0.0728999999999998	SumStat(Mid-term)	B114:G114
+middle	sumstat	GO:0009555	Pollen development	403	8	0.100000000000002	0.188950276243097	SumStat(Mid-term)	B115:G115
+middle	sumstat	GO:0009556	Microsporogenesis	120	10	0.827899999999925	0.928333770491719	SumStat(Mid-term)	B116:G116
+middle	sumstat	GO:0009560	Embryo sac egg cell differentiation	288	1	0.395299999999973	0.542942168674661	SumStat(Mid-term)	B117:G117
+middle	sumstat	GO:0009570	Chloroplast stroma	1351	8	0.314999999999982	0.474581497797329	SumStat(Mid-term)	B118:G118
+middle	sumstat	GO:0009579	Thylakoid	465	5	0.0395000000000001	0.1026	SumStat(Mid-term)	B119:G119
+middle	sumstat	GO:0009595	Detection of biotic stimulus	276	12	0.0115	0.0728999999999998	SumStat(Mid-term)	B120:G120
+middle	sumstat	GO:0009611	Response to wounding	1025	94	0.0390000000000001	0.1026	SumStat(Mid-term)	B121:G121
+middle	sumstat	GO:0009612	Response to mechanical stimulus	150	15	0.0054	0.0728999999999998	SumStat(Mid-term)	B122:G122
+middle	sumstat	GO:0009617	Response to bacterium	405	7	0.0190999999999999	0.0759558139534881	SumStat(Mid-term)	B123:G123
+middle	sumstat	GO:0009620	Response to fungus	310	73	0.0136	0.0728999999999998	SumStat(Mid-term)	B124:G124
+middle	sumstat	GO:0009625	Response to insect	83	2	0.0031	0.0728999999999998	SumStat(Mid-term)	B125:G125
+middle	sumstat	GO:0009627	Systemic acquired resistance	747	2	0.0268999999999999	0.0879428571428568	SumStat(Mid-term)	B126:G126
+middle	sumstat	GO:0009631	Cold acclimation	50	2	0.0172	0.0740329411764704	SumStat(Mid-term)	B127:G127
+middle	sumstat	GO:0009637	Response to blue light	269	4	0.0109	0.0728999999999998	SumStat(Mid-term)	B128:G128
+middle	sumstat	GO:0009640	Photomorphogenesis	500	1	0.573499999999953	0.70807581227431	SumStat(Mid-term)	B129:G129
+middle	sumstat	GO:0009642	Response to light intensity	41	2	0.880799999999919	0.965492307692219	SumStat(Mid-term)	B130:G130
+middle	sumstat	GO:0009644	Response to high light intensity	578	12	0.815099999999927	0.920013861386056	SumStat(Mid-term)	B131:G131
+middle	sumstat	GO:0009646	Response to absence of light	90	6	0.0044	0.0728999999999998	SumStat(Mid-term)	B132:G132
+middle	sumstat	GO:0009657	Plastid organization	201	1	0.0089	0.0728999999999998	SumStat(Mid-term)	B133:G133
+middle	sumstat	GO:0009658	Chloroplast organization	313	2	0.311099999999982	0.472871999999973	SumStat(Mid-term)	B134:G134
+middle	sumstat	GO:0009684	Indoleacetic acid biosynthetic process	231	6	0.376199999999975	0.525144489795883	SumStat(Mid-term)	B135:G135
+middle	sumstat	GO:0009686	Gibberellin biosynthetic process	106	1	0.997399999999906	0.999999999999906	SumStat(Mid-term)	B136:G136
+middle	sumstat	GO:0009688	Abscisic acid biosynthetic process	53	13	0.0377000000000001	0.1026	SumStat(Mid-term)	B137:G137
+middle	sumstat	GO:0009693	Ethylene biosynthetic process	268	10	0.0092	0.0728999999999998	SumStat(Mid-term)	B138:G138
+middle	sumstat	GO:0009694	Jasmonic acid metabolic process	100	8	0.0048	0.0728999999999998	SumStat(Mid-term)	B139:G139
+middle	sumstat	GO:0009695	Jasmonic acid biosynthetic process	415	111	0.0175999999999999	0.0740329411764704	SumStat(Mid-term)	B140:G140
+middle	sumstat	GO:0009697	Salicylic acid biosynthetic process	649	24	0.0281999999999999	0.0884807339449538	SumStat(Mid-term)	B141:G141
+middle	sumstat	GO:0009723	Response to ethylene stimulus	723	39	0.0263999999999999	0.0876582524271841	SumStat(Mid-term)	B142:G142
+middle	sumstat	GO:0009733	Response to auxin stimulus	1009	27	0.0439000000000002	0.105730985915494	SumStat(Mid-term)	B143:G143
+middle	sumstat	GO:0009737	Response to abscisic acid stimulus	1249	34	0.0502000000000004	0.116002702702704	SumStat(Mid-term)	B144:G144
+middle	sumstat	GO:0009738	Abscisic acid mediated signaling pathway	630	51	0.0228999999999999	0.0824399999999997	SumStat(Mid-term)	B145:G145
+middle	sumstat	GO:0009739	Response to gibberellin stimulus	250	1	0.0095	0.0728999999999998	SumStat(Mid-term)	B146:G146
+middle	sumstat	GO:0009740	Gibberellic acid mediated signaling pathway	212	2	0.50899999999996	0.654557142857092	SumStat(Mid-term)	B147:G147
+middle	sumstat	GO:0009744	Response to sucrose stimulus	528	4	0.0199999999999999	0.0782799999999997	SumStat(Mid-term)	B148:G148
+middle	sumstat	GO:0009750	Response to fructose stimulus	361	2	0.0473000000000003	0.112337500000001	SumStat(Mid-term)	B149:G149
+middle	sumstat	GO:0009751	Response to salicylic acid stimulus	378	12	0.0143	0.0728999999999998	SumStat(Mid-term)	B150:G150
+middle	sumstat	GO:0009753	Response to jasmonic acid stimulus	754	93	0.0301999999999999	0.0930486486486483	SumStat(Mid-term)	B151:G151
+middle	sumstat	GO:0009759	Indole glucosinolate biosynthetic process	29	1	0.426999999999969	0.574937007873974	SumStat(Mid-term)	B152:G152
+middle	sumstat	GO:0009788	Negative regulation of abscisic acid mediated signaling pathway	70	7	0.0389000000000001	0.1026	SumStat(Mid-term)	B153:G153
+middle	sumstat	GO:0009789	Positive regulation of abscisic acid mediated signaling pathway	67	2	0.0899000000000015	0.174692045454548	SumStat(Mid-term)	B154:G154
+middle	sumstat	GO:0009793	Embryo development ending in seed dormancy	1174	4	1e-16	1e-16	SumStat(Mid-term)	B155:G155
+middle	sumstat	GO:0009814	Defense response, incompatible interaction	194	8	0.00780000000000001	0.0728999999999998	SumStat(Mid-term)	B156:G156
+middle	sumstat	GO:0009816	Defense response to bacterium, incompatible interaction	143	5	0.24159999999999	0.387921126760547	SumStat(Mid-term)	B157:G157
+middle	sumstat	GO:0009825	Multidimensional cell growth	264	1	0.125600000000002	0.231901604278079	SumStat(Mid-term)	B158:G158
+middle	sumstat	GO:0009826	Unidimensional cell growth	272	2	1e-16	1e-16	SumStat(Mid-term)	B159:G159
+middle	sumstat	GO:0009827	Plant-type cell wall modification	321	1	0.999999999999906	0.999999999999906	SumStat(Mid-term)	B160:G160
+middle	sumstat	GO:0009845	Seed germination	477	1	0.540299999999957	0.681485294117593	SumStat(Mid-term)	B161:G161
+middle	sumstat	GO:0009860	Pollen tube growth	458	2	0.999999999999906	0.999999999999906	SumStat(Mid-term)	B162:G162
+middle	sumstat	GO:0009862	Systemic acquired resistance, salicylic acid mediated signaling pathway	684	32	0.0260999999999999	0.087511764705882	SumStat(Mid-term)	B163:G163
+middle	sumstat	GO:0009863	Salicylic acid mediated signaling pathway	456	36	0.0211999999999999	0.0786967741935481	SumStat(Mid-term)	B164:G164
+middle	sumstat	GO:0009867	Jasmonic acid mediated signaling pathway	797	54	0.0306999999999999	0.0937446428571425	SumStat(Mid-term)	B165:G165
+middle	sumstat	GO:0009873	Ethylene mediated signaling pathway	309	20	0.0129	0.0728999999999998	SumStat(Mid-term)	B166:G166
+middle	sumstat	GO:0009901	Anther dehiscence	49	3	0.716799999999937	0.842424742267968	SumStat(Mid-term)	B167:G167
+middle	sumstat	GO:0009902	Chloroplast relocation	229	1	0.0092	0.0728999999999998	SumStat(Mid-term)	B168:G168
+middle	sumstat	GO:0009908	Flower development	268	5	0.845399999999923	0.93994480519472	SumStat(Mid-term)	B169:G169
+middle	sumstat	GO:0009909	Regulation of flower development	742	1	0.999999999999906	0.999999999999906	SumStat(Mid-term)	B170:G170
+middle	sumstat	GO:0009915	Phloem sucrose loading	25	3	0.702899999999939	0.834693749999927	SumStat(Mid-term)	B171:G171
+middle	sumstat	GO:0009932	Cell tip growth	247	1	0.0635000000000008	0.132032727272729	SumStat(Mid-term)	B172:G172
+middle	sumstat	GO:0009941	Chloroplast envelope	1208	10	0.0520000000000005	0.118227814569537	SumStat(Mid-term)	B173:G173
+middle	sumstat	GO:0009963	Positive regulation of flavonoid biosynthetic process	299	2	0.0139	0.0728999999999998	SumStat(Mid-term)	B174:G174
+middle	sumstat	GO:0009965	Leaf morphogenesis	487	11	0.224799999999992	0.368018181818168	SumStat(Mid-term)	B175:G175
+middle	sumstat	GO:0009966	Regulation of signal transduction	20	1	0.0313999999999999	0.0950336283185837	SumStat(Mid-term)	B176:G176
+middle	sumstat	GO:0009978	Allene oxide synthase activity	6	2	0.0098	0.0728999999999998	SumStat(Mid-term)	B177:G177
+middle	sumstat	GO:0010017	Red or far-red light signaling pathway	64	1	0.430399999999969	0.577158139534842	SumStat(Mid-term)	B178:G178
+middle	sumstat	GO:0010025	Wax biosynthetic process	59	1	0.0243999999999999	0.0842909090909088	SumStat(Mid-term)	B179:G179
+middle	sumstat	GO:0010027	Thylakoid membrane organization	467	4	0.0183999999999999	0.0740329411764704	SumStat(Mid-term)	B180:G180
+middle	sumstat	GO:0010074	Maintenance of meristem identity	54	1	0.351499999999978	0.509377118644035	SumStat(Mid-term)	B181:G181
+middle	sumstat	GO:0010099	Regulation of photomorphogenesis	22	1	0.438599999999968	0.578517241379268	SumStat(Mid-term)	B182:G182
+middle	sumstat	GO:0010103	Stomatal complex morphogenesis	360	2	0.255099999999988	0.405786976744167	SumStat(Mid-term)	B183:G183
+middle	sumstat	GO:0010114	Response to red light	251	5	0.0102	0.0728999999999998	SumStat(Mid-term)	B184:G184
+middle	sumstat	GO:0010115	Regulation of abscisic acid biosynthetic process	6	2	0.175999999999997	0.296512315270931	SumStat(Mid-term)	B185:G185
+middle	sumstat	GO:0010117	Photoprotection	13	5	0.295599999999984	0.459523636363611	SumStat(Mid-term)	B186:G186
+middle	sumstat	GO:0010118	Stomatal movement	108	3	0.141100000000001	0.253980000000001	SumStat(Mid-term)	B187:G187
+middle	sumstat	GO:0010155	Regulation of proton transport	191	5	0.00750000000000001	0.0728999999999998	SumStat(Mid-term)	B188:G188
+middle	sumstat	GO:0010162	Seed dormancy	404	1	0.894499999999918	0.975462420382076	SumStat(Mid-term)	B189:G189
+middle	sumstat	GO:0010176	Homogentisate phytyltransferase activity	14	3	0.434299999999968	0.577158139534842	SumStat(Mid-term)	B190:G190
+middle	sumstat	GO:0010181	Fmn binding	94	1	0.562399999999954	0.696886956521683	SumStat(Mid-term)	B191:G191
+middle	sumstat	GO:0010182	Sugar mediated signaling pathway	271	2	0.793099999999929	0.904703999999919	SumStat(Mid-term)	B192:G192
+middle	sumstat	GO:0010189	Vitamin e biosynthetic process	35	3	0.204299999999994	0.338034782608685	SumStat(Mid-term)	B193:G193
+middle	sumstat	GO:0010193	Response to ozone	141	2	0.036	0.100918032786885	SumStat(Mid-term)	B194:G194
+middle	sumstat	GO:0010200	Response to chitin	1130	43	0.0432000000000002	0.105510638297873	SumStat(Mid-term)	B195:G195
+middle	sumstat	GO:0010205	Photoinhibition	16	2	0.342199999999979	0.502284978540741	SumStat(Mid-term)	B196:G196
+middle	sumstat	GO:0010207	Photosystem ii assembly	372	1	0.0158	0.0728999999999998	SumStat(Mid-term)	B197:G197
+middle	sumstat	GO:0010218	Response to far red light	251	5	0.0097	0.0728999999999998	SumStat(Mid-term)	B198:G198
+middle	sumstat	GO:0010224	Response to uv-b	274	1	0.0124	0.0728999999999998	SumStat(Mid-term)	B199:G199
+middle	sumstat	GO:0010228	Vegetative to reproductive phase transition of meristem	749	1	0.87459999999992	0.96177877813496	SumStat(Mid-term)	B200:G200
+middle	sumstat	GO:0010286	Heat acclimation	183	4	0.0097	0.0728999999999998	SumStat(Mid-term)	B201:G201
+middle	sumstat	GO:0010287	Plastoglobule	147	2	0.0062	0.0728999999999998	SumStat(Mid-term)	B202:G202
+middle	sumstat	GO:0010304	Psii associated light-harvesting complex ii catabolic process	69	1	0.161999999999998	0.282673469387752	SumStat(Mid-term)	B203:G203
+middle	sumstat	GO:0010310	Regulation of hydrogen peroxide metabolic process	532	16	0.0205999999999999	0.0782799999999997	SumStat(Mid-term)	B204:G204
+middle	sumstat	GO:0010311	Lateral root formation	137	5	0.405599999999972	0.553195219123467	SumStat(Mid-term)	B205:G205
+middle	sumstat	GO:0010363	Regulation of plant-type hypersensitive response	1015	40	0.0404000000000001	0.1026	SumStat(Mid-term)	B206:G206
+middle	sumstat	GO:0010371	Regulation of gibberellin biosynthetic process	5	1	0.441299999999968	0.578517241379268	SumStat(Mid-term)	B207:G207
+middle	sumstat	GO:0010413	Glucuronoxylan metabolic process	493	1	0.999999999999906	0.999999999999906	SumStat(Mid-term)	B208:G208
+middle	sumstat	GO:0010449	Root meristem growth	17	10	0.0269999999999999	0.0879428571428568	SumStat(Mid-term)	B209:G209
+middle	sumstat	GO:0010555	Response to mannitol stimulus	30	2	0.0522000000000005	0.118227814569537	SumStat(Mid-term)	B210:G210
+middle	sumstat	GO:0010817	Regulation of hormone levels	211	1	0.0400000000000001	0.1026	SumStat(Mid-term)	B211:G211
+middle	sumstat	GO:0015035	Protein disulfide oxidoreductase activity	188	4	0.00830000000000001	0.0728999999999998	SumStat(Mid-term)	B212:G212
+middle	sumstat	GO:0015696	Ammonium transport	105	2	0.0158	0.0728999999999998	SumStat(Mid-term)	B213:G213
+middle	sumstat	GO:0015802	Basic amino acid transport	102	2	0.0092	0.0728999999999998	SumStat(Mid-term)	B214:G214
+middle	sumstat	GO:0015824	Proline transport	246	1	0.528999999999958	0.675067164179051	SumStat(Mid-term)	B215:G215
+middle	sumstat	GO:0015979	Photosynthesis	449	5	0.0157	0.0728999999999998	SumStat(Mid-term)	B216:G216
+middle	sumstat	GO:0015994	Chlorophyll metabolic process	90	12	0.0369	0.1026	SumStat(Mid-term)	B217:G217
+middle	sumstat	GO:0015995	Chlorophyll biosynthetic process	293	13	0.0179999999999999	0.0740329411764704	SumStat(Mid-term)	B218:G218
+middle	sumstat	GO:0016045	Detection of bacterium	30	6	0.0990000000000018	0.188100000000003	SumStat(Mid-term)	B219:G219
+middle	sumstat	GO:0016049	Cell growth	354	1	0.441499999999968	0.578517241379268	SumStat(Mid-term)	B220:G220
+middle	sumstat	GO:0016114	Terpenoid biosynthetic process	52	3	0.973799999999909	0.999999999999906	SumStat(Mid-term)	B221:G221
+middle	sumstat	GO:0016117	Carotenoid biosynthetic process	258	8	0.0094	0.0728999999999998	SumStat(Mid-term)	B222:G222
+middle	sumstat	GO:0016122	Xanthophyll metabolic process	8	1	0.227399999999991	0.370337142857129	SumStat(Mid-term)	B223:G223
+middle	sumstat	GO:0016165	Lipoxygenase activity	53	9	0.743699999999934	0.871045890410882	SumStat(Mid-term)	B224:G224
+middle	sumstat	GO:0016192	Vesicle-mediated transport	548	2	0.929099999999914	0.999999999999906	SumStat(Mid-term)	B225:G225
+middle	sumstat	GO:0016207	4-coumarate-coa ligase activity	37	1	0.266199999999987	0.415709589041076	SumStat(Mid-term)	B226:G226
+middle	sumstat	GO:0016226	Iron-sulfur cluster assembly	226	4	0.650899999999945	0.792198576512388	SumStat(Mid-term)	B227:G227
+middle	sumstat	GO:0016491	Oxidoreductase activity	1460	9	0.790599999999929	0.904703999999919	SumStat(Mid-term)	B228:G228
+middle	sumstat	GO:0016614	Oxidoreductase activity, acting on ch-oh group of donors	138	1	0.1493	0.264562694300518	SumStat(Mid-term)	B229:G229
+middle	sumstat	GO:0016624	Oxidoreductase activity, acting on the aldehyde or oxo group of donors, disulfide as acceptor	28	1	0.163799999999998	0.284363451776647	SumStat(Mid-term)	B230:G230
+middle	sumstat	GO:0016627	Oxidoreductase activity, acting on the ch-ch group of donors	46	1	0.0861000000000014	0.168264000000003	SumStat(Mid-term)	B231:G231
+middle	sumstat	GO:0016629	12-oxophytodienoate reductase activity	14	1	0.0429000000000002	0.105510638297873	SumStat(Mid-term)	B232:G232
+middle	sumstat	GO:0016705	Oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen	499	4	0.254299999999988	0.405786976744167	SumStat(Mid-term)	B233:G233
+middle	sumstat	GO:0016706	Oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, 2-oxoglutarate as one donor, and incorporation of one atom each of oxygen into both donors	297	4	0.87439999999992	0.96177877813496	SumStat(Mid-term)	B234:G234
+middle	sumstat	GO:0016747	Transferase activity, transferring acyl groups other than amino-acyl groups	258	3	0.0109	0.0728999999999998	SumStat(Mid-term)	B235:G235
+middle	sumstat	GO:0016779	Nucleotidyltransferase activity	98	1	0.78029999999993	0.904618983050767	SumStat(Mid-term)	B236:G236
+middle	sumstat	GO:0016836	Hydro-lyase activity	25	2	0.363199999999976	0.516689626555983	SumStat(Mid-term)	B237:G237
+middle	sumstat	GO:0016853	Isomerase activity	62	3	0.629699999999947	0.77189032258058	SumStat(Mid-term)	B238:G238
+middle	sumstat	GO:0018685	Alkane 1-monooxygenase activity	14	2	0.0106	0.0728999999999998	SumStat(Mid-term)	B239:G239
+middle	sumstat	GO:0019216	Regulation of lipid metabolic process	81	12	0.0398000000000001	0.1026	SumStat(Mid-term)	B240:G240
+middle	sumstat	GO:0019252	Starch biosynthetic process	370	2	0.0152	0.0728999999999998	SumStat(Mid-term)	B241:G241
+middle	sumstat	GO:0019253	Reductive pentose-phosphate cycle	24	1	0.1489	0.264562694300518	SumStat(Mid-term)	B242:G242
+middle	sumstat	GO:0019288	Isopentenyl diphosphate biosynthetic process, mevalonate-independent pathway	579	21	0.0239999999999999	0.0841040816326527	SumStat(Mid-term)	B243:G243
+middle	sumstat	GO:0019344	Cysteine biosynthetic process	455	7	0.0181999999999999	0.0740329411764704	SumStat(Mid-term)	B244:G244
+middle	sumstat	GO:0019373	Epoxygenase p450 pathway	6	2	0.0099	0.0728999999999998	SumStat(Mid-term)	B245:G245
+middle	sumstat	GO:0019395	Fatty acid oxidation	6	2	0.0856000000000014	0.168248275862072	SumStat(Mid-term)	B246:G246
+middle	sumstat	GO:0019684	Photosynthesis, light reaction	318	6	0.0135	0.0728999999999998	SumStat(Mid-term)	B247:G247
+middle	sumstat	GO:0019722	Calcium-mediated signaling	139	4	0.707599999999938	0.83736747404837	SumStat(Mid-term)	B248:G248
+middle	sumstat	GO:0019725	Cellular homeostasis	14	1	0.678499999999942	0.81419999999993	SumStat(Mid-term)	B249:G249
+middle	sumstat	GO:0019748	Secondary metabolic process	134	19	0.204599999999994	0.338034782608685	SumStat(Mid-term)	B250:G250
+middle	sumstat	GO:0019760	Glucosinolate metabolic process	52	1	0.0029	0.0728999999999998	SumStat(Mid-term)	B251:G251
+middle	sumstat	GO:0019761	Glucosinolate biosynthetic process	348	3	0.013	0.0728999999999998	SumStat(Mid-term)	B252:G252
+middle	sumstat	GO:0019825	Oxygen binding	437	4	0.337099999999979	0.496931896551693	SumStat(Mid-term)	B253:G253
+middle	sumstat	GO:0019900	Kinase binding	19	10	0.115500000000002	0.215852459016398	SumStat(Mid-term)	B254:G254
+middle	sumstat	GO:0020037	Heme binding	745	4	0.78819999999993	0.904703999999919	SumStat(Mid-term)	B255:G255
+middle	sumstat	GO:0022622	Root system development	19	10	0.384199999999974	0.530927419354803	SumStat(Mid-term)	B256:G256
+middle	sumstat	GO:0022626	Cytosolic ribosome	389	2	0.999999999999906	0.999999999999906	SumStat(Mid-term)	B257:G257
+middle	sumstat	GO:0022900	Electron transport chain	29	2	0.364099999999976	0.516689626555983	SumStat(Mid-term)	B258:G258
+middle	sumstat	GO:0030003	Cellular cation homeostasis	274	1	0.014	0.0728999999999998	SumStat(Mid-term)	B259:G259
+middle	sumstat	GO:0030095	Chloroplast photosystem ii	39	1	0.0015	0.0728999999999998	SumStat(Mid-term)	B260:G260
+middle	sumstat	GO:0030154	Cell differentiation	321	11	0.0208999999999999	0.0785472527472525	SumStat(Mid-term)	B261:G261
+middle	sumstat	GO:0030397	Membrane disassembly	31	5	0.846499999999923	0.93994480519472	SumStat(Mid-term)	B262:G262
+middle	sumstat	GO:0030968	Endoplasmic reticulum unfolded protein response	500	29	0.0161	0.0728999999999998	SumStat(Mid-term)	B263:G263
+middle	sumstat	GO:0031072	Heat shock protein binding	279	1	0.0432000000000002	0.105510638297873	SumStat(Mid-term)	B264:G264
+middle	sumstat	GO:0031347	Regulation of defense response	341	11	0.0127	0.0728999999999998	SumStat(Mid-term)	B265:G265
+middle	sumstat	GO:0031348	Negative regulation of defense response	762	33	0.0318999999999999	0.0956999999999997	SumStat(Mid-term)	B266:G266
+middle	sumstat	GO:0031407	Oxylipin metabolic process	10	2	0.0985000000000018	0.188100000000003	SumStat(Mid-term)	B267:G267
+middle	sumstat	GO:0031408	Oxylipin biosynthetic process	96	12	0.0348	0.100013445378151	SumStat(Mid-term)	B268:G268
+middle	sumstat	GO:0031539	Positive regulation of anthocyanin metabolic process	10	1	0.834399999999924	0.932564705882268	SumStat(Mid-term)	B269:G269
+middle	sumstat	GO:0031977	Thylakoid lumen	104	3	0.498899999999961	0.646302272727223	SumStat(Mid-term)	B270:G270
+middle	sumstat	GO:0032880	Regulation of protein localization	122	1	0.0260999999999999	0.087511764705882	SumStat(Mid-term)	B271:G271
+middle	sumstat	GO:0032957	Inositol trisphosphate metabolic process	48	3	0.0107	0.0728999999999998	SumStat(Mid-term)	B272:G272
+middle	sumstat	GO:0034440	Lipid oxidation	53	9	0.752499999999933	0.878344709897533	SumStat(Mid-term)	B273:G273
+middle	sumstat	GO:0034605	Cellular response to heat	28	1	0.0107	0.0728999999999998	SumStat(Mid-term)	B274:G274
+middle	sumstat	GO:0034660	Ncrna metabolic process	186	1	0.00720000000000001	0.0728999999999998	SumStat(Mid-term)	B275:G275
+middle	sumstat	GO:0035264	Multicellular organism growth	5	5	0.0154	0.0728999999999998	SumStat(Mid-term)	B276:G276
+middle	sumstat	GO:0035304	Regulation of protein dephosphorylation	335	6	0.0149	0.0728999999999998	SumStat(Mid-term)	B277:G277
+middle	sumstat	GO:0035556	Intracellular signal transduction	476	29	0.0175999999999999	0.0740329411764704	SumStat(Mid-term)	B278:G278
+middle	sumstat	GO:0040007	Growth	200	8	0.0096	0.0728999999999998	SumStat(Mid-term)	B279:G279
+middle	sumstat	GO:0042335	Cuticle development	130	1	0.614999999999949	0.756582733812886	SumStat(Mid-term)	B280:G280
+middle	sumstat	GO:0042362	Fat-soluble vitamin biosynthetic process	14	3	0.435399999999968	0.577158139534842	SumStat(Mid-term)	B281:G281
+middle	sumstat	GO:0042538	Hyperosmotic salinity response	459	34	0.0162	0.0728999999999998	SumStat(Mid-term)	B282:G282
+middle	sumstat	GO:0042542	Response to hydrogen peroxide	507	1	0.988999999999907	0.999999999999906	SumStat(Mid-term)	B283:G283
+middle	sumstat	GO:0042545	Cell wall modification	266	1	0.999999999999906	0.999999999999906	SumStat(Mid-term)	B284:G284
+middle	sumstat	GO:0042742	Defense response to bacterium	1056	23	0.0419000000000002	0.105366176470589	SumStat(Mid-term)	B285:G285
+middle	sumstat	GO:0042753	Positive regulation of circadian rhythm	18	1	0.370699999999975	0.522250819672096	SumStat(Mid-term)	B286:G286
+middle	sumstat	GO:0042793	Transcription from plastid promoter	168	1	0.123300000000003	0.229177173913048	SumStat(Mid-term)	B287:G287
+middle	sumstat	GO:0042802	Identical protein binding	318	4	0.0548000000000005	0.123300000000001	SumStat(Mid-term)	B288:G288
+middle	sumstat	GO:0043069	Negative regulation of programmed cell death	523	33	0.0205999999999999	0.0782799999999997	SumStat(Mid-term)	B289:G289
+middle	sumstat	GO:0043090	Amino acid import	266	2	0.0127	0.0728999999999998	SumStat(Mid-term)	B290:G290
+middle	sumstat	GO:0043161	Proteasomal ubiquitin-dependent protein catabolic process	282	2	0.405999999999972	0.553195219123467	SumStat(Mid-term)	B291:G291
+middle	sumstat	GO:0043231	Intracellular membrane-bounded organelle	68	2	0.557099999999955	0.692829818181762	SumStat(Mid-term)	B292:G292
+middle	sumstat	GO:0043269	Regulation of ion transport	101	2	0.0102	0.0728999999999998	SumStat(Mid-term)	B293:G293
+middle	sumstat	GO:0043481	Anthocyanin accumulation in tissues in response to uv light	307	1	0.0492000000000004	0.11446530612245	SumStat(Mid-term)	B294:G294
+middle	sumstat	GO:0043565	Sequence-specific dna binding	880	13	0.0637000000000008	0.132032727272729	SumStat(Mid-term)	B295:G295
+middle	sumstat	GO:0043619	Regulation of transcription from rna polymerase ii promoter in response to oxidative stress	5	1	0.259499999999988	0.407105504587137	SumStat(Mid-term)	B296:G296
+middle	sumstat	GO:0043687	Post-translational protein modification	221	1	0.545599999999956	0.683498901098846	SumStat(Mid-term)	B297:G297
+middle	sumstat	GO:0043900	Regulation of multi-organism process	262	12	0.0117	0.0728999999999998	SumStat(Mid-term)	B298:G298
+middle	sumstat	GO:0044237	Cellular metabolic process	145	1	0.189699999999995	0.318026470588228	SumStat(Mid-term)	B299:G299
+middle	sumstat	GO:0044272	Sulfur compound biosynthetic process	120	19	0.172699999999997	0.293847761194025	SumStat(Mid-term)	B300:G300
+middle	sumstat	GO:0045036	Protein targeting to chloroplast	114	2	0.992599999999907	0.999999999999906	SumStat(Mid-term)	B301:G301
+middle	sumstat	GO:0045087	Innate immune response	273	12	0.0104	0.0728999999999998	SumStat(Mid-term)	B302:G302
+middle	sumstat	GO:0045454	Cell redox homeostasis	263	4	0.012	0.0728999999999998	SumStat(Mid-term)	B303:G303
+middle	sumstat	GO:0045485	Omega-6 fatty acid desaturase activity	9	2	0.827599999999925	0.928333770491719	SumStat(Mid-term)	B304:G304
+middle	sumstat	GO:0045492	Xylan biosynthetic process	495	1	0.999999999999906	0.999999999999906	SumStat(Mid-term)	B305:G305
+middle	sumstat	GO:0045544	Gibberellin 20-oxidase activity	12	1	0.69719999999994	0.830809756097489	SumStat(Mid-term)	B306:G306
+middle	sumstat	GO:0045892	Negative regulation of transcription, dna-dependent	465	5	0.0276999999999999	0.0884807339449538	SumStat(Mid-term)	B307:G307
+middle	sumstat	GO:0045893	Positive regulation of transcription, dna-dependent	1077	17	0.1508	0.265843298969072	SumStat(Mid-term)	B308:G308
+middle	sumstat	GO:0045962	Positive regulation of development, heterochronic	19	1	0.806299999999928	0.913094701986673	SumStat(Mid-term)	B309:G309
+middle	sumstat	GO:0046423	Allene-oxide cyclase activity	6	3	0.224899999999992	0.368018181818168	SumStat(Mid-term)	B310:G310
+middle	sumstat	GO:0046686	Response to cadmium ion	1301	16	0.0590000000000007	0.128522292993632	SumStat(Mid-term)	B311:G311
+middle	sumstat	GO:0046777	Protein autophosphorylation	475	11	0.0213999999999999	0.0786967741935481	SumStat(Mid-term)	B312:G312
+middle	sumstat	GO:0046872	Metal ion binding	548	4	0.0382000000000001	0.1026	SumStat(Mid-term)	B313:G313
+middle	sumstat	GO:0046983	Protein dimerization activity	725	1	0.999999999999906	0.999999999999906	SumStat(Mid-term)	B314:G314
+middle	sumstat	GO:0047325	Inositol tetrakisphosphate 1-kinase activity	10	3	0.0333999999999999	0.0990923076923075	SumStat(Mid-term)	B315:G315
+middle	sumstat	GO:0048046	Apoplast	1001	2	1e-16	1e-16	SumStat(Mid-term)	B316:G316
+middle	sumstat	GO:0048316	Seed development	161	2	0.539499999999957	0.681485294117593	SumStat(Mid-term)	B317:G317
+middle	sumstat	GO:0048364	Root development	397	6	0.710499999999938	0.837899999999927	SumStat(Mid-term)	B318:G318
+middle	sumstat	GO:0048366	Leaf development	327	2	0.372599999999975	0.522250819672096	SumStat(Mid-term)	B319:G319
+middle	sumstat	GO:0048481	Ovule development	411	1	0.997099999999907	0.999999999999906	SumStat(Mid-term)	B320:G320
+middle	sumstat	GO:0048510	Regulation of timing of transition from vegetative to reproductive phase	53	1	0.493699999999962	0.641997718631129	SumStat(Mid-term)	B321:G321
+middle	sumstat	GO:0048575	Short-day photoperiodism, flowering	15	1	0.642999999999946	0.785378571428505	SumStat(Mid-term)	B322:G322
+middle	sumstat	GO:0048608	Reproductive structure development	67	1	0.951399999999912	0.999999999999906	SumStat(Mid-term)	B323:G323
+middle	sumstat	GO:0048653	Anther development	172	3	0.0767000000000012	0.152508139534886	SumStat(Mid-term)	B324:G324
+middle	sumstat	GO:0048767	Root hair elongation	500	1	0.0482000000000004	0.112906849315069	SumStat(Mid-term)	B325:G325
+middle	sumstat	GO:0050660	Flavin adenine dinucleotide binding	316	2	0.0352	0.100056198347107	SumStat(Mid-term)	B326:G326
+middle	sumstat	GO:0050691	Regulation of defense response to virus by host	13	6	0.201699999999994	0.336494634146332	SumStat(Mid-term)	B327:G327
+middle	sumstat	GO:0050776	Regulation of immune response	25	6	0.42149999999997	0.572035714285673	SumStat(Mid-term)	B328:G328
+middle	sumstat	GO:0050826	Response to freezing	219	1	0.957599999999911	0.999999999999906	SumStat(Mid-term)	B329:G329
+middle	sumstat	GO:0050832	Defense response to fungus	929	36	0.0378000000000001	0.1026	SumStat(Mid-term)	B330:G330
+middle	sumstat	GO:0051082	Unfolded protein binding	255	1	0.87239999999992	0.96177877813496	SumStat(Mid-term)	B331:G331
+middle	sumstat	GO:0051090	Regulation of sequence-specific dna binding transcription factor activity	9	1	0.312499999999982	0.472898230088468	SumStat(Mid-term)	B332:G332
+middle	sumstat	GO:0051276	Chromosome organization	51	1	0.998699999999906	0.999999999999906	SumStat(Mid-term)	B333:G333
+middle	sumstat	GO:0051536	Iron-sulfur cluster binding	105	4	0.0347	0.100013445378151	SumStat(Mid-term)	B334:G334
+middle	sumstat	GO:0051537	2 iron, 2 sulfur cluster binding	49	3	0.126800000000002	0.231901604278079	SumStat(Mid-term)	B335:G335
+middle	sumstat	GO:0051539	4 iron, 4 sulfur cluster binding	53	1	0.358099999999977	0.514580672268874	SumStat(Mid-term)	B336:G336
+middle	sumstat	GO:0051707	Response to other organism	254	8	0.0106	0.0728999999999998	SumStat(Mid-term)	B337:G337
+middle	sumstat	GO:0051788	Response to misfolded protein	425	2	0.942799999999912	0.999999999999906	SumStat(Mid-term)	B338:G338
+middle	sumstat	GO:0052542	Defense response by callose deposition	115	8	0.0047	0.0728999999999998	SumStat(Mid-term)	B339:G339
+middle	sumstat	GO:0052543	Callose deposition in cell wall	72	10	0.301699999999983	0.464781081081055	SumStat(Mid-term)	B340:G340
+middle	sumstat	GO:0052624	2-phytyl-1,4-naphthoquinone methyltransferase activity	8	1	0.33019999999998	0.490993043478231	SumStat(Mid-term)	B341:G341
+middle	sumstat	GO:0070838	Divalent metal ion transport	237	1	0.0098	0.0728999999999998	SumStat(Mid-term)	B342:G342
+middle	sumstat	GO:0071555	Cell wall organization	447	4	0.32889999999998	0.490993043478231	SumStat(Mid-term)	B343:G343
+middle	sumstat	GO:0080027	Response to herbivore	32	1	0.346199999999978	0.505984615384584	SumStat(Mid-term)	B344:G344
+middle	sumstat	GO:0080086	Stamen filament development	22	3	0.0778000000000012	0.153801156069367	SumStat(Mid-term)	B345:G345
+middle	sumstat	GO:0080129	Proteasome core complex assembly	318	2	0.793599999999929	0.904703999999919	SumStat(Mid-term)	B346:G346
+middle	sumstat	GO:0080150	S-adenosyl-l-methionine:benzoic acid carboxyl methyl transferase activity	5	1	0.307899999999982	0.470097321428545	SumStat(Mid-term)	B347:G347
+middle	sumstat	GO:0080167	Response to karrikin	355	6	0.0128	0.0728999999999998	SumStat(Mid-term)	B348:G348
+middle	sumstat	GO:2000068	Regulation of defense response to insect	5	1	0.258599999999988	0.407105504587137	SumStat(Mid-term)	B349:G349
+middle	sumstat	GO:2000652	Regulation of secondary cell wall biogenesis	48	1	0.998799999999906	0.999999999999906	SumStat(Mid-term)	B350:G350

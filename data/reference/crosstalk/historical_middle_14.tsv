@@ -1,0 +1,15 @@
+phase	go_id	description	source_row	annotation_size
+middle	GO:0009695	jasmonic acid biosynthetic process	1	415
+middle	GO:0009611	response to wounding	2	1025
+middle	GO:0009753	response to jasmonic acid stimulus	3	754
+middle	GO:0009620	response to fungus	4	310
+middle	GO:0009867	jasmonic acid mediated signaling pathway	5	797
+middle	GO:0009738	abscisic acid mediated signaling pathway	6	630
+middle	GO:0010200	response to chitin	7	1130
+middle	GO:0009723	response to ethylene stimulus	8	723
+middle	GO:0009414	response to water deprivation	9	883
+middle	GO:0010363	regulation of plant-type hypersensitive response	10	1015
+middle	GO:0006612	protein targeting to membrane	11	1016
+middle	GO:0009793	embryo development ending in seed dormancy	12	1174
+middle	GO:0009826	unidimensional cell growth	13	272
+middle	GO:0048046	apoplast	14	1001

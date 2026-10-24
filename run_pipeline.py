@@ -88,7 +88,8 @@ def main():
     run("scripts/plot_results.py", output / "analysis")
     if args.crosstalk:
         flags = (["--selected-pathways", ROOT / "data/reference/crosstalk/selected_pathways.tsv",
-                  "--selection-label", "Historical Excel selection", "--membership", "annotation"]
+                  "--selection-label", "Historical Excel selection", "--membership", "annotation",
+                  "--edge-rule", "historical-code"]
                  if args.crosstalk == "reference" else [])
         run("scripts/run_presoynet.py", output / "analysis", output / "crosstalk", "--input-dir", inputs, *flags)
         metadata["crosstalk"] = args.crosstalk

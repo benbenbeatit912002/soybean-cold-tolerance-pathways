@@ -5,10 +5,20 @@ import sys
 import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "python"))
-from presoynet import METHODS, jaccard_edges, select_pathways
+from presoynet import METHODS, jaccard_edges, select_pathways, filter_edges
 
 
 class CrosstalkTests(unittest.TestCase):
+    def test_historical_rounding_boundary(self):
+        # Five shared genes, 1,122 genes in the union: rounding changes inclusion.
+        members = {"a": set(range(50)), "b": set(range(45,1122))}
+        edges, cutoff = filter_edges(members, .8, "historical-code", "short")
+        self.assertLess(edges[0]["jaccard"], cutoff)
+        self.assertEqual(edges[0]["filter_jaccard"], cutoff)
+        self.assertEqual(edges[0]["retained"], 1)
+        edges, _ = filter_edges(members, .5, "historical-code", "middle")
+        self.assertEqual(edges[0]["retained"], 0)
+
     def test_overlap_ties_and_isolates(self):
         members = {"a": {"x", "y"}, "b": {"y", "z"}, "c": {"x", "z"}, "d": {"q"}}
         edges, cutoff = jaccard_edges(members, .5)

@@ -14,7 +14,7 @@ METHODS = ("hypergeometric", "sumstat", "gsea")
 AUDIT_COLUMNS = ["phase", "go_id", "description", "annotation_size", "tested_size",
                  "ct_count", "ct_ratio", *[m + "_bh" for m in METHODS],
                  "methods_below_alpha", "selected", "selection_basis"]
-EDGE_COLUMNS = ["source", "target", "intersection_size", "union_size", "jaccard", "retained"]
+EDGE_COLUMNS = ["source", "target", "intersection_size", "union_size", "jaccard", "retained", "filter_jaccard"]
 
 
 def checked_ids(rows, field, label):
@@ -118,9 +118,28 @@ def load_phase(analysis, inputs, phase):
     return universe, foreground, tables
 
 
+def filter_edges(memberships, keep_fraction, edge_rule, phase):
+    """Recalculate coefficients, then apply a stated filtering procedure.
+
+    The dated 20240916 script filters matrices printed to nine decimals using
+    fixed cutoffs. Rounding matters at the short-phase boundary (5 / 1122).
+    Neither rule uses a target number of retained edges.
+    """
+    if edge_rule not in ("fraction", "historical-code"):
+        raise ValueError("Unknown edge rule")
+    edges, cutoff = jaccard_edges(memberships, keep_fraction)
+    if edge_rule == "historical-code":
+        cutoff = {"short": .004456328, "middle": .14160401}[phase]
+    for row in edges:
+        row["filter_jaccard"] = round(row["jaccard"], 9) if edge_rule == "historical-code" else row["jaccard"]
+        if edge_rule == "historical-code":
+            row["retained"] = int(row["filter_jaccard"] >= cutoff)
+    return edges, cutoff
+
+
 def run_presoynet(analysis, inputs, output, *, alpha=.05, min_ct=1, min_ratio=0,
                   method_rule="any", membership="measured", keep_short=.8, keep_middle=.5,
-                  selected_pathways=None, selection_label=""):
+                  selected_pathways=None, selection_label="", edge_rule="fraction"):
     """Calculate both phases before creating outputs, then write auditable tables."""
     analysis, inputs, output = map(Path, (analysis, inputs, output))
     if output.exists() and (not output.is_dir() or any(output.iterdir())):
@@ -142,11 +161,12 @@ def run_presoynet(analysis, inputs, output, *, alpha=.05, min_ct=1, min_ratio=0,
         audit, selected = select_pathways(pathways, tables, universe, ct, phase, alpha, min_ct,
                                          min_ratio, method_rule, None if requested is None else requested[phase])
         members = {p["go_id"]: set(p["genes"]) & universe if membership == "measured" else set(p["genes"]) for p in selected}
-        edges, cutoff = jaccard_edges(members, fraction)
+        edges, cutoff = filter_edges(members, fraction, edge_rule, phase)
         data[phase] = dict(universe=universe, ct=ct, audit=audit, selected=selected, members=members, edges=edges)
         summaries.append(dict(phase=phase, tested_pathways=len(tables["hypergeometric"]), selected_pathways=len(selected),
                               positive_edges=sum(e["intersection_size"] > 0 for e in edges),
-                              retained_edges=sum(e["retained"] for e in edges), keep_fraction=fraction,
+                              retained_edges=sum(e["retained"] for e in edges),
+                              keep_fraction=fraction if edge_rule == "fraction" else "", edge_rule=edge_rule,
                               jaccard_cutoff="" if cutoff is None else cutoff))
     output.mkdir(parents=True, exist_ok=True)
     membership_rows = []

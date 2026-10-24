@@ -16,6 +16,7 @@ jobs:
       - run: Rscript --vanilla tests/test_short_reference.R
       - run: Rscript --vanilla tests/test_historical_short.R
       - run: Rscript --vanilla tests/test_presoynet.R
+      - run: Rscript --vanilla tests/test_pathway_selection.R
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -28,3 +29,4 @@ jobs:
       - run: Rscript --vanilla run_pipeline.R --mode quick --use-reconstruction-hypotheses --include-maxmean --crosstalk reference
       - run: python scripts/verify_portable_runs.py results/python_quick results/r_quick --permutations 199
       - run: python scripts/verify_presoynet.py results/python_quick/crosstalk results/r_quick/crosstalk --historical-reference
+      - run: python scripts/trace_crosstalk.py results/crosstalk_lineage

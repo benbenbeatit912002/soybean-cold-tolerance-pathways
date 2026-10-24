@@ -96,7 +96,7 @@ run_step("scripts/run_analysis.R", config_path)
 run_step("scripts/plot_results.R", file.path(output, "analysis"))
 if (!is.null(crosstalk)) {
   flags <- if (crosstalk == "reference") c("--selected-pathways",file.path(root,"data/reference/crosstalk/selected_pathways.tsv"),
-    "--selection-label","Historical Excel selection","--membership","annotation") else character()
+    "--selection-label","Historical Excel selection","--membership","annotation","--edge-rule","historical-code") else character()
   run_step("scripts/run_presoynet.R",c(file.path(output,"analysis"),file.path(output,"crosstalk"),"--input-dir",inputs,flags))
 }
 status <- "completed"

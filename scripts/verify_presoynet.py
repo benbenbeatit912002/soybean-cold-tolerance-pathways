@@ -55,6 +55,9 @@ def main():
     if args.historical_reference:
         selected = read(ROOT / "data/reference/crosstalk/selected_pathways.tsv")
         saved = read(ROOT / "data/reference/crosstalk/saved_jaccard_pairs.tsv")
+        source_rules = json.loads((ROOT / "data/reference/crosstalk/trace_provenance.json").read_text(encoding="utf-8"))
+        summaries = {r["phase"]: r for r in read(args.python_output / "network_summary.tsv")}
+        filter_checks = []
         differences = []
         for phase in ("short", "middle"):
             expected = {r["go_id"] for r in selected if r["phase"] == phase}
@@ -66,8 +69,16 @@ def main():
             for row in saved:
                 if row["phase"] == phase:
                     differences.append(abs(pairs[(row["source"], row["target"])] - float(row["historical_jaccard"])))
+            if summaries[phase].get("edge_rule") == "historical-code":
+                expected_edges = {(r["source"], r["target"]) for r in saved if r["phase"] == phase
+                                  and float(r["historical_jaccard"]) >= source_rules["thresholds"][phase]}
+                actual_edges = {(r["source"],r["target"]) for r in read(args.python_output / f"{phase}_all_pairs.tsv") if int(r["retained"])}
+                if expected_edges != actual_edges:
+                    raise AssertionError(f"Retained edges differ from the dated script and archived matrix: {phase}")
+                filter_checks.append(phase)
         report.update(historical_pairs_compared=len(differences), maximum_jaccard_difference=max(differences),
-                      historical_jaccard_matches_saved_precision=max(differences) <= 5.1e-10)
+                      historical_jaccard_matches_saved_precision=max(differences) <= 5.1e-10,
+                      historical_filter_verified_phases=filter_checks)
         if not report["historical_jaccard_matches_saved_precision"]:
             raise AssertionError(f"Archived Jaccard values differ: {report}")
     if args.report:

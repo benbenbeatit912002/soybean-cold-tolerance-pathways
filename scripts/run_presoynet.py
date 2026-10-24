@@ -22,6 +22,8 @@ def main():
     parser.add_argument("--membership", choices=("measured", "annotation"), default="measured")
     parser.add_argument("--keep-short", type=float, default=.8)
     parser.add_argument("--keep-middle", type=float, default=.5)
+    parser.add_argument("--edge-rule", choices=("fraction", "historical-code"), default="fraction",
+                        help="Fraction ranking or fixed cutoffs and precision from the dated original script")
     parser.add_argument("--selected-pathways", type=Path, help="Optional phase/go_id TSV; bypasses statistical selection")
     parser.add_argument("--selection-label", default="", help="Required provenance label for a supplied pathway list")
     args = parser.parse_args()
@@ -35,12 +37,12 @@ def main():
                          sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in sources]
     nodes, edges, summary = run_presoynet(args.analysis, args.input_dir, args.output,
         **{k: getattr(args, k) for k in ("alpha", "min_ct", "min_ratio", "method_rule", "membership",
-                                        "keep_short", "keep_middle", "selected_pathways", "selection_label")})
+                                        "keep_short", "keep_middle", "selected_pathways", "selection_label", "edge_rule")})
     plot_network(nodes, edges, args.output / "crosstalk.png")
     manifest = dict(status="completed", language="Python", selection_mode="provided_list" if args.selected_pathways else "bh_reanalysis",
                     settings={k: str(v) if isinstance(v, Path) else v for k, v in vars(args).items()},
                     inputs=fingerprints, network_summary=summary, paper_reproduction_verified=False,
-                    soynet_contacted=False, edge_rule="ceil(fraction * positive undirected pairs), include all cutoff ties")
+                    soynet_contacted=False, edge_rule=args.edge_rule)
     (args.output / "manifest.json").write_text(json.dumps(manifest, indent=2)+"\n", encoding="utf-8")
     print(f"Completed offline crosstalk: {len(nodes)} nodes, {len(edges)} edges. Gene lists: {args.output / 'soynet_inputs'}")
 

@@ -61,7 +61,7 @@ def main():
         return item
 
     commands = [("python_tests", py + ["-m", "unittest", "discover", "-s", "tests", "-p", "test_*.py"]),
-                *[(name, r + [f"tests/{name}.R"]) for name in ("test_core", "test_integration", "test_short_reference", "test_historical_short", "test_presoynet")],
+                *[(name, r + [f"tests/{name}.R"]) for name in ("test_core", "test_integration", "test_short_reference", "test_historical_short", "test_presoynet", "test_pathway_selection")],
                 ("shared_null", py + ["tests/check_cross_language.py", "--rscript", args.rscript])]
     save()
     for label, command in commands:
@@ -88,6 +88,7 @@ def main():
         f"results/python_{mode}", f"results/r_{mode}", "--permutations", "10000" if args.full else "199"]))
     report["checks"].append(execute("crosstalk_results", py + ["scripts/verify_presoynet.py",
         f"results/python_{mode}/crosstalk", f"results/r_{mode}/crosstalk", "--historical-reference"]))
+    report["checks"].append(execute("crosstalk_lineage", py + ["scripts/trace_crosstalk.py", "results/crosstalk_lineage"]))
     report["status"] = "passed" if all(c["exit_code"] == c["expected_exit_code"] for c in report["checks"]) else "failed"
     save()
     print(f"Report: {report_path}\nLogs: {logs}", flush=True)

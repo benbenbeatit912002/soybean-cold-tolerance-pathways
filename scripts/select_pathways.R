@@ -1,0 +1,18 @@
+# Usage: Rscript --vanilla scripts/select_pathways.R CANDIDATES RULES.R OUTPUT
+script <- sub("^--file=","",grep("^--file=",commandArgs(),value=TRUE)[1])
+root <- dirname(dirname(normalizePath(script,winslash="/",mustWork=TRUE)))
+args <- commandArgs(trailingOnly=TRUE)
+if (length(args)!=3) stop("Usage: Rscript --vanilla scripts/select_pathways.R CANDIDATES RULES.R OUTPUT")
+source(file.path(root,"R/core.R")); source(file.path(root,"R/pathway_selection.R"))
+source(args[2])
+output <- args[3]
+if (file.exists(output) && (!dir.exists(output) || length(list.files(output,all.files=TRUE,no..=TRUE)))) stop("Output must be new or empty")
+audit <- select_candidates(read_tsv(args[1]),config)
+dir.create(output,recursive=TRUE,showWarnings=FALSE)
+write_tsv(audit,file.path(output,"selection_audit.tsv"))
+write_tsv(audit[audit$selected==1,,drop=FALSE],file.path(output,"selected_pathways.tsv"))
+writeLines(c("config <-",capture.output(dput(config))),file.path(output,"rules.R"))
+write_tsv(data.frame(file=basename(args[1:2]),md5=unname(tools::md5sum(args[1:2]))),file.path(output,"input_checksums.tsv"))
+counts <- aggregate(selected~phase,audit,sum)
+write_tsv(counts,file.path(output,"summary.tsv"))
+cat("Selection completed. Rules:",config$label,"\n"); print(counts)

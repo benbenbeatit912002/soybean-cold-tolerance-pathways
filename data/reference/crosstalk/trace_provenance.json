@@ -1,0 +1,23 @@
+{
+  "dated_network_script": "crosstalk 20240916.R",
+  "dated_network_script_sha256": "f8d702ab31779d9ed659e3a5ca9e85b5874f994928484d3d94af1451489848e6",
+  "edge_filter_lines": {
+    "short": 31,
+    "middle": 73
+  },
+  "matrix_decimal_places": 9,
+  "matrix_precision_evidence": "All recomputed coefficients agree with both archived matrices when rounded to nine decimal places.",
+  "thresholds": {
+    "short": 0.004456328,
+    "middle": 0.14160401
+  },
+  "gene_group_file": "cluster2.txt",
+  "gene_group_sha256": "73c6e3537a4c2242334e0f9f7ba0461f961792e15a9da991b6d6626ae579a448",
+  "gene_group_mapping": "Each of 14 rows matches one complete packaged GO gene set exactly.",
+  "saved_ct_file": "ct_cluster2_in_list.txt",
+  "saved_ct_sha256": "9d4f0fb1e9f1e0b90cd88e0787dc175e19fbb87d581e6d8da47824ec00cdb9b2",
+  "selection_candidate_source": "TableS2_Pathway enrichment analysis.xlsx",
+  "selection_candidate_sha256": "1679683b3f0fb5c27a098f9777104a51db3066d78e70863333dbc76e3898fa23",
+  "selection_candidate_records": 1326,
+  "selection_rule_status": "Candidate compatibility rule; original Excel operation sequence not confirmed"
+}

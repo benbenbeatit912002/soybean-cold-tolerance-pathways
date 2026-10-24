@@ -7,12 +7,13 @@ args <- commandArgs(trailingOnly=TRUE)
 usage <- paste("Usage: Rscript --vanilla scripts/run_presoynet.R ANALYSIS OUTPUT",
   "[--input-dir DIR] [--selected-pathways TSV --selection-label LABEL]",
   "[--membership measured|annotation] [--keep-short 0.8] [--keep-middle 0.5]",
+  "[--edge-rule fraction|historical-code]",
   "[--alpha 0.05] [--min-ct 1] [--min-ratio 0] [--method-rule any|all]",sep="\n")
 if ("--help" %in% args) { cat(usage,"\n"); quit(status=0L) }
 if (length(args)<2) stop(usage)
 settings <- list(analysis=args[1],output=args[2],inputs=file.path(root,"data/input"),
   alpha=.05,min_ct=1,min_ratio=0,method_rule="any",membership="measured",keep_short=.8,
-  keep_middle=.5,selected_pathways=NULL,selection_label="")
+  keep_middle=.5,selected_pathways=NULL,selection_label="",edge_rule="fraction")
 numeric_args <- c("alpha","min_ct","min_ratio","keep_short","keep_middle")
 i <- 3L
 while (i <= length(args)) {
@@ -32,7 +33,6 @@ result <- do.call(run_presoynet,settings)
 plot_crosstalk(result$nodes,result$edges,file.path(settings$output,"crosstalk.png"))
 write_network_tsv(data.frame(file=normalizePath(files,winslash="/"),md5=unname(hashes)),file.path(settings$output,"input_checksums.tsv"))
 values <- c(status="completed",language="R",selection_mode=if (is.null(settings$selected_pathways)) "bh_reanalysis" else "provided_list",
-  unlist(settings),paper_reproduction_verified=FALSE,soynet_contacted=FALSE,
-  edge_rule="ceil(fraction * positive undirected pairs), include all cutoff ties")
+  unlist(settings),paper_reproduction_verified=FALSE,soynet_contacted=FALSE)
 write_network_tsv(data.frame(setting=names(values),value=unname(values)),file.path(settings$output,"manifest.tsv"))
 cat("Completed offline crosstalk:",nrow(result$nodes),"nodes,",nrow(result$edges),"edges. Gene lists:",file.path(settings$output,"soynet_inputs"),"\n")

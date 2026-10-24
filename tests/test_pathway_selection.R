@@ -1,0 +1,13 @@
+source("R/core.R"); source("R/pathway_selection.R")
+source("config.selection-candidate.R")
+rows <- read_tsv("data/reference/crosstalk/selection_candidates.tsv")
+audit <- select_candidates(rows,config)
+reference <- read_tsv("data/reference/crosstalk/selected_pathways.tsv")
+keys <- function(x) paste(x$phase,x$go_id)
+stopifnot(setequal(keys(audit[audit$selected==1,]),keys(reference)))
+config$phases$short$min_ct <- 5
+changed <- select_candidates(rows,config)
+stopifnot(sum(changed$selected[changed$phase=="short"])==16)
+failed <- tryCatch({select_candidates(rbind(rows,rows[1,]),config);FALSE},error=function(e) TRUE)
+stopifnot(failed)
+cat("Candidate selection, boundary and duplicate checks passed.\n")

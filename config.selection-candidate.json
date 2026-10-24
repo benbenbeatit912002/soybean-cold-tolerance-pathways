@@ -1,0 +1,12 @@
+{
+  "label": "Unconfirmed candidate reconstruction of historical Excel selection",
+  "historical_procedure_confirmed": false,
+  "count_method": "hypergeometric",
+  "probability_field": "p_value",
+  "alpha": 0.05,
+  "method_rule": "any",
+  "phases": {
+    "short": {"min_ct": 6, "min_ratio": 0.05, "biological_rule": "or"},
+    "middle": {"min_ct": 40, "min_ratio": 0, "biological_rule": "count"}
+  }
+}

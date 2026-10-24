@@ -38,7 +38,7 @@ The [paper concordance audit](../reports/PAPER_CONCORDANCE_2026-10-18.md) and [f
 
 ## What tests establish
 
-The [crosstalk extension](CROSSTALK.md) uses the author's historical Excel selection, verified against the saved 13/11 lists and local Table S1. The paper documents the selection considerations. Workbook values are compatible with a count-or-ratio interpretation, but the complete logical sequence is not saved as formulas. Recomputed Jaccard coefficients match the archived matrices at printed precision. Explicit edge filtering yields 67 edges rather than 61; current middle CT membership yields 121 rather than 122. These differences remain documented.
+The [crosstalk extension](CROSSTALK.md) uses the author's historical Excel selection, verified against the saved 13/11 lists and local Table S1. The paper documents the selection considerations. A configurable selector reproduces the IDs from full historical candidate tables, but its exact rule remains unconfirmed. Recomputed Jaccard coefficients match the archived matrices at printed precision. The recovered dated script's cutoffs and nine-decimal comparison reproduce 61 edges; the earlier fraction interpretation gives 67. The middle 121/122 difference is traced to Glyma.09G149200 and a saved 14-pathway gene export versus the final 11-pathway list. See the [source trace](../reports/CROSSTALK_TRACE_2026-10-24.md).
 
 Tests check formulas, input identity, duplicate handling, imputation, shared-null cross-language agreement, executable entry points, and independent verification of outputs. Portable package tests start from a source ZIP with no saved results, in a new directory containing spaces.
 

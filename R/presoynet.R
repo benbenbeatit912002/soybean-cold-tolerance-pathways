@@ -82,13 +82,26 @@ jaccard_edges <- function(memberships, keep_fraction) {
 }
 
 # Empty values indicate unavailable statistics, never a fabricated zero p-value.
+filter_edges <- function(memberships, keep_fraction, edge_rule, phase) {
+  if (!edge_rule %in% c("fraction", "historical-code")) stop("Unknown edge rule")
+  result <- jaccard_edges(memberships, keep_fraction)
+  result$edges$filter_jaccard <- result$edges$jaccard
+  if (edge_rule == "historical-code") {
+    # The dated script read nine-decimal matrices before applying these cutoffs.
+    result$cutoff <- c(short=.004456328, middle=.14160401)[[phase]]
+    result$edges$filter_jaccard <- round(result$edges$jaccard, 9)
+    result$edges$retained <- as.integer(result$edges$filter_jaccard >= result$cutoff)
+  }
+  result
+}
+
 write_network_tsv <- function(x, path) {
   write.table(x, path, sep="\t", row.names=FALSE, quote=TRUE, na="", fileEncoding="UTF-8")
 }
 
 run_presoynet <- function(analysis, inputs, output, alpha=.05, min_ct=1, min_ratio=0,
     method_rule="any", membership="measured", keep_short=.8, keep_middle=.5,
-    selected_pathways=NULL, selection_label="") {
+    selected_pathways=NULL, selection_label="", edge_rule="fraction") {
   if (file.exists(output) && (!dir.exists(output) || length(list.files(output, all.files=TRUE, no..=TRUE)))) stop("Output must be new or empty")
   if (!membership %in% c("measured", "annotation")) stop("membership must be measured or annotation")
   requested <- NULL
@@ -109,11 +122,12 @@ run_presoynet <- function(analysis, inputs, output, alpha=.05, min_ct=1, min_rat
     selection <- select_pathways(pathways, tables, universe, ct, phase, alpha, min_ct, min_ratio, method_rule, requested[[phase]])
     members <- setNames(lapply(selection$selected$genes, function(g) if (membership == "measured") intersect(g, universe) else g), selection$selected$go_id)
     fraction <- if (phase == "short") keep_short else keep_middle
-    network <- jaccard_edges(members, fraction)
+    network <- filter_edges(members, fraction, edge_rule, phase)
     data[[phase]] <- c(selection, list(universe=universe, ct=ct, members=members, edges=network$edges))
     summaries[[phase]] <- data.frame(phase=phase, tested_pathways=nrow(tables$hypergeometric),
       selected_pathways=nrow(selection$selected), positive_edges=sum(network$edges$intersection_size > 0),
-      retained_edges=sum(network$edges$retained), keep_fraction=fraction, jaccard_cutoff=network$cutoff)
+      retained_edges=sum(network$edges$retained), keep_fraction=if (edge_rule == "fraction") fraction else NA_real_,
+      edge_rule=edge_rule, jaccard_cutoff=network$cutoff)
   }
   dir.create(output, recursive=TRUE, showWarnings=FALSE)
   put <- function(x, name) write_network_tsv(x, file.path(output, name))

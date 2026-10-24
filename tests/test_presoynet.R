@@ -1,6 +1,9 @@
 source("R/core.R")
 source("R/presoynet.R")
 members <- list(a=c("x","y"), b=c("y","z"), c=c("x","z"), d="q")
+boundary <- filter_edges(list(a=0:49,b=45:1121),.8,"historical-code","short")
+stopifnot(boundary$edges$jaccard < boundary$cutoff,
+          boundary$edges$filter_jaccard == boundary$cutoff, boundary$edges$retained == 1)
 network <- jaccard_edges(members,.5)
 stopifnot(nrow(network$edges)==6, network$cutoff==1/3, sum(network$edges$retained)==3,
           !any(network$edges$retained[network$edges$target=="d"]),

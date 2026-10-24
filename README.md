@@ -80,7 +80,9 @@ The main analysis uses 42,575 mapped records representing **42,567 unique genes*
 
 Python and R implement the same statistical definitions. Their native random generators differ, so simulated p-values need not match exactly. Shared-null tests check the implementations using identical random-set inputs.
 
-Add `--crosstalk reference` to a real-data run to use the historical Excel selection (13 short / 11 middle), recompute pathway overlap, plot the network and export gene lists. This step runs offline and stops before SoyNet. See [crosstalk instructions and paper comparison](docs/CROSSTALK.md); the final filtered edge count is not claimed to match the paper exactly.
+Add `--crosstalk reference` to a real-data run to use the historical Excel selection (13 short / 11 middle), recompute pathway overlap, plot the network and export gene lists. This step runs offline and stops before SoyNet. The recovered original filtering procedure reproduces 61 edges; the middle CTgene difference is traced to an older 14-pathway export. See [crosstalk instructions and paper comparison](docs/CROSSTALK.md).
+
+An independent [Excel-style selector in both languages](docs/EXCEL_SELECTION.md) applies configurable conditions to complete candidate tables and records every decision. The included reconstruction selects 13/11 but remains an unconfirmed candidate rule.
 
 ## Read your results
 

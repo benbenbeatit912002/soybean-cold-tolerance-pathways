@@ -1,5 +1,7 @@
 # Offline crosstalk verification — 2026-10-24
 
+**Follow-up:** the [dated-script and Excel trace](CROSSTALK_TRACE_2026-10-24.md) resolves the edge-count procedure and identifies the middle CTgene difference. This report retains the initial fraction-rule results as a historical checkpoint.
+
 The extension implements the workflow up to SoyNet in independent Python and base-R versions. Existing enrichment calculations are unchanged. The author's manually selected Excel pathways are preserved as historical references, while overlaps and gene exports are recalculated from packaged annotation and CT lists.
 
 ## Source checks
