@@ -1,0 +1,26 @@
+{
+  "purpose": "Validation-only snapshots. The membership calculators do not read these expected results.",
+  "sources": [
+    {
+      "source": "篩選後/篩選後大豆ct short0109.txt",
+      "sha256": "f80797b9d2317ee5d30752676455ea4b84ea8103a82ad1e000d3a3e1216104b6",
+      "snapshot": "short_0109.tsv",
+      "records": 100,
+      "transformation": "Add neutral column headers; preserve saved numerical strings."
+    },
+    {
+      "source": "篩選後/篩選後大豆ct middle0109.txt",
+      "sha256": "42b364d017a1ea1e9196fd804d75d9610ab8f46d5089239a6b1d8844813ffa96",
+      "snapshot": "middle_0109.tsv",
+      "records": 342,
+      "transformation": "Add neutral column headers; preserve saved numerical strings."
+    },
+    {
+      "source": "數據/CT_genes/short_CT_G_score.txt",
+      "sha256": "38361d622b7b9ed7d8d14a88a2196a25c86289c422a77c158ffd4b47b3dc3351",
+      "snapshot": "short_scored_genes.tsv",
+      "records": 41,
+      "transformation": "Retain gene IDs only for validation; exclude stored scores."
+    }
+  ]
+}

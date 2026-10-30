@@ -34,6 +34,8 @@ The main workflow fixes these choices explicitly:
 
 The paper reports 42,576 in its workflow, uses different candidate term counts, and describes a fold-change transformation. Archived scripts and result tables also contain inconsistent background/counting and GSEA variants. Selected local manuscript tables are not entirely mutually consistent. Consequently, matching all published pathway p-values is **not verified**.
 
+The [October 30 membership audit](../reports/CT_MEMBERSHIP_LINEAGE_2026-10-30.md) resolves the two selected short CT-count differences through the 44-to-41 measured foreground. Python and R reproduce the 100 archived January short hypergeometric rows at saved precision; R also reproduces the 342 middle rows. Stable direct-tail values agree across languages, while a few middle legacy subtraction values differ at machine precision in Python. Two final short Excel rows still use an older calculation version. These findings refine the historical audit without changing the main statistical workflow or confirming the candidate selection rules.
+
 The [paper concordance audit](../reports/PAPER_CONCORDANCE_2026-10-18.md) and [full comparison](../reports/RECALCULATED_ANALYSIS_2026-10-21.md) record the evidence. Local manuscript files were compared; final publisher supplement identity was not verified. Historical mistake-replay configurations are diagnostic tools, not the recommended main analysis.
 
 ## What tests establish

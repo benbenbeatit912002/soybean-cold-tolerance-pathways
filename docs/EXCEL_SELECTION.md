@@ -48,3 +48,9 @@ Outputs are `selection_audit.tsv` for all candidates and `selected_pathways.tsv`
 For other data, supply a UTF-8 tab-separated table with `phase`, `method`, `go_id`, `description`, `annotation_size`, `ct_count`, `p_value` and `p_bh`. There must be one row for each phase/GO/method combination and all three methods per GO term. Duplicate rows, missing methods, inconsistent sizes and invalid probabilities are rejected. Use a descriptive label for your rules; do not label a new selection as the historical procedure.
 
 The resulting phase/GO table can be supplied to either standalone crosstalk command using `--selected-pathways` and an explicit `--selection-label`. Its provenance remains separate from the freshly calculated enrichment probabilities displayed in crosstalk audits.
+
+## Count lineage after selection
+
+The selected IDs match the final original Excel, but two short-term count fields differ: GO:0045893 has 15 versus 14 CTgenes, and GO:0050832 has 12 versus 11. The candidate table counts the complete primary CT list; the final Excel counts the measured subset. Glyma.01G216200 is annotated to both pathways but is absent from the mapped expression input. Both main analysis implementations already exclude it from the measured CT foreground.
+
+The [membership-lineage audit](../reports/CT_MEMBERSHIP_LINEAGE_2026-10-30.md) reproduces all 100 archived January short hypergeometric rows in Python and R and documents the remaining mixed manuscript versions. It also records 17 middle pathways with differing SUMSTAT/GSEA candidate counts. These findings do not confirm the secondary-selection rule and do not authorize replacing the archived candidate table with recalculated statistics.

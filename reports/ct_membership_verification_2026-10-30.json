@@ -1,0 +1,518 @@
+{
+  "primary_short": 44,
+  "historical_scored_short": 41,
+  "original_scored_list_equals_primary_intersect_universe": true,
+  "excluded_genes": [
+    {
+      "gene_id": "Glyma.01G216200",
+      "mapping_rows": "1977",
+      "aliases": "Glyma01g42510",
+      "expression_rows": "",
+      "expression_aliases": "",
+      "matching_correspondence_rows": 0,
+      "distinct_mapped_targets": 0,
+      "exclusion_reason": "alias_absent_from_expression_table"
+    },
+    {
+      "gene_id": "Glyma.07G159000",
+      "mapping_rows": "16365;16366",
+      "aliases": "Glyma07g19700;Glyma07g19702;Glyma07g19710",
+      "expression_rows": "15814",
+      "expression_aliases": "Glyma07g19702",
+      "matching_correspondence_rows": 2,
+      "distinct_mapped_targets": 1,
+      "exclusion_reason": "multiple_correspondence_rows"
+    },
+    {
+      "gene_id": "Glyma.12G182200",
+      "mapping_rows": "30040",
+      "aliases": "Glyma12g30710",
+      "expression_rows": "",
+      "expression_aliases": "",
+      "matching_correspondence_rows": 0,
+      "distinct_mapped_targets": 0,
+      "exclusion_reason": "alias_absent_from_expression_table"
+    }
+  ],
+  "annotation_sets_verified": 4896,
+  "cross_language_errors": [],
+  "historical_reference_checks": [
+    {
+      "phase": "short",
+      "language": "python",
+      "reference_rows": 100,
+      "calculated_rows": 100,
+      "missing_ids": [],
+      "extra_ids": [],
+      "errors": []
+    },
+    {
+      "phase": "short",
+      "language": "r",
+      "reference_rows": 100,
+      "calculated_rows": 100,
+      "missing_ids": [],
+      "extra_ids": [],
+      "errors": []
+    },
+    {
+      "phase": "middle",
+      "language": "python",
+      "reference_rows": 342,
+      "calculated_rows": 342,
+      "missing_ids": [],
+      "extra_ids": [],
+      "errors": [
+        {
+          "go_id": "GO:0019288",
+          "field": "one_minus_cdf",
+          "saved": "6.66E-16",
+          "actual": 7.771561172376096e-16,
+          "tolerance": 5e-19
+        },
+        {
+          "go_id": "GO:0019288",
+          "field": "one_minus_cdf_bh",
+          "saved": "4.56E-15",
+          "actual": 5.31574784190525e-15,
+          "tolerance": 5e-18
+        },
+        {
+          "go_id": "GO:0019216",
+          "field": "one_minus_cdf",
+          "saved": "0",
+          "actual": 1.1102230246251565e-16,
+          "tolerance": 0
+        },
+        {
+          "go_id": "GO:0019216",
+          "field": "one_minus_cdf_bh",
+          "saved": "0",
+          "actual": 8.078644136634117e-16,
+          "tolerance": 0
+        },
+        {
+          "go_id": "GO:0015994",
+          "field": "one_minus_cdf",
+          "saved": "2.22E-16",
+          "actual": 3.3306690738754696e-16,
+          "tolerance": 5e-19
+        },
+        {
+          "go_id": "GO:0015994",
+          "field": "one_minus_cdf_bh",
+          "saved": "1.58E-15",
+          "actual": 2.373101715136272e-15,
+          "tolerance": 5e-18
+        },
+        {
+          "go_id": "GO:0031408",
+          "field": "one_minus_cdf_bh",
+          "saved": "4.56E-15",
+          "actual": 4.649342135777186e-15,
+          "tolerance": 5e-18
+        }
+      ]
+    },
+    {
+      "phase": "middle",
+      "language": "r",
+      "reference_rows": 342,
+      "calculated_rows": 342,
+      "missing_ids": [],
+      "extra_ids": [],
+      "errors": []
+    }
+  ],
+  "selected_counts_verified": 24,
+  "existing_main_result_rows_checked": 43024,
+  "candidate_rows": 1326,
+  "candidate_count_mismatches": [
+    {
+      "phase": "middle",
+      "method": "gsea",
+      "go_id": "GO:0002679",
+      "archived_ct_count": 20,
+      "primary_ct_count": 21,
+      "measured_ct_count": 21,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "gsea",
+      "go_id": "GO:0007165",
+      "archived_ct_count": 32,
+      "primary_ct_count": 33,
+      "measured_ct_count": 33,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "gsea",
+      "go_id": "GO:0009414",
+      "archived_ct_count": 39,
+      "primary_ct_count": 40,
+      "measured_ct_count": 40,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "gsea",
+      "go_id": "GO:0009611",
+      "archived_ct_count": 94,
+      "primary_ct_count": 95,
+      "measured_ct_count": 95,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "gsea",
+      "go_id": "GO:0009695",
+      "archived_ct_count": 111,
+      "primary_ct_count": 112,
+      "measured_ct_count": 112,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "gsea",
+      "go_id": "GO:0009723",
+      "archived_ct_count": 39,
+      "primary_ct_count": 40,
+      "measured_ct_count": 40,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "gsea",
+      "go_id": "GO:0009733",
+      "archived_ct_count": 27,
+      "primary_ct_count": 28,
+      "measured_ct_count": 28,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "gsea",
+      "go_id": "GO:0009737",
+      "archived_ct_count": 34,
+      "primary_ct_count": 35,
+      "measured_ct_count": 35,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "gsea",
+      "go_id": "GO:0009738",
+      "archived_ct_count": 51,
+      "primary_ct_count": 52,
+      "measured_ct_count": 52,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "gsea",
+      "go_id": "GO:0009753",
+      "archived_ct_count": 93,
+      "primary_ct_count": 94,
+      "measured_ct_count": 94,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "gsea",
+      "go_id": "GO:0009867",
+      "archived_ct_count": 54,
+      "primary_ct_count": 55,
+      "measured_ct_count": 55,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "gsea",
+      "go_id": "GO:0009873",
+      "archived_ct_count": 20,
+      "primary_ct_count": 21,
+      "measured_ct_count": 21,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "gsea",
+      "go_id": "GO:0010200",
+      "archived_ct_count": 43,
+      "primary_ct_count": 44,
+      "measured_ct_count": 44,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "gsea",
+      "go_id": "GO:0035556",
+      "archived_ct_count": 29,
+      "primary_ct_count": 30,
+      "measured_ct_count": 30,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "gsea",
+      "go_id": "GO:0042538",
+      "archived_ct_count": 34,
+      "primary_ct_count": 35,
+      "measured_ct_count": 35,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "gsea",
+      "go_id": "GO:0046686",
+      "archived_ct_count": 16,
+      "primary_ct_count": 17,
+      "measured_ct_count": 17,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "gsea",
+      "go_id": "GO:0052542",
+      "archived_ct_count": 8,
+      "primary_ct_count": 9,
+      "measured_ct_count": 9,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "sumstat",
+      "go_id": "GO:0002679",
+      "archived_ct_count": 20,
+      "primary_ct_count": 21,
+      "measured_ct_count": 21,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "sumstat",
+      "go_id": "GO:0007165",
+      "archived_ct_count": 32,
+      "primary_ct_count": 33,
+      "measured_ct_count": 33,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "sumstat",
+      "go_id": "GO:0009414",
+      "archived_ct_count": 39,
+      "primary_ct_count": 40,
+      "measured_ct_count": 40,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "sumstat",
+      "go_id": "GO:0009611",
+      "archived_ct_count": 94,
+      "primary_ct_count": 95,
+      "measured_ct_count": 95,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "sumstat",
+      "go_id": "GO:0009695",
+      "archived_ct_count": 111,
+      "primary_ct_count": 112,
+      "measured_ct_count": 112,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "sumstat",
+      "go_id": "GO:0009723",
+      "archived_ct_count": 39,
+      "primary_ct_count": 40,
+      "measured_ct_count": 40,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "sumstat",
+      "go_id": "GO:0009733",
+      "archived_ct_count": 27,
+      "primary_ct_count": 28,
+      "measured_ct_count": 28,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "sumstat",
+      "go_id": "GO:0009737",
+      "archived_ct_count": 34,
+      "primary_ct_count": 35,
+      "measured_ct_count": 35,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "sumstat",
+      "go_id": "GO:0009738",
+      "archived_ct_count": 51,
+      "primary_ct_count": 52,
+      "measured_ct_count": 52,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "sumstat",
+      "go_id": "GO:0009753",
+      "archived_ct_count": 93,
+      "primary_ct_count": 94,
+      "measured_ct_count": 94,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "sumstat",
+      "go_id": "GO:0009867",
+      "archived_ct_count": 54,
+      "primary_ct_count": 55,
+      "measured_ct_count": 55,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "sumstat",
+      "go_id": "GO:0009873",
+      "archived_ct_count": 20,
+      "primary_ct_count": 21,
+      "measured_ct_count": 21,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "sumstat",
+      "go_id": "GO:0010200",
+      "archived_ct_count": 43,
+      "primary_ct_count": 44,
+      "measured_ct_count": 44,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "sumstat",
+      "go_id": "GO:0035556",
+      "archived_ct_count": 29,
+      "primary_ct_count": 30,
+      "measured_ct_count": 30,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "sumstat",
+      "go_id": "GO:0042538",
+      "archived_ct_count": 34,
+      "primary_ct_count": 35,
+      "measured_ct_count": 35,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "sumstat",
+      "go_id": "GO:0046686",
+      "archived_ct_count": 16,
+      "primary_ct_count": 17,
+      "measured_ct_count": 17,
+      "matches_primary": false,
+      "matches_measured": false
+    },
+    {
+      "phase": "middle",
+      "method": "sumstat",
+      "go_id": "GO:0052542",
+      "archived_ct_count": 8,
+      "primary_ct_count": 9,
+      "measured_ct_count": 9,
+      "matches_primary": false,
+      "matches_measured": false
+    }
+  ],
+  "compatible_single_middle_omissions": [
+    "Glyma.02G005600",
+    "Glyma.03G250600",
+    "Glyma.10G006600",
+    "Glyma.10G165800",
+    "Glyma.10G180800",
+    "Glyma.20G209700"
+  ],
+  "middle_omission_identified": false,
+  "middle_original_scored_ct_equals_primary": true,
+  "final_short_probability_differences": [
+    {
+      "go_id": "GO:0010117",
+      "final_excel_p": 0.065440935,
+      "january_replay_p": 0.0124510737965025,
+      "final_excel_bh": 0.442340793,
+      "january_replay_bh": 0.0518794741520936,
+      "older_profile_p": 0.06544093543305864,
+      "older_profile_bh": 0.44234079341663857,
+      "matches_older_profile": true
+    },
+    {
+      "go_id": "GO:0015976",
+      "final_excel_p": 0.060561021,
+      "january_replay_p": 0.0114986932636345,
+      "final_excel_bh": 0.442340793,
+      "january_replay_bh": 0.0499943185375413,
+      "older_profile_p": 0.060561021015335385,
+      "older_profile_bh": 0.44234079341663857,
+      "matches_older_profile": true
+    }
+  ],
+  "source_sha256": {
+    "研究法\\大豆基因\\CTgenes 含分數\\SHORT.txt": "2eb4bddcba96a9932c1e727bae3e1612632d6b07983393a67c09c012addd3420",
+    "研究法\\大豆基因\\數據\\CT_genes\\short_CT_G_score.txt": "38361d622b7b9ed7d8d14a88a2196a25c86289c422a77c158ffd4b47b3dc3351",
+    "研究法\\大豆基因\\數據\\CT_genes\\middle_CT_G_score.txt": "93a4cae2826bd66cc3d73fb453f4ab80a04f1099510807e58e22815e45ba7fb4",
+    "研究法\\大豆基因\\數據\\GO_terms_4899.txt": "bbc154ba078775cecc0da7d488370d2b8ea824443a7df684fe97cffeb368f84c",
+    "研究法\\大豆基因\\期刊撰寫\\table\\Table 1. The results of the pathway enrichment analysis with secondary selection..xlsx": "735a27d12c95c07a5baa999aae186b266f9bfc5fc90cc1ac7ba3f17afa9c4a3d",
+    "soybean-cold-tolerance\\data\\input\\gene_correspondence.tsv": "18a44071b6dc82432718560462ea0a1b93f30a3c8264d37ee7b16d4b85499e41",
+    "soybean-cold-tolerance\\data\\upstream\\expression.tsv": "892a6ab94f14e725e9d1e84098dfd493483e21ede86604e9d72aa140cce4c848",
+    "研究法\\大豆基因\\程式\\超幾何.txt": "925fbb78bb4ccaa0610e446461b259fd46a2b93a6b85d19e64be9ed3f8bbb178",
+    "研究法\\大豆基因\\程式\\#外部資料匯入與校正繪圖.txt": "7a365881c3301140cd9ff54ae5cfc241e7014788b56b160f2a45faf98427fad5",
+    "研究法\\大豆基因\\篩選後\\篩選後大豆ct short0109.txt": "f80797b9d2317ee5d30752676455ea4b84ea8103a82ad1e000d3a3e1216104b6",
+    "研究法\\大豆基因\\篩選後\\篩選後大豆ct middle0109.txt": "42b364d017a1ea1e9196fd804d75d9610ab8f46d5089239a6b1d8844813ffa96"
+  },
+  "simulations_rerun": false
+}

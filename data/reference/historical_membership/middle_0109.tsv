@@ -1,0 +1,343 @@
+go_id	description	annotation_size	ct_count	p_value	p_bh	ct_ratio
+GO:0035264	Multicellular organism growth	5	5	3.99E-13	2.53E-12	1
+GO:0009695	Jasmonic acid biosynthetic process	415	112	0	0	0.269879518
+GO:0009611	Response to wounding	1025	95	0	0	0.092682927
+GO:0009753	Response to jasmonic acid stimulus	754	94	0	0	0.124668435
+GO:0009620	Response to fungus	310	73	0	0	0.235483871
+GO:0009867	Jasmonic acid mediated signaling pathway	797	55	0	0	0.069008783
+GO:0009738	Abscisic acid mediated signaling pathway	630	52	0	0	0.082539683
+GO:0010200	Response to chitin	1130	44	0	0	0.038938053
+GO:0009723	Response to ethylene stimulus	723	40	0	0	0.055325035
+GO:0009414	Response to water deprivation	883	40	0	0	0.045300113
+GO:0010363	Regulation of plant-type hypersensitive response	1015	40	0	0	0.039408867
+GO:0006612	Protein targeting to membrane	1016	40	0	0	0.039370079
+GO:0009409	Response to cold	1113	37	0	0	0.033243486
+GO:0009863	Salicylic acid mediated signaling pathway	456	36	0	0	0.078947368
+GO:0050832	Defense response to fungus	929	36	0	0	0.038751346
+GO:0042538	Hyperosmotic salinity response	459	35	0	0	0.076252723
+GO:0009737	Response to abscisic acid stimulus	1249	35	0	0	0.028022418
+GO:0043069	Negative regulation of programmed cell death	523	33	0	0	0.063097514
+GO:0031348	Negative regulation of defense response	762	33	0	0	0.043307087
+GO:0007165	Signal transduction	1301	33	0	0	0.025365104
+GO:0000165	Mapkkk cascade	572	32	0	0	0.055944056
+GO:0009862	Systemic acquired resistance, salicylic acid mediated signaling pathway	684	32	0	0	0.046783626
+GO:0035556	Intracellular signal transduction	476	30	0	0	0.06302521
+GO:0030968	Endoplasmic reticulum unfolded protein response	500	29	0	0	0.058
+GO:0009733	Response to auxin stimulus	1009	28	0	0	0.027750248
+GO:0009697	Salicylic acid biosynthetic process	649	24	0	0	0.036979969
+GO:0042742	Defense response to bacterium	1056	23	1.25E-12	7.76E-12	0.021780303
+GO:0009873	Ethylene mediated signaling pathway	309	21	0	0	0.067961165
+GO:0002679	Respiratory burst involved in defense response	418	21	0	0	0.050239234
+GO:0019288	Isopentenyl diphosphate biosynthetic process, mevalonate-independent pathway	579	21	6.66E-16	4.56E-15	0.03626943
+GO:0007154	Cell communication	186	20	0	0	0.107526882
+GO:0006733	Oxidoreduction coenzyme metabolic process	120	19	0	0	0.158333333
+GO:0006766	Vitamin metabolic process	120	19	0	0	0.158333333
+GO:0009106	Lipoate metabolic process	120	19	0	0	0.158333333
+GO:0009108	Coenzyme biosynthetic process	120	19	0	0	0.158333333
+GO:0044272	Sulfur compound biosynthetic process	120	19	0	0	0.158333333
+GO:0009072	Aromatic amino acid family metabolic process	127	19	0	0	0.149606299
+GO:0019748	Secondary metabolic process	134	19	0	0	0.141791045
+GO:0000096	Sulfur amino acid metabolic process	136	19	0	0	0.139705882
+GO:0009117	Nucleotide metabolic process	149	19	0	0	0.127516779
+GO:0006546	Glycine catabolic process	156	19	0	0	0.121794872
+GO:0008652	Cellular amino acid biosynthetic process	192	19	0	0	0.098958333
+GO:0006636	Unsaturated fatty acid biosynthetic process	203	19	0	0	0.093596059
+GO:0006944	Cellular membrane fusion	714	18	4.07E-11	2.32E-10	0.025210084
+GO:0045893	Positive regulation of transcription, dna-dependent	1077	17	1.45E-07	6.36E-07	0.015784587
+GO:0046686	Response to cadmium ion	1301	17	1.95E-06	7.66E-06	0.013066872
+GO:0010310	Regulation of hydrogen peroxide metabolic process	532	16	4.03E-11	2.32E-10	0.030075188
+GO:0009612	Response to mechanical stimulus	150	15	0	0	0.1
+GO:0009688	Abscisic acid biosynthetic process	53	13	0	0	0.245283019
+GO:0015995	Chlorophyll biosynthetic process	293	13	2.57E-11	1.52E-10	0.044368601
+GO:0043565	Sequence-specific dna binding	880	13	9.36E-06	3.48E-05	0.014772727
+GO:0019216	Regulation of lipid metabolic process	81	12	0	0	0.148148148
+GO:0015994	Chlorophyll metabolic process	90	12	2.22E-16	1.58E-15	0.133333333
+GO:0031408	Oxylipin biosynthetic process	96	12	6.66E-16	4.56E-15	0.125
+GO:0043900	Regulation of multi-organism process	262	12	1.07E-10	5.99E-10	0.045801527
+GO:0045087	Innate immune response	273	12	1.71E-10	9.46E-10	0.043956044
+GO:0009595	Detection of biotic stimulus	276	12	1.94E-10	1.06E-09	0.043478261
+GO:0006970	Response to osmotic stress	341	12	2.14E-09	1.06E-08	0.035190616
+GO:0009751	Response to salicylic acid stimulus	378	12	6.76E-09	3.26E-08	0.031746032
+GO:0009416	Response to light stimulus	440	12	3.60E-08	1.64E-07	0.027272727
+GO:0009644	Response to high light intensity	578	12	6.65E-07	2.77E-06	0.020761246
+GO:0009055	Electron carrier activity	966	12	0.000109425	0.000366895	0.01242236
+GO:0030154	Cell differentiation	321	11	1.35E-08	6.41E-08	0.034267913
+GO:0031347	Regulation of defense response	341	11	2.50E-08	1.17E-07	0.032258065
+GO:0046777	Protein autophosphorylation	475	11	6.86E-07	2.83E-06	0.023157895
+GO:0009965	Leaf morphogenesis	487	11	8.75E-07	3.48E-06	0.022587269
+GO:0006952	Defense response	1095	11	0.001229406	0.003234283	0.010045662
+GO:0010449	Root meristem growth	17	10	0	0	0.588235294
+GO:0019900	Kinase binding	19	10	0	0	0.526315789
+GO:0022622	Root system development	19	10	0	0	0.526315789
+GO:0004709	Map kinase kinase kinase activity	20	10	0	0	0.5
+GO:0052543	Callose deposition in cell wall	72	10	5.97E-14	4.01E-13	0.138888889
+GO:0009556	Microsporogenesis	120	10	1.13E-11	6.76E-11	0.083333333
+GO:0009693	Ethylene biosynthetic process	268	10	2.83E-08	1.31E-07	0.037313433
+GO:0006979	Response to oxidative stress	629	10	5.69E-05	0.000198553	0.015898251
+GO:0005506	Iron ion binding	705	10	0.000144655	0.00047116	0.014184397
+GO:0009941	Chloroplast envelope	1208	10	0.007842546	0.017762588	0.008278146
+GO:0016165	Lipoxygenase activity	53	9	1.65E-13	1.06E-12	0.169811321
+GO:0034440	Lipid oxidation	53	9	1.65E-13	1.06E-12	0.169811321
+GO:0052542	Defense response by callose deposition	115	9	2.20E-10	1.16E-09	0.07826087
+GO:0007275	Multicellular organismal development	235	9	1.15E-07	5.09E-07	0.038297872
+GO:0016491	Oxidoreductase activity	1460	9	0.058424762	0.097469602	0.006164384
+GO:0009694	Jasmonic acid metabolic process	100	8	1.91E-09	9.60E-09	0.08
+GO:0009814	Defense response, incompatible interaction	194	8	3.38E-07	1.47E-06	0.041237113
+GO:0040007	Growth	200	8	4.26E-07	1.82E-06	0.04
+GO:0051707	Response to other organism	254	8	2.56E-06	9.93E-06	0.031496063
+GO:0016117	Carotenoid biosynthetic process	258	8	2.87E-06	1.10E-05	0.031007752
+GO:0009555	Pollen development	403	8	7.04E-05	0.000243224	0.019851117
+GO:0009570	Chloroplast stroma	1351	8	0.086103053	0.133245448	0.00592154
+GO:0009788	Negative regulation of abscisic acid mediated signaling pathway	70	7	4.18E-09	2.04E-08	0.1
+GO:0009617	Response to bacterium	405	7	0.000462433	0.001351726	0.017283951
+GO:0019344	Cysteine biosynthetic process	455	7	0.000914959	0.002503327	0.015384615
+GO:0050691	Regulation of defense response to virus by host	13	6	2.18E-12	1.33E-11	0.461538462
+GO:0050776	Regulation of immune response	25	6	2.17E-10	1.16E-09	0.24
+GO:0016045	Detection of bacterium	30	6	7.18E-10	3.67E-09	0.2
+GO:0009646	Response to absence of light	90	6	6.39E-07	2.70E-06	0.066666667
+GO:0009073	Aromatic amino acid family biosynthetic process	138	6	7.72E-06	2.90E-05	0.043478261
+GO:0006569	Tryptophan catabolic process	192	6	4.98E-05	0.000177494	0.03125
+GO:0009684	Indoleacetic acid biosynthetic process	231	6	0.000137632	0.000452597	0.025974026
+GO:0002237	Response to molecule of bacterial origin	261	6	0.000265792	0.000804432	0.022988506
+GO:0019684	Photosynthesis, light reaction	318	6	0.000752002	0.00207407	0.018867925
+GO:0035304	Regulation of protein dephosphorylation	335	6	0.000983693	0.002670023	0.017910448
+GO:0080167	Response to karrikin	355	6	0.001322583	0.003400929	0.016901408
+GO:0048364	Root development	397	6	0.002318365	0.005745513	0.01511335
+GO:0009408	Response to heat	652	6	0.023223613	0.046292916	0.009202454
+GO:0009535	Chloroplast thylakoid membrane	695	6	0.030416871	0.058114916	0.008633094
+GO:0010117	Photoprotection	13	5	5.02E-10	2.60E-09	0.384615385
+GO:0030397	Membrane disassembly	31	5	6.32E-08	2.84E-07	0.161290323
+GO:0010311	Lateral root formation	137	5	0.000104374	0.000353425	0.03649635
+GO:0009816	Defense response to bacterium, incompatible interaction	143	5	0.000127655	0.000423863	0.034965035
+GO:0006655	Phosphatidylglycerol biosynthetic process	175	5	0.000325808	0.000977423	0.028571429
+GO:0010155	Regulation of proton transport	191	5	0.0004858	0.001407997	0.02617801
+GO:0010114	Response to red light	251	5	0.001642953	0.004162147	0.019920319
+GO:0010218	Response to far red light	251	5	0.001642953	0.004162147	0.019920319
+GO:0009908	Flower development	268	5	0.002184689	0.00545375	0.018656716
+GO:0005777	Peroxisome	386	5	0.010021564	0.02225568	0.012953368
+GO:0006098	Pentose-phosphate shunt	420	5	0.014005221	0.030315098	0.011904762
+GO:0015979	Photosynthesis	449	5	0.018150021	0.03799727	0.011135857
+GO:0009579	Thylakoid	465	5	0.020750755	0.042495558	0.010752688
+GO:0045892	Negative regulation of transcription, dna-dependent	465	5	0.020750755	0.042495558	0.010752688
+GO:0009536	Plastid	730	5	0.100466377	0.15136344	0.006849315
+GO:0051536	Iron-sulfur cluster binding	105	4	0.000448714	0.001322932	0.038095238
+GO:0019722	Calcium-mediated signaling	139	4	0.001280151	0.003342072	0.028776978
+GO:0009410	Response to xenobiotic stimulus	173	4	0.002838287	0.006983412	0.023121387
+GO:0010286	Heat acclimation	183	4	0.003470071	0.008416769	0.021857923
+GO:0015035	Protein disulfide oxidoreductase activity	188	4	0.003819156	0.009198248	0.021276596
+GO:0016226	Iron-sulfur cluster assembly	226	4	0.007274508	0.016585879	0.017699115
+GO:0006633	Fatty acid biosynthetic process	236	4	0.008441166	0.01886849	0.016949153
+GO:0045454	Cell redox homeostasis	263	4	0.01218396	0.026883318	0.015209125
+GO:0009637	Response to blue light	269	4	0.013138867	0.028620971	0.014869888
+GO:0016706	Oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, 2-oxoglutarate as one donor, and incorporation of one atom each of oxygen into both donors	297	4	0.018220913	0.03799727	0.013468013
+GO:0042802	Identical protein binding	318	4	0.022735679	0.045738837	0.012578616
+GO:0009266	Response to temperature stimulus	356	4	0.03250674	0.061421575	0.011235955
+GO:0019825	Oxygen binding	437	4	0.060423696	0.099830454	0.009153318
+GO:0071555	Cell wall organization	447	4	0.064537555	0.105606909	0.008948546
+GO:0010027	Thylakoid membrane organization	467	4	0.073194218	0.117523111	0.00856531
+GO:0016705	Oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen	499	4	0.088204652	0.135273502	0.008016032
+GO:0009744	Response to sucrose stimulus	528	4	0.102989956	0.152478637	0.007575758
+GO:0046872	Metal ion binding	548	4	0.113808331	0.167049138	0.00729927
+GO:0020037	Heme binding	745	4	0.241877739	0.318162257	0.005369128
+GO:0005774	Vacuolar membrane	1127	4	0.526089264	0.605799759	0.003549246
+GO:0009793	Embryo development ending in seed dormancy	1174	4	0.558430169	0.63239443	0.003407155
+GO:0009268	Response to ph	6	3	7.37E-07	2.97E-06	0.5
+GO:0046423	Allene-oxide cyclase activity	6	3	7.37E-07	2.97E-06	0.5
+GO:0047325	Inositol tetrakisphosphate 1-kinase activity	10	3	4.38E-06	1.66E-05	0.3
+GO:0004765	Shikimate kinase activity	13	3	1.04E-05	3.81E-05	0.230769231
+GO:0010176	Homogentisate phytyltransferase activity	14	3	1.32E-05	4.73E-05	0.214285714
+GO:0042362	Fat-soluble vitamin biosynthetic process	14	3	1.32E-05	4.73E-05	0.214285714
+GO:0080086	Stamen filament development	22	3	5.46E-05	0.000192343	0.136363636
+GO:0009915	Phloem sucrose loading	25	3	8.09E-05	0.000276596	0.12
+GO:0010189	Vitamin e biosynthetic process	35	3	0.000224552	0.000691864	0.085714286
+GO:0004659	Prenyltransferase activity	37	3	0.000265273	0.000804432	0.081081081
+GO:0032957	Inositol trisphosphate metabolic process	48	3	0.000574761	0.001638069	0.0625
+GO:0009901	Anther dehiscence	49	3	0.000610745	0.001712089	0.06122449
+GO:0051537	2 iron, 2 sulfur cluster binding	49	3	0.000610745	0.001712089	0.06122449
+GO:0016114	Terpenoid biosynthetic process	52	3	0.000727232	0.002022059	0.057692308
+GO:0016853	Isomerase activity	62	3	0.001214398	0.003219566	0.048387097
+GO:0031977	Thylakoid lumen	104	3	0.005277712	0.01236286	0.028846154
+GO:0010118	Stomatal movement	108	3	0.005859551	0.013540314	0.027777778
+GO:0048653	Anther development	172	3	0.020488614	0.04246731	0.01744186
+GO:0000287	Magnesium ion binding	247	3	0.050990984	0.087194583	0.012145749
+GO:0016747	Transferase activity, transferring acyl groups other than amino-acyl groups	258	3	0.056644422	0.094962707	0.011627907
+GO:0019761	Glucosinolate biosynthetic process	348	3	0.112849726	0.166356062	0.00862069
+GO:0006635	Fatty acid beta-oxidation	452	3	0.194935289	0.265609039	0.006637168
+GO:0009534	Chloroplast thylakoid	464	3	0.205224138	0.277417609	0.006465517
+GO:0009407	Toxin catabolic process	534	3	0.267300148	0.347591828	0.005617978
+GO:0006457	Protein folding	773	3	0.482393304	0.564994897	0.003880983
+GO:0006499	N-terminal protein myristoylation	1037	3	0.679997763	0.726747609	0.00289296
+GO:0009446	Putrescine biosynthetic process	6	2	0.000166625	0.000518053	0.333333333
+GO:0009978	Allene oxide synthase activity	6	2	0.000166625	0.000518053	0.333333333
+GO:0010115	Regulation of abscisic acid biosynthetic process	6	2	0.000166625	0.000518053	0.333333333
+GO:0019373	Epoxygenase p450 pathway	6	2	0.000166625	0.000518053	0.333333333
+GO:0019395	Fatty acid oxidation	6	2	0.000166625	0.000518053	0.333333333
+GO:0045485	Omega-6 fatty acid desaturase activity	9	2	0.00039726	0.001181418	0.222222222
+GO:0031407	Oxylipin metabolic process	10	2	0.000495481	0.001423987	0.2
+GO:0018685	Alkane 1-monooxygenase activity	14	2	0.000993172	0.002674527	0.142857143
+GO:0006596	Polyamine biosynthetic process	15	2	0.001143445	0.003055142	0.133333333
+GO:0010205	Photoinhibition	16	2	0.001303918	0.003378333	0.125
+GO:0004022	Alcohol dehydrogenase (nad) activity	18	2	0.001655189	0.004162312	0.111111111
+GO:0016836	Hydro-lyase activity	25	2	0.003195873	0.007807061	0.08
+GO:0022900	Electron transport chain	29	2	0.004287245	0.01025341	0.068965517
+GO:0006561	Proline biosynthetic process	30	2	0.004583404	0.010810511	0.066666667
+GO:0010555	Response to mannitol stimulus	30	2	0.004583404	0.010810511	0.066666667
+GO:0008295	Spermidine biosynthetic process	34	2	0.005859367	0.013540314	0.058823529
+GO:0000413	Protein peptidyl-prolyl isomerization	36	2	0.006551254	0.015037107	0.055555556
+GO:0009642	Response to light intensity	41	2	0.008434168	0.01886849	0.048780488
+GO:0009631	Cold acclimation	50	2	0.01235437	0.027084581	0.04
+GO:0009789	Positive regulation of abscisic acid mediated signaling pathway	67	2	0.021487772	0.043742964	0.029850746
+GO:0043231	Intracellular membrane-bounded organelle	68	2	0.022090863	0.044704587	0.029411765
+GO:0005484	Snap receptor activity	72	2	0.024572406	0.048576663	0.027777778
+GO:0009504	Cell plate	75	2	0.026504732	0.051617815	0.026666667
+GO:0009625	Response to insect	83	2	0.031944547	0.060694639	0.024096386
+GO:0006631	Fatty acid metabolic process	86	2	0.034088221	0.063359627	0.023255814
+GO:0000910	Cytokinesis	91	2	0.037781541	0.069469286	0.021978022
+GO:0009269	Response to desiccation	98	2	0.043195339	0.07775161	0.020408163
+GO:0006862	Nucleotide transport	101	2	0.045598899	0.081137376	0.01980198
+GO:0043269	Regulation of ion transport	101	2	0.045598899	0.081137376	0.01980198
+GO:0015802	Basic amino acid transport	102	2	0.046410868	0.081397523	0.019607843
+GO:0015696	Ammonium transport	105	2	0.048878497	0.084608293	0.019047619
+GO:0006520	Cellular amino acid metabolic process	109	2	0.052241048	0.088887754	0.018348624
+GO:0003755	Peptidyl-prolyl cis-trans isomerase activity	114	2	0.056556676	0.094962707	0.01754386
+GO:0045036	Protein targeting to chloroplast	114	2	0.056556676	0.094962707	0.01754386
+GO:0010193	Response to ozone	141	2	0.081807376	0.128931441	0.014184397
+GO:0008234	Cysteine-type peptidase activity	142	2	0.082799655	0.129896706	0.014084507
+GO:0006820	Anion transport	143	2	0.08379565	0.130266419	0.013986014
+GO:0010287	Plastoglobule	147	2	0.087816079	0.135273502	0.013605442
+GO:0048316	Seed development	161	2	0.102319213	0.152144222	0.01242236
+GO:0009740	Gibberellic acid mediated signaling pathway	212	2	0.159629648	0.225592313	0.009433962
+GO:0043090	Amino acid import	266	2	0.224984362	0.299395532	0.007518797
+GO:0010182	Sugar mediated signaling pathway	271	2	0.231159188	0.306420318	0.007380074
+GO:0009826	Unidimensional cell growth	272	2	0.232395547	0.306869796	0.007352941
+GO:0043161	Proteasomal ubiquitin-dependent protein catabolic process	282	2	0.244779816	0.320745966	0.007092199
+GO:0009963	Positive regulation of flavonoid biosynthetic process	299	2	0.265885508	0.347071923	0.006688963
+GO:0006888	Er to golgi vesicle-mediated transport	311	2	0.280789897	0.361525512	0.006430868
+GO:0009658	Chloroplast organization	313	2	0.283272463	0.36191623	0.006389776
+GO:0050660	Flavin adenine dinucleotide binding	316	2	0.286994953	0.364878342	0.006329114
+GO:0080129	Proteasome core complex assembly	318	2	0.28947556	0.366669043	0.006289308
+GO:0048366	Leaf development	327	2	0.30062502	0.376607168	0.006116208
+GO:0010103	Stomatal complex morphogenesis	360	2	0.341205114	0.422777274	0.005555556
+GO:0009750	Response to fructose stimulus	361	2	0.342424868	0.422777274	0.005540166
+GO:0019252	Starch biosynthetic process	370	2	0.353370166	0.434721572	0.005405405
+GO:0022626	Cytosolic ribosome	389	2	0.376263083	0.454706623	0.005141388
+GO:0051788	Response to misfolded protein	425	2	0.418685199	0.500665518	0.004705882
+GO:0009860	Pollen tube growth	458	2	0.456270072	0.54182071	0.004366812
+GO:0000911	Cytokinesis by cell plate formation	469	2	0.468489883	0.550596357	0.004264392
+GO:0006629	Lipid metabolic process	533	2	0.536232274	0.615407509	0.003752345
+GO:0016192	Vesicle-mediated transport	548	2	0.551239418	0.626325186	0.003649635
+GO:0005730	Nucleolus	637	2	0.633192981	0.68965605	0.003139717
+GO:0009627	Systemic acquired resistance	747	2	0.71788054	0.760108807	0.002677376
+GO:0048046	Apoplast	1001	2	0.852591028	0.870406363	0.001998002
+GO:0010371	Regulation of gibberellin biosynthetic process	5	1	0.01668535	0.035224628	0.2
+GO:0043619	Regulation of transcription from rna polymerase ii promoter in response to oxidative stress	5	1	0.01668535	0.035224628	0.2
+GO:0080150	S-adenosyl-l-methionine:benzoic acid carboxyl methyl transferase activity	5	1	0.01668535	0.035224628	0.2
+GO:2000068	Regulation of defense response to insect	5	1	0.01668535	0.035224628	0.2
+GO:0004751	Ribose-5-phosphate isomerase activity	7	1	0.023281818	0.046292916	0.142857143
+GO:0016122	Xanthophyll metabolic process	8	1	0.026563554	0.051617815	0.125
+GO:0052624	2-phytyl-1,4-naphthoquinone methyltransferase activity	8	1	0.026563554	0.051617815	0.125
+GO:0009052	Pentose-phosphate shunt, non-oxidative branch	9	1	0.029834341	0.05732216	0.111111111
+GO:0051090	Regulation of sequence-specific dna binding transcription factor activity	9	1	0.029834341	0.05732216	0.111111111
+GO:0004321	Fatty-acyl-coa synthase activity	10	1	0.033094214	0.061848203	0.1
+GO:0031539	Positive regulation of anthocyanin metabolic process	10	1	0.033094214	0.061848203	0.1
+GO:0009257	10-formyltetrahydrofolate biosynthetic process	11	1	0.03634321	0.067185826	0.090909091
+GO:0003997	Acyl-coa oxidase activity	12	1	0.039581365	0.072004398	0.083333333
+GO:0045544	Gibberellin 20-oxidase activity	12	1	0.039581365	0.072004398	0.083333333
+GO:0008661	1-deoxy-d-xylulose-5-phosphate synthase activity	13	1	0.042808715	0.077463389	0.076923077
+GO:0016629	12-oxophytodienoate reductase activity	14	1	0.046025295	0.081137376	0.071428571
+GO:0019725	Cellular homeostasis	14	1	0.046025295	0.081137376	0.071428571
+GO:0003995	Acyl-coa dehydrogenase activity	15	1	0.049231141	0.084608293	0.066666667
+GO:0006568	Tryptophan metabolic process	15	1	0.049231141	0.084608293	0.066666667
+GO:0048575	Short-day photoperiodism, flowering	15	1	0.049231141	0.084608293	0.066666667
+GO:0042753	Positive regulation of circadian rhythm	18	1	0.058784633	0.097593905	0.055555556
+GO:0045962	Positive regulation of development, heterochronic	19	1	0.061947899	0.101856641	0.052631579
+GO:0009966	Regulation of signal transduction	20	1	0.065100608	0.10602099	0.05
+GO:0009069	Serine family amino acid metabolic process	21	1	0.068242794	0.110611543	0.047619048
+GO:0010099	Regulation of photomorphogenesis	22	1	0.071374494	0.115141872	0.045454545
+GO:0005788	Endoplasmic reticulum lumen	23	1	0.07449574	0.11905394	0.043478261
+GO:0004033	Aldo-keto reductase (nadp) activity	24	1	0.077606569	0.122877068	0.041666667
+GO:0019253	Reductive pentose-phosphate cycle	24	1	0.077606569	0.122877068	0.041666667
+GO:0004602	Glutathione peroxidase activity	26	1	0.083797112	0.130266419	0.038461538
+GO:0016624	Oxidoreductase activity, acting on the aldehyde or oxo group of donors, disulfide as acceptor	28	1	0.089946396	0.136718522	0.035714286
+GO:0034605	Cellular response to heat	28	1	0.089946396	0.136718522	0.035714286
+GO:0009759	Indole glucosinolate biosynthetic process	29	1	0.093005651	0.140743065	0.034482759
+GO:0009396	Folic acid-containing compound biosynthetic process	32	1	0.102122278	0.152144222	0.03125
+GO:0080027	Response to herbivore	32	1	0.102122278	0.152144222	0.03125
+GO:0016207	4-coumarate-coa ligase activity	37	1	0.117114878	0.171167899	0.027027027
+GO:0030095	Chloroplast photosystem ii	39	1	0.123042073	0.179065485	0.025641026
+GO:0003690	Double-stranded dna binding	40	1	0.125990836	0.18257994	0.025
+GO:0008299	Isoprenoid biosynthetic process	41	1	0.128929753	0.186050529	0.024390244
+GO:0008757	S-adenosylmethionine-dependent methyltransferase activity	43	1	0.134778178	0.193672844	0.023255814
+GO:0016627	Oxidoreductase activity, acting on the ch-ch group of donors	46	1	0.143477784	0.205311306	0.02173913
+GO:2000652	Regulation of secondary cell wall biogenesis	48	1	0.149229208	0.212651621	0.020833333
+GO:0051276	Chromosome organization	51	1	0.157784514	0.223909975	0.019607843
+GO:0019760	Glucosinolate metabolic process	52	1	0.160617255	0.226053915	0.019230769
+GO:0048510	Regulation of timing of transition from vegetative to reproductive phase	53	1	0.163440535	0.228149645	0.018867925
+GO:0051539	4 iron, 4 sulfur cluster binding	53	1	0.163440535	0.228149645	0.018867925
+GO:0010074	Maintenance of meristem identity	54	1	0.166254384	0.231134144	0.018518519
+GO:0008610	Lipid biosynthetic process	56	1	0.171853919	0.23795158	0.017857143
+GO:0001676	Long-chain fatty acid metabolic process	57	1	0.174639666	0.240833733	0.01754386
+GO:0010025	Wax biosynthetic process	59	1	0.180183274	0.247480642	0.016949153
+GO:0010017	Red or far-red light signaling pathway	64	1	0.193881062	0.265229293	0.015625
+GO:0048608	Reproductive structure development	67	1	0.201990393	0.27412982	0.014925373
+GO:0010304	Psii associated light-harvesting complex ii catabolic process	69	1	0.207351557	0.279189892	0.014492754
+GO:0006417	Regulation of translation	70	1	0.210018712	0.281672154	0.014285714
+GO:0002213	Defense response to insect	71	1	0.212676954	0.284123118	0.014084507
+GO:0010181	Fmn binding	94	1	0.271423593	0.351616928	0.010638298
+GO:0016779	Nucleotidyltransferase activity	98	1	0.281186509	0.361525512	0.010204082
+GO:0004712	Protein serine/threonine/tyrosine kinase activity	99	1	0.28360687	0.36191623	0.01010101
+GO:0000038	Very long-chain fatty acid metabolic process	103	1	0.293207655	0.370025897	0.009708738
+GO:0009686	Gibberellin biosynthetic process	106	1	0.300324296	0.376607168	0.009433962
+GO:0006312	Mitotic recombination	109	1	0.307369777	0.383651327	0.009174312
+GO:0032880	Regulation of protein localization	122	1	0.337094986	0.419223583	0.008196721
+GO:0042335	Cuticle development	130	1	0.354754121	0.434859891	0.007692308
+GO:0006406	Mrna export from nucleus	133	1	0.361255176	0.441247393	0.007518797
+GO:0016614	Oxidoreductase activity, acting on ch-oh group of donors	138	1	0.371946037	0.452688771	0.007246377
+GO:0005543	Phospholipid binding	140	1	0.376172459	0.454706623	0.007142857
+GO:0044237	Cellular metabolic process	145	1	0.386615357	0.465572014	0.006896552
+GO:0009543	Chloroplast thylakoid lumen	146	1	0.388683011	0.466419613	0.006849315
+GO:0042793	Transcription from plastid promoter	168	1	0.432460391	0.515336076	0.005952381
+GO:0034660	Ncrna metabolic process	186	1	0.465951457	0.550596357	0.005376344
+GO:0008284	Positive regulation of cell proliferation	187	1	0.467753418	0.550596357	0.005347594
+GO:0009657	Plastid organization	201	1	0.492355973	0.574695367	0.004975124
+GO:0010817	Regulation of hormone levels	211	1	0.50923456	0.592374896	0.004739336
+GO:0050826	Response to freezing	219	1	0.522335215	0.605554724	0.00456621
+GO:0043687	Post-translational protein modification	221	1	0.525555747	0.605799759	0.004524887
+GO:0009902	Chloroplast relocation	229	1	0.538223676	0.61562708	0.004366812
+GO:0070838	Divalent metal ion transport	237	1	0.550555666	0.626325186	0.004219409
+GO:0015824	Proline transport	246	1	0.56403861	0.636200658	0.004065041
+GO:0009932	Cell tip growth	247	1	0.565511696	0.636200658	0.004048583
+GO:0009739	Response to gibberellin stimulus	250	1	0.569901364	0.639036939	0.004
+GO:0051082	Unfolded protein binding	255	1	0.577119822	0.645016272	0.003921569
+GO:0009825	Multidimensional cell growth	264	1	0.589811189	0.657053507	0.003787879
+GO:0042545	Cell wall modification	266	1	0.592579719	0.657994363	0.003759398
+GO:0000271	Polysaccharide biosynthetic process	271	1	0.599420129	0.663435871	0.003690037
+GO:0010224	Response to uv-b	274	1	0.603469506	0.663622415	0.003649635
+GO:0030003	Cellular cation homeostasis	274	1	0.603469506	0.663622415	0.003649635
+GO:0031072	Heat shock protein binding	279	1	0.610128333	0.668794518	0.003584229
+GO:0009560	Embryo sac egg cell differentiation	288	1	0.621835609	0.679449771	0.003472222
+GO:0000023	Maltose metabolic process	302	1	0.639356723	0.694158727	0.003311258
+GO:0043481	Anthocyanin accumulation in tissues in response to uv light	307	1	0.64541689	0.698520811	0.003257329
+GO:0009827	Plant-type cell wall modification	321	1	0.661852662	0.714049244	0.003115265
+GO:0006816	Calcium ion transport	324	1	0.665274953	0.715484384	0.00308642
+GO:0008168	Methyltransferase activity	336	1	0.678623574	0.726747609	0.00297619
+GO:0016049	Cell growth	354	1	0.697661613	0.743303027	0.002824859
+GO:0010207	Photosystem ii assembly	372	1	0.715579277	0.760025194	0.002688172
+GO:0010162	Seed dormancy	404	1	0.744867883	0.786249432	0.002475248
+GO:0048481	Ovule development	411	1	0.750864164	0.790140135	0.00243309
+GO:0009845	Seed germination	477	1	0.800948895	0.84025927	0.002096436
+GO:0010413	Glucuronoxylan metabolic process	493	1	0.811499696	0.845609746	0.002028398
+GO:0045492	Xylan biosynthetic process	495	1	0.812778873	0.845609746	0.002020202
+GO:0009640	Photomorphogenesis	500	1	0.815939229	0.845609746	0.002
+GO:0048767	Root hair elongation	500	1	0.815939229	0.845609746	0.002
+GO:0042542	Response to hydrogen peroxide	507	1	0.820274917	0.847534808	0.001972387
+GO:0006364	Rrna processing	531	1	0.834384435	0.858930635	0.001883239
+GO:0007030	Golgi organization	536	1	0.83718246	0.858930635	0.001865672
+GO:0005509	Calcium ion binding	539	1	0.83883869	0.858930635	0.001855288
+GO:0009505	Plant-type cell wall	666	1	0.895529887	0.911521492	0.001501502
+GO:0046983	Protein dimerization activity	725	1	0.914624335	0.928194429	0.00137931
+GO:0009909	Regulation of flower development	742	1	0.919452189	0.929514051	0.001347709
+GO:0010228	Vegetative to reproductive phase transition of meristem	749	1	0.921360419	0.929514051	0.001335113
+GO:0003723	Rna binding	1040	1	0.971078257	0.976790482	0.000961538
+GO:0005783	Endoplasmic reticulum	1152	1	0.980356762	0.983231709	0.000868056
+GO:0005575	Cellular_component	1413	1	0.992058296	0.992058296	0.000707714

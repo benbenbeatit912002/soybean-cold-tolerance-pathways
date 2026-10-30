@@ -1,7 +1,7 @@
 {
   "archive": "D:\\Bioinformatics project\\soybean-cold-tolerance\\dist\\soybean-cold-tolerance-pathways-source.zip",
-  "archive_sha256": "1ccec14989974ce739310c2ee6c2580cb04d919f93b3af986d6b6f88c57db610",
-  "extracted_workspace": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\soybean-cold-tolerance-pathways",
+  "archive_sha256": "3c9ae76177a0256bc39a91881b8a4ada968416c06322601eb83637c46b88d611",
+  "extracted_workspace": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\soybean-cold-tolerance-pathways",
   "checks": [
     {
       "name": "python_tests",
@@ -17,8 +17,8 @@
       ],
       "exit_code": 0,
       "expected_exit_code": 0,
-      "elapsed_seconds": 40.2,
-      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\logs\\python_tests.log"
+      "elapsed_seconds": 48.19,
+      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\logs\\python_tests.log"
     },
     {
       "name": "test_core",
@@ -29,8 +29,8 @@
       ],
       "exit_code": 0,
       "expected_exit_code": 0,
-      "elapsed_seconds": 0.34,
-      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\logs\\test_core.log"
+      "elapsed_seconds": 0.29,
+      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\logs\\test_core.log"
     },
     {
       "name": "test_integration",
@@ -41,8 +41,8 @@
       ],
       "exit_code": 0,
       "expected_exit_code": 0,
-      "elapsed_seconds": 1.09,
-      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\logs\\test_integration.log"
+      "elapsed_seconds": 1.04,
+      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\logs\\test_integration.log"
     },
     {
       "name": "test_short_reference",
@@ -53,8 +53,8 @@
       ],
       "exit_code": 0,
       "expected_exit_code": 0,
-      "elapsed_seconds": 0.25,
-      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\logs\\test_short_reference.log"
+      "elapsed_seconds": 0.22,
+      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\logs\\test_short_reference.log"
     },
     {
       "name": "test_historical_short",
@@ -65,8 +65,8 @@
       ],
       "exit_code": 0,
       "expected_exit_code": 0,
-      "elapsed_seconds": 0.23,
-      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\logs\\test_historical_short.log"
+      "elapsed_seconds": 0.25,
+      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\logs\\test_historical_short.log"
     },
     {
       "name": "test_presoynet",
@@ -78,7 +78,7 @@
       "exit_code": 0,
       "expected_exit_code": 0,
       "elapsed_seconds": 0.26,
-      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\logs\\test_presoynet.log"
+      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\logs\\test_presoynet.log"
     },
     {
       "name": "test_pathway_selection",
@@ -89,8 +89,8 @@
       ],
       "exit_code": 0,
       "expected_exit_code": 0,
-      "elapsed_seconds": 0.97,
-      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\logs\\test_pathway_selection.log"
+      "elapsed_seconds": 0.89,
+      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\logs\\test_pathway_selection.log"
     },
     {
       "name": "shared_null",
@@ -102,43 +102,43 @@
       ],
       "exit_code": 0,
       "expected_exit_code": 0,
-      "elapsed_seconds": 2.18,
-      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\logs\\shared_null.log"
+      "elapsed_seconds": 2.02,
+      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\logs\\shared_null.log"
     },
     {
       "name": "python_demo",
       "command": [
         "C:\\Program Files\\Python311\\python.exe",
-        "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\soybean-cold-tolerance-pathways\\run_pipeline.py",
+        "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\soybean-cold-tolerance-pathways\\run_pipeline.py",
         "--mode",
         "demo",
         "--include-maxmean"
       ],
       "exit_code": 0,
       "expected_exit_code": 0,
-      "elapsed_seconds": 4.89,
-      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\logs\\python_demo.log"
+      "elapsed_seconds": 4.47,
+      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\logs\\python_demo.log"
     },
     {
       "name": "r_demo",
       "command": [
         "C:\\Program Files\\R\\R-4.5.1\\bin\\Rscript.exe",
         "--vanilla",
-        "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\soybean-cold-tolerance-pathways\\run_pipeline.R",
+        "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\soybean-cold-tolerance-pathways\\run_pipeline.R",
         "--mode",
         "demo",
         "--include-maxmean"
       ],
       "exit_code": 0,
       "expected_exit_code": 0,
-      "elapsed_seconds": 1.0,
-      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\logs\\r_demo.log"
+      "elapsed_seconds": 0.92,
+      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\logs\\r_demo.log"
     },
     {
       "name": "python_quick",
       "command": [
         "C:\\Program Files\\Python311\\python.exe",
-        "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\soybean-cold-tolerance-pathways\\run_pipeline.py",
+        "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\soybean-cold-tolerance-pathways\\run_pipeline.py",
         "--mode",
         "quick",
         "--include-maxmean",
@@ -148,15 +148,15 @@
       ],
       "exit_code": 0,
       "expected_exit_code": 0,
-      "elapsed_seconds": 38.11,
-      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\logs\\python_quick.log"
+      "elapsed_seconds": 35.57,
+      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\logs\\python_quick.log"
     },
     {
       "name": "r_quick",
       "command": [
         "C:\\Program Files\\R\\R-4.5.1\\bin\\Rscript.exe",
         "--vanilla",
-        "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\soybean-cold-tolerance-pathways\\run_pipeline.R",
+        "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\soybean-cold-tolerance-pathways\\run_pipeline.R",
         "--mode",
         "quick",
         "--include-maxmean",
@@ -166,39 +166,39 @@
       ],
       "exit_code": 0,
       "expected_exit_code": 0,
-      "elapsed_seconds": 101.25,
-      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\logs\\r_quick.log"
+      "elapsed_seconds": 92.45,
+      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\logs\\r_quick.log"
     },
     {
       "name": "python_strict",
       "command": [
         "C:\\Program Files\\Python311\\python.exe",
-        "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\soybean-cold-tolerance-pathways\\run_pipeline.py",
+        "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\soybean-cold-tolerance-pathways\\run_pipeline.py",
         "--mode",
         "quick",
         "--output",
-        "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\soybean-cold-tolerance-pathways\\results\\python_strict"
+        "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\soybean-cold-tolerance-pathways\\results\\python_strict"
       ],
       "exit_code": 2,
       "expected_exit_code": 2,
-      "elapsed_seconds": 6.64,
-      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\logs\\python_strict.log"
+      "elapsed_seconds": 6.19,
+      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\logs\\python_strict.log"
     },
     {
       "name": "r_strict",
       "command": [
         "C:\\Program Files\\R\\R-4.5.1\\bin\\Rscript.exe",
         "--vanilla",
-        "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\soybean-cold-tolerance-pathways\\run_pipeline.R",
+        "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\soybean-cold-tolerance-pathways\\run_pipeline.R",
         "--mode",
         "quick",
         "--output",
-        "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\soybean-cold-tolerance-pathways\\results\\r_strict"
+        "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\soybean-cold-tolerance-pathways\\results\\r_strict"
       ],
       "exit_code": 2,
       "expected_exit_code": 2,
-      "elapsed_seconds": 20.44,
-      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\logs\\r_strict.log"
+      "elapsed_seconds": 19.86,
+      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\logs\\r_strict.log"
     },
     {
       "name": "portable_results",
@@ -212,8 +212,8 @@
       ],
       "exit_code": 0,
       "expected_exit_code": 0,
-      "elapsed_seconds": 4.96,
-      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\logs\\portable_results.log"
+      "elapsed_seconds": 4.69,
+      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\logs\\portable_results.log"
     },
     {
       "name": "crosstalk_results",
@@ -226,8 +226,8 @@
       ],
       "exit_code": 0,
       "expected_exit_code": 0,
-      "elapsed_seconds": 0.22,
-      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\logs\\crosstalk_results.log"
+      "elapsed_seconds": 0.21,
+      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\logs\\crosstalk_results.log"
     },
     {
       "name": "crosstalk_lineage",
@@ -238,8 +238,8 @@
       ],
       "exit_code": 0,
       "expected_exit_code": 0,
-      "elapsed_seconds": 2.48,
-      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test l5iu8s2q\\logs\\crosstalk_lineage.log"
+      "elapsed_seconds": 2.29,
+      "log": "D:\\Bioinformatics project\\soybean-cold-tolerance\\results\\package_checks\\download test 5f21mjye\\logs\\crosstalk_lineage.log"
     }
   ],
   "full_simulations_requested": false,
@@ -288,6 +288,11 @@
     "data/reference/crosstalk/selection_candidates.tsv": "c319c184a90a87628f9850b6feba68f9fb84aaa0fc4b7674b8d6921b88581bc6",
     "data/reference/crosstalk/selection_criteria_audit.tsv": "a1ee1a55fa9431f7a4ef051a567098147f7ee7228c1b5fb1cab456cd4b9dda7e",
     "data/reference/crosstalk/trace_provenance.json": "d7d20856ce8d471c1b4a371e4de0db424c260dd8ab93ff6427c36d8fa04ba56f",
+    "data/reference/historical_membership/middle_0109.tsv": "de46801f4e38e009463dae8c52f3709bb8f0831d50c89d128afc3d193b76a75c",
+    "data/reference/historical_membership/provenance.json": "8f7e3223fd18e943bc1e1ba04e816cf2957de7419eabc4f8c08b199b3c928983",
+    "data/reference/historical_membership/README.md": "d87cffdc073ab52e1f249ac847ae38c32677983e73b929a4211349a02c5858c1",
+    "data/reference/historical_membership/short_0109.tsv": "04e822d04c1e626fbbdfc8743e5f015a8d762c41c0deec748f814f01b19e50ba",
+    "data/reference/historical_membership/short_scored_genes.tsv": "186e915fd1f6cdb5b41a1b3e582ac501ecfdf0d8eb062dbfd6384a85f10b3b20",
     "data/upstream/expression.tsv": "892a6ab94f14e725e9d1e84098dfd493483e21ede86604e9d72aa140cce4c848",
     "data/upstream/gene_lengths.tsv": "ea2bb53090fd570804567f835d3ed26400782c2879b1bf0327c68e35f5a381c9",
     "data/upstream/inputs.tsv": "a6581b5c03c04995c6fa856ec1701cf218370db83784e69e7aea783b455f5241",
@@ -296,10 +301,10 @@
     "docs/CODE_REVIEW.md": "abc3fa8b616d2494f2e5263575204cd9f29c7aa43cf0e5278806d69e9e0ba4bb",
     "docs/CROSSTALK.md": "9379417eabc692cbdf6c3c6e6c462a2b644a20f01b7879c711f9eaa068dfc007",
     "docs/DATA_DICTIONARY.md": "29bed17d858e194e85e3c4589e062486bb47c82a2e7f4a477469d808961857ed",
-    "docs/EXCEL_SELECTION.md": "ea24171d7d5152edc7984c438c9eadd8899529d19859c33d63bdec6e4b9bd6ee",
+    "docs/EXCEL_SELECTION.md": "5460bf0942a3c222ad90ec62aefab2f745216a3cba7cf17cd5b33a0d735bea5e",
     "docs/METHODS.md": "d637912eaaa8ebdbcb5fd94b3fe7956ee529816a1e5d191aa110ba5c0c3bac07",
     "docs/RELEASING.md": "2de9dc7d46cfab2d2e649c42e38d87d6580d3eb5099148fa2605d1d5c0d5579e",
-    "docs/REPRODUCIBILITY.md": "90b69364cb93407f9d2740c56d3f565f4f8f00e622aa8eeae3ebfba7765ed521",
+    "docs/REPRODUCIBILITY.md": "7c4562c10d67ded19e01fac4ca2fa55b82ed13f1fe1441f615bd9c5ab95df3de",
     "docs/RUN_PYTHON.md": "da337c9f3addd65c0cf8b1864218b74aab5525a3bfc9e1fd0f4bd298cfe47255",
     "docs/RUN_R.md": "03f74570186b6adcab0498efbc6027b15c45eaf2cfaae0f0361d4dbf18424db4",
     "docs/WALKTHROUGH.md": "9a7638fc18a2e4cc95074bdea1597b226f8987b7468abf18cfb31218bad3448c",
@@ -333,6 +338,8 @@
     "reports/CROSSTALK_2026-10-24.md": "e14611fe607ff920515a1422af0e9568d098c38ae4811f1585d0f2436f5dd525",
     "reports/CROSSTALK_TRACE_2026-10-24.md": "a2061f9d1ab48ea0c0ca1112ff0709b49b4140cb7b8e4b972121b0a63588478f",
     "reports/cross_language_reference.json": "1fbe1786c43f67297d5d955f076bc8436d675fbfb8cc2f8820fb2084cb5e609b",
+    "reports/CT_MEMBERSHIP_LINEAGE_2026-10-30.md": "3664407caf6ff1fd735a0cb7771d6338a17a39f8d297d4365770c7993701d7ed",
+    "reports/ct_membership_verification_2026-10-30.json": "7d4d81178abce46cff2fec849f063601850b11355059c54d8f01b7eb70f57382",
     "reports/EXECUTION_CHECK.md": "cdce654f3a271a84bb7895a5547a3033a317799c744ebe0e16a3f27a78c47377",
     "reports/exponential_source_audit_2026-10-18.json": "8b0f6f3421cb613d968eda2056c60e2b3a6e8d26a4ce308974b0a0dfea6ae429",
     "reports/fosco_saved_artifact_check.json": "aa469443ab5401f9aea91f6be9325e6b93fce3402cc2664dbdf983431827bd48",
@@ -344,7 +351,7 @@
     "reports/input_audit.json": "e4d4e40919d78eb6180aebb8c8d8a35993a7df367ab2ff56cc7fabed4aba28b9",
     "reports/latest_dual_language_package_check.json": "cf3d536042e400818b382f97d4e5f7b4314dca6c3c522e2071e18c4278ceb9df",
     "reports/latest_execution_check.json": "d1fed7f60d2a991c14075b82e86107c03802f47858d78f41009144dde02fd6a6",
-    "reports/latest_portable_package_check.json": "a8b625e97dd7a7f4da8f5cc3f171ed429fba7684fd8f41b5230113c4a7b54377",
+    "reports/latest_portable_package_check.json": "991328a9658743fac792b440962a933086fa675bb840fc575cffc19aa9e772cb",
     "reports/legacy_parse.tsv": "780d36403abd33ca75729f5ea04e836a40e4004d55be842f21e513d8d0e2c9b7",
     "reports/lineage_audit.json": "0af53badb731e0081de3a7a135abb04dfbea1d71acadeec8526102c991e21c0b",
     "reports/middle_import_decisions.tsv": "58f0a18a39fb93466f2af9aada69a82587355ca8841859d58bc2a72a3e14f587",
@@ -378,6 +385,8 @@
     "reports/source_manifest.json": "84ad1d888aa9e750a04247e4a177c53b9d18b5753969da1f1e8bf4b70f43a408",
     "reports/universe_42576_evidence.json": "265ac5596485ede30efa8f096479c6b28d4bf1d573af611fe8cd345f3cefa446",
     "reports/VALIDATION.md": "4508d0b4614ab2340c9aaf162e9ccf0f9cf2363ce5586d9a1f062669888fa758",
+    "scripts/audit_historical_membership.py": "0d6cd8ac44fccc56419fa253ee1ac559e6145fc24282fe0e8123baaaf0fd10bd",
+    "scripts/audit_historical_membership.R": "e4d1d41b9e568a655f3858e3909c9b6d219c7220dd9ba379cd2096a40a7d70f3",
     "scripts/audit_inputs.py": "bb2f5ac04deaeb8a3816cb5d2472157ab6a85f8cedf85b2e5efa53e9112f7d9f",
     "scripts/audit_lineage.py": "1d1fdc1a2907a57696de5d288b04b7895fe429308ffad2526e42b086d3e3f215",
     "scripts/audit_short_numeric.py": "c2abfac7dffaf899b3abb6e56ad19197875c3b3bc25db63943025fc538d6d362",
@@ -419,6 +428,7 @@
     "tests/check_cross_language.py": "1b6c7b5274d7fa0ec5f01e761bb0f91c1ca327dfae33073d5dd1e5fcf35e7349",
     "tests/cross_language_reference.R": "d784c11ab5ee5e10f0f7a35ae6b8092f88eb43b626f1758daf989b4a5730a4f7",
     "tests/test_core.R": "bf82886e7b60c9b21eb1f71ec8d7089a94f5ae0b0f3d6a4a1881c83c63e702d3",
+    "tests/test_historical_membership.py": "3d849cb486eda7d5e3c90b96905325803352ec89be6b16be583920384c829b23",
     "tests/test_historical_short.py": "4cbbaa3f57f2a8f13f6d19df39db7e6993d5953d8593935981f39a0682f32e74",
     "tests/test_historical_short.R": "9152a8a310eb013f554fa3f8c93ea8bfc7556cea34f8a1545b7e256e9ed822fb",
     "tests/test_import.py": "be990ce5dca3c96d0c9059269ee1663ae0c53875436454f3816683c4cb21fd1d",
@@ -432,5 +442,19 @@
     "tests/test_python_workflow.py": "8cf1d184fcf8964f2701c10468dba9c2f790f96120a4b3a14bfba85844dd35ab",
     "tests/test_short_reference.py": "ff14dc1ba3de887970dcdce1ac89c085d92f01ff2e4f5e78a8c259b2326230fd",
     "tests/test_short_reference.R": "9f77c24d568edf938e46ee5b92c7accca8f9192f7cff429dc3a0508b746f74b0"
-  }
+  },
+  "post_test_format_only_changes": [
+    {
+      "file": "data/reference/historical_membership/provenance.json",
+      "tested_sha256": "8f7e3223fd18e943bc1e1ba04e816cf2957de7419eabc4f8c08b199b3c928983",
+      "publication_sha256": "d34041a63a9541864e13a7cd8d9d006c39f14aeca72ba21fb850e205c781f038",
+      "parsed_values_unchanged": true
+    },
+    {
+      "file": "data/reference/historical_membership/short_0109.tsv",
+      "tested_sha256": "04e822d04c1e626fbbdfc8743e5f015a8d762c41c0deec748f814f01b19e50ba",
+      "publication_sha256": "f1b545ea646cae5b1f339cec8a509ca03d87362337eb97082ed9f3f4dec989ac",
+      "parsed_values_unchanged": true
+    }
+  ]
 }
