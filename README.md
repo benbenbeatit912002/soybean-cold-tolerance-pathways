@@ -8,6 +8,8 @@ Research companion to [Liu et al. (2025), *A multi-layered systems biology frame
 
 ## Start here
 
+For a browser-based introduction to the middle-term results, download and extract the repository and open `docs/atlas/index.html`. The study atlas includes an interactive network, a searchable pathway table and optional UniProt lookup. [See the two atlas examples](#atlas-examples)
+
 Download and extract the repository ZIP, or clone it:
 
 ```sh
@@ -96,6 +98,22 @@ An independent [Excel-style selector in both languages](docs/EXCEL_SELECTION.md)
 | `analysis_config.*`, `run_manifest.*` | Actual settings and completion status |
 
 Read [methods](docs/METHODS.md) and the [data dictionary](docs/DATA_DICTIONARY.md) for definitions. A successful run confirms execution; it does not resolve the outstanding differences from the paper.
+
+## Atlas examples
+
+### Pathway–gene network
+
+The 11 pathways in the historical middle-term shortlist contain 121 distinct measured CTgenes and 685 pathway–gene memberships. Selecting `Glyma.01G204400` highlights its connections to ten pathways. Both linked UniProt accessions match its primary protein sequence. [Downloadable study atlas](docs/atlas/index.html)
+
+![Network view with Glyma.01G204400 selected, its ten pathways highlighted and two protein accessions in the inspector](docs/atlas/network.jpg)
+
+### Pathway enrichment
+
+In the middle-term workbench reanalysis, 124 of 2,689 GO terms passed the GSEA BH-adjusted p < 0.05 filter. Searching for `jasmonic acid` shows three of these pathways. The biosynthetic process (GO:0009695) contains 112 CTgenes among 357 measured members, with enrichment score 0.5324 and BH-adjusted p = 0.009114. The text filter uses the adjusted probabilities from the full family of tests.
+
+![Pathways view showing the three jasmonic acid matches with foreground and measured gene counts, GSEA scores and BH-adjusted p-values](docs/atlas/pathways.jpg)
+
+The screenshots show the full analysis workbench. The downloadable atlas contains the 11 shortlisted pathways with their full-family probabilities. Its **Pathways** search accepts the same query. The offline viewer adapts Damir Sokolovsky's interface design guidance. [Unslop](https://github.com/heydamir/unslop) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Repository guide
 
