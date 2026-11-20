@@ -131,11 +131,9 @@ The screenshots show the full analysis workbench. The downloadable atlas contain
 
 Original Chinese source filenames remain in provenance records and archival scripts. Guides, new entry points, and explanations are in English. Earlier WITHOUTINF runs and archival provenance utilities are in [advanced workflows](docs/ADVANCED_WORKFLOWS.md).
 
-## Validate and package
+## Tests
 
-See the [local preparation and validation report](reports/GITHUB_READINESS_2026-10-23.md) for tested scope and remaining scientific limitations.
-
-Follow the language guides for tests. With both interpreters installed, run `python tests/check_cross_language.py` for shared-null agreement. [Release instructions](docs/RELEASING.md) describe building and testing a clean source ZIP, including an optional complete rerun.
+With Python and R installed, run `python tests/check_cross_language.py` from the repository root. It compares the two implementations' statistics and p-values on a ten-gene example using the same gene sets.
 
 ## Citation and reuse
 
